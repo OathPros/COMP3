@@ -1,10 +1,18 @@
 pages:
   stage: deploy
+  image: ubuntu:latest
   script:
+  - apt-get update -y
+  - apt-get install -y python3-pip
+  - pip3 install mkdocs
+  - python3 ./scripts/gen_apps.py
   - mkdir ./public
-  - cp -R ./HIG41/site/* ./public
+  - cd HIG41
+  - mkdocs build
+  - cp -R ./site ../public
+  - cd ..
   artifacts:
     paths:
     - public
   only:
-  - master
+    - master
