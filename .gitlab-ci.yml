@@ -2,7 +2,7 @@ pages:
   stage: deploy
   script:
   - mkdir ./public
-  - cp -R ./site/* ./public
+  - cp -R ./HIG41/site/* ./public
   artifacts:
     paths:
     - public
