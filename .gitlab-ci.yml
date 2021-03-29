@@ -3,8 +3,8 @@ pages:
   image: ubuntu:latest
   script:
   - apt-get update -y
-  - apt-get install -y python3-pip
-  - pip3 install mkdocs
+  - apt-get install -y python-pip
+  - pip install mkdocs
   - python3 ./scripts/gen_apps.py
   - mkdir ./public
   - cd HIG41
