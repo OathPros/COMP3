@@ -7,7 +7,7 @@ pages:
   - mkdir ./public
   - cd HIG41
   - mkdocs build
-  - cp -R ./site ../public
+  - cp -Rv ./site ../public
   - cd ..
   artifacts:
     paths:
