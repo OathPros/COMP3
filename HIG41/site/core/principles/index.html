@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Principles - GNOME Human Interface Guidelines</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Principles";
+    var mkdocs_page_input_path = "core/principles.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> GNOME Human Interface Guidelines</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Core</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Principles</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#give-your-application-a-clear-focus">Give your application a clear focus</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#keep-user-interface-complexity-to-a-minimum">Keep user interface complexity to a minimum</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#use-progressive-disclosure-to-show-controls-when-they-are-needed">Use progressive disclosure to show controls when they are needed</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#create-a-clear-hierarchy">Create a clear hierarchy</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#anticipate-errors">Anticipate errors</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#use-configuration-options-sparingly">Use configuration options sparingly</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../patterns/">Patterns</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../elements/">User interface elements</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Guidelines</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../guidelines/application-basics/">Application basics</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../guidelines/compatibility/">Compatibility</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../guidelines/visual-layout/">Visual Layout</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../guidelines/writing-style/">Writing Style</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../guidelines/icons/">Icons and Artwork</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../about/">About</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">GNOME Human Interface Guidelines</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Core &raquo;</li>
+        
+      
+    
+    <li>Principles</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="design-principles">Design principles</h1>
+<p>The following design principles constitute a set of general rules that, when followed, will enable you to produce a high-quality experience for your users.</p>
+<h2 id="give-your-application-a-clear-focus">Give your application a clear focus</h2>
+<p>Clear, tightly defined goals are the key to good design. Identify a conceptually coherent set of functionality that you want to provide, and be careful to avoid mission creep. An application that tries to do too many disparate things will end up being complex and potentially confusing to users.</p>
+<p>Remember: the best applications provide an elegant solution to a specific task area.</p>
+<h2 id="keep-user-interface-complexity-to-a-minimum">Keep user interface complexity to a minimum</h2>
+<p>Every control or piece of information that you add to your application creates additional work for users, and increases the complexity of your application — potentially making it more difficult and less pleasurable to use. Therefore, only include essential controls and information in your application interface.</p>
+<p>When adding a new control or piece of information, always take a moment to question whether it is necessary.</p>
+<h2 id="use-progressive-disclosure-to-show-controls-when-they-are-needed">Use progressive disclosure to show controls when they are needed</h2>
+<p>Showing every possible control all the time makes an application harder to use, since users have to navigate controls that are often not relevant. Instead, only show controls when they are needed. This makes applications simpler to use, even if the same amount of functionality is provided.</p>
+<p>There are various ways to progressively disclose controls, from using different views or modes, to showing transient or floating controls when particular content items are selected.
+Require as little work from the user as possible</p>
+<p>An application that is laborious to use can become the source of irritation, so strive to make your software work for your users, not the other way around. Every time your application requires input from users, either in the form of using controls or providing information, ask yourself whether it is possible to do that work for them.</p>
+<p>Try to avoid the need for a manual setup screen or assistant, and make it easy to go back to recently used content.</p>
+<h2 id="create-a-clear-hierarchy">Create a clear hierarchy</h2>
+<p>People tend to “read” an interface from left to right and top to bottom. Items that are encountered first are seen to be dominant over those that come later. Use this implied hierarchy to communicate which parts of your application are most important.</p>
+<p>Position the most important controls towards the top-left of your windows, and place dominant controls prior to other controls they affect. See the visual layout guidelines for more details.
+Prioritize content</p>
+<p>Applications typically present content, whether it is images, text, messages or more complex data. It is this content that your users will be interested in, and too many controls or user interface elements will distract from the focus of their attention.</p>
+<p>Give content as much space as possible in your user interface, by reducing the number of controls. Don’t crowd out the primary object of interest with secondary information.</p>
+<h2 id="anticipate-errors">Anticipate errors</h2>
+<p>People make mistakes. Anticipating these mistakes will prevent damaging consequences, and will make your application more pleasurable and satisfying to use. The first line of defense here is to design your application so that mistakes cannot be made. Secondly, if it is possible to make a mistake, make it easy to recover.</p>
+<p>Automatically correct potentially invalid input, and always make it possible to undo destructive operations.
+Avoid interruptions</p>
+<p>Interruptions cause frustration and annoyance, and prevent people from focusing on what they are interested in. Design your application so that it stays out of the way when it is not in use, and does not surprise when it is in use.</p>
+<p>Use notifications with restraint, always avoid spontaneously popping up dialogs without user intent, and avoid disruptive feedback mechanisms like message dialogs.
+Provide quick and effective search</p>
+<p>Search is a powerful mechanism that can be used to quickly find content. Provide it whenever you present large amounts of content, whether in the form of lists or grids. When you provide a search function, it is vital that it is as immediate as possible, and that it returns the results that are sought by your users.</p>
+<p>GNOME 3 also provides an integrated search facility. Integrating application search into this gives people a quick and easy way to access the content provided by your application.</p>
+<h2 id="use-configuration-options-sparingly">Use configuration options sparingly</h2>
+<p>Adding options often seems like a simple design fix. However, most people will never see or use configuration options. Instead of adding options, try to make the default behaviour of your application work for as many people as possible.
+Give your application an instructive name and an attractive icon</p>
+<p>Your application’s name and icon are two of the most expressive things about it, so design them in order to communicate its function and identity. Make sure that people will understand the purpose of your application from its name. Ensure that you have a beautiful, recognizable application icon, to give your application an attractive and distinctive visual identity.
+Use emotion and humor (sparingly)</p>
+<p>Used effectively, emotion and humor can lift the experience provided by your application, and help to develop a positive relationship with your users. Be careful not to over-use these techniques, though — it is far more effective to pick a small number of moments to use emotion, rather than spraying them throughout your user interface.</p>
+<p>Be welcoming when your application is used for the first time. Using humor when things go wrong is another effective technique.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../patterns/" class="btn btn-neutral float-right" title="Patterns">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+        <span style="margin-left: 15px"><a href="../patterns/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
