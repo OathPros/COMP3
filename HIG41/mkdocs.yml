@@ -1,5 +1,14 @@
 site_name: GNOME Human Interface Guidelines
 nav:
- - Home: index.md
+ - Core:
+   - Principles: core/principles.md
+   - Patterns: core/patterns.md
+   - User interface elements: core/elements.md
+ - Guidelines:
+   - Application basics: guidelines/application-basics.md
+   - Compatibility: guidelines/compatibility.md
+   - Visual Layout: guidelines/visual-layout.md
+   - Writing Style: guidelines/writing-style.md
+   - Icons and Artwork: guidelines/icons.md
  - About: about.md
 theme: readthedocs
