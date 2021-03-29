@@ -1,14 +1,48 @@
 site_name: GNOME Human Interface Guidelines
 nav:
- - Core:
-   - Principles: core/principles.md
-   - Patterns: core/patterns.md
-   - User interface elements: core/elements.md
- - Guidelines:
-   - Application basics: guidelines/application-basics.md
-   - Compatibility: guidelines/compatibility.md
-   - Visual Layout: guidelines/visual-layout.md
-   - Writing Style: guidelines/writing-style.md
-   - Icons and Artwork: guidelines/icons.md
- - About: about.md
+  - Introduction:
+    - Applicability of the HIG: applicability.md
+    - A vision for apps: vision.md
+  - Guidelines:
+    - App identity: guidelines/app-identity.md
+    - App basics: guidelines/app-basics.md
+    - Writing style: guidelines/writing-style.md
+    - Visuals: guidelines/visuals.md
+    - Input: guidelines/input.md
+    - Typography: guidelines/typography.md
+    - Scaling and responsiveness: guidelines/responsive.md
+  - Containers:
+    - Header bars: containers/headerbar.md
+    - Dialogs: containers/dialog.md
+    - Grids: containers/grid.md
+    - Lists: containers/list.md
+  - Navigation:
+    - Browsing: nav/browse.md
+    - View switchers: nav/view-switch.md
+    - Tabs: nav/tab.md
+    - Sidebars: nav/sidebar.md
+    - Search: nav/search.md
+  - Feedback:
+    - Notifications: feedback/notification.md
+    - In-app notifications: feedback/in-app-not.md
+    - Info bars: feedback/info-bar.md
+    - Progress bars: feedback/progress-bar.md
+    - Spinners: feedback/spinner.md
+  - Controls:
+    - Buttons: controls/button.md
+    - Check boxes: controls/check.md
+    - Dropdown lists: controls/dropdown.md
+    - Floating controls: controls/floating.md
+    - Menus: controls/menu.md
+    - Placeholders: controls/placeholder.md
+    - Popovers: controls/popover.md
+    - Radio buttons: controls/radio.md
+    - Sliders: controls/slider.md
+    - Spin buttons: controls/spinbutton.md
+    - Switches: controls/switch.md
+    - Text fields: controls/text.md
+  - Reference:
+    - Standard touch behaviours: reference/touch.md
+    - Standard keyboard shortcuts: reference/keyboard.md
+
 theme: readthedocs
