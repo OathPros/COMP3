@@ -13,3 +13,9 @@ Sphinx/rtd
 
 Mkdocs
   + markdown based
+  
+  Silverblue/toolbox setup:
+  ```
+  $ sudo dnf install python3-pip
+  $ pip3 install mkdocs
+  $ mkdocs new HIG41
