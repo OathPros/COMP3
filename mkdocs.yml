@@ -1,4 +1,5 @@
 site_name: GNOME Human Interface Guidelines
+
 nav:
   - Introduction:
     - Applicability of the HIG: applicability.md
@@ -44,5 +45,41 @@ nav:
   - Reference:
     - Standard touch behaviours: reference/touch.md
     - Standard keyboard shortcuts: reference/keyboard.md
+theme:
+  name: null
+  language: en
+  custom_dir: 'gnome'
+  direction:
+  # Feature flags for functionality that alters behavior significantly, and thus
+  # may be a matter of taste
+  features: []
+  # Sets the primary and accent color palettes as defined in the Material Design
+  # documentation - possible values can be looked up in the getting started guide
+  palette:
+    # Primary color used for header, sidebar and links, default: indigo
+    primary: grey
+    # Accent color for highlighting user interaction, default: indigo
+    accent:
+  # Fonts used by Material, automatically loaded from Google Fonts - see the site
+  # for a list of available fonts
+  font:
+    # Default font for text
+    text: Cantarell
+    # Fixed-width font for code listings
+    code: Source Code Pro
 
-theme: readthedocs
+  # From Material 5.x on, icons are inlined into the HTML and CSS as SVGs. Some
+  # icons that are part of the HTML can be configured and replaced
+  icon:
+    logo: gnome/gnome
+  # Favicon to be rendered
+  favicon: assets/images/favicon.png
+  # Material includes the search in the header as a partial, not as a separate
+  # template, so it's correct that search.html is missing
+  include_search_page: false
+  # Material doesn't use MkDocs search functionality but provides its own. For
+  # this reason, only the search index needs to be built
+  search_index_only: true
+  # Static pages to build
+  static_templates:
+    - 404.html
