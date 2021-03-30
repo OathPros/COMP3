@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to GNOME User Interface Guidelines's documentation!
-===========================================================
+GNOME User Interface Guidelines
+===============================
 
 .. toctree::
    :maxdepth: 2
@@ -12,13 +12,11 @@ Welcome to GNOME User Interface Guidelines's documentation!
 
    applicability
    vision
-
    guidelines
    containers
    nav
    feedback
    controls
-
    reference/touch
    reference/keyboard
 
