@@ -65,7 +65,7 @@ html_css_files = ['gnome.css']
 html_static_path = ['_static']
 
 #footer stuff
-html_show_copyright = ''
-html_show_sphinx = ''
-show_source = ''
+html_show_copyright = 0
+html_show_sphinx = 0
+show_source = 0
 
