@@ -49,6 +49,15 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'furo'
+html_theme_options = {
+    "light_css_variables": {
+        "color-brand-primary": "#4a86cf",
+        "color-brand-content": "#4a86cf",
+    }
+}
+html_logo = "logo.png"
+# add custom files that are stored in _static
+html_css_files = ['gnome.css']
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
