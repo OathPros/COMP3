@@ -14,43 +14,10 @@ Welcome to GNOME User Interface Guidelines's documentation!
    vision
 
    guidelines
-   guidelines/app-identity
-   guidelines/app-basics
-   guidelines/writing-style
-   guidelines/visuals
-   guidelines/input
-   guidelines/typography
-   guidelines/responsive
-   
-   containers/headerbar
-   containers/dialog
-   containers/grid
-   containers/list
-   
-   nav/browse
-   nav/view-switch
-   nav/tab
-   nav/sidebar
-   nav/search
-   
-   feedback/notification
-   feedback/in-app-not
-   feedback/info-bar
-   feedback/progress-bar
-   feedback/spinner
-   
-   controls/button
-   controls/check
-   controls/dropdown
-   controls/floating
-   controls/menu
-   controls/placeholder
-   controls/popover
-   controls/radio
-   controls/slider
-   controls/spinbutton
-   controls/switch
-   controls/text
+   containers
+   nav
+   feedback
+   controls
 
    reference/touch
    reference/keyboard
