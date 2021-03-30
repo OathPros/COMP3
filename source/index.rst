@@ -6,9 +6,11 @@
 GNOME User Interface Guidelines
 ===============================
 
+.. image:: img/hig.svg
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
 
    applicability
    vision
