@@ -1,7 +1,0 @@
-# Input
-
-## Pointer
-
-## Touch
-
-## Keyboard

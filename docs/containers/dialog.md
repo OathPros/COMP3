@@ -1,7 +1,0 @@
-# Dialogs
-
-## Message
-
-## Presentation
-
-## Action

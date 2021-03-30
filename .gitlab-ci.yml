@@ -2,9 +2,10 @@ pages:
   stage: deploy
   needs: []
   script:
-    - dnf install -y mkdocs
-    - mkdocs build
-    - mv site public
+    - dnf install -y python3-sphinx python3-pip
+    - pip3 install furo
+    - sphinx-build -b html source build
+    - mv build public
   artifacts:
     paths:
       - public
