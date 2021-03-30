@@ -107,6 +107,10 @@ html, body {
       font-size: 18px;
     }
   }
+
+footer {
+  margin-bottom: 3rem;
+}
   
 .sidebar-brand-text {
   font-size: 100%;

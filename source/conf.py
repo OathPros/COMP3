@@ -63,3 +63,9 @@ html_css_files = ['gnome.css']
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+#footer stuff
+html_show_copyright = ''
+html_show_sphinx = ''
+show_source = ''
+
