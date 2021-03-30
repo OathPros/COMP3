@@ -10,12 +10,13 @@ This is a test bed for the new HIG. Goals:
 
 Sphinx/rtd
   - markdown only a 2nd class citizen
+  - default themes suck
+  + commonly used
+
+  now lives in `master`
 
 Mkdocs
   + markdown based
+  + straight forward
   
-  Silverblue/toolbox setup:
-  ```
-  $ sudo dnf install python3-pip
-  $ pip3 install mkdocs
-  $ mkdocs new HIG41
+  now lives in `mkdocs-material` branch

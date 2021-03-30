@@ -3,7 +3,8 @@ pages:
   needs: []
   script:
     - dnf install -y python3-sphinx python3-pip
-    - pip3 install furo
+    - pip3 install --upgrade furo
+    - pip3 install --upgrade recommonmark
     - sphinx-build -b html source build
     - mv build public
   artifacts:
