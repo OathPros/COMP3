@@ -36,11 +36,10 @@ Icons are a common user interface element and they have some practical advantage
 
 Therefore, only use icons whose meaning is commonly recognized. If a commonly recognized icon is not available, it might be better to use a text label instead. Typically, convention establishes which icons are commonly recognized. This set of icons is actually quite small, and includes standard icons such as search, menu, forward, back and share. If you are in doubt, only use icons which are frequently used in other applications.
 
-Other things to consider when using icons:
+### Other things to consider when using icons:
 
-
-* Think about which icons will be meaningful in the specific context of your application — users of specialist tools will often be familiar with domain-specific symbols.
-* Remember that some icons are only meaningful alongside other icons of the same type. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (i.e. a single line), and will not be recognizable without a corresponding “plus” add icon.
+* **Think about which icons will be meaningful in the specific context of your application** — users of specialist tools will often be familiar with domain-specific symbols.
+* **Remember that some icons are only meaningful alongside other icons of the same type**. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (i.e. a single line), and will not be recognizable without a corresponding “plus” add icon.
 
 ## Illustrations
 
