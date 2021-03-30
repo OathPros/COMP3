@@ -8,11 +8,11 @@ Icons are a basic element in user interfaces. They also make up a fundamental pa
 
 Two styles of icon are used in GNOME: full-color and symbolic icons.
 
-Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 128×128px SVGs, and are sharpest when scaled up in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color icons also allows them to be rendered sharp at 64×64px and 32×32px, but is not advised to make them any smaller.
+Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as `128×128px` SVGs, and are sharpest when scaled up in multiples of `128` (such as `256✕256` and `512✕512`).The design of full-color icons also allows them to be rendered sharp at `64×64px` and `32×32px`, but is not advised to make them any smaller.
 
 ![Fullcolor vs Symbolic](../img/icons/fullcolor-v-symbolic.svg)
 
-Symbolic icons are simple and monochrome, and are designed to work well at smaller sizes. They are defined as 16✕16px SVGs, and can be scaled to multiples of 16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally have a neutral color, although their color can be changed programmatically.
+Symbolic icons are simple and monochrome, and are designed to work well at smaller sizes. They are defined as `16✕16px` SVGs, and can be scaled to multiples of `16` (such as `32✕32` and `64✕64`). Symbolic icons generally have a neutral color, although their color can be changed programmatically.
 
 ### Icon uses
 
@@ -49,3 +49,5 @@ FIXME
 ## Color palette
 
 FIXME
+
+![Color Palette](../img/colors.svg)
