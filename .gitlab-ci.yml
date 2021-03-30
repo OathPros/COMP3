@@ -1,16 +1,14 @@
 pages:
   stage: deploy
-  image: ubuntu:latest
+  needs: []
   script:
-  - apt-get update -y
-  - apt-get install -y mkdocs
-  - mkdir ./public
-  - cd HIG41
-  - mkdocs build
-  - cp -Rv ./site ../public
-  - cd ..
+    - dnf install -y mkdocs
+    - cd HIG41
+    - mkdocs build
+    - mv site ../public
   artifacts:
     paths:
-    - public
+      - public
   only:
-    - master
+    - main
+
