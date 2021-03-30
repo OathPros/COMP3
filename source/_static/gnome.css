@@ -187,3 +187,5 @@ footer {
   font-size: 14pt;
   font-weight: 800;
 }
+
+.headerlink { visibility: hidden !important; }
