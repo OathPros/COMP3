@@ -55,7 +55,7 @@ html_theme_options = {
         "color-brand-content": "#4a86cf",
     }
 }
-html_logo = "logo.png"
+html_logo = "img/logo.svg"
 # add custom files that are stored in _static
 html_css_files = ['gnome.css']
 
