@@ -130,6 +130,37 @@ h5 {
 }
   h2,h3,h4,h5 { opacity: 0.7; }
 
+.related-pages {
+  font-size: 14pt;
+  font-weight: 800;
+}
+  .related-pages a .title {
+    color: var(--dark1);
+  }
+  .related-pages a svg {
+    width: 32px; height: 32px;
+  }
+
+  .prev-page {
+    padding: 16px 48px 16px 16px;
+    border-radius: 16px;
+  }
+  .next-page {
+    padding: 16px 16px 16px 48px;
+    border-radius: 16px;
+  }
+
+  .related-pages a.prev-page:hover, .related-pages a.next-page:hover {
+    background-color: var(--light2);
+  }
+  @media (prefers-color-scheme: dark) {
+    .related-pages a .title { color: var(--light5); }
+    .related-pages a.prev-page:hover, .related-pages a.next-page:hover {
+      background-color: var(--dark5);
+    }
+  }
+
+
 video {
   width: 100%;
   height: auto;
