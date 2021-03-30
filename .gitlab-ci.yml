@@ -9,5 +9,5 @@ pages:
     paths:
       - public
   only:
-    - master
+    - mkdocs-material
 
