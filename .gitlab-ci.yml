@@ -3,7 +3,6 @@ pages:
   needs: []
   script:
     - dnf install -y mkdocs
-    - cd HIG41
     - mkdocs build
     - mv site ../public
   artifacts:
