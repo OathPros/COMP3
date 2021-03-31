@@ -5,7 +5,7 @@ Containers
    :maxdepth: 3
 
    containers/headerbar
-   containers/dialog
+   containers/dialogs
    containers/grid
    containers/list
 
