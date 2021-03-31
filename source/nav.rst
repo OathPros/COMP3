@@ -2,8 +2,7 @@ Navigation
 ==========
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Navigation:
+   :maxdepth: 2
 
    nav/browse
    nav/view-switch

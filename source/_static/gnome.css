@@ -206,13 +206,16 @@ ul.simple {
   gap: 1rem;
   padding: 1rem;
 }
-  .toctree-wrapper > ul a { display: inline-block; text-decoration: none; }
-  .toctree-wrapper > ul a:after {
-    content: '>';
-    width: 16px; height: 16px;
+  .toctree-wrapper > ul a { text-decoration: none; vertical-align: middle; }
+  .toctree-wrapper > ul a::after {
+    content: " ";
+    white-space: pre;
+    vertical-align: middle;
+    display: inline-block;
+    width: 6px; height: 12px;
     margin-left: 6px;
-    font-size: 90%;
-    font-weight: 300;
+    background-image: url('right.svg');
+    transform: scale(0.7);
   }
   .toctree-wrapper > ul a:hover { text-decoration: underline; }
 
