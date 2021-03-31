@@ -2,8 +2,7 @@ Controls
 ========
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Controls:
+   :maxdepth: 2
 
    controls/button
    controls/check

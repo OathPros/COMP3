@@ -2,8 +2,7 @@ Guidelines
 ==========
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Contents:
+   :maxdepth: 2
 
    guidelines/app-identity
    guidelines/app-basics
