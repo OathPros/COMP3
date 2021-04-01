@@ -2,8 +2,7 @@ Feedback
 ========
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Feedback:
+   :maxdepth: 2
 
    feedback/notification
    feedback/in-app-not
