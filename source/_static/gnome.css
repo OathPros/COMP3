@@ -86,12 +86,14 @@ https://pypi.org/project/furo/
   --text: #f6f5f4;
   --tocbg: var(--light2);
   --tocfg: var(--dark5);
+  --borders: var(--light3);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --tocbg: var(--dark5);
     --tocfg: var(--light5);
+    --borders: var(--dark3);
   }
 }
 
@@ -251,7 +253,38 @@ ul.simple {
       background-color: transparent;
     }
 
-video {
+table.docutils {
+  font-size: 90%;
+  box-shadow: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 0;
+  text-align: left;
+  border-width: 0;
+  box-sizing: border-box;
+}
+  /* reset crazy */
+  table.docutils th, table.docutils tr, table.docutils td {
+    background-color: transparent;
+  }
+
+  table.docutils td, table.docutils th {
+    border-width: 0;
+    padding: .25rem;
+  }
+  table.docutils tr {
+    border-width: 0;
+    border-bottom: 1px solid var(--borders);
+  }
+
+  table.docutils thead tr {
+    font-weight: 800;
+    border-width: 0;
+    box-sizing: inherit;
+    border-bottom: 2px solid var(--borders);
+  }
+
+    video {
   width: 100%;
   height: auto;
 }
