@@ -1,0 +1,356 @@
+<!doctype html>
+<html class="no-js">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="&lt;no title&gt;" href="grid.html" /><link rel="prev" title="&lt;no title&gt;" href="headerbar.html" />
+
+    <meta name="generator" content="sphinx-3.5.3, furo 2021.03.20.beta30"/>
+        <title>Dialog Windows - GNOME User Interface Guidelines documentation</title>
+      <link rel="stylesheet" href="../_static/styles/furo.css?digest=978e1795dfe158b585dda6a8417f6411828bf3ed">
+    <link rel="stylesheet" href="../_static/pygments.css">
+    <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../_static/pygments_dark.css">
+    
+
+
+<style>
+  :root {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: #4a86cf;
+  --color-brand-content: #4a86cf;
+  
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+  }
+
+  /* For allowing end-user-specific overrides */
+  .override-light {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  --color-brand-primary: #4a86cf;
+  --color-brand-content: #4a86cf;
+  
+  }
+  .override-dark {
+    --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+  }
+</style><link rel="stylesheet" type="text/css" href="../_static/gnome.css" />
+    <link rel="stylesheet" href="../_static/styles/furo-extensions.css?digest=d391b54134226e4196576da3bdb6dddb7e05ba2b"></head>
+  <body dir="">
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke-width="1.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z"/>
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="10" y1="12" x2="20" y2="12" />
+      <line x1="6" y1="18" x2="20" y2="18" />
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="feather feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="feather feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">GNOME User Interface Guidelines</div></a>
+    </div>
+    <div class="header-right">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand centered" href="../index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="../_static/logo.svg" alt="Logo"/>
+  </div>
+  
+  <span class="sidebar-brand-text">GNOME User Interface Guidelines</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html">
+  <input class="sidebar-search" placeholder=Search name="q">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../applicability.html">Applicability of the HIG</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vision.html">a Vision for Apps</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../guidelines.html">Guidelines</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../guidelines/app-identity.html">App identity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../guidelines/app-basics.html">App Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../guidelines/writing-style.html">Writing Style</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../guidelines/visuals.html">Visuals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../guidelines/icon-design.html">Icon Design Guidelines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../guidelines/input.html">Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../guidelines/typography.html">Typography</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../guidelines/responsive.html">Scaling and Responsiveness</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../containers.html">Containers</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label for="toctree-checkbox-2"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Dialog Windows</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../nav.html">Navigation</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label for="toctree-checkbox-3"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../nav/browse.html">Browsing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nav/view-switch.html">View Switchers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nav/tab.html">Tabs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nav/sidebar.html">Sidebar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nav/search.html">Search</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../feedback.html">Feedback</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label for="toctree-checkbox-4"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../feedback/notification.html">Notifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../feedback/in-app-not.html">In-app Notifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../feedback/info-bar.html">Info bars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../feedback/progress-bar.html">Progress bars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../feedback/spinner.html">Spinners</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../controls.html">Controls</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label for="toctree-checkbox-5"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../controls/button.html">Buttons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/check.html">Checkboxes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/dropdown.html">Drop downs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/floating.html">Floating controls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/menu.html">Menus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/placeholder.html">Placeholders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/popover.html">Popovers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/radio.html">Radio buttons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/slider.html">Sliders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/spinbutton.html">Spin buttons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/switch.html">Switches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../controls/text.html">Text fields</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/touch.html">Standard touch behaviors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/keyboard.html">Standard keyboard shortcuts</a></li>
+</ul>
+
+</div>
+</div>
+      </div>
+      
+    </div>
+  </aside>
+  <main class="main">
+    <div class="content">
+      <article role="main">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+        </label>
+        <div class="section" id="dialog-windows">
+<h1>Dialog Windows<a class="headerlink" href="#dialog-windows" title="Permalink to this headline">¶</a></h1>
+<p>Dialogs are secondary windows that appear over a primary, parent window. They are used to present additional information or controls, including preferences and properties, or to present messages or questions.</p>
+<p>GTK provides a number of stock dialogs that can be used, such as for printing or color selection.</p>
+<p>There are three basic types of dialogs.</p>
+<div class="section" id="when-to-use">
+<h2>When to use<a class="headerlink" href="#when-to-use" title="Permalink to this headline">¶</a></h2>
+<p>Dialogs are a commonly recognized design pattern, and there are established conventions for the different types of dialogs that you might want to use. The guidelines on each type of dialog provides further information on this.</p>
+<p>While dialogs can be an effective way to disclose additional controls or information, they can also be a source of interruption for the user. For this reason, always question whether a dialog is necessary, and work to avoid the situations in which they are required.</p>
+<p>There are many ways to avoid using dialogs:</p>
+<ul class="simple">
+<li><p>Use inline composition for new messages, records or contacts.</p></li>
+<li><p>In-application notifications are an alternative to message dialogs.</p></li>
+<li><p>[Popovers][] can be a way to display additional controls or options in a less disruptive manner.</p></li>
+</ul>
+</div>
+<div class="section" id="message-dialogs">
+<h2>Message Dialogs<a class="headerlink" href="#message-dialogs" title="Permalink to this headline">¶</a></h2>
+<p>Message dialogs are the simplest type of dialog. They present a message or question, along with 1-3 buttons with which to respond. They are always modal, meaning that they prevent access to their parent window. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message.</p>
+<div class="section" id="examples">
+<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h3>
+<p>Confirmation dialogs use a message dialog to check — or confirm — that the user wants to carry out an action. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.</p>
+<p>Note: confirmation dialogs will often be accidentally or automatically acknowledged, and will not always prevent mistakes from happening. It is often better to provide undo functionality instead.</p>
+<p>Error dialogs present an error message to the user. They often include a single button that allows the user to acknowledge and close the dialog.</p>
+<p>Note: error dialogs should generally be a last resort. You should design your application so that errors do not occur, and to automatically recover if something does go wrong.</p>
+</div>
+</div>
+<div class="section" id="action-dialogs">
+<h2>Action Dialogs<a class="headerlink" href="#action-dialogs" title="Permalink to this headline">¶</a></h2>
+<p>Action dialogs present options and information about a specific action before it is carried out. They have a heading (which typically describes the action) and two primary buttons — one which allows the action to be carried out and one which cancels it.</p>
+<p>Sometimes, the user may be required to choose options before an action can be carried out. In these cases, the affirmative dialog button should be insensitive until the required options have been selected.</p>
+<div class="section" id="id1">
+<h3>Examples<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Many of the stock GTK dialogs are action dialogs. The print dialog is a good example: it is displayed in response to the user using the print action, and presents information and options for that print action. The two header bar buttons allow the print action to either be cancelled or carried out.</p>
+</div>
+</div>
+<div class="section" id="presentation-dialogs">
+<h2>Presentation Dialogs<a class="headerlink" href="#presentation-dialogs" title="Permalink to this headline">¶</a></h2>
+<p>Presentation dialogs present information or controls. Like action dialogs, they have a header bar and a subject. However, instead of prefixing an action, their content relates to an application or content item.</p>
+<div class="section" id="id2">
+<h3>Examples<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>Preferences and properties are both examples of presentation dialogs, and both present information and settings in relation to a specific entity (either an application or a content item). Properties dialogs are a good example of how dialogs can be used to disclose additional information which is not always needed in the main application window.</p>
+<p>Note: resist the temptation to provide a preference window for your application. Always question whether additional settings are really necessary. Most people will not bother to investigate the preferences that you provide, and configuration options will contribute to the complexity of your application. Make an effort to ensure that your application design works for everybody without the need to change its settings.</p>
+</div>
+</div>
+<div class="section" id="instant-and-explicit-apply">
+<h2>Instant and Explicit Apply<a class="headerlink" href="#instant-and-explicit-apply" title="Permalink to this headline">¶</a></h2>
+<p>Presentation dialogs are either instant or explicit apply. In instant apply dialogs, changes to settings or values are immediately updated. In contrast, explicit apply dialogs include a button for applying changes.</p>
+<p>Instant apply should be used wherever possible. Instant apply presentation dialogs have a close button in their header bar, like a primary window (see [Primary Windows][]).</p>
+<p>Explicit apply is only necessary if changes in the dialog have to be applied simultaneously in order to have the desired behaviour. Explicit apply dialogs include a <em>Done</em> and <em>Cancel</em> button (<em>Cancel</em> resets all values in the dialog to the state before it was opened and Done applies all changes and closes the window).</p>
+</div>
+<div class="section" id="primary-buttons">
+<h2>Primary buttons<a class="headerlink" href="#primary-buttons" title="Permalink to this headline">¶</a></h2>
+<p>Message and action dialogs include primary buttons which affect the whole window. The order of these buttons, as well as the labels used, are a key part of the dialog.</p>
+<div class="section" id="order">
+<h3>Order<a class="headerlink" href="#order" title="Permalink to this headline">¶</a></h3>
+<p>When a dialog includes an affirmative and a cancel button, always ensure that the cancel button appears first, before the affirmative button. In left-to-right locales, this is on the left.</p>
+<p>This button order ensures that users become aware of, and are reminded of, the ability to cancel prior to encountering the affirmative button.</p>
+</div>
+<div class="section" id="labels">
+<h3>Labels<a class="headerlink" href="#labels" title="Permalink to this headline">¶</a></h3>
+<p>Label the affirmative primary button with a specific imperative verb, for example: <em>Save</em>, <em>Print</em>, <em>Remove</em>. This is clearer than a generic label like <em>OK</em> or <em>Done</em>.</p>
+<p>Error dialogs typically include a single button which dismisses the dialog. In this case, a specific action does not need to be referenced, and this can be a good opportunity to use humor. <em>Apology Accepted</em> or <em>Got It</em> are both examples of good labels.</p>
+</div>
+<div class="section" id="default-action-and-escape">
+<h3>Default action and escape<a class="headerlink" href="#default-action-and-escape" title="Permalink to this headline">¶</a></h3>
+<p>Assign the return key to activate the primary affirmative button in a dialog (for example <em>Print</em> in a print dialog). This is called the default action, and is indicated by a different visual style. Do not make a button the default if its action is irreversible, destructive or otherwise inconvenient to the user. If there is no appropriate button to designate as the default button, do not set one.</p>
+<p>You should also ensure that the escape key activates the cancel or close button, should either of them be present. Message dialogs with a single button can have both escape and return bound to the button.</p>
+<p>Binding return and escape in this way provides a predictable and convenient way to continue through a dialog, or to go back.</p>
+</div>
+</div>
+<div class="section" id="general-guidelines">
+<h2>General guidelines<a class="headerlink" href="#general-guidelines" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Dialog windows should never pop up unexpectedly, and should only ever be displayed in immediate response to a deliberate user action.</p></li>
+<li><p>Dialogs should always have a parent window.</p></li>
+<li><p>Follow the layout guidelines when designing the content of windows.</p></li>
+<li><p>Use [view switchers][] or [tabs][] to break up controls and information.</p></li>
+<li><p>Avoid stacking dialog windows on top of one another. Only one dialog window should be displayed at a time.</p></li>
+<li><p>When opening a dialog, provide initial keyboard focus to the component that you expect users to operate first. This focus is especially important for users who must use a keyboard to navigate your application.</p></li>
+</ul>
+</div>
+<div class="section" id="api-reference">
+<h2>API reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html">GtkAboutDialog</a></p></li>
+<li><p><a class="reference external" href="https://developer.gnome.org/gtk3/stable/GtkDialog.html">GtkDialog</a></p></li>
+<li><p><a class="reference external" href="https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html">GtkMessageDialog</a></p></li>
+</ul>
+</div>
+</div>
+
+      </article>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="grid.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">&lt;no title&gt;</div>
+              </div>
+              <svg><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="headerbar.html">
+              <svg><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">&lt;no title&gt;</div>
+                
+              </div>
+            </a>
+        </div>
+      
+      </footer>
+      
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Dialog Windows</a><ul>
+<li><a class="reference internal" href="#when-to-use">When to use</a></li>
+<li><a class="reference internal" href="#message-dialogs">Message Dialogs</a><ul>
+<li><a class="reference internal" href="#examples">Examples</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#action-dialogs">Action Dialogs</a><ul>
+<li><a class="reference internal" href="#id1">Examples</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#presentation-dialogs">Presentation Dialogs</a><ul>
+<li><a class="reference internal" href="#id2">Examples</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#instant-and-explicit-apply">Instant and Explicit Apply</a></li>
+<li><a class="reference internal" href="#primary-buttons">Primary buttons</a><ul>
+<li><a class="reference internal" href="#order">Order</a></li>
+<li><a class="reference internal" href="#labels">Labels</a></li>
+<li><a class="reference internal" href="#default-action-and-escape">Default action and escape</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#general-guidelines">General guidelines</a></li>
+<li><a class="reference internal" href="#api-reference">API reference</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </main>
+</div>
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/main.js?digest=e931d09b2a40c1bb82b542effe772014573baf67"></script></body>
+</html>

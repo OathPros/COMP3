@@ -1,0 +1,2 @@
+Standard keyboard shortcuts
+===========================
