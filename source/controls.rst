@@ -9,7 +9,7 @@ Controls
    controls/floating
    controls/menu
    controls/placeholder
-   controls/popover
+   controls/popovers
    controls/radio
    controls/slider
    controls/spinbutton
