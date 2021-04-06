@@ -90,7 +90,7 @@ https://pypi.org/project/furo/
 }
 
 ::selection {
-	background-color: var(--blue1);
+	background-color:  rgba(153,193,241,0.5);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -99,6 +99,9 @@ https://pypi.org/project/furo/
     --tocfg: var(--light5);
     --borders: var(--dark3);
   }
+	::selection {
+		background-color:  rgba(26,95,180,0.4);
+	}
 }
 
 * {
