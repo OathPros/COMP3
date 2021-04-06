@@ -32,6 +32,8 @@ Linked buttons
 
 Groups of buttons with a similar function can be grouped. This helps to communicate their similarity. Linking is a common technique for sets of toggle buttons.
 
+.. _button-styles:
+
 Suggested and destructive actions
 ---------------------------------
 
