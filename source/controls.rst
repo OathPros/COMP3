@@ -6,7 +6,6 @@ Controls
 
    controls/button
    controls/check-boxes
-   controls/dropdown
    controls/floating
    controls/menu
    controls/placeholder
