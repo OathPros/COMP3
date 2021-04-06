@@ -1,8 +1,5 @@
-Visuals
-=======
-
-Icons and artwork
-#################
+Icons
+=====
 
 Icons are a basic element in user interfaces. They also make up a fundamental part of application identities. This page provides an overview of icon usage. It also describes which icons are available through the GNOME platform, introduces resources for creating new icons, and includes some general guidelines on using icons in user interfaces.
 

@@ -4,7 +4,7 @@ Icon Design Guidelines
 Creating icons
 --------------
 
-This page provides guidelines for those creating their own icons, including both full-color icons (typically used for application icons) and symbolic icons (typically used for user interface controls). For a more general overview of icon styles and usage, including the stock icons that are available, see :doc:`icons and artwork </guidelines/icons-and-artwork>`.
+This page provides guidelines for those creating their own icons, including both full-color icons (typically used for application icons) and symbolic icons (typically used for user interface controls). For a more general overview of icon styles and usage, including the stock icons that are available, see :doc:`icons and artwork </guidelines/icons>`.
 
 Full-color icons
 ----------------

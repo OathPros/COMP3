@@ -7,9 +7,9 @@ Guidelines
    guidelines/app-identity
    guidelines/app-basics
    guidelines/writing-style
-   guidelines/visuals
-   guidelines/icons-and-artwork
+   guidelines/icons
    guidelines/icon-design
+   guidelines/illustrations
    guidelines/input
    guidelines/typography
    guidelines/responsive
