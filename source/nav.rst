@@ -5,9 +5,7 @@ Navigation
    :maxdepth: 2
 
    nav/browse
-   nav/view-switch
+   nav/view-switchers
    nav/tab
    nav/sidebar
    nav/search
-
-
