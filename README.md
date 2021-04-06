@@ -1,42 +1,29 @@
-# HIG Playground
+Human Interface Guidelines
+==========================
 
-This is a test bed for the new HIG. Goals:
+This is a development space for a new version of the GNOME Human Interface Guidelines. The current stable version is hosted on library.gnome.org and stored as part of gnome-devel-docs.
 
-  * Simple markdown based workflow. Using Apostrophe for authoring is a plus (with image preview).
-  * Simple and elegant stylesheet
-  * More sophisticated media (animated svgs, inline video).
-  * Simple to maintain/update tooling with small dependency tree.
+The new version is written in reStructuredText, generated using Sphinx, and hosted using Gitlab pages. It can be viewed online at .
 
-
-Sphinx/rtd
-  - markdown only a 2nd class citizen
-  - default themes suck
-  + commonly used
-
-  now lives in `master`
-
-Mkdocs
-  + markdown based
-  + straight forward
-  
-  now lives in `mkdocs-material` branch
-  
-## How to build locally
+How to build locally
+--------------------
 
 You can use Sphinx to build the static html locally, for testing.
 
-### Install dependencies
+Install dependencies
+~~~~~~~~~~~~~~~~~~~~
 
-On Fedora, run:
+On Fedora, run::
 
+  dnf install -y python3-sphinx python3-pip
+  pip3 install --upgrade furo
 
-```
-dnf install -y python3-sphinx python3-pip
-pip3 install --upgrade furo
-pip3 install --upgrade recommonmark
-```
+Build
+~~~~~
 
-### Build
+From the project root, run the `00localbuild.sh` script. The build output can then be found in ``/build``.
 
-From the project root, run the `00localbuild.sh` script. The build output can 
-then be found in `/build`.
+Deploying changes
+-----------------
+
+Changes to master are automatically deployed to the site using CI.
