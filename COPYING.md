@@ -6,6 +6,7 @@ Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson:
  * check-boxes.rst:
  * dialogs.rst
  * keyboard-interaction.rst
+ * menus.rst
 
 Allan Day, William Jon McCann:
 
