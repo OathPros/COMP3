@@ -1,6 +1,16 @@
 Per-file attritubion:
 
- * buttons.rst: Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson
- * dialogs.rst: Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson
- * typography.rst: Allan Day, William Jon McCann
- * writing-style.rst: Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson, Ekaterina Gerasimova
+Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson:
+
+ * buttons.rst
+ * check-boxes.rst:
+ * dialogs.rst
+ * keyboard-interaction.rst
+
+Allan Day, William Jon McCann:
+
+ * typography.rst
+
+Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson, Ekaterina Gerasimova:
+
+ * writing-style.rst

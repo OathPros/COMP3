@@ -12,4 +12,5 @@ Guidelines
    guidelines/input
    guidelines/typography
    guidelines/responsive
+   guidelines/keyboard-interaction
 

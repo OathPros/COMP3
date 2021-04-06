@@ -38,6 +38,8 @@ Capitalize the first letter of:
 
 For example: “Create a Document”, “Find and Replace”, “Document Cannot Be Found”.
 
+.. _sentence-capitization:
+
 Sentence capitalization
 ***********************
 
