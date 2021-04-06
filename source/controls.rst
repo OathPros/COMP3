@@ -10,7 +10,7 @@ Controls
    controls/menu
    controls/placeholder
    controls/popovers
-   controls/radio
+   controls/radio-buttons
    controls/slider
    controls/spinbutton
    controls/switch
