@@ -8,6 +8,7 @@ Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson:
 * keyboard-interaction.rst
 * menus.rst
 * radio-buttons.rst
+* sliders.rst
 
 Allan Day, William Jon McCann:
 

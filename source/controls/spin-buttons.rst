@@ -1,2 +1,2 @@
-Spin buttons
+Spin Buttons
 ============

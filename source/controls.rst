@@ -11,8 +11,8 @@ Controls
    controls/placeholder
    controls/popovers
    controls/radio-buttons
-   controls/slider
-   controls/spinbutton
+   controls/sliders
+   controls/spin-buttons
    controls/switch
-   controls/text
+   controls/text-fields
 
