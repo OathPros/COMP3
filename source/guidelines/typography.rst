@@ -23,14 +23,39 @@ Take advantage of Unicode
 
 Unicode provides a wide variety of characters which, when used correctly, can dramatically improve the impression given by your application. The following Unicode characters are recommended:
 
-================ ======================= ======================== ====================
- Usage           Incorrect               Correct                  Unicode to use 
-================ ======================= ======================== ====================
-Quotation        "quote"                 “quote”                  U+201C LEFT DOUBLE QUOTATION MARK, U+201D RIGHT DOUBLE QUOTATION MARK   
-Time             4:20                    4∶20                     U+2236 RATIO 
-Multiplication   1024x768                1024×768                 U+00D7 MULTIPLICATION SIGN 
-Ellipsis         Introducing...          Introducing…             U+2026 HORIZONTAL ELLIPSIS 
-Apostrophe       The user's preferences  The user’s preferences   U+2019 RIGHT SINGLE QUOTATION MARK 
-Bullet list      - One\n- Two\n- Three   • One\n • Two\n • Three  U+2022 BULLET 
-Ranges           June-July 1967          June–July 1967           U+2013 EN DASH 
-================ ======================= ======================== ====================
+.. list-table::
+  :widths: 20 20 20 40
+  :header-rows: 1
+  
+  * - Usage
+    - Incorrect
+    - Correct
+    - Unicode to use
+  * - Quotation
+    - "quote"
+    - “quote”
+    - U+201C LEFT DOUBLE QUOTATION MARK, U+201D RIGHT DOUBLE QUOTATION MARK
+  * - Time
+    - 4:20
+    - 4∶20
+    - U+2236 RATIO
+  * - Multiplication
+    - 1024x768
+    - 1024×768
+    - U+00D7 MULTIPLICATION SIGN
+  * - Ellipsis
+    - Introducing...
+    - Introducing…
+    - U+2026 HORIZONTAL ELLIPSIS
+  * - Apostrophe
+    - The user's preferences
+    - The user’s preferences
+    - U+2019 RIGHT SINGLE QUOTATION MARK
+  * - Bullet list
+    - ● One
+    - \• One
+    - U+2022 BULLET
+  * - Ranges
+    - June-July 1967
+    - June–July 1967
+    - U+2013 EN DASH

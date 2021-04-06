@@ -22,6 +22,8 @@ Capitalization
 
 Two styles of capitalization are used in GNOME user interfaces: header capitalization and sentence capitalization.
 
+.. _header-capitalization:
+
 Header capitalization
 *********************
 
@@ -47,6 +49,8 @@ Capitalize the first letter of:
 * Any words normally capitalized in sentences, such as proper nouns.
 
 For example: “The document cannot be found in this location.” “Finding results for London.”
+
+.. _ellipses:
 
 Ellipses (…)
 ############
