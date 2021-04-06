@@ -1,12 +1,8 @@
-.. GNOME User Interface Guidelines documentation master file, created by
-   sphinx-quickstart on Tue Mar 30 13:12:35 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. image:: img/hig.svg
 
 GNOME User Interface Guidelines
 ===============================
 
-.. image:: img/hig.svg
 
 Whether you are a developer or a designer, these guidelines contain everything you need to design effective applications using GTK. They cover design principles for GNOME 3, common guidelines such as how to write text and use images and icons, as well as a library of design patterns which you can use in your application.
 

@@ -1,3 +1,5 @@
+.. image:: ../img/placeholder-dialogs.png
+
 Dialog Windows
 ==============
 
