@@ -11,6 +11,7 @@ Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson:
 * sliders.rst
 * spin-buttons.rst
 * text-fields.rst
+* progress-bars.rst
 
 Allan Day, William Jon McCann:
 
