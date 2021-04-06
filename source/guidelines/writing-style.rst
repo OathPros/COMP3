@@ -4,7 +4,7 @@ Writing Style
 Text plays an important role in user interfaces. Take the time to ensure that any text you use is clearly written and easy to understand.
 
 Guidelines
-##########
+----------
 
 Your main goal should be to ensure that text is easy to understand and quick to read.
 
@@ -18,14 +18,14 @@ Your main goal should be to ensure that text is easy to understand and quick to 
 * Latin abbreviations such as “i.e.” or “e.g.” should be avoided, since they can't always be easily translated and can be unintelligible when read by screen readers. Instead, use full words like “for example”.
 
 Capitalization
-##############
+--------------
 
 Two styles of capitalization are used in GNOME user interfaces: header capitalization and sentence capitalization.
 
 .. _header-capitalization:
 
 Header capitalization
-*********************
+~~~~~~~~~~~~~~~~~~~~~
 
 Header capitalization should be used for any headings, including header bar headings and page, tab and menu titles. It should also be used for short control labels that do not normally form proper sentences, such as button labels, switch labels and menu items.
 
@@ -38,10 +38,10 @@ Capitalize the first letter of:
 
 For example: “Create a Document”, “Find and Replace”, “Document Cannot Be Found”.
 
-.. _sentence-capitization:
+.. _sentence-capitalization:
 
 Sentence capitalization
-***********************
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Sentence capitalization should be used for labels that form sentences or that run on to other text, including labels for check boxes, radio buttons, sliders, text entry boxes, field labels and combobox labels. It should also be used for explanatory or body text, such as in dialogs or notifications.
 
@@ -55,7 +55,7 @@ For example: “The document cannot be found in this location.” “Finding res
 .. _ellipses:
 
 Ellipses (…)
-############
+------------
 
 Use an ellipsis (…) at the end of a label if further input or confirmation is required from the user before the action can be carried out. For example, *Save As…*, *Find…* or *Delete…*.
 

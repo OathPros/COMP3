@@ -5,7 +5,7 @@ Controls
    :maxdepth: 2
 
    controls/button
-   controls/check
+   controls/check-boxes
    controls/dropdown
    controls/floating
    controls/menu

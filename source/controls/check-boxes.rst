@@ -11,7 +11,7 @@ Guidelines
 * Use sentence capitalization (see see :ref:`sentence-capitalization`) for check box labels, for example *Use custom font*.
 * Label check boxes to clearly indicate the effects of both their checked and unchecked states, for example, *Show icons in menus*. If the two states of a check box cannot be clearly communicated, consider using two radio buttons instead so both states can be given labels.
 * Avoid negative check box labels, as this can be confusing and hard to understand. *Play alert sound* is better than *Disable alert sound*, for example.
-* Provide an access key (see :ref:`access-keys` in all check box labels that allows the user to set or unset the check box directly from the keyboard.</p></item>
+* Provide an access key (see :ref:`access-keys`) in all check box labels that allows the user to set or unset the check box directly from the keyboard.
 * If the check box represents a setting in a multiple selection that is set for some objects in the selection and unset for others, show the check box in its mixed state. When a check box is in its mixed state:
   * Clicking the box once should check the box, applying that setting (when confirmed) to all the selected objects.
   * Clicking the box a second time should uncheck the box, removing that setting (when confirmed) to all the selected objects.

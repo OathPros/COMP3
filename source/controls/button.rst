@@ -19,7 +19,7 @@ Text buttons
 
 - Label all buttons with imperative verbs, using header capitalization (see :ref:`header-capitalization`). For example, *Save*, *Sort* or *Update Now*.
 - Use ellipses (see :ref:`ellipses`) when a button requires further input from the user to complete an action.
-- Provide an access key (see :doc:`keyboard-input`) in the label that allows the user to directly activate the button from the keyboard.
+- Provide an access key (see :ref:`access-keys`) in the label that allows the user to directly activate the button from the keyboard.
 - Keep labels short, so they don't cause a button to use too much space. It is also important to consider how labels will change length when localized.
 
 Toggle buttons
