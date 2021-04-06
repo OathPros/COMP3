@@ -13,6 +13,6 @@ Controls
    controls/radio-buttons
    controls/sliders
    controls/spin-buttons
-   controls/switch
+   controls/switches
    controls/text-fields
 
