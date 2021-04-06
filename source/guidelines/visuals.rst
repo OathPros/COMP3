@@ -9,7 +9,7 @@ Icons are a basic element in user interfaces. They also make up a fundamental pa
 Icon styles
 ###########
 
-Two styles of icon are used in GNOME: full-color and symbolic icons.
+Two styles of icon are used in GNOME: *full-color* and *symbolic* icons.
 
 Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as ``128×128px`` SVGs, and are sharpest when scaled up in multiples of ``128`` (such as ``256✕256`` and ``512✕512``).The design of full-color icons also allows them to be rendered sharp at ``64×64px`` and ``32×32px``, but is not advised to make them any smaller.
 

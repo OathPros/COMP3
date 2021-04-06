@@ -1,4 +1,4 @@
-/* GNOME CSS theme for Sphinx + Furo 
+/* GNOME CSS theme for Sphinx + Furo
 
 https://www.sphinx-doc.org
 https://pypi.org/project/furo/
@@ -87,6 +87,10 @@ https://pypi.org/project/furo/
   --tocbg: var(--light2);
   --tocfg: var(--dark5);
   --borders: var(--light3);
+}
+
+::selection {
+	background-color: var(--blue1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -292,7 +296,7 @@ table.docutils {
 footer {
   margin-bottom: 3rem;
 }
-  
+
 .sidebar-brand-text {
   font-size: 14pt;
   font-weight: 800;
