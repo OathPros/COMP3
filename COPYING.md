@@ -9,6 +9,7 @@ Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson:
 * menus.rst
 * radio-buttons.rst
 * sliders.rst
+* spin-buttons.rst
 
 Allan Day, William Jon McCann:
 
