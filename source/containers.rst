@@ -4,10 +4,10 @@ Containers
 .. toctree::
    :maxdepth: 2
 
-   containers/headerbar
+   containers/header-bars
    containers/dialogs
-   containers/grid
-   containers/list
+   containers/grids
+   containers/lists
    containers/sidebars
 
 
