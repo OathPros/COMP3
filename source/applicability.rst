@@ -1,4 +1,4 @@
-.. image:: img/placeholder-applicability.png
+.. image:: img/hig-applicability.svg
 
 Applicability of the HIG
 ========================
