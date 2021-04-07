@@ -1,31 +1,25 @@
 Buttons
 =======
 
-Buttons are one of the most common and basic user interface elements. Buttons can be used to perform actions, toggle settings or views, activate tools, or to display dialogs, popovers, or other user interface elements.
+Buttons are one of the most common and basic user interface elements.
 
-General Guidelines
+General guidelines
 ------------------
 
-- A button can contain an icon, button, or — more unusually — an image. Follow the icons and artwork guidelines when deciding which to use.
-- After pressing a button, the user should expect to see the result of their action within 1 second.
-- Do not use more than one or two different widths of button in the same window, and make all of them the same height. This will help give a pleasing uniform visual appearance to your window that makes it easier to use.
-- Do not assign actions to double-clicking or right-clicking a button. Users are unlikely to discover these actions, and if they do, it will distort their expectations of other buttons on the desktop.
-- Make invalid buttons insensitive, rather than popping up an error message when the user clicks them.
-- When several buttons are placed next to each other, ensure that they have the same width. This is particularly important for pairs of *Cancel* and *OK* buttons.
-- In a dialog, one button may be made the default button, which is shown with a different border and is activated by pressing *Return*. Often this will be the OK or equivalent button. However, if pressing this button by mistake could cause a loss of data, do not set a default button for the window.
-
-Text buttons
-------------
-
-- Label all buttons with imperative verbs, using header capitalization (see :ref:`header-capitalization`). For example, *Save*, *Sort* or *Update Now*.
-- Use ellipses (see :ref:`ellipses`) when a button requires further input from the user to complete an action.
-- Provide an access key (see :ref:`access-keys`) in the label that allows the user to directly activate the button from the keyboard.
-- Keep labels short, so they don't cause a button to use too much space. It is also important to consider how labels will change length when localized.
+- Typically, a button contains either an icon or a label. Buttons shouldn't contain both.
+- Do not use more than one or two different widths of button in the same window, and ensure that buttons placed next to each other have the same width. This will give a better appearance.
+- Do not assign actions to double-clicking or right-clicking a button. Users are unlikely to discover these actions, and if they do, it will distort their expectations of other buttons.
+- Make invalid buttons insensitive, rather than showing an error message when the user clicks them.
+- Button labels should follow the :doc:`writing style guidelines</guidelines/writing-style>`. In addition:
+   - Button labels should use imperative verbs, using :ref:`header capitalization <header-capitalization>`. For example, *Save* or *Update*.
+   - Button labels should be short, so they don't cause a button to use too much space. Consider how labels will change length when localized.
 
 Toggle buttons
 --------------
 
-Toggle buttons look the same as regular buttons, but are used to show or change a state rather than initiate an action. A toggle button’s two states, set and unset, are shown by its appearing “pushed in” or “popped out” respectively.
+Toggle buttons switch between two states, set and unset, which is indicated by the button being either “pushed in” or “popped out” respectively.
+
+Toggle buttons are an appropriate choice for modes or settings which have an obvious binary nature. They are generally used when space is limited.
 
 Linked buttons
 --------------
@@ -37,9 +31,10 @@ Groups of buttons with a similar function can be grouped. This helps to communic
 Suggested and destructive actions
 ---------------------------------
 
-In cases where a button has a particularly important affirmative role, it can be given a suggested style. This highlights the button, and helps to distinguish it from other visible controls.
+The suggested and destructive styles are available to highlight buttons in some situations.
 
-Buttons which have a destructive consequence, such as removing or deleting a content item, can be given a destructive style. This highlights the button by coloring it, and acts as a warning to the user.
+* ``suggested-action`` can be used when a button has an important affirmative role. The highlights the button in order to recommend and draw attention to it.
+* ``destructive-action`` can be used to draw attention to the potentially damaging consequences of using a button. This style acts as a warning to the user.
 
 Each view should only include a single suggested or destructive button.
 
