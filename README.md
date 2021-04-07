@@ -1,8 +1,8 @@
 # Human Interface Guidelines
 
-This is a development space for a new version of the GNOME Human Interface Guidelines. The current stable version is hosted on library.gnome.org and stored as part of gnome-devel-docs.
+This is a development space for a new version of the GNOME Human Interface Guidelines. The current stable version is hosted [here](https://developer.gnome.org/hig/stable/). Sources can be found [here](https://gitlab.gnome.org/GNOME/gnome-devel-docs/-/tree/master/hig/C).
 
-The new version is written in reStructuredText, generated using Sphinx, and hosted using Gitlab pages. It can be viewed online at .
+The new version is written in [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html), generated using [Sphinx](https://www.sphinx-doc.org/en/master/index.html), and hosted using [Gitlab pages](https://docs.gitlab.com/ee/user/project/pages/). It can be viewed online [here](https://teams.pages.gitlab.gnome.org/Design/hig-www/index.html).
 
 ## How to build and edit locally
 
