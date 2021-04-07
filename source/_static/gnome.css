@@ -157,12 +157,11 @@ ul.simple {
   margin: 1rem 1rem 3rem;
 }
   ul.simple li {
-    list-style: disc;
+    list-style-image: url(bullet.svg);
+    margin-inline-end: 1ch;
     margin-bottom: 1rem;
   }
-	ul.simple li::marker {
-		color: var(--light5);
-	}
+	ul.simple li:hover::marker {	}
 
 .related-pages {
   font-size: 10pt;
