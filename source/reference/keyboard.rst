@@ -1,2 +1,2 @@
-Standard keyboard shortcuts
+Standard Keyboard Shortcuts
 ===========================

@@ -1,6 +1,8 @@
 Navigation
 ==========
 
+Design patterns for moving around a UI and for finding content.
+
 .. toctree::
    :maxdepth: 2
 

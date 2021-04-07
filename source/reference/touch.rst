@@ -1,2 +1,2 @@
-Standard touch behaviors
+Standard Touch Behaviors
 ========================

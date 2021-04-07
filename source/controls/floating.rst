@@ -1,2 +1,2 @@
-Floating controls
+Floating Controls
 =================

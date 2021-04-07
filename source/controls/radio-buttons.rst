@@ -1,4 +1,4 @@
-Radio buttons
+Radio Buttons
 =============
 
 Radio buttons are used in groups to select from a mutually exclusive set of options. Only one radio button within a group may be set at any one time. As with check boxes, do not use radio buttons to initiate actions.

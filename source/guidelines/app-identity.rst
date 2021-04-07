@@ -1,4 +1,4 @@
-App identity
+App Identity
 ============
 
 Name

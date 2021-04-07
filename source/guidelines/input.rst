@@ -1,5 +1,5 @@
-Input
-=====
+Pointer & Touch Input
+=====================
 
 Pointer
 -------

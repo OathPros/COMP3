@@ -1,6 +1,8 @@
 Controls
 ========
 
+Controls include basic interactive UI elements .
+
 .. toctree::
    :maxdepth: 2
 
@@ -15,4 +17,3 @@ Controls
    controls/spin-buttons
    controls/switches
    controls/text-fields
-

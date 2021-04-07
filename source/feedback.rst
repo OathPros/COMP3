@@ -1,6 +1,8 @@
 Feedback
 ========
 
+Design patterns for showing information and status.
+
 .. toctree::
    :maxdepth: 2
 
@@ -8,4 +10,3 @@ Feedback
    feedback/info-bars
    feedback/progress-bars
    feedback/spinners
-
