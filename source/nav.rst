@@ -7,5 +7,5 @@ Navigation
    nav/browse
    nav/view-switchers
    nav/tab
-   nav/sidebar
+   nav/sidebars
    nav/search

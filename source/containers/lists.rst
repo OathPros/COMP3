@@ -3,7 +3,7 @@ Lists
 
 Lists are a basic user interface element that can be used to present information, content items, or controls. There are two primary types of list in GNOME: standard lists and tables.
 
-:doc:`Sidebar lists <sidebars>` are a separate design pattern which also make use of a list.
+:doc:`Sidebars </nav/sidebars>` are a separate design pattern which also make use of a list.
 
 When to use
 -----------

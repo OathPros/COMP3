@@ -8,6 +8,3 @@ Containers
    containers/dialogs
    containers/grids
    containers/lists
-   containers/sidebars
-
-

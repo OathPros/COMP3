@@ -79,7 +79,7 @@ Secondary menus are located in the header bar and include menu items for the cur
 When to use
 ~~~~~~~~~~~
 
-Secondary menus can be used to host controls that relate to a particular content item which is being displayed in the application window (such as a document, contact, conversation or photo). They are typically used in combination with in-window navigation or sidebars (see :doc:`/containers/sidebars`), since both these arrangements feature separate views or areas for content items to be shown.
+Secondary menus can be used to host controls that relate to a particular content item which is being displayed in the application window (such as a document, contact, conversation or photo). They are typically used in combination with in-window navigation or sidebars (see :doc:`/nav/sidebars`), since both these arrangements feature separate views or areas for content items to be shown.
 
 Secondary menus are optional and only need to be used if there are enough controls to require a menu.
 
