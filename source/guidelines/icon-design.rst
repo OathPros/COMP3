@@ -29,20 +29,20 @@ Shadows
 
 Shadows can be drawn internally, within a full-color icon, with the light source pointing straight from above. However, shadows should not be drawn outside the main silhouette of the icon, as these are generated programmatically based on the context. When app icons are presented on a white background, for example, a strong drop shadow is rendered to help define the contours.
 
-Versions of application icons can also be programmatically generated for development or nightly builds using `App Icon Preview <https://flathub.org/apps/details/org.gnome.design.AppIconPreview>`_.
-
 .. image:: ../img/icons/scr-app-icon-preview.png
+
+It is highly recommended to use the `App Icon Preview <https://flathub.org/apps/details/org.gnome.design.AppIconPreview>`_ app as it provides you with a complete workflow designing the app icon. From the up-to-date template to previewing the proper sizing and color in the context of other app icons, with properly generated drop shadow, up to generating optimized versions of the stable and development variants of the icon.
 
 Palette
 -------
 
 Below is the baseline GNOME app icon color palette.
 
-You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette `is available <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_.
+.. image:: ../img/icons/hig-colors.svg
+
+You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette `is available <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_. Current versions of Inkscape and GIMP should ship with the GNOME HIG palette out of the box.
 
 It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surfaces is allowed.
-
-.. image:: ../img/icons/hig-colors.svg
 
 Symbolic Icons
 --------------
