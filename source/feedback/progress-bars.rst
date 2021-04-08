@@ -1,73 +1,55 @@
-Progress bars
+Progress Bars
 =============
 
-Progress bars indicate that a task is being carried out, along with how much progress has been made through the task.
+Progress bars indicate progress on a task. Unlike spinners, they can indicate the proportion of the task that has been completed, as well as the time remaining.
 
 When to use
 -----------
 
-It is usually necessary to indicate that progress is taking place whenever an operation takes more than around three seconds. This ensures that users understand that they have to wait, and that an error has not occurred.
-
-When indicating progress, the primary choice is between a progress bar or a :doc:`spinner <spinners>`. Progress bars indicate how much of a task has been completed. They are therefore useful for tasks that take a long time. As a rule of thumb, only use a progress bar for tasks that take over 30 seconds. For tasks that have shorter periods, spinners are often a better choice.
+Progress bars are most useful for indicating progress on tasks that take a relatively long time (as a rule of thumb, tasks that take over 30 seconds). For tasks that have shorter periods, spinners are often a better choice.
 
 Types
 -----
 
 There are three types of progress bar:
 
-* Time-remaining: these indicate how much time remains in an operation.
-* Typical-time: these indicate how much time remains, based on an estimate of the expected duration.
-* Indeterminate: these only indicate that an operation is ongoing, not how long it will take.
+* **Time-remaining**: these indicate how much time remains in an operation.
+* **Typical-time**: these indicate how much time remains, based on an estimate of the expected duration.
+* **Indeterminate**: these only indicate that an operation is ongoing, not how long it will take.
 
-Accuracy is preferable for progress bars. Where possible, use a time-remaining progress bar, followed by typical-time. Try to avoid using indeterminate progress bars.
+Accuracy is preferable for progress bars: where possible, use a time-remaining progress bar, followed by typical-time. Try to avoid using indeterminate progress bars.
+
+When using a typical-time progress bar, over or underestimation can be handled by filling in the remaining portion of the progress bar, or by adding explanatory progress text (for example “Almost done”), respectively.
 
 Progress Text
 -------------
 
-Each progress bar can include a text description. This text should provide an idea of how much of the task has been completed. When deciding on progress text:
+Progress text should describe how much of the task has been completed. When deciding on progress text:
 
-* Always consider what is most relevant and interesting for the user.
-* It is often better to provide specific information rather than a unitless percentage. For example, *13 of 19 images rotated* or *12.1 of 30 MB downloaded* rather than *13% complete*.
-* For long-running tasks, it can be desirable to show an estimate of the time remaining in the progress bar text. If other relevant information isn't available, this can be shown on its own. Alternatively, it can appear alongside text about task progress; however, be careful not to overwhelm the user with too much information when doing this, and use :doc:`typographic conventions </guidelines/typography>` to differentiate the most useful information.
-* If the time remaining is an estimate, use the word *about*. For example: *About 3 minutes left*.
+* Provide specific information rather than a unitless percentage. For example, “13 of 19 images rotated” or “12.1 of 30 MB downloaded” rather than “13% complete”.
+* For long-running tasks, it can be desirable to show an estimate of the time remaining and, if other relevant information isn't available, this can be shown on its own. If the time remaining is an estimate, use the word “about“. For example: “About 3 minutes left”.
+* Use :doc:`typographic conventions </guidelines/typography>` to differentiate the most useful information.
 
 Task stages
 -----------
 
-Some tasks can be made up of a sequential series of stages, each of which have different options for time estimation. It might be possible to estimate the time remaining for part of a task, but not another part, for example. In these situations:
+Some tasks can be made up of a sequential series of stages, each of which has its own time estimation. In these situations, try to create a single composite typical-time progress bar. Only communicate the different stages in a task when they are relevant to a user.
 
-* Only communicate the different stages in a task when they are relevant to a user. Generally speaking, this will not be required, and it is not necessary or desirable to communicate separate stages in a task.
-* If a task includes time-remaining and typical-time stages, try to create a single composite typical-time progress bar.
-* If a task includes an indeterminate progress stage, the progress bar can show indeterminate progress for part of the task. However, you should avoid showing indeterminate progress bars for long periods of time, and should attempt to keep the number of progress bar mode changes to an absolute minimum. Avoid indeterminate progress wherever possible.
+Sometimes it might be possible to estimate the time remaining for part of a task, but not another part. In this situation, the progress bar can show indeterminate progress for part of the task. However, it is best not to show indeterminate progress bars for long periods of time, and the number of progress bar mode changes should be kept to an absolute minimum. Avoid indeterminate progress wherever possible.
 
 Sub-tasks
 ---------
 
-If a task is comprised of multiple sub-tasks (such as downloading several files simultaneously), it is generally advisable to show a single progress bar which indicates composite progress for the overall task. However, there are some situations where this might not be the case:
+Some tasks are comprised of multiple simultaneous sub-tasks (such as downloading several files at the same time). Here, it is generally advisable to show a single progress bar which indicates composite progress for the overall task.
 
-* If it is genuinely useful for the user to know progress within each individual sub-task. (As an alternative, completion of each sub-task can be indicated with progress text.)
-* If it might be necessary to pause or stop a sub-task (see the general guidelines on this, below).
-* If sub-tasks are already indicated in your application's user interface. In this case, it can be less disruptive to show a progress for each item inline.
-
-When showing progress bars for sub-tasks:
-
-* Each sub-task should conform to the usage guidelines for progress bars (see when to use, above).
-* Generally speaking, it is not necessary to show a progress bar for overall progress through the set of tasks.
-
-Progress windows
-----------------
-
-In the past, progress windows were a popular way to present progress bars. These secondary windows would appear for the duration of a task, and would contain one or more progress bars. In general, progress windows are not recommended, since the consequence of closing the window can be unclear and they can obscure useful controls and content.
-
-Where possible, progress bars should be displayed inline, and should have a close visual relationship with the content items or controls which represent the ongoing task.
+In very rare cases, it might be desirable to show a progress bar for each indvidual sub-task. Only do this if it is genuinely useful for the user to know progress for each  sub-task, or if it might be necessary to pause or stop a sub-task.
 
 General guidelines
 ------------------
 
-* If the operation in progress is potentially destructive or resource intensive, consider placing a pause and/or cancel button close to the progress bar.
-* Ensure that time-remaining and typical-time progress bars measure an operation’s total time or total work, not just that of a single step.
-* Update time-remaining progress bars when changes occur that will cause the operation to finish more quickly or more slowly.
-* When using a typical-time progress bar, if your application overestimates the completed amount of work, the length of the bar can indicate *almost complete* until the operation is complete. If your application underestimates how much work is complete, fill the remaining portion of the bar when the operation is complete.
+* If the operation is potentially destructive or resource intensive, consider adding pause and/or cancel buttons.
+* Where possible, progress bars should be displayed inline, and should have a close visual relationship with the content items or controls which represent the ongoing task.
+* In the past, progress windows were a popular way to present progress bars. These secondary windows would appear for the duration of a task, and would contain one or more progress bars. In general, progress windows are not recommended, since the consequence of closing the window can be unclear and they can obscure useful controls and content.
 
 API reference
 -------------
