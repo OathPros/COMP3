@@ -10,9 +10,9 @@ Two styles of icon are used in GNOME: *full-color* and *symbolic* icons.
 
 Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as ``128×128px`` SVGs, and are sharpest when scaled up in multiples of ``128`` (such as ``256✕256`` and ``512✕512``).The design of full-color icons also allows them to be rendered sharp at ``64×64px`` and ``32×32px``, but is not advised to make them any smaller.
 
-.. image:: ../img/icons/fullcolor-v-symbolic.svg
+.. image:: ../img/icons/hig-hicolor-v-symbolic.svg
 
-Symbolic icons are simple and monochrome, and are designed to work well at smaller sizes. They are defined as `16✕16px` SVGs, and can be scaled to multiples of `16` (such as `32✕32` and `64✕64`). Symbolic icons generally have a neutral color, although their color can be changed programmatically.
+Symbolic icons are simple and monochrome, and are designed to work well at smaller sizes. They are defined as ``16✕16px`` SVGs, and can be scaled to multiples of ``16`` (such as ``32✕32`` and ``64✕64``). Symbolic icons generally have a neutral color, although their color can be changed programmatically.
 
 Icon uses
 #########
@@ -45,14 +45,3 @@ Other things to consider when using icons:
 * **Think about which icons will be meaningful in the specific context of your application** — users of specialist tools will often be familiar with domain-specific symbols.
 * **Remember that some icons are only meaningful alongside other icons of the same type**. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (i.e. a single line), and will not be recognizable without a corresponding “plus” add icon.
 
-Illustrations
-#############
-
-FIXME
-
-Color palette
-#############
-
-FIXME
-
-.. image:: ../img/colors.svg
