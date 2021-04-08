@@ -40,7 +40,7 @@ Below is the baseline GNOME app icon color palette.
 
 .. image:: ../img/icons/hig-colors.svg
 
-You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette `is available <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_. Current versions of Inkscape and GIMP should ship with the GNOME HIG palette out of the box.
+You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette `is available <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_. Current versions of Inkscape and GIMP should ship with the GNOME HIG palette out of the box. You can make use of the `Color Palette <https://flathub.org/apps/details/org.gnome.design.Palette>`_ app to paste the GNOME colors into any 3rd party design app.
 
 It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surfaces is allowed.
 
