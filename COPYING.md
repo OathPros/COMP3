@@ -13,6 +13,7 @@ Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson:
 * text-fields.rst
 * progress-bars.rst
 * tabs.rst
+* tree-views.rst
 
 Allan Day, William Jon McCann:
 

@@ -1,24 +1,18 @@
 Sidebars
 ========
 
-A sidebar list allows different views to be switched between. Those views can contain groups of content items, single content items, or sets of controls. The sidebar divides the window in two, with content being shown on the opposite pane to the sidebar.
-
-Sidebar lists can be used in primary windows, either as a permanent fixture or an element that is shown on demand. They can also be used in dialog windows.
-
-Sidebar lists can be used in conjunction with the :doc:`search </nav/search>` and selection mode design patterns.
+A sidebar list allows switching between different views. In GNOME, the sidebar divides the window in two, with content being shown on the opposite pane to the sidebar.
 
 When to use
 -----------
 
-Use a sidebar list when it is necessary to expose a larger number of views than can be accommodated by a standard :doc:`view switcher </nav/view-switchers>`.
+Use a sidebar list when it is necessary to expose a larger number of views than can be accommodated in a standard :doc:`view switcher </nav/view-switchers>`. Sidebar lists also provide a possible alternative to browser-style navigation.
 
-Sidebar lists also provide a possible alternative to browser-style navigation. They have a number of advantages here:
+Sidebars are particularly appropriate when navigating between content which is both dynamic and is suited to a list format. Messaging apps are a good example of this.
 
-* When content items have a narrow width, and don’t require an immersive experience. A sidebar would be inappropriate for browsing videos for this reason, but is well-suited to contacts.
-* When content items are dynamic. For messaging applications, where new content items appear or old ones are updated, a sidebar list provides the ability for someone to view one item while simultaneously being aware of updates to the overall message list.
-* When it is possible to filter a collection of content, and there are a large number of filters.
+The are also suited to contexts where frequent switching back and forth between specific locations is common.
 
-Temporary sidebar lists can also be displayed for particular views in your application.
+Sidebars should be avoided for apps which provide rich or immersive content. In this situation, the sidebar would be a distraction from application content.
 
 Guidelines
 ----------
