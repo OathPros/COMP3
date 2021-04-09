@@ -1,5 +1,7 @@
 Scaling & Responsiveness
-==========================
+========================
+
+TODO: this page needs to be rewritten.
 
 Display compatibility
 ---------------------

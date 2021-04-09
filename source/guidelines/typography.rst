@@ -6,7 +6,12 @@ Text is an important part of any user interface. Text size, positioning and weig
 Default fonts
 -------------
 
-Wherever possible, use the default system fonts as provided by the distribution or operating system on which your application is running. In GNOME 3, the default font is Cantarell, which was originally designed and developed by David Crossland.
+Wherever possible, use the default system fonts as provided by the distribution or operating system on which your application is running. In GNOME, the default font is Cantarell, which was originally designed and developed by David Crossland.
+
+Standard font styles
+--------------------
+
+TODO: add details about this.
 
 Variants, sizes and weights
 ---------------------------
@@ -59,3 +64,5 @@ Unicode provides a wide variety of characters which, when used correctly, can dr
     - June-July 1967
     - June–July 1967
     - U+2013 EN DASH
+
+TODO: describe the Typography app and how to get it.

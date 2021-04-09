@@ -1,10 +1,7 @@
-Icon Design Guidelines
-======================
+Icon Creation
+=============
 
-Creating icons
---------------
-
-This page provides guidelines for those creating their own icons, including both full-color icons (typically used for application icons) and symbolic icons (typically used for user interface controls). For a more general overview of icon styles and usage, including the stock icons that are available, see :doc:`icons and artwork </guidelines/icons>`.
+This page provides guidance on how to create icons, including both full-color icons and symbolic icons. For a more general overview of icon styles and usage, including the stock icons that are available, see :doc:`icons usage</guidelines/icons>`.
 
 Full-color icons
 ----------------
@@ -16,7 +13,7 @@ The `full-color icon template <https://gitlab.gnome.org/Community/Design/HIG-app
 Perspective & shape
 -------------------
 
-Full-color icons should be rendered with a simple orthogonal view and no real or isometric perspective. To provide depth a raised effect can be applied to mimic the Z-axis. Please keep the effect subtle though! Raising the object more than 2 detail units (4 nominal pixels) is not recommended.
+Full-color icons should be rendered with a simple orthogonal view and no real or isometric perspective. To provide depth, a raised effect can be applied to mimic the Z-axis. Please keep the effect subtle though! Raising the object more than 2 detail units (4 nominal pixels) is not recommended.
 
 In order to aid recognition, each application icon should have a unique silhouette. However, to ensure visual balance with other application icons, the aspect ratio should not be extreme. Very narrow or very wide shapes should be avoided.
 
