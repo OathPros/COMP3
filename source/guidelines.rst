@@ -1,3 +1,5 @@
+.. image:: img/placeholder-guidelines.png
+
 Guidelines
 ==========
 
