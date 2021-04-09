@@ -11,7 +11,6 @@ Controls include basic interactive UI elements .
    controls/floating
    controls/menus
    controls/placeholders
-   controls/popovers
    controls/radio-buttons
    controls/sliders
    controls/spin-buttons

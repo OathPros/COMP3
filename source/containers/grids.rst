@@ -1,7 +1,7 @@
 Grids
 =====
 
-A grid is one of the primary methods of presenting collections of content in GNOME. Grids are often combined with a number of the other design patterns, including :doc:`search </nav/search>`.
+Two dimensional grids of images or icons are a common way to present content. Selecting an item in the grid will typically switch to a dedicated view of that item.
 
 When to use
 -----------
@@ -13,13 +13,11 @@ Grids and lists can be combined, to offer different views of the same content. T
 General guidelines
 ------------------
 
-* Wherever possible, each item of content should have a unique thumbnail.
+* Wherever possible, each grid item should have a unique thumbnail.
 * Order the items in the grid according to what will be most useful to people using your application. Ordering content according to most recently used is often the best arrangement.
-* Selecting an item in the grid will typically switch to a dedicated view of that item.
-* Consider combining the grid view search, selection mode and collections.
+* TODO: surely there's more to say here...
 
 API reference
 -------------
 
 * `GtkFlowBox <https://developer.gnome.org/gtk3/stable/GtkFlowBox.html>`_
-* `GtkIconView <https://developer.gnome.org/gtk3/stable/GtkIconView.html>`_

@@ -10,3 +10,4 @@ Design patterns for showing information and status.
    feedback/info-bars
    feedback/progress-bars
    feedback/spinners
+   feedback/message-dialogs
