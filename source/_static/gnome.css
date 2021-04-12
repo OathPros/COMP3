@@ -210,44 +210,25 @@ ul.simple {
     }
   }
 
-.toctree-wrapper > ul {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 1rem;
-  padding: 1rem;
+.toctree-wrapper ul {
+	margin: 0; padding: 0;
 }
-  .toctree-wrapper > ul a { text-decoration: none; vertical-align: middle; }
-  .toctree-wrapper > ul a::after {
-    content: " ";
-    white-space: pre;
-    vertical-align: middle;
-    display: inline-block;
-    width: 6px; height: 12px;
-    margin-left: 6px;
-    background-image: url('right.svg');
-    transform: scale(0.7);
-  }
-  .toctree-wrapper > ul a:hover { text-decoration: underline; }
 
   .toctree-wrapper li {
-    display: block;
-    list-style-type: none;
-    border-radius: 1rem;
-    padding: 1rem;
-    color: var(--tocfg);
-    background-color: var(--tocbg);
-
+		margin-bottom: 1rem;
+		list-style: none;
+    margin: 2rem 1rem;
   }
   .toctree-wrapper li.toctree-l1 {
     font-size: 14pt;
     font-weight: 600;
-    text-align: center;
+
   }
     .toctree-wrapper li.toctree-l1 > a { color: var(--tocfg); }
 
   .toctree-wrapper li.toctree-l2 {
-    text-align: center;
+		list-style-image: url(toc_bullet.svg);
+		margin: 0;
     font-size: 12pt;
     font-weight: 400;
     padding: 0.2rem;
