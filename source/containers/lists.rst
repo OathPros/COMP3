@@ -1,26 +1,30 @@
 Lists
 =====
 
-Lists can be used to present content items and controls. Examples include a list of recently opened documents, or a set a preferences.
+Lists are a common container, and are often used to organize sets of controls as well as content. They can be used for the main view of an application or for smaller containers. Examples include application preferences, a contacts list, or a list of recent documents.
 
-:doc:`Tree views<tree-views>` provide an alternative to the standard list pattern, for particular use cases.
+The standard list in GNOME is appropriate for relatively small static lists. For larger lists, see :doc:`model-based containers <model-based>`.
 
-General guidelines
-------------------
+A lists example can be found in the Adwaita demo app.
 
-* List rows typically contain between one and three elements. Different text elements can be differentiated using :doc:`text size and color </guidelines/typography>`. 
-* Ensure that lists are ordered to be helpful to those who are using them. Recent documents might be more useful than alphabetically ordered documents, or contacts that are online might be more interesting than those who are offline, for example.
-* If you use icons in your list, use :doc:`symbolic icons </guidelines/icons>`. The lower visual footprint of these icons will mean that they do not visually overload or dominate your list.
-* If the list is long, make it possible to search it using the standard :doc:`search design pattern </nav/search>`.
-  
-Editable lists
---------------
+Guidelines
+----------
 
-Editable lists allow a user to add or remove items from the list (for this reason, they are sometimes known as add/remove lists).
+* If a list is long, make it possible to search it using the standard :doc:`search design pattern </nav/search>`.
+* Rows typically contain between one and three elements. Different text elements can be differentiated using :doc:`text size and color </guidelines/typography>`.
+* Icons in a list should use the :doc:`symbolic style </guidelines/icons>`. The lower visual footprint of these icons will mean that they do not visually overload or dominate your list.
+* Rows which expand or open another view should have an arrow placed at the end.
+* Activating a row background (such as by clicking) should trigger its control.
+* Design conventions exist for editable lists, with rows that can be added and removed. Each row should contain a remove button. If the number of items is short, the final list row should be used as an add button.
 
-Each row contains a remove button. If the number of items is short, the final list row should be used as an add button.
+Advice for lists that contain controls:
+
+* Follow the example lists for row layout. Typically, the row label should be placed at the start of the row, and controls at the end.
+* While rows can contain multiple controls, they can become crowded quickly. A single control is more comfortable than two, and try to avoid any more than two.
 
 API reference
 -------------
 
-* `GtkListBox <https://developer.gnome.org/gtk3/stable/GtkListBox.html>`_
+* `GTK4: GtkListBox <https://developer.gnome.org/gtk4/stable/GtkListBox.html>`_
+* `LibAdwaita: AdwActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwActionRow.html>`_
+* Use the ``.content`` style class to ensure proper spacing.

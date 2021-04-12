@@ -10,8 +10,8 @@ Widgets that contain UI elements, including controls and content. Containers are
 
    containers/windows
    containers/header-bars
-   containers/grids
    containers/lists
-   containers/tree-views
+   containers/flow-boxes
+   containers/model-based
    containers/dialogs
    containers/popovers

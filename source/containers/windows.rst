@@ -1,7 +1,7 @@
 Windows
 =======
 
-Windows are the main, primary container for application user interfaces.
+Windows are the main container for application user interfaces.
 
 General guidelines
 ------------------
@@ -9,7 +9,9 @@ General guidelines
 * A single primary window should always be displayed when your application is launched.
 * Primary windows should host the main functionality of your application. Do not rely on dialogs or secondary windows in order to present basic functionality.
 * Primary windows should be independent — closing one primary window should not result in other primary windows being closed.
-* *Quit* should close all primary windows.
+* TODO: default window sizing
+* TODO: when should windows be resizable/non-resizable?
+* Most application windows should have a :doc:`header bar <header-bars>`.
 
 Single instance applications
 ----------------------------
@@ -19,11 +21,10 @@ Single instance applications have a single primary window. This model is common 
 Multiple instance applications
 ------------------------------
 
-Multiple instance applications can have either multiple primary windows, or one primary and multiple secondary windows.
+Multiple instance applications have multiple windows. These can be organized in two ways:
 
-Multiple primary windows is the more common pattern, and is typically used by viewer or editor apps. Here, each primary window is independent: closing one should not close the others.
-
-One primary and multiple secondary windows is less common. An example might be an email app, in which a single email can be opened in a separate window. If taking this approach, there should only be one primary window. Closing that window should also close all secondary windows.
+#. **Sibling windows**: this is the more common pattern, and is typically used by viewer or editor apps. Here, each window is identical and independent. Closing a window just closes that window and no others.
+#. **Parent-child windows**: in this less common pattern, there is one primary window and multiple dependent secondary windows. Closing a secondary window does not affect any others. On the other hand, closing the primary parent window should close every window belonging to the app. An example might be an email app, in which a single email can be opened in a separate window.
 
 API reference
 -------------

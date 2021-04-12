@@ -1,0 +1,62 @@
+Model-Based Containers
+======================
+
+The standard :doc:`lists <lists>` and :doc:`grids <flow-boxes>` provide user interface containers which are appropriate for the majority of simple use cases. In addition, the GNOME platform also provides a set of model-based containers, which support very large and/or highly dynamic content collections. These model-based containers include :ref:`list views <list-views>`, :ref:`column views <column-views>`, and :ref:`grid views <grid-views>`.
+
+These containers can be used in combination, to provide different views on the same content.
+
+While offering performance advantages, these containers have other design limitations. Therefore, before designing an application that presents content using a list, grid or table, it is recommended to familiarize yourself with the options available.
+
+.. _list-views:
+
+List views
+----------
+
+List view rows can contain text, images or controls. Rows can also be filtered and searched. Support is currently limited for creating the kind of standard list styles described :doc:`elsewhere in the HIG <lists>`.
+
+A list view example can be found under *Lists → Settings*, in the GTK4 demo application.
+
+.. _column-views:
+
+Column Views
+------------
+
+Column views are similar to list views, with the difference that they can display multiple columns. The top of each column has a header, which can be used for sorting.
+
+A column view example can be found under *Lists → Settings*, in the GTK4 demo application.
+
+Indicate which column is sorting the view by showing an upward or downward facing arrow in its header:
+
+.. list-table::
+  :widths: 20 20 60
+  :header-rows: 1
+
+  * - Order
+    - Arrow Direction
+    - Example
+  * - Natural
+    - Down
+    - Alphabetical, smallest number first, earliest date first, checked items first
+  * - Reverse
+    - Up
+    - Reverse alphabetical, largest number first, most recent date first, unchecked items first
+
+Clicking an unsorted column header sorts the column in natural order, indicated by showing a down arrow in its header.
+
+Clicking a column header sorted in natural order re-sorts it in reverse order, indicated by showing an up arrow in its header.
+
+.. _grid-views:
+
+Grid views
+----------
+
+A model-based grid view can follow the same guidance as :doc:`flow boxes <flow-boxes>`. The main difference is that it can be combined with a :ref:`model-based list view <list-views>`, for providing a different view of the same content collection.
+
+A grid view example can be found under *Lists → Colors*, in the GTK4 demo application.
+
+API reference
+-------------
+
+* `GTK4: GtkListView <https://developer.gnome.org/gtk4/stable/GtkListView.html>`_
+* `GTK4: GtkColumnView <https://developer.gnome.org/gtk4/stable/GtkColumnView.html>`_
+* `GTK4: GtkGridView <https://developer.gnome.org/gtk4/stable/GtkGridView.html>`_
