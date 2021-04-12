@@ -1,4 +1,4 @@
-.. image:: ../img/placeholder-dialogs.png
+.. image:: ../img/placeholder-dialogs.jpg
 
 Dialogs
 =======
@@ -41,7 +41,7 @@ Presentation Dialogs
 Presentation dialogs present information or controls. Like action dialogs, they have a header bar and a subject.
 
 Presentation dialogs should generally be instant rather than explicit apply. :doc:`View switchers </nav/view-switchers>` can be used to break up controls and information.
-  
+
 Pre-defined dialogs
 -------------------
 

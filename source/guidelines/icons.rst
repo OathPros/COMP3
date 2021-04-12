@@ -19,7 +19,7 @@ Symbolic versions of icons have the ``-symbolic`` name ending, such as ``open-me
 
 Full-color icons
 ~~~~~~~~~~~~~~~~
-
+ 
 Full-color icons are colorful and are optimized for larger sizes.
 
 Application icons are the most prominent type of full-color icons. (Applications are also recommended to provide a symbolic version of their icon, which is used for the high-contrast accessibility feature, as well as in contexts where a legible low-resolution icon is required.)

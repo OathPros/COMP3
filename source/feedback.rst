@@ -1,4 +1,4 @@
-.. image:: img/placeholder-feedback.png
+.. image:: img/placeholder-feedback.jpg
 
 Feedback
 ========

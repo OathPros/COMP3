@@ -1,4 +1,4 @@
-.. image:: img/placeholder-guidelines.png
+.. image:: img/placeholder-guidelines.jpg
 
 Guidelines
 ==========

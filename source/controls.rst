@@ -1,4 +1,4 @@
-.. image:: img/placeholder-controls.png
+.. image:: img/placeholder-controls.jpg
 
 Controls
 ========

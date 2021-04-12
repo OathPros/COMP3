@@ -1,4 +1,4 @@
-.. image:: img/placeholder-navigation.png
+.. image:: img/placeholder-navigation.jpg
 
 Navigation
 ==========
