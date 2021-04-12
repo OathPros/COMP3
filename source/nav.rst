@@ -1,3 +1,5 @@
+.. image:: img/placeholder-navigation.png
+
 Navigation
 ==========
 
