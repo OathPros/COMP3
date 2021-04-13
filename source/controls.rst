@@ -9,12 +9,13 @@ Controls include basic interactive UI elements .
    :maxdepth: 2
 
    controls/buttons
-   controls/check-boxes
-   controls/floating
    controls/menus
-   controls/placeholders
-   controls/radio-buttons
-   controls/sliders
-   controls/spin-buttons
    controls/switches
    controls/text-fields
+   controls/checkboxes
+   controls/radio-buttons
+   controls/drop-downs
+   controls/sliders
+   controls/spin-buttons
+   controls/placeholders
+   controls/overlaid

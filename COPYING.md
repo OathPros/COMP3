@@ -14,6 +14,7 @@ Allan Day, Calum Benson, Adam Elman, Seth Nickell, Colin Robertson:
 * progress-bars.rst
 * tabs.rst
 * model-based.rst
+* drop-downs.rst
 
 Allan Day, William Jon McCann:
 

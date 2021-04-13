@@ -8,16 +8,16 @@ In GNOME there are two main types of placeholder: initial state placeholders, an
 Initial state placeholders
 --------------------------
 
-Initial state placeholders are used when an application is first run. In addition to filling a blank space where content will eventually be shown, the initial state placeholder can also provide guideance and an encouraging start to the user experience.
+Initial state placeholders are used when an application is first run. In addition to filling a blank space where content will eventually be shown, the initial state placeholder can also provide guidance and an encouraging start to the user experience.
 
 Guidelines
 ~~~~~~~~~~
 
-* The imagery used should be rich and colorful.
-* The text that accompanies the image should be positive and upbeat. This is a moment where you can sell your application and establish a positive identity for it. It can also be an opportunity to strike up a relationship with the user by addressing them directly.
-* If there are controls that allow items to be added, it can be appropriate to highlight them using a suggested style (see :ref:`button-styles`) while the list/grid is empty.
-* An initial state placeholder should be shown until the application is populated. If the application becomes empty subsequently, an empty state can be used
-* An initial state placeholder should only be used when an application is going to be unavoidably empty. In many cases it is often better to pre-populate the application.
+* Only use an initial state placeholder when the initial state being empty is unavoidable. In many cases it is often better to pre-populate the application.
+* Initial state placeholders should be shown until the application is populated. If the application becomes empty subsequently, an empty state can be used.
+* Imagery should be rich and colorful.
+* The text that accompanies the image should be positive and upbeat. It can also be an opportunity to strike up a relationship with the user by addressing them directly.
+* It can be a good idea to include controls in the initial state, to help people get started. This is one place where the :ref:`suggested button style <button-styles>` can be appropriate.
 
 Empty placeholders
 ~~~~~~~~~~~~~~~~~~
@@ -31,7 +31,6 @@ Guidelines
 
 * For the image, use a symbolic icon that either represents your application, or the type of content that would ordinarily appear in the grid or list.
 * An empty placeholder should always include a label which communicates the empty state. It is often appropriate to include a smaller subtext which provides additional guidance (such as how to add items). However, this should only be included if there is additional information that it is useful to provide.
-* If there are controls that allow items to be added, it can be appropriate to highlight them using a suggested style (see :ref:`button-styles`) while the list/grid is empty.
 
 API Reference
 -------------

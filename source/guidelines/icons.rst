@@ -3,6 +3,8 @@ Icon Usage
 
 This page provides general guidance on which icons to use in an application, and how to use them. It also introduces resources for creating new icons.
 
+.. _icon-styles:
+
 Icon styles
 -----------
 

@@ -1,20 +1,19 @@
 Sliders
 =======
 
-A slider allows the user to quickly select a value from a range.
+A slider allows quickly selecting a value from a range. Common uses include seeking through audio or video, changing a zoom or volume level, or setting values in image editors.
 
 When to use
 -----------
 
-Common uses include seeking through audio or video, changing a zoom or volume level, or setting values in image editors.
-
 Use a slider when:
 
-* The range of values is fixed and ordered, and when adjusting the value relative to its current value is more important than choosing an absolute value.
-* It is useful for the user to control the rate of change of the value in real time.
-* TODO: don't use sliders with only a small number of stops. What's the rule here exactly...?
+* the range of values is fixed and ordered
+* adjusting the value relative to its current value is more important than choosing an absolute value
+* it is useful for the user to control the rate of change of the value in real time
+* the number of potential values is high
 
-If the range of values does not have a fixed maximum and/or minimum, a :doc:`spin button </controls/spin-buttons>` can be used.
+If the range of values does not have a fixed maximum and/or minimum, a :doc:`spin button </controls/spin-buttons>` can be used instead.
 
 Guidelines
 ----------

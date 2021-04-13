@@ -1,22 +1,20 @@
 Menus
 =====
 
-Standard menus in GNOME include primary, secondary and context menus.
+Menus are a common design pattern. In GNOME they typically appear as primary, secondary and context menus.
 
 Primary menus
 -------------
 
-Primary menus are a standard design pattern. Most applications have primary menus, since they are the standard location for the about dialog, which every application is expected to have.
+Most applications have primary menus, and they are the location for standard features which every application is expected to have.
 
-Primary menus are labelled with the menu icon (named ``menu-open``).
+* The button for primary menus should use the ``menu-open-symbolic`` icon.
+* Primary menus are typically placed on the right side of the header bar. Although, there are two exceptions to this rule:
+   * If the window incorporates :doc:`browsing </nav/browsing>`, the primary menu should only be visible while on the top level view. (If other views require a menu, a secondary menu can be used.)
+   * If the window has a :doc:`sidebar </nav/sidebars>`, the primary menu should be placed above the sidebar list.
 
-Primary menus are typically placed on the right side of the header bar. However, there are two variations on this rule:
-
-* If the application incorporates in-window navigation, with a top-level location and sub-pages, the primary menu should only be placed on the top level: sub-pages can include a secondary menu, if a menu is required.
-* When used in combination with a sidebar, the primary menu should be placed above the sidebar list on the right. If a menu is required for items shown in the content side of the window, a secondary menu can be used.
-
-Standard menu items
-~~~~~~~~~~~~~~~~~~~
+Standard primary menu items
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following are standard primary menu items, and should be placed in a group at the end of the menu:
 
@@ -33,17 +31,17 @@ The following are standard primary menu items, and should be placed in a group a
   * - About Application
     - Opens the application's about dialog. This item should include the application's name, such as About Photos or About Calculator. Every primary menu should include this item.
 
-Primary menus shouldn’t include menu items for close or quit: windows can already be closed using the close button in the header bar, and it can be ambiguous as to what a close menu item refers to. Users don't readily differentiate between quit and close, and it can therefore be misleading.
+Primary menus shouldn’t include menu items for *Close* or *Quit*: windows can already be closed using the close button in the header bar, and it can be ambiguous as to what a close menu item refers to. Users don't readily differentiate between quit and close, and it can therefore be misleading.
 
 Secondary menus
 ---------------
 
-Secondary menus are located in the header bar and include menu items for the current view or content item (such as a document, contact, conversation or photo). This differentiates them from primary menus, which include menu items that relate to an entire application (such as *Preferences* and *About*).
+Secondary menus are located in the header bar, and are used to contain actions and settings for a particular view or content item (such as a document, contact, conversation or photo). This differentiates them from primary menus, whose menu items relate to the entire application.
 
 Secondary menus:
 
-* Are typically used in combination with in-window navigation or sidebars (see :doc:`/nav/sidebars`), since both these arrangements feature separate views or areas for content items to be shown.
-* Are optional and only need to be used if there are enough controls to require a menu.
+* Are typically used in combination with :doc:`browsing </nav/browsing>` and see :doc:`sidebars </nav/sidebars>`).
+* Are optional and only need to be used if there are enough actions or options to require a menu.
 * Generally shouldn't reproduce menu items that are included in primary menus, like *Preferences* and *About*.
 
 General guidelines
@@ -63,8 +61,8 @@ Menu size and structure
 
 * Menus should contain between three and 12 top-level items, and submenus should contain between three and six items.
 * Don't nest submenus, since nesting can be difficult to use ergonomically, as well as being hard to navigate.
-* Organize similar menu items into groups using dividers — this will make them easier to understand and quicker to use. When creating groups:
-   * Order groups and group items logically, either by importance, task order, or expected frequency of use. Items at the top and bottom of the menu are more noticeable and easily targeted, so reserve these locations for particularly important or interesting functionality.
+* Organize similar menu items into groups — this will make them easier to understand and quicker to use. When creating groups:
+   * Order them logically, either by importance, task order, or expected frequency of use. Items at the top and bottom of the menu are more noticeable and easily targeted, so reserve these locations for particularly important or interesting functionality.
    * Place single-item groups at the top or bottom of the menu, or group them together with other single items.
    * Do not mix different types of menu item within each group — actions, check box and radio button items should be kept separate.
 
