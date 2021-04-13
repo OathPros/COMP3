@@ -3,6 +3,8 @@ Search
 
 Search allows content items to be located by filtering content that is displayed on screen. It is distinct from find, which involves moving or highlighting the content that is being searched for, rather than filtering.
 
+Examples of search can be found in the *Search Entry* and *Type to Search* demos in the GTK 4 demo app.
+
 When to use
 -----------
 
@@ -42,4 +44,5 @@ Additional Guidance
 API reference
 -------------
 
-* `GtkSearchEntry <https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html>`_
+* GtkSearchBar: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.SearchBar.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkSearchBar.html>`_
+* GtkSearchEntry: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.SearchEntry.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html>`_

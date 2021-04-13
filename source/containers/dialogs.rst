@@ -50,6 +50,7 @@ Presentation dialogs present information or controls. Like action dialogs, they 
 API reference
 -------------
 
-* `GTK4: GtkDialog <https://developer.gnome.org/gtk3/stable/GtkDialog.html>`_
-* `LibAdwaita: AwdPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwPreferencesWindow.html>`_
-* `GTK4: GtkAboutDialog <https://developer.gnome.org/gtk4/stable/GtkAboutDialog.html>`_
+* GtkDialog: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Dialog.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkDialog.html>`_
+* GtkAboutDialog: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.AboutDialog.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html>`_
+* `AwdPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwPreferencesWindow.html>`_
+* `HdyPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyPreferencesWindow.html>`_

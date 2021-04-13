@@ -16,4 +16,4 @@ Guidelines
 API reference
 -------------
 
-* `GTK4: GtkPopover <https://developer.gnome.org/gtk4/stable/GtkPopover.html>`_
+* GtkPopover: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Popover.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkPopover.html>`_

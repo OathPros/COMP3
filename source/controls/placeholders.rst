@@ -32,3 +32,8 @@ Guidelines
 * For the image, use a symbolic icon that either represents your application, or the type of content that would ordinarily appear in the grid or list.
 * An empty placeholder should always include a label which communicates the empty state. It is often appropriate to include a smaller subtext which provides additional guidance (such as how to add items). However, this should only be included if there is additional information that it is useful to provide.
 * If there are controls that allow items to be added, it can be appropriate to highlight them using a suggested style (see :ref:`button-styles`) while the list/grid is empty.
+
+API Reference
+-------------
+
+* `HdyStatusPage <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyStatusPage.html>`_

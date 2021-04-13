@@ -29,4 +29,4 @@ Multiple instance applications have multiple windows. These can be organized in 
 API reference
 -------------
 
-* `GtkApplicationWindow <https://developer.gnome.org/gtk3/stable/GtkApplicationWindow.html>`_
+* GtkApplicationWindow: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ApplicationWindow.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkApplicationWindow.html>`_

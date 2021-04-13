@@ -7,7 +7,7 @@ Examples include a palette of colors or tools, or selecting an image from a smal
 
 Flow boxes are suitable for relatively small static grids. For large, dynamic grids, see :doc:`model-based containers <model-based>`.
 
-A flow box example can be found in the GTK4 demo app.
+A flow box example can be found in the GTK 4 demo app.
 
 General guidelines
 ~~~~~~~~~~~~~~~~~~
@@ -21,4 +21,4 @@ General guidelines
 API reference
 -------------
 
-* `GTK4: GtkFlowBox <https://developer.gnome.org/gtk4/stable/GtkFlowBox.html>`_
+* GtkFlowBox: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.FlowBox.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkFlowBox.html>`_

@@ -3,6 +3,8 @@ Sidebars
 
 A sidebar list allows switching between different views. In GNOME, the sidebar divides the window in two, with content being shown on the opposite pane to the sidebar.
 
+A sidebar example can be seen in the *Flap* demo in the LibAdwaita demo app.
+
 When to use
 -----------
 
@@ -24,6 +26,6 @@ Guidelines
 API reference
 -------------
 
-* `GtkListBox <https://developer.gnome.org/gtk3/stable/GtkListBox.html>`_
-* `GtkScrolledWindow <https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html>`_
-* `GtkStackSidebar <shttps://developer.gnome.org/gtk3/stable/GtkStackSidebar.html>`_
+* `AdwFlap <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwFlap.html>`_
+* `HdyFlap <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyFlap.html>`_
+* GtkStackSidebar: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.StackSidebar.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html>`_

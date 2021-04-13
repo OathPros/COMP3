@@ -54,4 +54,4 @@ General guidelines
 API reference
 -------------
 
-* `GtkProgressBar <https://developer.gnome.org/gtk3/stable/GtkProgressBar.html>`_
+* GtkProgressBar: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ProgressBar.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkProgressBar.html>`_

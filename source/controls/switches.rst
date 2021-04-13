@@ -10,4 +10,4 @@ Switch labels should generally use nouns in :ref:`header capitalization <header-
 API reference
 -------------
 
-* `GtkSwitch <https://developer.gnome.org/gtk3/stable/GtkSwitch.html>`_
+* GtkSwitch: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Switch.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkSwitch.html>`_

@@ -14,7 +14,7 @@ List views
 
 List view rows can contain text, images or controls. Rows can also be filtered and searched. Support is currently limited for creating the kind of standard list styles described :doc:`elsewhere in the HIG <lists>`.
 
-A list view example can be found under *Lists → Settings*, in the GTK4 demo application.
+A list view example can be found under *Lists → Settings*, in the GTK 4 demo application.
 
 .. _column-views:
 
@@ -52,11 +52,11 @@ Grid views
 
 A model-based grid view can follow the same guidance as :doc:`flow boxes <flow-boxes>`. The main difference is that it can be combined with a :ref:`model-based list view <list-views>`, for providing a different view of the same content collection.
 
-A grid view example can be found under *Lists → Colors*, in the GTK4 demo application.
+A grid view example can be found under *Lists → Colors*, in the GTK 4 demo application.
 
 API reference
 -------------
 
-* `GTK4: GtkListView <https://developer.gnome.org/gtk4/stable/GtkListView.html>`_
-* `GTK4: GtkColumnView <https://developer.gnome.org/gtk4/stable/GtkColumnView.html>`_
-* `GTK4: GtkGridView <https://developer.gnome.org/gtk4/stable/GtkGridView.html>`_
+* `GtkListView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListView.html>`_ 
+* `GtkColumnView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ColumnView.html>`_
+* `GtkGridView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.GridView.html>`_

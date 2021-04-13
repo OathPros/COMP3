@@ -29,4 +29,4 @@ Guidelines
 API Reference
 -------------
 
-* `GtkMessageDialog <https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html>`_
+* GtkMessageDialog: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.MessageDialog.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html>`_

@@ -3,6 +3,8 @@ Tabs
 
 Tabs allow a window to contain a mutable set of content items, such as pages, documents or images. They are primarily used as part of editor or browser applications.
 
+An example of tabs can be seen in the *Tab View* demo in the LibHandy demo app.
+
 Guidelines
 ----------
 
@@ -32,4 +34,5 @@ When using dynamic tabs, ensure that the standard keyboard shortcuts are support
 API reference
 -------------
 
-* `GtkNoteBook <https://developer.gnome.org/gtk3/stable/GtkNotebook.html">`_
+* `HdyTabBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyTabBar.html>`_
+* `HdyTabView <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyTabView.html>`_

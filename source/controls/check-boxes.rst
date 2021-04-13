@@ -19,4 +19,4 @@ Guidelines
 API reference
 -------------
 
-* `GtkCheckButton <https://developer.gnome.org/gtk3/stable/GtkCheckButton.html>`_
+* GtkCheckButton: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.CheckButton.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkCheckButton.html>`_

@@ -3,7 +3,7 @@
 GNOME User Interface Guidelines
 ===============================
 
-Whether you are a developer or a designer, these guidelines contain everything you need to design effective applications using GTK. They cover design principles for GNOME, common guidelines such as how to write text and use images and icons, as well as a library of design patterns which you can use in your application.
+Whether you are a developer or a designer, these guidelines contain essential information for designing fantastic applications using the GNOME platform.
 
 Content Overview
 ----------------
@@ -19,6 +19,13 @@ The rest of the HIG covers each of the various design patterns and UI elements t
 * :doc:`Feedback <feedback>`: widgets for displaying information
 * :doc:`Controls <controls>`: the most common interactive UI elements
 * :doc:`Reference <reference>`: keyboard shortcuts and touch gestures
+
+Platform Scope
+--------------
+
+The HIG provides documentation for applications created using GTK4 and LibAdwaita, along with accompanying GNOME libraries. If you are using the GNOME Flatpak SDK, it will provide everything you need to use the design patterns found in this guide.
+
+Where possible, the design guidance in the HIG is also relevant to those using GTK3 and LibHandy. However, not every design pattern is supported by these libraries.
 
 .. toctree::
    :maxdepth: 2

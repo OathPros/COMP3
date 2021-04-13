@@ -5,7 +5,7 @@ Lists are a common container, and are often used to organize sets of controls as
 
 The standard list in GNOME is appropriate for relatively small static lists. For larger lists, see :doc:`model-based containers <model-based>`.
 
-A lists example can be found in the Adwaita demo app.
+A lists example can be found in the LibAdwaita demo app.
 
 Guidelines
 ----------
@@ -25,6 +25,7 @@ Advice for lists that contain controls:
 API reference
 -------------
 
-* `GTK4: GtkListBox <https://developer.gnome.org/gtk4/stable/GtkListBox.html>`_
-* `LibAdwaita: AdwActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwActionRow.html>`_
+* GtkListBox: `GTK 4 <hhttps://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListBox.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkListBox.html>`_
+* `AdwActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwActionRow.html>`_
+* `HdyActionRow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyActionRow.html>`_
 * Use the ``.content`` style class to ensure proper spacing.

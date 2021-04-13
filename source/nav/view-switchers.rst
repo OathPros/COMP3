@@ -3,6 +3,8 @@ View Switchers
 
 A view switcher is a control that allows switching between a small number of predefined views. For example, a music application could show different views for artists, albums and playlists.
 
+An example view switcher can be seen in the *View Switcher* demo in the LibAdwaita demo app.
+
 Guidelines
 ----------
 
@@ -15,4 +17,5 @@ Guidelines
 API reference
 -------------
 
+* `AdwViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwViewSwitcherBar.html>`_
 * `HdyViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyViewSwitcherBar.html>`_

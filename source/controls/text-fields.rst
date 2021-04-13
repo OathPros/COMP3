@@ -29,4 +29,4 @@ TODO: do we actually support hint texts? When a user would benefit from addition
 API reference
 -------------
 
-* `GtkEntry <https://developer.gnome.org/gtk3/stable/GtkEntry.html>`_
+* GtkEntry: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Entry.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkEntry.html>`_

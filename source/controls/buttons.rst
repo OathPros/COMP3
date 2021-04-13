@@ -41,5 +41,5 @@ Each view should only include a single suggested or destructive button.
 API reference
 -------------
 
-- `GtkButton <https://developer.gnome.org/gtk3/stable/GtkButton.html>`_
-- `GtkToggleButton <https://developer.gnome.org/gtk3/stable/GtkToggleButton.html>`_
+* GtkButton: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Button.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkButton.html>`_
+* GtkToggleButton: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ToggleButton.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkToggleButton.html>`_
