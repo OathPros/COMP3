@@ -23,9 +23,11 @@ The rest of the HIG covers each of the various design patterns and UI elements t
 Platform Scope
 --------------
 
-The HIG provides documentation for applications created using GTK4 and LibAdwaita, along with accompanying GNOME libraries. If you are using the GNOME Flatpak SDK, it will provide everything you need to use the design patterns found in this guide.
+The HIG provides documentation for applications created using GTK 4 and LibAdwaita, along with accompanying GNOME libraries. If you are using the GNOME Flatpak SDK, it will provide everything you need to use the design patterns found in this guide.
 
-Where possible, the design guidance in the HIG is also relevant to those using GTK3 and LibHandy. However, not every design pattern is supported by these libraries.
+Where possible, the design guidance in the HIG is also relevant to those using GTK 3 and LibHandy. However, not every design pattern is supported by these libraries.
+
+The HIG deliberately does not cover every widget or design pattern that is possible with GTK. Rather, it contains a selection which are consistent with GNOME design principles and practice, which are recommended. By implication, widgets that are not covered in this guide are best avoided.
 
 .. toctree::
    :maxdepth: 2
