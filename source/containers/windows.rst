@@ -9,23 +9,25 @@ Primary Windows
 Primary windows host the main functionality of your application, and are what is displayed when your application is launched.
 
 * Primary windows should always be independent — closing one primary window should not result in other primary windows being closed.
-* Most application windows should have a :doc:`header bar <header-bars>`.
-* Apps can be single instance, meaning that they only ever have one primary window open, or multiple instance, meaning that they can have multiple primary windows open at any one time. Multiple instance windows are common for view or editor apps.
+* Apps can be single primary window only, or they can have multiple primary windows open at any one time. Multiple primary windows are common for viewer or editor apps.
 
 Secondary Windows
 -----------------
 
-Secondary windows are used to contain supplemental controls or information, which are infrequently used. Standard secondary windows include **About Windows** and **Preferences Windows**.
+Secondary windows are used to contain supplemental controls or information, which are infrequently used.Standard secondary windows include **About Windows** and **Preferences Windows**.
 
-A secondary window should always be dependent on a primary window, so that closing the primary also closes the secondary.
+* Secondary windows should always be dependent on a primary window, so that closing the primary also closes the secondary.
+* Secondary windows can contain information and preferences that are relevant to the entire application, or they can contain information and options for a single content item, such as a document **Properties Window**.
+* Typically, secondary windows are modal to a parent window. This ensures that windows are grouped together.
+* In more unusual cases, secondary windows can be non-modal to their parent window. This is typically when they provide equivalent functionality to the primary window, such as an email app that allows individual email can be popped out into its own window.
 
-Typically, secondary windows are modal to a parent window. This ensures that windows are grouped together.
-
-However, secondary windows can be non-modal when they provide equivalent functionality to the primary window. In an email app, an individual email can be popped out into a secondary window, for example. In this case, the secondary window does not need to be modal.
-
-General guidelines
+General Guidelines
 ------------------
 
+Guidelines for all types of window:
+
+* Windows should have a :doc:`header bar <header-bars>`.
+* Windows should follow the standard *Ctrl+W* keyboard shortcut to close. Additionally, modal windows should close on *Esc*.
 * TODO: default window sizing
 * TODO: when should windows be resizable/non-resizable?
 
