@@ -19,7 +19,7 @@ Guidelines
    * If the window incorporates navigation, different controls can be shown depending on the location displayed in the window. It is common to show a back button on the left side of the header bar when navigating.
 * Always ensure that there is some blank space in the header bar to allow it to be dragged. This is necessary to enable windows to be moved or resized.
 
-API reference
+API Reference
 -------------
 
 * GtkHeaderBar: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.HeaderBar.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkHeaderBar.html>`_

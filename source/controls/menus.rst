@@ -3,7 +3,7 @@ Menus
 
 Menus are a common design pattern. In GNOME they typically appear as primary, secondary and context menus.
 
-Primary menus
+Primary Menus
 -------------
 
 Most applications have primary menus, and they are the location for standard features which every application is expected to have.
@@ -13,7 +13,7 @@ Most applications have primary menus, and they are the location for standard fea
    * If the window incorporates :doc:`browsing </nav/browsing>`, the primary menu should only be visible while on the top level view. (If other views require a menu, a secondary menu can be used.)
    * If the window has a :doc:`sidebar </nav/sidebars>`, the primary menu should be placed above the sidebar list.
 
-Standard primary menu items
+Standard Primary Menu Items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following are standard primary menu items, and should be placed in a group at the end of the menu:
@@ -33,7 +33,7 @@ The following are standard primary menu items, and should be placed in a group a
 
 Primary menus shouldn’t include menu items for *Close* or *Quit*: windows can already be closed using the close button in the header bar, and it can be ambiguous as to what a close menu item refers to. Users don't readily differentiate between quit and close, and it can therefore be misleading.
 
-Secondary menus
+Secondary Menus
 ---------------
 
 Secondary menus are located in the header bar, and are used to contain actions and settings for a particular view or content item (such as a document, contact, conversation or photo). This differentiates them from primary menus, whose menu items relate to the entire application.
@@ -44,20 +44,20 @@ Secondary menus:
 * Are optional and only need to be used if there are enough actions or options to require a menu.
 * Generally shouldn't reproduce menu items that are included in primary menus, like *Preferences* and *About*.
 
-General guidelines
+General Guidelines
 ------------------
 
 The following guidelines apply to all menus.
 
-Menu items
+Menu Items
 ~~~~~~~~~~
 
 * Label menu items with verbs for commands and adjectives for settings, using :ref:`header capitalization <header-capitalization>`.
 * Two linked actions can be combined into a single menu item, by changing the label when the item is selected. For example, a *Play* item may change to *Pause*. However, only use this type of item when actions are logical opposites which are obvious to users. Likewise, do not use this technique for settings — use check boxes or radio buttons instead.
 * Provide an :ref:`access key <access-keys>` for every menu item. You may use the same access key on different menus in your application, but avoid duplicating access keys on the same menu.
 
-Menu size and structure
-~~~~~~~~~~~~~~~~~~~~~~~
+Menu Size & Structure
+~~~~~~~~~~~~~~~~~~~~~
 
 * Menus should contain between three and 12 top-level items, and submenus should contain between three and six items.
 * Don't nest submenus, since nesting can be difficult to use ergonomically, as well as being hard to navigate.
@@ -66,7 +66,7 @@ Menu size and structure
    * Place single-item groups at the top or bottom of the menu, or group them together with other single items.
    * Do not mix different types of menu item within each group — actions, check box and radio button items should be kept separate.
 
-API reference
+API Reference
 -------------
 
 * GtkPopoverMenu:  `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.PopoverMenu.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html>`_

@@ -5,7 +5,7 @@ Apps are primarily identified by their name and their icon. The following provid
 
 An application’s name is vital. It helps people decide whether to try your app and is a major part of your application’s public face.
 
-General guidelines
+General Guidelines
 ------------------
 
 A good name should:

@@ -7,7 +7,7 @@ Every action that can be acheived with a pointing device should therefore also b
 
 The only exceptions to this are actions where fine motor control is an essential part of the task. For example, controlling movement in some types of action games, or freehand painting in an image-editing application.
 
-Keyboard navigation
+Keyboard Navigation
 -------------------
 
 Make sure that it is possible to move around and interact with every part of your user interface using the keyboard, by following these guidelines.
@@ -18,9 +18,7 @@ Make sure that it is possible to move around and interact with every part of you
 
 Note: if activating a control enables other controls, do not automatically give focus to the first dependent control when it is activated, but instead leave focus in place.
 
-.. _access-keys:
-
-Keyboard equivalents
+Keyboard Equivalents
 --------------------
 
 If your application allows items to be selected, the following keyboard actions should be in place.
@@ -51,7 +49,9 @@ If your application allows items to be selected, the following keyboard actions 
     - Primary click on the container background
     - Shift+Ctrl+A
 
-Access keys
+.. _access-keys:
+
+Access Keys
 -----------
 
 Access keys allow someone to operate labelled controls by using Alt. They are indicated by an underlined letter within each control label (this is displayed when Alt is held down).
@@ -64,7 +64,7 @@ Access keys allow someone to operate labelled controls by using Alt. They are in
 
 .. _shortcut-keys:
 
-Shortcut keys
+Shortcut Keys
 -------------
 
 Use the :doc:`standard GNOME shortcut keys</reference/keyboard>` if your application supports those functions. This ensures consistency between GNOME applications and aids discoverability. Do not assign :doc:`system shortcut keys </reference/keyboard>` for use in your application.

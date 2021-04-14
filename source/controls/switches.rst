@@ -10,7 +10,7 @@ Guidelines
 
 * Label switches using nouns in :ref:`header capitalization <header-capitalization>`. For example, *Automatic Location* or *Notifications*. Give the label an access key to allow users to focus the switch using a keyboard.
 
-API reference
+API Reference
 -------------
 
 * GtkSwitch: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Switch.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkSwitch.html>`_

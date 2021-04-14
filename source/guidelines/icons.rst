@@ -5,12 +5,12 @@ This page provides general guidance on which icons to use in an application, and
 
 .. _icon-styles:
 
-Icon styles
+Icon Styles
 -----------
 
 Two styles of icon are used in GNOME: full-color and symbolic icons.
 
-Symbolic icons
+Symbolic Icons
 ~~~~~~~~~~~~~~
 
 .. image:: ../img/icons/hig-hicolor-v-symbolic.svg
@@ -19,7 +19,7 @@ Symbolic icons are simple and monochrome, and are designed to work well at small
 
 Symbolic versions of icons have the ``-symbolic`` name ending, such as ``open-menu-symbolic``.
 
-Full-color icons
+Full-Color Icons
 ~~~~~~~~~~~~~~~~
  
 Full-color icons are colorful and are optimized for larger sizes.
@@ -28,7 +28,7 @@ Application icons are the most prominent type of full-color icons. (Applications
 
 Full-color icons can also be used in cases where icons are displayed at large sizes and are intended to be the focus of attention. File and folder icons in a file manager are a good example of this.
 
-Icon sizing
+Icon Sizing
 -----------
 
 To ensure sharp rendering, icons should only be used at the following sizes:
@@ -47,14 +47,14 @@ To ensure sharp rendering, icons should only be used at the following sizes:
     - 128×128px
     - 32×32px, 64×64px, 128×128px, 256×256px, 512×512px
 
-Using stock icons and creating your own
----------------------------------------
+Using Stock Icons & Creating Your Own
+-------------------------------------
 
 Generally speaking, it is better to reuse existing GNOME applications, as opposed to creating your own. GNOME provides a set of standard icons, which should be consistently used by applications.
 
 Application icons are the exception to this rule. Applications should have their own unique icon, and should never reuse an existing one. The :doc:`icon design guidelines <icon-design>` provide more details on how to create your own icons, including application icons.
 
-General guidelines
+General Guidelines
 ------------------
 
 Only use icons which will be recognized by your users. This includes:

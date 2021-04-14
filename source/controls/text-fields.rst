@@ -15,8 +15,8 @@ Guidelines
    * Alternatively, if the field accepts only a fixed number of characters, such as a hexadecimal color code, validate and apply the change as soon as that number of characters have been entered.
    * If the text field only accepts certain characters, such as digits, play the system warning beep when someone types an invalid character.
   
-Embedding icons, buttons and text
----------------------------------
+Embedding Icons, Buttons & Text
+-------------------------------
 
 Additional elements can be embedded in text fields. This can include:
 
@@ -28,7 +28,7 @@ These conventions should generally be used with restraint and according to estab
 
 Embedded icons should use the :ref:`symbolic style <icon-styles>`.
 
-Password fields
+Password Fields
 ---------------
 
 Password fields are a special type of text field which hide any entered text. They include a  control for revealing hidden content, and indicate if *Caps Lock* is on.
@@ -37,7 +37,7 @@ Password fields can be used for entering any potentially sensitive text.
 
 A password field example can be found in the *Entry → Password Entry* demo in the GTK 4 demo app.
 
-Automatic suggestions
+Automatic Suggestions
 ---------------------
 
 If possible, it is helpful to suggest potential text to be entered as the user types into a text field. For example, an address field can show previous locations as the user types. This reduces the amount of work for users and reduces errors.
@@ -51,7 +51,7 @@ Tags or tokens are a typical convention for some types of text field. For exampl
 
 Currently, entry tags require a custom implementation. However, the GTK 4 demo application does include an example under *Entry → Tagged Entry*.
 
-API reference
+API Reference
 -------------
 
 * GtkEntry: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Entry.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkEntry.html>`_

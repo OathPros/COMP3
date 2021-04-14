@@ -17,7 +17,7 @@ Guidelines
 * Controls should be displayed when the pointer is moved over the content, or when it is tapped with a touch device.
 * Overlaid controls can be attached to the edge of the content/window, or can be free-floating.
 
-API reference
+API Reference
 -------------
 
 * GtkOverlay: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Overlay.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkOverlay.html>`_

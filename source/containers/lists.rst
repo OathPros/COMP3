@@ -22,7 +22,7 @@ Advice for lists that contain controls:
 * Follow the example lists for row layout. Typically, the row label should be placed at the start of the row, and controls at the end.
 * While rows can contain multiple controls, they can become crowded quickly. A single control is more comfortable than two, and try to avoid any more than two.
 
-API reference
+API Reference
 -------------
 
 * GtkListBox: `GTK 4 <hhttps://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListBox.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkListBox.html>`_

@@ -31,7 +31,7 @@ When using dynamic tabs, ensure that the standard keyboard shortcuts are support
   * - Ctrl+PageDown
     - Switch to the previous tab
 
-API reference
+API Reference
 -------------
 
 * `HdyTabBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyTabBar.html>`_

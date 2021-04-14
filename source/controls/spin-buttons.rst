@@ -5,7 +5,7 @@ A spin button is a text field that accepts a range of values, with buttons that 
 
 Only use a spin button when the exact numeric value is meaningful or useful. If this isn't the case, a :doc:`slider </controls/sliders>` might be a better choice.
 
-General guidelines
+General Guidelines
 ------------------
 
 * Label the spin button using :ref:`sentence capitalization<sentence-capitalization>`. Provide an access key in the label that allows the user to give focus directly to the spin box.
@@ -15,7 +15,7 @@ General guidelines
    * immediate feedback for changes in the spin box’s value is possible
    * it is useful for the user to control the rate of change of the value in real time
 
-API reference
+API Reference
 -------------
 
 * GtkSpinButton: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.SpinButton.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkSpinButton.html>`_

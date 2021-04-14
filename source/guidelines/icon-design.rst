@@ -3,7 +3,7 @@ Icon Creation
 
 This page provides guidance on how to create icons, including both full-color icons and symbolic icons. For a more general overview of icon styles and usage, including the stock icons that are available, see :doc:`icons usage</guidelines/icons>`.
 
-Full-color icons
+Full-Color Icons
 ----------------
 
 The full-color icon style is most commonly used for application icons. The nominal size of full-color icons is ``128×128px``. However, because application icons are sometimes presented at lower resolutions, they should only feature detail that is presentable at ``64×64px`` resolution: anything more detailed would get lost by filtering/scaling down.
@@ -12,7 +12,7 @@ The full-color icon style is most commonly used for application icons. The nomin
 
 The `full-color icon template <https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/master/template.svg>`_ includes a 2px grid which should help you avoid adding detail that's finer than the desired threshold.
 
-Perspective & shape
+Perspective & Shape
 -------------------
 
 Full-color icons should be rendered with a simple orthogonal view and no real or isometric perspective. To provide depth a raised effect can be applied to mimic the Z-axis. Please keep the effect subtle though! Raising the object more than `2 detail units` (`4 nominal pixels`) is not recommended.

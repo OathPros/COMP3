@@ -13,7 +13,7 @@ Guidelines
 * Close or Done buttons are not usually required in a popover.
 * Popovers should always be small in size (as a rule of thumb, they should not cover more than a third of their parent window) and low in complexity. They should always appear as subordinates to their parent windows.
 
-API reference
+API Reference
 -------------
 
 * GtkPopover: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Popover.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkPopover.html>`_

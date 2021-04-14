@@ -18,7 +18,7 @@ Guidelines
 * Use :ref:`sentence capitalization<sentence-capitalization>` for radio button labels. For example, *Single click to open*.
 * If the radio button represents a property of multiple items, and that property is present for some items and non-present for others, show the radio button in its mixed state.
 
-API reference
+API Reference
 -------------
 
 * GTK 4: `GtkCheckButton <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.CheckButton.html>`_

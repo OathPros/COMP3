@@ -11,7 +11,7 @@ Dialogs are windows that appear over, and are bound to, a parent window. They ar
 
 GNOME also provides a number of predefined dialogs for common situations, including preferences and about dialogs.
 
-General guidelines
+General Guidelines
 ------------------
 
 * Dialog windows should never pop up unexpectedly, and should only ever be displayed in immediate response to a deliberate user action.
@@ -19,7 +19,7 @@ General guidelines
 * Avoid stacking dialog windows on top of one another. Ideally, only one dialog window should be displayed at a single time.
 * When opening a dialog, provide initial keyboard focus to the component that you expect users to operate first. This focus is especially important for users who must use a keyboard to navigate.
 
-Avoid dialogs where possible
+Avoid Dialogs Where Possible
 ----------------------------
 
 Dialogs obscure other content and require a context switch on the part of a user. As a result, in many situations, more discrete or inline disclosure is often preferable. Examples of how to do this include:
@@ -47,7 +47,7 @@ Presentation dialogs present information or controls. Like action dialogs, they 
 
 :doc:`View switchers </nav/view-switchers>` can be used to break up controls and information.
   
-API reference
+API Reference
 -------------
 
 * GtkDialog: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Dialog.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkDialog.html>`_

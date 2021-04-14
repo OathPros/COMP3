@@ -3,18 +3,18 @@ Typography
 
 Text is an important part of any user interface. Text size, positioning and weight all contribute to the ability for text to convey information effectively, and also play an important role in creating a beautiful appearance.
 
-Default fonts
+Default Fonts
 -------------
 
 Wherever possible, use the default system fonts as provided by the distribution or operating system on which your application is running. In GNOME, the default font is Cantarell, which was originally designed and developed by David Crossland.
 
-Standard font styles
+Standard Font Styles
 --------------------
 
 TODO: add details about this.
 
-Variants, sizes and weights
----------------------------
+Variants, Sizes & Weights
+-------------------------
 
 Different text weights and colors can and should be used to distinguish different kinds of information. At the same time, too many variants, sizes, and weights can make text harder to read and isn't an efficient or elegant way to convey information. Make an effort to minimize the range of font variants, sizes and weights.
 
@@ -23,7 +23,7 @@ Different text weights and colors can and should be used to distinguish differen
 * Never capitalize every letter in a word or sentence. Shouting at your users isn't nice.
 * Do not use graphical backdrops or “watermarks” behind text. These interfere with the contrast between the text and its background.
 
-Take advantage of Unicode
+Take Advantage of Unicode
 -------------------------
 
 Unicode provides a wide variety of characters which, when used correctly, can dramatically improve the impression given by your application. The following Unicode characters are recommended:

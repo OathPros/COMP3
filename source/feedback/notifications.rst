@@ -7,7 +7,7 @@ Use notifications to inform users about events in your app that they will be int
 * when a new content item is available, such as a TV series or 
 * when a message has been received
 
-General guidelines
+General Guidelines
 ------------------
 
 * Be careful not to needlessly distract users with notifications, and question whether users really need to be informed about the events you want to communicate.
@@ -17,7 +17,7 @@ General guidelines
 * Ensure that your app removes notifications that are no longer valid. For example, a notification for a weather warning that has been revoked, or for emails that have been read.
 * Don't rely solely on notifications for communicating something, as they might not always be seen. The application window should independently communicate all the information contained in notifications.
 
-Notification elements
+Notification Elements
 ---------------------
 
 Notifications in GNOME have a number of standard elements:
@@ -39,7 +39,7 @@ Notifications in GNOME have a number of standard elements:
   * - Actions
     -  Each notification can include up to three buttons.
 
-Notification actions
+Notification Actions
 --------------------
 
 It is possible to add buttons to notifications, to allow users to quickly respond to them. Guidelines for these:
@@ -49,6 +49,6 @@ It is possible to add buttons to notifications, to allow users to quickly respon
 * Actions should not replace user interface controls elsewhere — it should be possible to take the same actions from your application’s windows.
 * Notification actions should not duplicate the default action. For example, a new email notification does not need to include an Open button, since the default action should already perform this action.
 
-API reference
+API Reference
 -------------
 * `GNotification <https://developer.gnome.org/gio/stable/GNotification.html>`_

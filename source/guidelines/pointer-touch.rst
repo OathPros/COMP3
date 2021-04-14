@@ -5,11 +5,11 @@ A pointing device is any input device that allows the manipulation of a pointer 
 
 Touch input primarily refers to touchscreens.
 
-Pointer input
+Pointer Input
 -------------
 
-Primary and secondary buttons
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Primary & Secondary Buttons
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mice and touchpads often have two main buttons. One of these acts as the primary button, and the other acts as the secondary button. Typically, the left button is used as the primary button and the right button is used as the secondary button. However, this order is user-configurable. These guidelines therefore refer to primary and secondary action, rather than left and right.
 
@@ -19,7 +19,7 @@ Do not depend on input from secondary or other additional buttons. As well as be
 
 Press and hold should be used to simulate the secondary button on single button pointing devices. Therefore, do not use press and hold for other purposes.
 
-General guidelines
+General Guidelines
 ~~~~~~~~~~~~~~~~~~
 
 * Double click should not be used, since it is undiscoverable, and translates poorly to touch input.
@@ -28,7 +28,7 @@ General guidelines
 * Allow all mouse operations to be cancelled before their completion. Pressing *Esc* should cancel any mouse operation in progress, such as dragging and dropping a file in a file manager, or drawing a shape in a drawing application.
 * Do not refer to particular mouse buttons in your interface unless absolutely necessary. Not everybody will be using a conventional mouse with left, middle and right buttons, so any text or diagrams that refer to those may be confusing.
 
-Touch input
+Touch Input
 -----------
 
 The following touchscreen conventions are recommended, where relevant.
@@ -59,7 +59,7 @@ The following touchscreen conventions are recommended, where relevant.
     - Very quick drag, losing contact with the surface without slowing movement.
     - Removes an item.
 
-System touch conventions
+System Touch Conventions
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 In GNOME, a number of touch gestures are reserved for use by the system. These should be avoided by applications.

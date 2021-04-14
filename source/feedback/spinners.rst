@@ -12,7 +12,7 @@ If an operation takes less that three seconds, it is better to avoid using a pro
 
 Spinners do not display the proportion of the task that has been completed, or the time remaining. They are therefore better-suited to shorter operations. If the task is likely to take more than 30 seconds, a :doc:`progress bar </feedback/progress-bars>` might be a better choice.
 
-General guidelines
+General Guidelines
 ------------------
 
 * If an operation can vary in how long it takes, use a timeout to only show a progress spinner after three seconds have elapsed.
@@ -21,7 +21,7 @@ General guidelines
 * A label can be shown next to a spinner, if it is helpful to clarify the task which a spinner relates to.
 * If a spinner is displayed for a relatively long time, a label can indicate both the identity of the task and progress through it. This can take the form of a percentage, an indication of the time remaining, or progress through sub-components of the task (for example, items downloaded or pages exported).
 
-API reference
+API Reference
 -------------
 
 * GtkSpinner: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Spinner.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkSpinner.html>`_

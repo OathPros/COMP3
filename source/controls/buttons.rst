@@ -3,7 +3,7 @@ Buttons
 
 Buttons are one of the most common and basic user interface elements.
 
-General guidelines
+General Guidelines
 ------------------
 
 * Typically, a button contains either an icon or a label. Buttons generally shouldn't contain both.
@@ -15,7 +15,7 @@ General guidelines
 
 .. _toggle-buttons:
 
-Toggle buttons
+Toggle Buttons
 --------------
 
 Toggle buttons switch between two states, set and unset. This state is indicated by the button being either “pushed in” or “popped out”, respectively.
@@ -30,7 +30,7 @@ A linked toggle button example can be found in the *Flap* demo in the LibAdwaita
 
 .. _button-styles:
 
-Button styles
+Button Styles
 -------------
 
 Buttons can be given a distinctive visual style, which can be appropriate in certain situations.ructive styles are available to highlight buttons in some situations.
@@ -40,7 +40,7 @@ Buttons can be given a distinctive visual style, which can be appropriate in cer
 
 Each view should only ever include a single button using either the suggested or destructive styles.
 
-API reference
+API Reference
 -------------
 
 * GtkButton: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Button.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkButton.html>`_

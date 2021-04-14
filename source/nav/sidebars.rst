@@ -5,7 +5,7 @@ A sidebar list allows switching between different views. In GNOME, the sidebar d
 
 A sidebar example can be seen in the *Flap* demo in the LibAdwaita demo app.
 
-When to use
+When to Use
 -----------
 
 Use a sidebar list when it is necessary to expose a larger number of views than can be accommodated in a standard :doc:`view switcher </nav/view-switchers>`. Sidebar lists also provide a possible alternative to browser-style navigation.
@@ -23,7 +23,7 @@ Guidelines
 * Header bar controls which affect the sidebar list should be placed within the list pane section of the header bar. Controls for search and selection should be found above the list.
 * Each list row can include multiple lines of text, as well as images. However, be careful to ensure that the most important information is not lost, and work to ensure a clean and attractive appearance.
 
-API reference
+API Reference
 -------------
 
 * `AdwFlap <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwFlap.html>`_

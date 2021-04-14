@@ -24,7 +24,7 @@ Two styles of capitalization are used in GNOME user interfaces: header capitaliz
 
 .. _header-capitalization:
 
-Header capitalization
+Header Capitalization
 ~~~~~~~~~~~~~~~~~~~~~
 
 Header capitalization should be used for any headings, including header bar headings and page, tab and menu titles. It should also be used for short control labels that do not normally form proper sentences, such as button labels, switch labels and menu items.
@@ -40,7 +40,7 @@ For example: “Create a Document”, “Find and Replace”, “Document Cannot
 
 .. _sentence-capitalization:
 
-Sentence capitalization
+Sentence Capitalization
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Sentence capitalization should be used for labels that form sentences or that run on to other text, including labels for check boxes, radio buttons, sliders, text entry boxes, field labels and combobox labels. It should also be used for explanatory or body text, such as in dialogs or notifications.

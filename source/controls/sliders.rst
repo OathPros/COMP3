@@ -23,7 +23,7 @@ Guidelines
 * In some cases, it is helpful to mark significant values along the length of the slider with text or tick marks. For example the left, right and center points on an audio balance control.
 * For cases where exact values are sometimes required, a :doc:`text field <text-fields>` or :doc:`spin button <spin-buttons>` that is linked to the slider’s value can be added.
 
-API reference
+API Reference
 -------------
 
 * GTK 4: `GtkScale <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Scale.html>`_

@@ -14,7 +14,7 @@ Search is a great way to make it easy for users to find what it is they are look
 
 However, while search can be highly effective, and some users will use it, others will not. Therefore, try to supplement other means for finding content items with search, rather than relying on it exclusively.
 
-The search bar
+The Search Bar
 --------------
 
 The standard pattern for search in GNOME utilizes a special search bar which slides down from beneath the header bar.
@@ -27,7 +27,7 @@ In primary windows, the search bar is typically hidden until it is activated by 
 
 If search is a primary method for finding content in your application, you can make the search bar permanently visible, or visible when the application is first started.
 
-Search results
+Search Results
 --------------
 
 * Search should be “live” wherever possible — the content view should update to display search results as they are entered.
@@ -41,7 +41,7 @@ Additional Guidance
 * Permit a broad range of matching search terms. This helps people who are unsure of the exact term they require but who do know characteristics associated with the item they want to find. A list of cities could return matches for country or region, for example.
 * Results should be ordered in a way that ensures that the most relevant items are displayed first.
 
-API reference
+API Reference
 -------------
 
 * GtkSearchBar: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.SearchBar.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkSearchBar.html>`_

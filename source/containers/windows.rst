@@ -3,7 +3,7 @@ Windows
 
 Windows are the main container for application user interfaces.
 
-General guidelines
+General Guidelines
 ------------------
 
 * A single primary window should always be displayed when your application is launched.
@@ -13,12 +13,12 @@ General guidelines
 * TODO: when should windows be resizable/non-resizable?
 * Most application windows should have a :doc:`header bar <header-bars>`.
 
-Single instance applications
+Single Instance Applications
 ----------------------------
 
 Single instance applications have a single primary window. This model is common for messaging applications, such as email, or media applications, like music players.
 
-Multiple instance applications
+Multiple Instance Applications
 ------------------------------
 
 Multiple instance applications have multiple windows. These can be organized in two ways:
@@ -26,7 +26,7 @@ Multiple instance applications have multiple windows. These can be organized in 
 #. **Sibling windows**: this is the more common pattern, and is typically used by viewer or editor apps. Here, each window is identical and independent. Closing a window just closes that window and no others.
 #. **Parent-child windows**: in this less common pattern, there is one primary window and multiple dependent secondary windows. Closing a secondary window does not affect any others. On the other hand, closing the primary parent window should close every window belonging to the app. An example might be an email app, in which a single email can be opened in a separate window.
 
-API reference
+API Reference
 -------------
 
 * GtkApplicationWindow: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ApplicationWindow.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkApplicationWindow.html>`_

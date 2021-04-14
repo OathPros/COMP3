@@ -21,7 +21,7 @@ Guidelines
 * Use :ref:`sentence capitalization <sentence-capitalization>` for drop-down list items.
 * Assign an access key to every drop-down list item. Ensure each access key is unique within the enclosing window or dialog, not just within the menu.
 
-API reference
+API Reference
 -------------
 
 * `GtkDropDown <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.DropDown.html>`_ (GTK 4)

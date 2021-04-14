@@ -9,7 +9,7 @@ Flow boxes are suitable for relatively small static grids. For large, dynamic gr
 
 A flow box example can be found in the GTK 4 demo app.
 
-General guidelines
+General Guidelines
 ~~~~~~~~~~~~~~~~~~
 
 * Wherever possible, each grid item should have a unique thumbnail.
@@ -18,7 +18,7 @@ General guidelines
 * Grids and list layouts can be combined, to offer different views of the same content collection. An additional list view can be useful for displaying additional metadata associated, such as creation dates or authorship.
 * Test the grid layout at a variety of widths, in order to ensure that it looks good in the various states it might be used.
 
-API reference
+API Reference
 -------------
 
 * GtkFlowBox: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.FlowBox.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkFlowBox.html>`_

@@ -21,7 +21,7 @@ Guidelines
 * If an info bar is dismissable, use a close button using the ``window-close-symbolic`` icon.
 * Info bars can include buttons to provide additional actions relating to the state they describe. They should typically have no more than two of these.
 
-API reference
+API Reference
 -------------
 
 * GtkInfoBar: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.InfoBar.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkInfoBar.html>`_

@@ -9,7 +9,7 @@ While offering performance advantages, these containers have other design limita
 
 .. _list-views:
 
-List views
+List Views
 ----------
 
 List view rows can contain text, images or controls. Rows can also be filtered and searched. Support is currently limited for creating the kind of standard list styles described :doc:`elsewhere in the HIG <lists>`.
@@ -47,14 +47,14 @@ Clicking a column header sorted in natural order re-sorts it in reverse order, i
 
 .. _grid-views:
 
-Grid views
+Grid Views
 ----------
 
 A model-based grid view can follow the same guidance as :doc:`flow boxes <flow-boxes>`. The main difference is that it can be combined with a :ref:`model-based list view <list-views>`, for providing a different view of the same content collection.
 
 A grid view example can be found under *Lists → Colors*, in the GTK 4 demo application.
 
-API reference
+API Reference
 -------------
 
 * `GtkListView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListView.html>`_ 

@@ -14,7 +14,7 @@ Guidelines
 * If a control affects every tab, place it outside the tabs.
 * Buttons in the view switcher widget can indicate when there is activity in a view.
 
-API reference
+API Reference
 -------------
 
 * `AdwViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwViewSwitcherBar.html>`_
