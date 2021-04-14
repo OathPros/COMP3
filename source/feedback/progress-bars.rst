@@ -3,10 +3,7 @@ Progress Bars
 
 Progress bars indicate progress on a task. Unlike spinners, they can indicate the proportion of the task that has been completed, as well as the time remaining.
 
-When to use
------------
-
-Progress bars are most useful for indicating progress on tasks that take a relatively long time (as a rule of thumb, tasks that take over 30 seconds). For tasks that have shorter periods, spinners are often a better choice.
+Progress bars are most appropriate for indicating progress on tasks that take a relatively long time (as a rule of thumb, tasks that take over 30 seconds). For tasks that have shorter periods, spinners are often a better choice.
 
 Types
 -----
@@ -19,7 +16,7 @@ There are three types of progress bar:
 
 Accuracy is preferable for progress bars: where possible, use a time-remaining progress bar, followed by typical-time. Try to avoid using indeterminate progress bars.
 
-When using a typical-time progress bar, over or underestimation can be handled by filling in the remaining portion of the progress bar, or by adding explanatory progress text (for example “Almost done”), respectively.
+When using a typical-time progress bar, handle overestimation by showing explanatory progress text at the end of the oporation, such as “Almost done”. Handle underestimation by filling in the remaining portion of the progress bar.
 
 Progress Text
 -------------
@@ -27,7 +24,8 @@ Progress Text
 Progress text should describe how much of the task has been completed. When deciding on progress text:
 
 * Provide specific information rather than a unitless percentage. For example, “13 of 19 images rotated” or “12.1 of 30 MB downloaded” rather than “13% complete”.
-* For long-running tasks, it can be desirable to show an estimate of the time remaining and, if other relevant information isn't available, this can be shown on its own. If the time remaining is an estimate, use the word “about“. For example: “About 3 minutes left”.
+* For long-running tasks, it can be desirable to show an estimate of the time remaining. If other relevant information isn't available, this can be shown on its own.
+* If the time remaining is an estimate, use the word “about“. For example, “About 3 minutes left”.
 * Use :doc:`typographic conventions </guidelines/typography>` to differentiate the most useful information.
 
 Task stages

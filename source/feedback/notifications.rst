@@ -1,15 +1,21 @@
 Notifications
 =============
 
-Notifications inform users about events, as well as allowing them to quickly respond to them.
+Use notifications to inform users about events in your app that they will be interested in. Examples include:
+
+* when a download or other long-running operation has finished
+* when a new content item is available, such as a TV series or 
+* when a message has been received
 
 General guidelines
 ------------------
 
-* Do not needlessly distract users with notifications. Always be critical when using notifications, and question whether users really need to be informed about the events you want to communicate.
-* Applications that deal with lots of events, such as email or social media messages, run a particular risk of distracting users with too many notifications. These applications should place restrictions on how frequently they send notification messages. Instead of showing a notification for each new message, it is a good idea for each notification to provide a summary of new messages.
-* Don't rely solely on notifications for communicating something, as they might not always be seen. The  application window should independently communicate all the information contained in notifications.
-* Ensure that the application removes notifications that are no longer valid. For example, a notification for a weather warning that has been revoked, or for emails that have been read.
+* Be careful not to needlessly distract users with notifications, and question whether users really need to be informed about the events you want to communicate.
+* Applications that deal with lots of events, such as email or social media messages, run a particular risk of distracting users with too many notifications. In these situations:
+   * It is often desirable to place restrictions on how frequently notifications are shown. For example, instead of showing a notification for each new message, periodic notifications can show a summary of messages that have been received.
+   * Provide an option for users to disable and/or reduce their number.
+* Ensure that your app removes notifications that are no longer valid. For example, a notification for a weather warning that has been revoked, or for emails that have been read.
+* Don't rely solely on notifications for communicating something, as they might not always be seen. The application window should independently communicate all the information contained in notifications.
 
 Notification elements
 ---------------------
@@ -32,17 +38,15 @@ Notifications in GNOME have a number of standard elements:
     - The action that is triggered when the notification body is clicked. This should dismiss the notification and show the relevant part of the source app window.
   * - Actions
     -  Each notification can include up to three buttons.
-  
 
 Notification actions
 --------------------
 
 It is possible to add buttons to notifications, to allow users to quickly respond to them. Guidelines for these:
 
-* Notification actions should be related to the content of the notification, and should not provide generic actions for your application.
 * Only use notification actions when the functionality that they provide is often required.
+* Notification actions should be related to the content of the notification.
 * Actions should not replace user interface controls elsewhere — it should be possible to take the same actions from your application’s windows.
-* It is not necessary to always use notification actions, and many notifications will not require them.
 * Notification actions should not duplicate the default action. For example, a new email notification does not need to include an Open button, since the default action should already perform this action.
 
 API reference

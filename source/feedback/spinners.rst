@@ -19,7 +19,7 @@ General guidelines
 * Place progress spinners close to or within the user interface elements they relate to.
 * Generally, only one progress spinner should be displayed at once. Avoid showing numerous spinners simultaneously.
 * A label can be shown next to a spinner, if it is helpful to clarify the task which a spinner relates to.
-* If a spinner is displayed for a long time, a label can indicate both the identity of the task and progress through it. This can take the form of a percentage, an indication of the time remaining, or progress through sub-components of the task (for example, items downloaded or pages exported).
+* If a spinner is displayed for a relatively long time, a label can indicate both the identity of the task and progress through it. This can take the form of a percentage, an indication of the time remaining, or progress through sub-components of the task (for example, items downloaded or pages exported).
 
 API reference
 -------------

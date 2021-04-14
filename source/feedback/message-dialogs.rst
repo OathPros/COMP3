@@ -1,23 +1,21 @@
 Message Dialogs
 ===============
 
-Message dialogs are the simplest type of dialog. They present a message or question, along with 1-3 buttons with which to respond. They are always modal, meaning that they prevent access to their parent window. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message.
+Message dialogs present a message or question, along with 1-3 buttons with which to respond. They are modal, meaning that they prevent access to their parent window. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message.
 
 When to use
 -----------
 
-While message dialogs can be an effective way to disclose additional controls or information, they can also be a source of interruption for the user. For this reason, always question whether a message dialog is necessary, and work to avoid the situations in which they are required.
+Standard examples of message dialogs include confirmation and error dialogs:
 
-Examples
---------
+* Confirmation dialogs use a message dialog to check — or confirm — that the user wants to carry out an action. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.
+* Error dialogs present an error message to the user. They often include a single button that allows the user to acknowledge and close the dialog.
 
-Confirmation dialogs use a message dialog to check — or confirm — that the user wants to carry out an action. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.
+Both of these patterns have their uses. In particular, confirmation dialogs should be used for destructive operations, both to alert the user to the risk, to clarify which action will be taken, and to give them the opportunity to change their mind.
 
-Note: confirmation dialogs will often be accidentally or automatically acknowledged, and will not always prevent mistakes from happening. It is often better to provide undo functionality instead.
+Nevertheless, message dialogs are a source of interruption and should therefore always be questioned. Additionally, users will often habitually click through message dialogs without fully reading or considering them. 
 
-Error dialogs present an error message to the user. They often include a single button that allows the user to acknowledge and close the dialog.
-
-Note: error dialogs should generally be a last resort. You should design your application so that errors do not occur, and to automatically recover if something does go wrong.
+Undo is typically a superior alternative to confirmation dialogs, since it avoids interrupting the user, allows users to recover from errors, and gives them more time to change their mind. (In cases where it is not possible to offer an undo feature, a confirmation dialog is still recommended for destructive actions.)
 
 Guidelines
 ----------
