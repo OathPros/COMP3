@@ -1,0 +1,58 @@
+.. image:: ../img/placeholder-dialogs.jpg
+
+Dialogs
+=======
+
+Dialog windows present options, choices or information to users, which they must respond to in order to continue.
+
+.. _message-dialogs:
+
+Message Dialogs
+---------------
+
+Message dialogs present a message or question, along with 1-3 buttons with which to respond. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message.
+
+Standard examples of message dialogs include confirmation and error dialogs:
+
+* **Confirmation dialogs** use a message dialog to check — or confirm — that the user wants to carry out an action. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.
+* **Error dialogs** present an error message to the user. They often include a single button that allows the user to acknowledge and close the dialog.
+
+Both of these patterns have their uses. Nevertheless, message dialogs are a source of interruption and should therefore always be questioned. Additionally, users will often habitually click through message dialogs without fully reading or considering them. Therefore, alternatives should always be considered.
+
+Offering undo is usually better than using a confirmation dialog, since it avoids interrupting the user, allows users to recover from errors, and gives them more time to change their mind.
+
+In cases where it is not possible to offer an undo feature, a confirmation dialog is still recommended for destructive actions, to alert the user to the risk, to clarify which action will be taken, and to give them the opportunity to change their mind.
+
+Message Dialog Guidelines
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Always ensure that the cancel button appears first, before the affirmative button. In left-to-right locales, this is on the left. This button order ensures that users become aware of, and are reminded of, the ability to cancel prior to encountering the affirmative button.
+* Assign the return key to activate the affirmative button. However, this should not be done if its action is irreversible, destructive or otherwise inconvenient to the user. If there is no appropriate button to designate as the default button, do not set one.
+* Ensure that the escape key activates the cancel button, if there is one. Message dialogs with a single button can have both escape and return bound to the same button.
+
+Action Dialogs
+--------------
+
+Action dialogs present options and/or information about an action, before it is carried out. Print and Save dialogs are a classic examples of action dialogs.
+
+Action dialogs have a header bar, a heading which describes the action, and two primary buttons — one which carries out the action and one which cancels it.
+
+* Label the affirmative button with a specific imperative verb, for example: *Save* or *Print*. This is clearer than a generic label like *OK* or *Done*.
+* Always ensure that the cancel button appears first, before the affirmative button. In left-to-right locales, this is on the left.
+* Sometimes, the user may be required to choose options before an action can be carried out. In these cases, the affirmative dialog button should be insensitive until the required options have been selected.
+* Ensure that the escape key activates the cancel button.
+
+General Guidelines
+------------------
+
+* Dialog windows should never pop up unexpectedly, and should only ever be displayed in immediate response to a deliberate user action.
+* Dialogs should always have a parent window, to which they are modal.
+* Avoid stacking dialog windows on top of one another. Ideally, only one dialog window should be displayed at a single time.
+* When opening a dialog, provide initial keyboard focus to the component that you expect users to operate first. This focus is especially important for users who must use a keyboard to navigate.
+* Dialogs should be self-contained and should not include controls which directly affect content in a parent window.
+* Since dialogs obscure other content and require a context switch on the part of a user, inline controls or editing is often preferable. For example, email composition is typically better inline rather than in a dialog.
+
+API Reference
+-------------
+
+* GtkMessageDialog: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.MessageDialog.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html>`_

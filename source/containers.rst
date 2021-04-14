@@ -13,5 +13,4 @@ Widgets that contain UI elements, including controls and content. Containers are
    containers/lists
    containers/flow-boxes
    containers/model-based
-   containers/dialogs
    containers/popovers
