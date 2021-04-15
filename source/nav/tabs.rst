@@ -3,20 +3,27 @@ Tabs
 
 Tabs allow a window to contain a mutable set of content items, such as pages, documents or images. They are primarily used as part of editor or browser applications.
 
-An example of tabs can be seen in the *Tab View* demo in the LibHandy demo app.
+An example of tabs can be seen in the *Tab View* demo in the Handy demo app.
 
 Guidelines
 ----------
 
+* Tabs can be assigned an icon and a label. Only use both if it is absolutely required.
 * Where possible, ensure that tab labels are short and concise, and that the most useful part of the label is displayed first. This ensures that the label continues to be useful even when ellipsized.
-* If the content of a tab changes or requires attention, a visual hint can be displayed.
-* Provide a context menu on each tab. This menu should only include actions for manipulating the tab itself, such as *Move Left*, *Move Right*, *Move to New Window*, and *Close*.
-* The presence of the tab can vary according to the role of tabs in the application: the tab bar can always be shown, or it can be hidden until there is more than one tab.
+* The presence of the tab bar can vary according to the role of tabs in your application. If tabs are integral to the app, the tab bar can always be show. Alternatively, it can be hidden until there is more than one tab.
+* Provide a context menu on each tab:
+   * Always include *Close* as the last item.
+   * Always include *Move to New Window*, if this is supported.
+   * Additional tab-specific features can be included, if they are present, including *Duplicate*, *Pin*/*Unpin*, *Mute* and *Reload*.
+   * Avoid making reference to left and right directions in context menu items, since these will be incorrect in right-to-left locales.
+
+Tabs have a variety of features which can be used as appropriate. Many of these are more common in browsers, but can be used elsewhere if needed. They include indicating that a tab needs attention, pinning/unpinning and adding a clickable indicator icon (primarily used for showing audio output and allowing it to be muted).
+
 
 Standard Keyboard Shortcuts
 ---------------------------
 
-When using dynamic tabs, ensure that the standard keyboard shortcuts are supported.
+Where possible, ensure that the standard keyboard shortcuts for tabs are supported. In some cases, this might not always be possible due to conflicting shortcuts in the app itself.
 
 .. list-table::
   :widths: 30 70
@@ -30,6 +37,12 @@ When using dynamic tabs, ensure that the standard keyboard shortcuts are support
     - Switch to the next tab
   * - Ctrl+PageDown
     - Switch to the previous tab
+  * - Ctrl+Home/End
+    - Switch to first/last tab 
+  * - Ctrl+Tab
+    - Switch tabs
+  * - Alt+1–9
+    - Switch to one of the first nine tabs
 
 API Reference
 -------------
