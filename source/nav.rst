@@ -1,4 +1,4 @@
-.. image:: img/placeholder-navigation.jpg
+.. image:: img/hig-navigation.svg
 
 Navigation
 ==========
