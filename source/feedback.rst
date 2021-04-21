@@ -5,6 +5,9 @@ Feedback
 
 Design patterns for showing information and status.
 
+Section Contents
+----------------
+
 .. toctree::
    :maxdepth: 2
 

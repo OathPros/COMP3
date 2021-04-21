@@ -3,7 +3,10 @@
 Containers
 ==========
 
-Widgets that contain UI elements, including controls and content. Containers are the main building blocks of any UI.
+Containers are the main building blocks of any UI, and provide both the spaces in which controls and content are presented, as well as structure fot apps as a whole.
+
+Section Contents
+----------------
 
 .. toctree::
    :maxdepth: 2

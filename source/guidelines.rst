@@ -3,7 +3,10 @@
 Guidelines
 ==========
 
-General guidelines and standard design conventions.
+General application design conventions and patterns for the GNOME platform.
+
+Section Contents
+----------------
 
 .. toctree::
    :maxdepth: 2

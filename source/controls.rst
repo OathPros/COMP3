@@ -3,7 +3,10 @@
 Controls
 ========
 
-Controls include basic interactive UI elements .
+The basic interactive UI elements for apps, used for taking actions and selecting options.
+
+Section Contents
+----------------
 
 .. toctree::
    :maxdepth: 2
