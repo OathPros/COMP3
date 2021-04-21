@@ -1,4 +1,4 @@
-.. image:: img/placeholder-guidelines.jpg
+.. image:: img/hig-guidelines.svg
 
 Guidelines
 ==========

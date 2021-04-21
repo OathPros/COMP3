@@ -1,4 +1,4 @@
-.. image:: img/placeholder-containers.jpg
+.. image:: img/hig-containers.svg
 
 Containers
 ==========
