@@ -1,7 +1,7 @@
 Writing Style
 =============
 
-Text plays an important role in user interfaces. Take the time to ensure that any text you use is clearly written and easy to understand.
+Text plays an important role in user interfaces. Take the time to ensure that any text you use is clearly written, easy to understand and looks good.
 
 Guidelines
 ----------
@@ -11,7 +11,7 @@ Your main goal should be to ensure that text is easy to understand and quick to 
 * Keep text short and to the point. This improves speed of comprehension for the user. It also reduces the expansion of text when translated (remember that translated English text can expand up to 30% in some languages).
 * Do not shorten your text to the point of losing meaning. A three-word label that provides clear information is better than a one-word label that is ambiguous or vague. Try to find the fewest possible words to satisfactorily convey the meaning of your label.
 * Use words, phrases, and concepts that are familiar to the people who will be using your application, rather than terms from the underlying system. This may mean using terms that are associated with the tasks your application supports. For example, in medicine, the paper folder that contains patient information is called a “chart”. Hence, a medical application might refer to a patient record as a “chart” rather than as a “patient database record”.
-* Text should adopt a neutral tone and speak from the point of view of the product. Pronouns like “you” or “my” should therefore be avoided wherever possible. However, if they are unavoidable “your” is preferable to “my”.
+* Text should adopt a neutral tone and speak from the point of view of the software. Pronouns like “you” or “my” should be avoided wherever possible. However, if it is impossible to avoid refering to something as belonging to the user, “your” is preferable to “my”. For example, “Your Records”.
 * Use the standard GNOME terms when referring to parts of the user interface, such as “pointer” and “window”. The HIG can be used as a reference in this regard.
 * Avoid repetition where possible.
 * Sentences should not be constructed from text in several controls, and each label should be treated as being self-contained. Sentences that run from one control to another will often not make sense when translated into other languages.
@@ -27,9 +27,9 @@ Two styles of capitalization are used in GNOME user interfaces: header capitaliz
 Header Capitalization
 ~~~~~~~~~~~~~~~~~~~~~
 
-Header capitalization should be used for any headings, including header bar headings and page, tab and menu titles. It should also be used for short control labels that do not normally form proper sentences, such as button labels, switch labels and menu items.
+Header capitalization should be used for any headings, including headings in header bars, tab titles, and view titles. It should also be used for short control labels that do not normally form proper sentences, such as button labels, switch labels and menu items.
 
-Capitalize the first letter of:
+Header capitalization should capitalize the first letter of:
 
 * All words with four or more letters.
 * Verbs of any length, such as “Be”, “Are”, “Is”, “See” and “Add”.
