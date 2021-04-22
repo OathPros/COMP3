@@ -37,14 +37,21 @@ Below is the baseline GNOME app icon color palette.
 
 .. image:: ../img/icons/hig-colors.svg
 
-You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette `is available <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_. Current versions of Inkscape and GIMP should ship with the GNOME HIG palette out of the box. You can make use of the `Color Palette <https://flathub.org/apps/details/org.gnome.design.Palette>`_ app to paste the GNOME colors into any 3rd party design app.
+You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from.
 
 It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surfaces is allowed.
+
+How to access the palette:
+
+* Use the `Palette app <https://flathub.org/apps/details/org.gnome.design.Palette>`_ to copy the hexadecimal color codes.
+* Recent versions of GIMP and Inkscape include the palette by default. (Alternatively, `the palette can be downloaded <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_ in GIMP/Inscape format.)
 
 Symbolic Icons
 --------------
 
 Symbolic icons have a simple form and are drawn within a ``16×16`` pixel grid. They are then programmatically scaled and colored within the user interface itself.
+
+General guidelines for drawing symbolic guidelines:
 
 * Identify a single property when looking for an appropriate metaphor for an icon, and focus on what distinguishes the idea you want to communicate. For example, when describing an action to be performed on an image, it isn’t necessary to repeat the idea of an image in every icon. Instead, focus on what is distinct about each action (for example: rotate, tag, align).
 * Avoid using any perspective in symbolic icons, stick to a simple orthogonal view.

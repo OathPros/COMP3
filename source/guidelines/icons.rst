@@ -50,12 +50,14 @@ To ensure sharp rendering, icons should only be used at the following sizes:
 Using Stock Icons & Creating Your Own
 -------------------------------------
 
-Generally speaking, it is better to reuse existing GNOME applications, as opposed to creating your own. GNOME provides a set of standard icons, which should be consistently used by applications.
+Generally speaking, it is better to reuse existing icons instead of creating your own. GNOME provides a set of standard icons, which should be consistently used by applications.
 
-Application icons are the exception to this rule. Applications should have their own unique icon, and should never reuse an existing one. The :doc:`icon design guidelines <icon-design>` provide more details on how to create your own icons, including application icons.
+Application icons are the exception to this rule. Applications should have their own unique icon, and should never reuse an existing one.
 
-General Guidelines
-------------------
+The :doc:`icon creation guidelines <icon-design>` provide details on how to create both symbolic and full-color icons, including application icons.
+
+Icon Usage Guidelines
+---------------------
 
 Only use icons which will be recognized by your users. This includes:
 
@@ -65,3 +67,5 @@ Only use icons which will be recognized by your users. This includes:
 If users will not recognize an icon, it might be better to use a text label instead.
 
 Some icons are only meaningful alongside other icons of the same type. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (i.e. a single line), and will not be recognizable without a corresponding “plus” add icon.
+
+As a general rule, controls should be identified with either a label or an icon, not both. This helps to avoid information overload and icon-overuse. However, there are some controls where both is required for practical reasons.

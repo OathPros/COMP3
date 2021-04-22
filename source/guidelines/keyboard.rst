@@ -1,5 +1,5 @@
-Keyboard Interaction
-====================
+Keyboard
+========
 
 Keyboard interaction covers a range of behaviors, including text entry, use of shortcuts, and search, through to the keyboard being used as the sole input device. The latter is vital for visually-impaired people or those with mobility impairments.
 
@@ -10,51 +10,51 @@ The only exceptions to this are actions where fine motor control is an essential
 Keyboard Navigation
 -------------------
 
-Make sure that it is possible to move around and interact with every part of your user interface using the keyboard, by following these guidelines.
+Make sure that it is possible to move around and interact with every part of your user interface using the keyboard:
 
-* Follow the standard GNOME keys for navigation. Tab is the standard key for moving around an interface with GTK and GNOME.
-* Use a logical keyboard navigation order. When navigating around a window with Tab, keyboard focus should move between controls in a predictable order. In Western locales, this is normally left to right and top to bottom.
-* In addition to navigation using Tab, make an effort to allow movement using the arrow keys, both within user interface elements (such as lists, icon grids or sidebars), and between them.
+* Tab should cycle keyboard focus through each UI element.
+* Construct a logical keyboard navigation order for your UI. Keyboard focus should move between controls in a predictable order. In Western locales, this is normally left to right and top to bottom.
+* In addition to Tab, where possible it should also be possible to move through a UI using the arrow keys, both within user interface elements (such as lists, icon grids or sidebars) and between them.
 
 Note: if activating a control enables other controls, do not automatically give focus to the first dependent control when it is activated, but instead leave focus in place.
 
-Keyboard Equivalents
---------------------
+Standard Navigation Keys
+------------------------
 
-If your application allows items to be selected, the following keyboard actions should be in place.
+The following keys should automatically work for the majority of GNOME user interface elements. However, it is recommended to test to ensure that they do work correctly. Custom UI should support the standard navigation keys.
 
 .. list-table::
-  :widths: 20 20 60
+  :widths: 10 90
   :header-rows: 1
 
-  * - Action
-    - Mouse
-    - Keyboard
-  * - Open an item
-    - Primary button
-    - Space
-  * - Add/remove item from selection
-    - Ctrl and primary button
-    - Ctrl+Space
-  * - Extend selection
-    - Shift and primary button
-    - Shift in combination with any of the following: Space, Home, End, PageUp, PageDown
-  * - Change selection
-    - Primary button
-    - Any of the following: ←, ↑, →, ↓, Home, End, PageUp, PageDown
-  * - Select all
-    - Primary button on first item, then primary button and Shift on the last item
-    - Ctrl+A
-  * - Deselect all
-    - Primary click on the container background
-    - Shift+Ctrl+A
+  * - Keys
+    - Function
+  * - Tab
+    - Move keyboard focus to the next control
+  * - Shift+Tab
+    - Move` keyboard focus to the previous control
+  * - Ctrl+Tab
+    - Move keyboard focus to the next control, when Tab has another function, or when controls are grouped
+  * - Shift+Ctrl+Tab 
+    - Move keyboard focus to the previous control, when Tab has another function, or when controls are grouped
+  * - Return
+    - Activate the focused control or content item
+  * - Space
+    - Toggle the state of a control
+  * - F10
+    - Open primary or secondary menu 
+  * - Menu / Shift+F10
+    - Open context menu for focused location
+  * - Esc
+    - Close the current container, if it is transient (applies to menus, popovers and dialogs) 
+  
 
 .. _access-keys:
 
 Access Keys
 -----------
 
-Access keys allow someone to operate labelled controls by using Alt. They are indicated by an underlined letter within each control label (this is displayed when Alt is held down).
+Access keys allow someone to operate labelled controls by holding Alt in combination with another key. These are indicated by an underlined letter within each control label (this is displayed when Alt is held down).
 
 * Where possible, all labelled components should have an access key.
 * Choose access keys that are easy to remember. Normally this means using the first letter of the label. If the label has more than one word, the first letter of one of its other words can also be used. Additionally, if another letter provides a better association (for example: “x” in “Extra Large”) , consider using that letter instead.
@@ -76,3 +76,37 @@ When assigning shortcuts which are specific to your application:
 * Shortcuts should be as mnemonic as possible, as these will be easier to learn and remember. For example, Ctrl+E would be a good shortcut for a menu item called Edit Page.
 * Shortcuts that can be easily used with one hand are preferable for common operations.
 * Do not use Alt for shortcut keys, as this may conflict with access keys.
+
+System Reserved Shortcuts
+-------------------------
+
+GNOME reserves the use of the Super key for use in system shortcuts. Super should therefore not be used by applications.
+
+Legacy system shortcuts which don't use Super should likewise be avoided by apps. These include the following:
+
+.. list-table::
+  :widths: 10 90
+  :header-rows: 1
+
+  * - Keys
+    - Function
+  * - Alt+Tab, Shift+Alt+Tab
+    - Switch to next/previous window
+  * - Alt+Tab+`, Shift+Alt+Tab+`
+    - Switch to next/previous window of the focused application
+  * - Alt+F4
+    - Close the focused window 
+  * - Alt+F6, Shift+Alt+F6
+    - Switch to next/previous window of the focused application
+  * - Alt+F7
+    - Move the focused window
+  * - Alt+F8
+    - Resize the focused window
+  * - Alt+F5
+    - Unmaximize the focused window 
+  * - Ctrl+Alt+Tab, Shift+Ctrl+Alt+Tab
+    - Switch between system areas
+  * - Alt+Space
+    - Open window menu 
+  * - Ctrl+Alt+Delete
+    - System power off 
