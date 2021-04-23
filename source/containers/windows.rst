@@ -24,12 +24,13 @@ Secondary windows are used to contain supplemental controls or information, whic
 General Guidelines
 ------------------
 
-Guidelines for all types of window:
+Guidelines for all types of windows:
 
 * Windows should have a :doc:`header bar <header-bars>`.
 * Windows should follow the standard *Ctrl+W* keyboard shortcut to close. Additionally, modal windows should close on *Esc*.
-* TODO: default window sizing
-* TODO: when should windows be resizable/non-resizable?
+* Applications which restore a particular view or content item when they are restarted should also restore their previous window size.
+
+Additional guidance on window sizing can be found in the :doc:`scaling and responsiveness guidelines </guidelines/responsive>`.
 
 API Reference
 -------------

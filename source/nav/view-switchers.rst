@@ -13,6 +13,8 @@ Guidelines
 * When used for preferences, do not design views whose controls affect the controls in other views. Users are unlikely to discover such dependencies.
 * Buttons in the view switcher widget can indicate when there is activity in a view.
 
+TODO: guidelines on handling narrow window sizes (need to make the view switcher pop up at the bottom of the window).
+
 API Reference
 -------------
 

@@ -19,6 +19,8 @@ Guidelines
 * Header bar controls which affect the sidebar list should be placed within the list pane section of the header bar. Controls for search and selection should be found above the list.
 * Each list row can include multiple lines of text, as well as images. However, be careful to ensure that the most important information is not lost, and work to ensure a clean and attractive appearance.
 
+TODO: guidelines on how to handle narrow window widths (leaflet and flap are relevant here).
+
 API Reference
 -------------
 

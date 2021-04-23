@@ -1,26 +1,38 @@
 Scaling & Responsiveness
 ========================
 
-TODO: this page needs to be rewritten.
+GNOME  supports a variety of device types, including desktops, laptops, convertibles and phones. Windows can also be used at a variety of sizes, and can sometimes be tiled alongside other windows.
 
-Display Compatibility
----------------------
-
-GNOME  supports a variety of device types, including desktops, laptops and convertibles. This requires that applications be compatible with displays that have different sizes and orientations.
+The following guidelines should be followed to ensure that your app performs well in these varied conditions.
 
 The size requirements stated on this page should be doubled for high-resolution displays (those with greater than 96 PPI).
 
+Small Size Handling
+-------------------
+
+The smallest recommended displays for GNOME is currently 1024×600px, and this size should be supported by all applications. Apps that are appropriate for a phone form factor should scale down to a width of 340px.
+
+In addition to physically fitting on small displays, app windows should be fully usable, and content should be fully visible and accessible.
+
+Default and Large Size Handling
+-------------------------------
+
+The default size of app windows should be appropriate to their content. Windows that display large content like documents or videos should be suitably large to provide a good experience without the need to resize the window. On the other hand, windows with a limited amount of UI can and should default to a smaller size.
+
+At large window sizes, avoid:
+
+* related controls becoming physically distractions
+* lines of text becoming uncomfortably long
+* visual structure like grids being lost.
+
+The primary means to acheive this is by placing content within containers that have a maximum width. These can include both visible containers, like :doc:`lists </containers/lists>`, or invisible containers which act as a restraining frame.
+
+:doc:`Flow boxes </containers/flow-boxes>` can be given a maximum number of columns, and will adjust their column width according to the overall grid width.
+
 General Guidelines
-~~~~~~~~~~~~~~~~~~
+------------------
 
-* It should be possible for all application windows to fit on the smallest recommended displays for GNOME. Currently, this is 1024×600 pixels.
-* Ensure that your application works well in portrait orientation. The minimum recommended width for portrait mode is 768 pixels.
-* All primary windows should be resizable. This ensures that transitions between landscape and portrait mode can be automatically handled by the window manager.
-* Test to make sure that your interface works well on large displays. Where possible, scale content to make the best use of available space, or use fixed width layouts to ensure that interface elements maintain effective grouping and alignment.
-
-Half-Screen Snap
-----------------
-
-GNOME allows windows to be snapped to occupy half the width of the display, allowing two windows to be used alongside each other. Half-screen snap is impractical on very small displays. As a rule of thumb, it should be supported on screens that are 1280 pixels or wider, meaning that windows should have a minimum width of no less than 640 pixels.
-
-Since half-screen snap is only useful when windows are used in parallel, applications that are used in isolation do not need to support half-screen snap (a music player is a good example of this).
+* Remember to test your app design at a range of window sizes, both large and small. Consider portrait as well as landscape display orientation.
+* All primary windows should be resizable.
+* Some design patterns have specific guidance for responsive handling, such as :doc:`view switchers </nav/view-switchers>` and :doc:`sidebars </nav/sidebars>`.
+* Following the GNOME design conventions for app structure and progressive disclosure will help to ensure that you app works well at a range of sizes. Windows that are sub-divided it a numerous small panes or panels will struggle to be responsive.
