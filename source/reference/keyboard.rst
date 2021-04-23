@@ -1,2 +1,248 @@
 Standard Keyboard Shortcuts
 ===========================
+
+When providing keyboard shortcuts, the following conventions should be adhered to, in order to ensure consistency between applications.
+
+Basic Shortcuts
+---------------
+
+.. list-table::
+  :widths: 10 10 80
+  :header-rows: 1
+
+  * - Action
+    - Shortcut
+    - Description
+  * - Close
+    - Ctrl+W
+    - Closes the current tab or window.
+  * - Quit
+    - Ctrl+Q
+    - Closes the app, including all its windows.
+  * - Menu
+    - F10
+    - Opens the primary or secondary menu.
+  * - Help
+    - F1
+    - Opens the help app on the page for the app.
+  * - Keyboard Shortcuts
+    - Ctrl+?
+    - Opens the keyboard shortcuts window. 
+
+Content & Files
+---------------
+
+.. list-table::
+  :widths: 10 10 80
+  :header-rows: 1
+
+  * - Action
+    - Shortcut
+    - Description
+  * - New
+    - Ctrl+N
+    - Creates a new content item, sometimes in a new window or tab.
+  * - Open
+    - Ctrl+O
+    - Opens an existing content item, often by presenting the open file dialog.
+  * - Save
+    - Ctrl+S
+    - Saves the current content item. In some cases this requires showing the save as dialog.
+  * - Save As
+    - Shift+Ctrl+S
+    - Saves the current content item with a new filename. Raises the save as dialog.
+  * - Print
+    - Ctrl+P
+    - Prints the current content item, and opens the print dialog.
+  * - Print Preview
+    - Shift+Ctrl+P
+    - Shows a print preview of the current content item.
+  * - Send
+    - Ctrl+M
+    - Sends or shares the current content item.
+  * - Properties
+    - Alt+Return
+    - Shows properties for the current content item.
+
+Editing
+-------
+
+.. list-table::
+  :widths: 10 10 80
+  :header-rows: 1
+
+  * - Action
+    - Shortcut
+    - Description
+  * - Undo
+    - Ctrl+Z
+    - Reverts the last taken action.
+  * - Redo
+    - Shift+Ctrl+Z
+    - Performs the last taken action, if it has been previously reverted.
+  * - Cut
+    - Ctrl+X
+    - Removes the selected content and adds it to the clipboard.
+  * - Copy
+    - Ctrl+C
+    - Copies the selected content to the clipboard.
+  * - Paste
+    - Ctrl+V
+    - Inserts the contents of the clipboard.
+  * - Paste Special
+    - Shift+Ctrl+V
+    - Inserts a non-default version of the clipboard content.
+  * - Duplicate
+    - Ctrl+U
+    - Creates a duplicate of the selected object.
+  * - Select All
+    - Ctrl+A
+    - Selects all content in the focused control or view.
+  * - Deselect All
+    - Shift+Ctrl+A
+    - Deselcts all ontent in the focused control or view.
+  * - Find
+    - Ctrl+F
+    - Shows and focuses a find/search UI.
+  * - Find Next
+    - Ctrl+G
+    - Selects the next find/search result.
+  * - Find Previous
+    - Shift+Ctrl+G
+    - Selects the previous find/search result.
+  * - Replace
+    - Ctrl+H
+    - Shows and focuses a find and replace UI.
+
+View Options
+------------
+
+.. list-table::
+  :widths: 10 10 80
+  :header-rows: 1
+
+  * - Action
+    - Shortcut
+    - Description
+  * - Zoom In
+    - Ctrl++
+    - Enlarges the content in the view.
+  * - Zoom Out
+    - Ctrl+-
+    - Reduces the content in the view.
+  * - Normal Size
+    - Ctrl+0
+    - Resets the zoom level to the default.
+  * - Reload
+    - Ctrl+R
+    - Reloads the current view or content item.
+
+Formatting
+----------
+  
+.. list-table::
+  :widths: 10 10 80
+  :header-rows: 1
+ 
+  * - Action
+    - Shortcut
+    - Description
+  * - Bold
+    - Ctrl+B
+    - Toggles bold formatting for the current text selection.
+  * - Italic
+    - Ctrl+I
+    - Toggles italicisation for the current text selection.
+  * - Underline
+    - Ctrl+U
+    - Toggles the underlining of the current text selection.
+  
+Bookmarking
+-----------
+
+.. list-table::
+  :widths: 10 10 80
+  :header-rows: 1
+ 
+  * - Action
+    - Shortcut
+    - Description
+  * - Add Bookmark
+    - Ctrl+D
+    - Adds a bookmark for the current location.
+  * - Edit Bookmarks
+    - Ctrl+B
+    - Shows a UI for bookmark editing.
+
+Navigation
+----------
+
+.. list-table::
+  :widths: 10 10 80
+  :header-rows: 1
+ 
+  * - Action
+    - Shortcut
+    - Description
+  * - Back
+    - Alt+←
+    - Navigates to the previous location.
+  * - Forward
+    - Alt+→
+    - Navigates to the next location in the navigation history.
+  * - Up
+    - Alt+↑
+    - Navigets to the parent location.
+  * - Home
+    - Alt+Home
+    - Navigates to the starting location.
+  * - Enter Location
+    - Ctrl+L
+    - Allows the user to specify an address or URI.
+  * - Previous Page
+    - PageUp
+    - Navigates to the previous page.
+  * - Next Page
+    - PageDown
+    - Navigets to the next page.
+  * - First Page
+    - Ctrl+Home
+    - Navigates to the first page.
+  * - Last Page
+    - Ctrl+End
+    - Navigates to the last page.
+
+
+.. _legacy-shortcuts:
+
+Legacy System Reserved Shortcuts
+--------------------------------
+
+The following shortcuts should be avoided by applications, since they are used by the system.
+
+.. list-table::
+   :widths: 10 90
+   :header-rows: 1
+
+   * - Keys
+     - Function
+   * - Alt+Tab, Shift+Alt+Tab
+     - Switch to next/previous window.
+   * - Alt+Tab+`, Shift+Alt+Tab+`
+     - Switch to next/previous window of the focused application.
+   * - Alt+F4
+     - Close the focused window.
+   * - Alt+F6, Shift+Alt+F6
+     - Switch to next/previous window of the focused application.
+   * - Alt+F7
+     - Move the focused window.
+   * - Alt+F8
+     - Resize the focused window.
+   * - Alt+F5
+     - Unmaximize the focused window.
+   * - Ctrl+Alt+Tab, Shift+Ctrl+Alt+Tab
+     - Switch between system areas
+   * - Alt+Space
+     - Open window menu.
+   * - Ctrl+Alt+Delete
+     - System power off.

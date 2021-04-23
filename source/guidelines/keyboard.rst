@@ -77,36 +77,4 @@ When assigning shortcuts which are specific to your application:
 * Shortcuts that can be easily used with one hand are preferable for common operations.
 * Do not use Alt for shortcut keys, as this may conflict with access keys.
 
-System Reserved Shortcuts
--------------------------
-
-GNOME reserves the use of the Super key for use in system shortcuts. Super should therefore not be used by applications.
-
-Legacy system shortcuts which don't use Super should likewise be avoided by apps. These include the following:
-
-.. list-table::
-  :widths: 10 90
-  :header-rows: 1
-
-  * - Keys
-    - Function
-  * - Alt+Tab, Shift+Alt+Tab
-    - Switch to next/previous window
-  * - Alt+Tab+`, Shift+Alt+Tab+`
-    - Switch to next/previous window of the focused application
-  * - Alt+F4
-    - Close the focused window 
-  * - Alt+F6, Shift+Alt+F6
-    - Switch to next/previous window of the focused application
-  * - Alt+F7
-    - Move the focused window
-  * - Alt+F8
-    - Resize the focused window
-  * - Alt+F5
-    - Unmaximize the focused window 
-  * - Ctrl+Alt+Tab, Shift+Ctrl+Alt+Tab
-    - Switch between system areas
-  * - Alt+Space
-    - Open window menu 
-  * - Ctrl+Alt+Delete
-    - System power off 
+GNOME reserves the use of the Super key for use in system shortcuts. Super should therefore not be used by applications. Additional :ref:`legacy system shortcuts <legacy-shortcuts>` should also be avoided by apps.
