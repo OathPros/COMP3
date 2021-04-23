@@ -1,6 +1,8 @@
 Popovers
 ========
 
+.. image:: ../img/screenshots/popover.png
+
 Popovers are anchored containers that can be opened and closed. In this regard, they are similar to menus. However, unlike menus, they can contain a variety of UI elements, making them more flexible and lending thems to creative design solutions.
 
 Examples of popovers content include a list of content items that can be opened, a set options for an options main view, or a palette of tools.

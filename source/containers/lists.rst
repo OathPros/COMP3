@@ -1,6 +1,8 @@
 Lists
 =====
 
+.. image:: ../img/screenshots/list.png
+
 Lists are often used to organize sets of controls as well as content. Examples include application preferences, a contacts list, or a list of recent documents.
 
 The standard list in GNOME is appropriate for relatively small static lists. For larger lists, see :ref:`list views <list-views>`.

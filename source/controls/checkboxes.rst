@@ -1,6 +1,8 @@
 Checkboxes
 ==========
 
+.. image:: ../img/screenshots/checkbox.png
+
 Checkboxes are used to show or change a setting.
 
 Guidelines

@@ -1,6 +1,8 @@
 Buttons
 =======
 
+.. image:: ../img/screenshots/buttons.png
+
 Buttons are one of the most common and basic user interface elements.
 
 General Guidelines

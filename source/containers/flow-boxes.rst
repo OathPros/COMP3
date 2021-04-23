@@ -1,6 +1,8 @@
 Flow Boxes
 ==========
 
+.. image:: ../img/screenshots/flow-box.png
+
 Flow boxes provide a generic grid container which can be used to arrange controls or content items. They can be used for the main view of an application or for laying out smaller areas. Examples of flow box usage include:
 
 * a background chooser, with a grid of images from which the user can select

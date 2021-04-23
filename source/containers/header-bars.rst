@@ -1,6 +1,8 @@
 Header Bars
 ===========
 
+.. image:: ../img/screenshots/header-bar.png
+
 Header bars are a standard element that spans the top of windows. They allow the window to be dragged, are the site for window management features, and contain application controls.
 
 Header bars often include:
