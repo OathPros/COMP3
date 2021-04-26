@@ -62,7 +62,7 @@ Unicode provides a wide variety of characters which, when used correctly, can dr
     - Correct
     - Unicode to use
   * - Quotation
-    - "quote"
+    - \"quote\"
     - “quote”
     - U+201C LEFT DOUBLE QUOTATION MARK, U+201D RIGHT DOUBLE QUOTATION MARK
   * - Time
