@@ -5,7 +5,7 @@ Design Principles
 
 The HIG and the GNOME platform are reflective of the GNOME design tradition and philosophy, which has been informed by the GNOME project's collective experience creating user-facing software for over 20 years.
 
-Designers and developers who are using the GNOME platform are encouraged to follow the GNOME design philosophy, as is will enhance their ability to produce beautiful, effective, attractive, easy to use apps. It will also mean that they are 
+Designers and developers who are using the GNOME platform are encouraged to follow the GNOME design philosophy, as this will enhance their ability to produce beautiful, effective, attractive, easy to use apps. It will also mean that they are 
 
 1. Design for People
 --------------------
