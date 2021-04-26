@@ -21,7 +21,7 @@ Primary & Secondary Actions
 
 Mice and many touchpads have a primary and a secondary button. While the default order of the buttons is to have the primary button on the left, this order is user-configurable. Hence, the terms primary and secondary buttons are used.
 
-While not all pointer and touch devices have primary and secondary buttons, they do have equivalents. The primary action actives, opens or selects. The secondary action should display additional actions for whatever is being pointed at, typically through a context menu.
+While not all pointer and touch devices have primary and secondary buttons, they do have equivalents. The primary action activates, opens or selects. The secondary action should display additional actions for whatever is being pointed at, typically through a context menu.
 
 Secondary actions should:
 
