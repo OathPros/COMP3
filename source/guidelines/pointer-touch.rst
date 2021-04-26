@@ -31,6 +31,8 @@ Secondary actions should:
 * only provide a context menu if there is a set of relevant menu items to expose
 *  be possible without using a pointing device: see equivalent actions for :doc:`keyboard <keyboard>`.
 
+While some mice have a third “middle” button, it is not recommended to make use of this in application designs.
+
 Pointer & Touch Equivalent Actions
 ----------------------------------
 
