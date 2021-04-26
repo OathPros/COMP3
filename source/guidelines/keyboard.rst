@@ -67,16 +67,14 @@ Access keys allow someone to operate labelled controls by holding Alt in combina
 Shortcut Keys
 -------------
 
-Use the :doc:`standard GNOME shortcut keys</reference/keyboard>` if your application supports those functions. This ensures consistency between GNOME applications and aids discoverability. Do not assign :doc:`system shortcut keys </reference/keyboard>` for use in your application.
+The technical term for shortcut keys is *accelerators*. 
 
-The technical term for shortcut keys is *accelerators*.
+Use the :doc:`standard GNOME shortcut keys</reference/keyboard>` if your application supports those functions. This ensures consistency between GNOME applications and aids discoverability. Shortcut keys should also be assigned to the most commonly-used actions in your application. (Do not try to assign a keyboard shortcut to everything.)
 
-When assigning shortcuts which are specific to your application:
+When assigning non-standard shortcuts in your application:
 
-* Assign shortcut keys to the most commonly-used actions in your application. However, do not try to assign a keyboard shortcut to everything.
 * Try to use Ctrl in combination with a letter for your own shortcuts. Shift+Ctrl and a letter is the recommended pattern for shortcuts that reverse or extend another function. For example, Ctrl+Z and Shift+Ctrl+Z for undo and redo.
 * Shortcuts should be as mnemonic as possible, as these will be easier to learn and remember. For example, Ctrl+E would be a good shortcut for a menu item called Edit Page.
 * Shortcuts that can be easily used with one hand are preferable for common operations.
 * Do not use Alt for shortcut keys, as this may conflict with access keys.
-
-GNOME reserves the use of the Super key for use in system shortcuts. Super should therefore not be used by applications. Additional :ref:`legacy system shortcuts <legacy-shortcuts>` should also be avoided by apps.
+* GNOME reserves the use of the Super key for use in system shortcuts. Super should therefore not be used by applications. Additional :ref:`legacy system shortcuts <legacy-shortcuts>` should also be avoided by apps.
