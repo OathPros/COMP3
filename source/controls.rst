@@ -9,7 +9,7 @@ Section Contents
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    controls/buttons
    controls/menus

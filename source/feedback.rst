@@ -9,7 +9,7 @@ Section Contents
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    feedback/notifications
    feedback/info-bars

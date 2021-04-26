@@ -26,7 +26,7 @@ Platform Scope
 The HIG primarily provides documentation for GTK 4 and the Adwaita companion library. In many places, it is also relevant for GTK 3 and libhandy.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
 
    principles

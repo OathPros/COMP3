@@ -85,7 +85,7 @@ https://pypi.org/project/furo/
   --dark5: rgb(0,0,0);
   --text: #f6f5f4;
   --tocbg: var(--light2);
-  --tocfg: var(--dark5);
+  --tocfg: var(--dark3);
   --borders: var(--light3);
 }
 
@@ -215,9 +215,8 @@ ul.simple {
 }
 
   .toctree-wrapper li {
-		margin-bottom: 1rem;
 		list-style: none;
-    margin: 2rem 1rem;
+    margin: 0 0 1rem 0;
   }
   .toctree-wrapper li.toctree-l1 {
     font-size: 14pt;

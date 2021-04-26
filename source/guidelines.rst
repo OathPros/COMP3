@@ -9,7 +9,7 @@ Section Contents
 ----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    guidelines/app-naming
    guidelines/writing-style
