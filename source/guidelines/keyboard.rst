@@ -54,7 +54,7 @@ The following keys should automatically work for the majority of GNOME user inte
 Access Keys
 -----------
 
-Access keys allow someone to operate labelled controls by holding Alt in combination with another key. These are indicated by an underlined letter within each control label (this is displayed when Alt is held down).
+Access keys allow someone to operate labelled controls by holding Alt in combination with another key. These are indicated by an underlined letter within each control label (this is displayed when Alt is held down). The technical term for access keys is *mneumonics*.
 
 * Where possible, all labelled components should have an access key.
 * Choose access keys that are easy to remember. Normally this means using the first letter of the label. If the label has more than one word, the first letter of one of its other words can also be used. Additionally, if another letter provides a better association (for example: “x” in “Extra Large”) , consider using that letter instead.
@@ -68,6 +68,8 @@ Shortcut Keys
 -------------
 
 Use the :doc:`standard GNOME shortcut keys</reference/keyboard>` if your application supports those functions. This ensures consistency between GNOME applications and aids discoverability. Do not assign :doc:`system shortcut keys </reference/keyboard>` for use in your application.
+
+The technical term for shortcut keys is *accelerators*.
 
 When assigning shortcuts which are specific to your application:
 
