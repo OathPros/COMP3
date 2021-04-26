@@ -82,7 +82,7 @@ Unicode provides a wide variety of characters which, when used correctly, can dr
     - The user’s preferences
     - U+2019 RIGHT SINGLE QUOTATION MARK
   * - Bullet list
-    - ● One
+    - \* One
     - \• One
     - U+2022 BULLET
   * - Ranges
