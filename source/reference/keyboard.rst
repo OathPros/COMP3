@@ -174,6 +174,8 @@ Bookmarking
     - Ctrl+B
     - Shows a UI for bookmark editing.
 
+.. _navigation-shortcuts:
+
 Navigation
 ----------
 

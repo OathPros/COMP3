@@ -12,8 +12,7 @@ Guidelines
 * Label views with :ref:`header capitalization <header-capitalization>`, and use nouns rather than verbs, for example *Albums* or *Updates*. Try to give view labels a similar length.
 * When used for preferences, do not design views whose controls affect the controls in other views. Users are unlikely to discover such dependencies.
 * Buttons in the view switcher widget can indicate when there is activity in a view.
-
-TODO: guidelines on handling narrow window sizes (need to make the view switcher pop up at the bottom of the window).
+* View switchers should switch to the bottom window edge, if the window becomes too narrow for them to fit in the header bar.
 
 API Reference
 -------------
