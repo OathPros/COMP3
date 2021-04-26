@@ -21,7 +21,7 @@ The default size of app windows should be appropriate to their content. Windows 
 
 At large window sizes, avoid:
 
-* related controls becoming physically distractions
+* related controls becoming physically distant
 * lines of text becoming uncomfortably long
 * visual structure like grids being lost.
 
