@@ -12,7 +12,7 @@ Small Size Handling
 
 The smallest recommended displays for GNOME is currently 1024×600px, and this size should be supported by all applications. Apps that are appropriate for a phone form factor should scale down to a width of 340px.
 
-In addition to physically fitting on small displays, app windows should be fully usable, and content should be fully visible and accessible.
+App windows should fit on small displays, as well as being fully usable, with all content being accessible and properly presented.
 
 Default and Large Size Handling
 -------------------------------
