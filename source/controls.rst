@@ -1,4 +1,4 @@
-.. image:: img/placeholder-controls.jpg
+.. image:: img/hig-controls.svg
 
 Controls
 ========
