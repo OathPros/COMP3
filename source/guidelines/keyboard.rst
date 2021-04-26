@@ -3,7 +3,7 @@ Keyboard
 
 Keyboard interaction covers a range of behaviors, including text entry, use of shortcuts, and search, through to the keyboard being used as the sole input device. The latter is vital for visually-impaired people or those with mobility impairments.
 
-Every action that can be acheived with a pointing device should therefore also be possible with a keyboard. Trying to use your application with only a keyboard is a great way to test this.
+Every action that can be achieved with a pointing device should therefore also be possible with a keyboard. Trying to use your application with only a keyboard is a great way to test this.
 
 The only exceptions to this are actions where fine motor control is an essential part of the task. For example, controlling movement in some types of action games, or freehand painting in an image-editing application.
 
