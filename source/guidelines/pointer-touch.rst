@@ -8,13 +8,15 @@ While there is no visible pointer with a touchscreen, it fulfills the same role 
 General Guidelines
 ------------------
 
-User interface designs should aim to accommodate the full range of common pointing devices, and be usable with all of them. This primarily includes mice, touchpads and touchscreens. They should also be suited to the range of physical abilities that users might have. Not everyone has lazer-like precision with a pointer.
+User interface designs should generally aim to accommodate the full range of common pointing devices, and be usable with all of them. This primarily includes mice, touchpads and touchscreens. They should also be suited to the range of physical abilities that users might have. Not everyone has lazer-like precision with a pointer.
 
 * Click targets should be large enough to be comfortably used with different pointing devices and physical abilities.
 * Buttons and controls which are only available on some pointing devices should not be exclusively relied upon for particular actions.
 * Actions which are physically challenging to accomplish, such as double-clicking or chording (pressing multiple buttons simultaneously), should be avoided.
 * All actions which can be accomplished with a pointing device should also be possible with a :doc:`keyboard <keyboard>`.
-* Because your design should be input device agnostic, specific input devices or input device buttons should not be referenced in user interfaces.
+* Because designs should generally be input device agnostic, specific input devices or input device buttons should not be referenced in user interfaces. For example, text should not instruct users to "move the mouse" or "tap".
+
+Some types of apps have specialist input devices associated with them, and therefore may need to ignore some or all of these general guidelines. For example, games might provide features that are specific to games controllers, or graphics apps might target graphics tablets. If an app requires a specific type of device in order to be used, this expectation should be clearly communicated to the user.
 
 Primary & Secondary Actions
 ---------------------------
