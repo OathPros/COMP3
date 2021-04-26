@@ -5,6 +5,8 @@ A placeholder is an image with accompanying text, which is used to fill a space 
 
 In GNOME there are two main types of placeholder: initial state placeholders, and empty placeholders.
 
+An example placeholder can be seen in the *Welcome* page of the Adwaita demo app.
+
 Initial State Placeholders
 --------------------------
 
@@ -35,4 +37,5 @@ Guidelines
 API Reference
 -------------
 
+* `AdwStatusPage <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwStatusPage.html>`_
 * `HdyStatusPage <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyStatusPage.html>`_
