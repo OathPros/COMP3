@@ -17,7 +17,7 @@ A good name should:
 * Be short (less than 15 characters).
 * Be easy to pronounce.
 * Be easily paired with a good app icon, such as by referencing a physical object.
-* Use :ref:`header capitalization<header-capitalization>` (for example: Icon Preview instead of iconPreview).
+* Use :ref:`header capitalization<header-capitalization>` (for example: use Icon Preview instead of Icon preview).
 
 Likewise, a good name should avoid:
 
