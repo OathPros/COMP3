@@ -12,7 +12,7 @@ Keyboard Navigation
 
 Make sure that it is possible to move around and interact with every part of your user interface using the keyboard:
 
-* Tab should cycle keyboard focus through each UI element.
+* Tab should cycle keyboard focus through each control.
 * Construct a logical keyboard navigation order for your UI. Keyboard focus should move between controls in a predictable order. In Western locales, this is normally left to right and top to bottom.
 * In addition to Tab, where possible it should also be possible to move through a UI using the arrow keys, both within user interface elements (such as lists, icon grids or sidebars) and between them.
 
