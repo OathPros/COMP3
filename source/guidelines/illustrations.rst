@@ -13,7 +13,7 @@ Full color
 ----------
 Scalable style built around geometric shapes and a somewhat loose grid layout.
 
-* **Background color**. Derived from the basic colors defined for :doc:`app icons </guidelines/icon-design>`
+* **Background color**. Derived from the basic colors defined for :doc:`app icons </guidelines/app-icons>`
 * **Library/Clipart**. Get some inspiration and kit-bash from `existing assets <https://gitlab.gnome.org/Teams/Design/app-illustrations/-/blob/master/clipart/clipart.svg>`_.
 
 

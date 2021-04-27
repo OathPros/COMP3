@@ -12,11 +12,11 @@ Section Contents
    :maxdepth: 1
 
    guidelines/app-naming
+   guidelines/app-icons
    guidelines/writing-style
    guidelines/typography
    guidelines/responsive
    guidelines/pointer-touch
    guidelines/keyboard
-   guidelines/icons
-   guidelines/icon-design
+   guidelines/ui-icons
    guidelines/illustrations

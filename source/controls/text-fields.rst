@@ -26,7 +26,7 @@ Additional elements can be embedded in text fields. This can include:
 
 These conventions should generally be used with restraint and according to established conventions. Embedded icons should not be relied up to identify a text field, and should only be used when their meaning is commonly recognized without the need for additional explanation (such as through a tooltip).
 
-Embedded icons should use the :ref:`symbolic style <icon-styles>`.
+Embedded icons should use the :doc:`symbolic style </guidelines/ui-icons>`.
 
 Password Fields
 ---------------
