@@ -30,6 +30,7 @@ The HIG primarily provides documentation for GTK 4 and the Adwaita companion lib
    :hidden:
 
    principles
+   resources
    guidelines
    containers
    nav
