@@ -5,8 +5,8 @@ Navigation
 
 Combined with :doc:`containers <containers>`, the navigation design patterns create the basic structure for an app. Simple apps will often use just one or two navigation patterns, but more complex designs can use more. This will typically involve a nesting of navigation structures inside one another.
 
-Section Contents
-----------------
+Contents
+--------
 
 .. toctree::
    :maxdepth: 1

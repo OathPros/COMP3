@@ -3,8 +3,8 @@ Reference
 
 Design reference materials.
 
-Section Contents
-----------------
+Contents
+--------
 
 .. toctree::
    :maxdepth: 1

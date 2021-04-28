@@ -5,8 +5,8 @@ Controls
 
 The basic interactive UI elements for apps, used for taking actions and selecting options.
 
-Section Contents
-----------------
+Contents
+--------
 
 .. toctree::
    :maxdepth: 1

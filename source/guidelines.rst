@@ -5,8 +5,8 @@ Guidelines
 
 General application design conventions and patterns for the GNOME platform.
 
-Section Contents
-----------------
+Contents
+--------
 
 .. toctree::
    :maxdepth: 1

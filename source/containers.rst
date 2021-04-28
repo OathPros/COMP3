@@ -5,8 +5,8 @@ Containers
 
 Containers are the main building blocks of any UI, and provide both the spaces in which controls and content are presented, as well as structure for apps as a whole.
 
-Section Contents
-----------------
+Contents
+--------
 
 .. toctree::
    :maxdepth: 1
