@@ -11,3 +11,4 @@ Section Contents
 
    reference/keyboard
    reference/touch
+   reference/palette

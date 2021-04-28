@@ -3,47 +3,76 @@ App Icons
 
 In addition to having a :doc:`great name <app-naming>`, every app also needs a great icon. This page provides guidance on how to create one.
 
+App icons should be unique to each and every app. Reusing existing icons for app identities is strongly discouraged.
+
 Typically creating an app icon requires prexisting visual design skills, and these guidelines are intended for those who are already able to create graphics. However, GNOME app icons are deliberately simple in style, in order to make icon creation as accessible as possible.
 
-Icon Size
----------
+`App Icon Preview <https://flathub.org/apps/details/org.gnome.design.AppIconPreview>`_ is highly recommended for app icon creation. It supports each stage of the process, from generating a template, to previewing the icon in relevant contexts and exporting the final assets. App icons are edited in SVG.
 
-The nominal size of full-color icons is ``128×128px``. However, because application icons are sometimes presented at lower resolutions, they should only feature detail that is presentable at ``64×64px`` resolution: anything more detailed would get lost by filtering/scaling down.
+TODO: add an image with a set of app icons, to give an overview of the general style.
 
-.. image:: ../img/icons/hig-icon-sizes.svg
+Metaphor
+--------
 
-The `full-color icon template <https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/master/template.svg>`_ includes a 2px grid which should help you avoid adding detail that's finer than the desired threshold.
+Each app icon should have a simple, recognizable metaphor. Ideally this should have a clear and obvious relationship with the :doc:`app name <app-naming>`. Common types of metaphors include:
 
-Perspective & Shape
--------------------
+* Physical objects directly related to what the app does (for example, a speaker for a music app).
+* Physical objects which are related to the app’s domain, or to an older analog version of it (for example, a cassette tape for a podcasting app).
+* Symbols related to the domain (for example, the “play” triangle for a video player).
+* If the app has a distinctive UI, a simplified, stylized version of it.
 
-Full-color icons should be rendered with a simple orthogonal view and no real or isometric perspective. To provide depth a raised effect can be applied to mimic the Z-axis. Please keep the effect subtle though! Raising the object more than `2 detail units` (`4 nominal pixels`) is not recommended.
+Avoid metahors that are unrelated to the name or function of the app. Also avoid using logos which rely on a specific visual style.
 
-In order to aid recognition, each application icon should have a unique silhouette. However, to ensure visual balance with other application icons, the aspect ratio should not be extreme. Very narrow or very wide shapes should be avoided.
+GNOME App Icon Style
+--------------------
 
-A `grid template <https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/master/template.svg>`_ is available to assist with placing your icon outline. Do not try to cover a maximum area of the canvas: the outside margin should be left empty. In some circumstances a small detail can be extended into this margin space.
+The GNOME app icon style is simple and geometric. In many cases you can draw an entire icon with only basic shapes.
 
-Shadows
--------
+Size & Shape
+~~~~~~~~~~~~
 
-Shadows can be drawn internally, within a full-color icon, with the light source pointing straight from above. However, shadows should not be drawn outside the main silhouette of the icon, as these are generated programmatically based on the context. When app icons are presented on a white background, for example, a strong drop shadow is rendered to help define the contours.
+App icons are drawn within a 128×128px area, but shouldn't fill this space. When judging how large to draw the icon, follow the guides in the `app icon template <https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/master/template.svg>`_, and ensure that your icon has a similar visual weight to other app icons.
+
+If possible, give the icon should have a distinctive shape, to aid recognition, but avoid extreme aspect ratios for the icon shape, such as very narrow or very wide shapes.
+
+The bottom of the icon should be aligned against the standard baseline, which is indicated in the template.
+
+Perspective
+~~~~~~~~~~~
+
+While the app icon style is simple, it is not “flat” and has depth. This non-realistic perspective is produced by combining the “top” and “front” of the object, so that each icon has an additional profile at the bottom of the object. This “front” profile is shaded darker than the top surface.
+
+.. image:: ../img/icons/perspective.png
+
+The profile should be subtle, and should not be taller than `2 detail units` (`4 nominal pixels`).
+
+Material & Lighting
+~~~~~~~~~~~~~~~~~~~
+
+Icons can make use of skeuomorphic materials (for example: wood, metal, or glass) if required. Otherwise, simple colors and textures are recommended. Use the :doc:`standard color palette </reference/palette>` as a base for colors.
+
+Straight surfaces should have flat colors, with gradients being used for curved surfaces.
 
 .. image:: ../img/icons/scr-app-icon-preview.png
 
-It is highly recommended to use the `App Icon Preview <https://flathub.org/apps/details/org.gnome.design.AppIconPreview>`_ app as it provides you with a complete workflow designing the app icon. From the up-to-date template to previewing the proper sizing and color in the context of other app icons, with properly generated drop shadow, up to generating optimized versions of the stable and development variants of the icon.
+Shadows should be avoided if possible, but can be used if necessary (for example, when it is necessary to give contrast to different icon elements). When drawing shadows, the light source should point straight down from above. Do not draw shadows outside the main silhouette of the icon, as these are generated programmatically based on the context.
 
-Palette
--------
+Detail
+~~~~~~
 
-Below is the baseline GNOME app icon color palette.
+App icons are defined at 128×128px, but are typically viewed at 64×64px and can be scaled down to 32×32px. Therefore, avoiding adding fine detail, as this will be lost at low sizes.
 
-.. image:: ../img/icons/hig-colors.svg
+.. image:: ../img/icons/hig-icon-sizes.svg
 
-You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from.
+The template includes a 2px grid which should be followed, and will help to avoid adding excess detail detail.
 
-It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surfaces is allowed.
+Symbolic App Icons
+------------------
 
-How to access the palette:
+.. image:: ../img/icons/symbolic-app-icons.png
 
-* Use the `Palette app <https://flathub.org/apps/details/org.gnome.design.Palette>`_ to copy the hexadecimal color codes.
-* Recent versions of GIMP and Inkscape include the palette by default. (Alternatively, `the palette can be downloaded <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_ in GIMP/Inscape format.)
+Each app should have an additional symbolic version of its app icon, which is used to represent the app icon at smaller sizes, and is utilized for the high-contrast accessibility theme. A description of the symbolic icon style can be found in the :doc:`UI icons guidelines <ui-icons>`.
+
+App symbolics can be drawn in the same SVG as full-size app icon, as indicated in the app icon template. App Icon Preview will export both the full-size and symbolic versions of the icon.
+
+Where possible, the same metaphor as the full size app icon should be reused for the symbolic.
