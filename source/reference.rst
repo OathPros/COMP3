@@ -1,7 +1,7 @@
 Reference
 =========
 
-Reference materials for keyboard and touch interaction.
+Design reference materials.
 
 Section Contents
 ----------------
@@ -10,5 +10,4 @@ Section Contents
    :maxdepth: 1
 
    reference/keyboard
-   reference/touch
    reference/palette
