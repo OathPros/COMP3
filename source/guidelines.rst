@@ -13,10 +13,10 @@ Contents
 
    guidelines/app-naming
    guidelines/app-icons
-   guidelines/writing-style
-   guidelines/typography
-   guidelines/responsive
    guidelines/pointer-touch
    guidelines/keyboard
    guidelines/ui-icons
+   guidelines/writing-style
+   guidelines/typography
    guidelines/illustrations
+   guidelines/responsive
