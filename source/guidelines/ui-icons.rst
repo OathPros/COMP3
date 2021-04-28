@@ -1,53 +1,58 @@
 UI Icons
 ========
 
-This page provides general guidance on the types of icons in use in GNOME apps, how to access them, and how to create them.
+This page provides general guidance on UI icon usage, including when to use icons in UI, how to find them, and how to create them.
 
-Icon Styles
------------
+UI Icon Style
+-------------
 
-Symbolic icons are the primary icon style in GNOME UI. They are simple and monochrome, and are designed to work well at smaller sizes.
+GNOME UI icons use the "symbolic" style. This is simple and monochrome, and is designed to work well at smaller sizes. Symbolics can be used at the following sizes, with 16x16 being the default:
 
-Symbolics are defined at 16×16px and can be used at sizes of 16×16px, 32×32px and 64×64px. All or part of the icon can be programmatically recolored.
+TODO: add a graphic with the various symbolic sizes (16x16, 32x32, 64x64, 128x128).
 
-The other style of icon found in GNOME is the full-color icon style, which is primarily used for app icons. In some cases, these can be used for where icons are displayed at large sizes and are intended to be the focus of attention. File and folder icons in a file manager are one example of this.
+All or part of the icon can be programmatically recolored.
 
-Finding & Using UI Icons
-------------------------
+The other style of icon found in GNOME is the full-color icon style, which is primarily used for :doc:`app icons <app-icons>`. Full-color icons can be used for UI icons that are displayed at large sizes and are intended to be the focus of attention. File and folder icons in a file manager are one example of this.
 
-Where possible, it is recommended to reuse existing symbolic icons, as opposed to creating your own. There are two primary sources of pre-existing symbolic icons:
+Finding UI Icons
+----------------
 
-# Icons which are already included as part of GTK, and are therefore automatically available
-# The icon dev kit, which includes a collection of icons which can be copy/pasted into your app
+GTK includes a set of symbolic icons, which are automatically available to apps. Additionally, the Icon Dev Kit provides a collection of icons which can be copy/pasted into your app. Both sources of icons are included in the `Icon Library app <https://flathub.org/apps/details/org.gnome.design.IconLibrary>`_. This allows all available symbolic icons to be browsed and searched, and provides instructions for how to make use of each one.
 
-Both sources of symbolic icons included in the Icon Library app. This allows all the icons to be browsed and searched, and provides instructions for how to make use of each one.
+Where possible, it is recommended to reuse these existing icons, as opposed to creating your own.
 
-Icon Usage Guidelines
----------------------
+When to Use UI Icons
+--------------------
 
-Only use icons which will be recognized by your users. This includes:
+As a general rule, controls should be identified with either a label or an icon, not both. This helps to avoid information overload, particularly when controls are tightly packed together. However, there are some exceptions to this rule, where an icon and label can/should be used in combination. These include locations in :doc:`sidebars </nav/sidebars>` and :doc:`view switchers </nav/view-switchers>`.
 
-* Icons whose meaning is commonly recognized. This set of icons is actually quite small, and is dictated by convention. It includes standard icons such as search, menu, forward, back and share. If you are in doubt, only use icons which are frequently used in other applications.
-* Icons will be meaningful in the specific context of your application — users of specialist tools will often be familiar with domain-specific symbols.
+The most common usage for UI icons is to identify buttons. Here, it is often preferable to use an icon over a label. However, this should be only done if the icon will be recognized by your users.
 
-If users will not recognize an icon, it might be better to use a text label instead.
+Recognition can either stem from the fact that an icon is commonly recognized, or because it is recognized within the domain of your app (users of specialist tools will often be familiar with domain-specific symbols).
 
-Some icons are only meaningful alongside other icons of the same type. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (i.e. a single line), and will not be recognizable without a corresponding “plus” add icon.
+The number of commonly recognized icons is actually quite small, and is dictated by convention. It includes standard icons such as search, menu, forward, back and share.If you are in doubt, only use icons which are frequently used in other applications.
 
-As a general rule, controls should be identified with either a label or an icon, not both. This helps to avoid information overload and icon-overuse. However, there are some controls where both is required for practical reasons.
+Note that some icons will only be recognized as part of a set or pair. For example, a media icon for stop is simply a square, and will not be recognized as “stop” without other media symbols  (play, pause, skip, and so on) also being present. Likewise, the “remove” icon is a subtract symbol (in other words, a horizontal line), and will not be recognized without a corresponding “add” icon.
+
+If your users will not recognize an icon, it might be better to use a text label instead.
 
 Symbolic Icon Creation
 ----------------------
 
-If you require an icon that doesn't already exist, new ones can be defined as ``16×16`` SVGs. 
+If you require an icon that doesn't already exist, it is possible to create your own. For this, it is recommended to use the `Symbolic Preview app <https://flathub.org/apps/details/org.gnome.design.SymbolicPreview>`_. This will both generate an SVG template to start with, and allows previewing how your icon will appear in different contexts.
+
+When drawing symbolic icons, stick to the characteristics of the icon style:
+
+* 16×16px nominal size, including a margin to allow for uniqueness of shape and consistency of visual weight.
+* No perspective - uses a simple orthogonal view.
+* 2px strokes for the main features of the icon, with 1px avoided where possible.
+* Defined in monochrome, then programmatically recolored.
+
+General guidelines for symbolic icon creation:
 
 * When looking for an appropriate metaphor for an icon, identify a single property to communicate. For example, when describing an action to be performed on an image, it isn’t necessary to repeat the idea of an image in every icon. Instead, focus on what is distinct about each action (for example: rotate, tag, align).
-* Avoid using any perspective in symbolic icons and stick to a simple orthogonal view.
-* When using unfilled strokes for an outline, try avoiding hairline (``1px``) and use at least a ``2px`` stroke for the main feature of the icon.
-* Symbolic icons are recolored at runtime to match the context, very much like a piece of text. While there are ways to “shade” parts of an icon by using opacity or creating duotone/pattern dithering, try avoiding these as much as possible.
-* Ensure that any icons you create have a similar visual weight to existing symbolics.
-* When a metaphor relies on negative space, make sure it will work with the colors inverted. For example a camera lens spec/highlight will only work if lighter than the lens itself:
+* Align all shapes to the pixel grid to ensure sharp rendering.
+* If possible, leave a margin of at least 1px on all sides of the icon.
+* When a metaphor relies on negative space, make sure it will work with the colors inverted. For example a camera lens spec/highlight will only work if lighter than the lens itself.
 
 .. image:: ../img/icons/hig-symbolic-inversion.svg
-
-The `Symbolic Preview app <https://flathub.org/apps/details/org.gnome.design.SymbolicPreview>`_ is available to view and test icons that you have created.
