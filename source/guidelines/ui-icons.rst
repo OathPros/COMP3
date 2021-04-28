@@ -8,7 +8,7 @@ UI Icon Style
 
 GNOME UI icons use the "symbolic" style. This is simple and monochrome, and is designed to work well at smaller sizes. Symbolics can be used at the following sizes, with 16x16 being the default:
 
-TODO: add a graphic with the various symbolic sizes (16x16, 32x32, 64x64, 128x128).
+.. image:: ../img/icons/symbolic-icon-sizes.svg
 
 All or part of the icon can be programmatically recolored.
 
