@@ -18,5 +18,4 @@ Contents
    guidelines/ui-icons
    guidelines/writing-style
    guidelines/typography
-   guidelines/illustrations
    guidelines/responsive
