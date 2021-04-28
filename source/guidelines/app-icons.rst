@@ -5,7 +5,7 @@ In addition to having a :doc:`great name <app-naming>`, every app also needs a g
 
 App icons should be unique to each and every app. Reusing existing icons for app identities is strongly discouraged.
 
-Typically creating an app icon requires prexisting visual design skills, and these guidelines are intended for those who are already able to create graphics. However, GNOME app icons are deliberately simple in style, in order to make icon creation as accessible as possible.
+Typically creating an app icon requires pre-existing visual design skills, and these guidelines are intended for those who are already able to create graphics. However, GNOME app icons are deliberately simple in style, in order to make icon creation as accessible as possible.
 
 `App Icon Preview <https://flathub.org/apps/details/org.gnome.design.AppIconPreview>`_ is highly recommended for app icon creation. It supports each stage of the process, from generating a template, to previewing the icon in relevant contexts and exporting the final assets. App icons are edited in SVG.
 

@@ -1,9 +1,9 @@
 Tools & Resources
 =================
 
-A variety of tools and resources are available for GNOME app design. There is no requirement to use any of these, and designers and developers should use the tools with which they are most comfortable. However, in many cases they will help you to get up and running as quickly and easily as possible.
+A variety of tools and resources are available for GNOME app design. There is no requirement to use any of these, and designers and developers should use the tools with which they are most comfortable. However, in many cases these resources will help you to get up and running as quickly and easily as possible.
 
-Most of these tools and resources are referenced elsewhere in the HIG, where they are most relevant. This page is primarily intended as a quick reference.
+Most of these tools and resources are referenced elsewhere in the HIG, where they are most relevant.
 
 Apps
 ----
