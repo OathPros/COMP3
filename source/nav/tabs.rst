@@ -3,8 +3,6 @@ Tabs
 
 Tabs allow a window to contain a mutable set of content items, such as pages, documents or images. They are primarily used as part of editor or browser applications.
 
-An example of tabs can be seen in the *Tab View* demo in the Handy demo app.
-
 Guidelines
 ----------
 

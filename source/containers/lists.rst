@@ -7,8 +7,6 @@ Lists are often used to organize sets of controls as well as content. Examples i
 
 The standard list in GNOME is appropriate for relatively small static lists. For larger lists, see :ref:`list views <list-views>`.
 
-A *Lists* example can be found in the LibAdwaita demo app.
-
 Guidelines
 ----------
 

@@ -3,8 +3,6 @@ View Switchers
 
 A view switcher is a control that allows switching between a small number of predefined views. For example, a music application could show different views for artists, albums and playlists.
 
-An example view switcher can be seen in the *View Switcher* demo in the Adwaita demo app.
-
 Guidelines
 ----------
 

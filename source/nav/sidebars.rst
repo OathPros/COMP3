@@ -1,7 +1,7 @@
 Sidebars
 ========
 
-A sidebar allows switching between different views. A sidebar example can be seen in the *Flap* demo in the Adwaita demo app.
+A sidebar allows switching between different views.
 
 When to Use
 -----------

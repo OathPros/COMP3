@@ -22,8 +22,6 @@ Demo Apps & Toolkit
 When using the various design patterns and UI elements in the HIG, it is recommended to look at existing examples to see how they look and work in practice. This can currently be done with the following apps and tools:
 
 * GTK 4 demo - includes demos for most of the widgets in GTK 4. (Not all of these are recommended for use in GNOME app designs.) To run it, install the GTK 4 development library and run ``gtk4-demo``.
-* Adwaita demo - demo app for the Adwaita UI component library (GTK 4 only). TODO: how to run it?
-* Handy demo - demo app for the Handy UI component library (GTK 3 only). TODO: how to run it?
 * `GTK inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_ - can be used to inspect any GTK-based apps, including the demo apps.
 
 SVG Templates & Examples

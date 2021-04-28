@@ -11,8 +11,6 @@ Flow boxes provide a generic grid container which can be used to arrange control
 
 Flow boxes are suitable for relatively small static grids. For very large, dynamic grids, see :ref:`grid views <grid-views>`.
 
-A *Flow Box* example can be found in the GTK 4 demo app.
-
 General Guidelines
 ~~~~~~~~~~~~~~~~~~
 
