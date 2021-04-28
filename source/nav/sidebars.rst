@@ -18,10 +18,11 @@ Guidelines
 * Order the list according to what is most useful for the users of your application. It is often best to place recently updated items at the top of the list.
 * Header bar controls which affect the sidebar list should be placed within the list pane section of the header bar. Controls for search and selection should be found above the list.
 * Each list row can include multiple lines of text, as well as images. However, be careful to ensure that the most important information is not lost, and work to ensure a clean and attractive appearance.
-
-TODO: guidelines on how to handle narrow window widths (leaflet and flap are relevant here).
+* To support :doc:`responsive scaling </guidelines/responsive>`, sidebars should collapse to a stack when the window becomes narrow. This can be accomplished with a leaflet.
 
 API Reference
 -------------
 
 * GtkStackSidebar: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.StackSidebar.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html>`_
+* `AdwLeaflet <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwLeaflet.html>`_
+* `HdyLeaflet <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyLeaflet.html>`_
