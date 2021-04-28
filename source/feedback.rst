@@ -16,3 +16,4 @@ Contents
    feedback/progress-bars
    feedback/spinners
    feedback/dialogs
+   feedback/placeholders

@@ -20,5 +20,4 @@ Contents
    controls/drop-downs
    controls/sliders
    controls/spin-buttons
-   controls/placeholders
    controls/overlaid
