@@ -19,12 +19,15 @@ Basic Shortcuts
   * - Quit
     - Ctrl+Q
     - Closes the app, including all its windows.
-  * - Menu
-    - F10
-    - Opens the primary or secondary menu.
   * - Help
     - F1
     - Opens the help app on the page for the app.
+  * - Side Pane
+    - F9
+    - Toggles :doc:`utility pane </containers/utility-panes>` visibility.
+  * - Menu
+    - F10
+    - Opens the primary or secondary menu. 
   * - Keyboard Shortcuts
     - Ctrl+?
     - Opens the keyboard shortcuts window. 

@@ -1,7 +1,7 @@
 Sidebars
 ========
 
-A sidebar allows switching between different views.
+A sidebar allows switching between different views. Visually they are similar to :doc:`utility panes </containers/utility-panes>`, but they play a different role and have behavioral differences.
 
 When to Use
 -----------

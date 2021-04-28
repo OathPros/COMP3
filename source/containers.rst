@@ -17,3 +17,4 @@ Contents
    containers/flow-boxes
    containers/model-based
    containers/popovers
+   containers/utility-panes
