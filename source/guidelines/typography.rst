@@ -89,5 +89,9 @@ Unicode provides a wide variety of characters which, when used correctly, can dr
     - June-July 1967
     - June–July 1967
     - U+2013 EN DASH
+  * - Units
+    - 32GB
+    - 32 GB
+    - U+2009 THIN SPACE
 
 The `Typography <https://flathub.org/apps/details/org.gnome.design.Typography>`_ app provides a convenient way to copy these recommended characters.
