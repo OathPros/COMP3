@@ -1,6 +1,8 @@
 Text Fields
 ===========
 
+.. image:: ../img/screenshots/text-fields.png
+
 Text fields are used for single line text entry and have a variety of uses, messaging, preferences and forms. :doc:`Search entries </nav/search>` are a type of text field which have their own dedicated pattern.
 
 Multi-line text editing can be accomplished with a text view.

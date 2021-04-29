@@ -1,6 +1,8 @@
 Sliders
 =======
 
+.. image:: ../img/screenshots/sliders.png
+
 A slider allows quickly selecting a value from a range. Common uses include seeking through audio or video, changing a zoom or volume level, or setting values in image editors.
 
 When to use

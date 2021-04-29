@@ -1,6 +1,8 @@
 Drop-Down Lists
 ===============
 
+.. image:: ../img/screenshots/drop-down-list.png
+
 Drop-down lists are used to select from a mutually exclusive set of options.
 
 :doc:`Radio buttons <radio-buttons>` are generally preferable to drop-down lists, as they present all the available options without the need for interaction. However, drop-down lists may be preferable when:

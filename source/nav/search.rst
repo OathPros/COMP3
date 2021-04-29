@@ -1,6 +1,8 @@
 Search
 ======
 
+.. image:: ../img/screenshots/search-bar.png
+
 Search allows content items to be located by filtering content that is displayed on screen. It is distinct from find, which involves moving or highlighting the content that is being searched for, rather than filtering.
 
 Examples of search can be found in the *Search Entry* and *Type to Search* demos in the GTK 4 demo app.

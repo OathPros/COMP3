@@ -1,6 +1,8 @@
 Placeholders
 ============
 
+.. image:: ../img/screenshots/place-holder.png
+
 A placeholder is an image with accompanying text, which is used to fill a space that would usually be populated with content.
 
 In GNOME there are two main types of placeholder: initial state placeholders, and empty placeholders.

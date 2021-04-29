@@ -1,6 +1,8 @@
 Notifications
 =============
 
+.. image:: ../img/screenshots/notification.png
+
 Use notifications to inform users about events in your app that they will be interested in. Examples include:
 
 * when a download or other long-running operation has finished
