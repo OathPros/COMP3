@@ -60,38 +60,38 @@ Unicode provides a wide variety of characters which, when used correctly, can dr
   * - Usage
     - Incorrect
     - Correct
-    - Unicode to use
+    - Unicode to Use
   * - Quotation
     - \"quote\"
     - “quote”
-    - U+201C LEFT DOUBLE QUOTATION MARK, U+201D RIGHT DOUBLE QUOTATION MARK
+    - U+201C Left double quotation mark, U+201D Right double quotation mark
   * - Time
     - 4:20
     - 4∶20
-    - U+2236 RATIO
+    - U+2236 Ratio
   * - Multiplication
     - 1024x768
     - 1024×768
-    - U+00D7 MULTIPLICATION SIGN
+    - U+00D7 Multiplication sign
   * - Ellipsis
-    - Introducing...
+    - Introducing\.\.\.
     - Introducing…
-    - U+2026 HORIZONTAL ELLIPSIS
+    - U+2026 Horizontal ellipsis
   * - Apostrophe
     - The user's preferences
     - The user’s preferences
-    - U+2019 RIGHT SINGLE QUOTATION MARK
+    - U+2019 Right single quotation mark
   * - Bullet list
     - \* One
     - \• One
-    - U+2022 BULLET
+    - U+2022 Bullet
   * - Ranges
     - June-July 1967
     - June–July 1967
-    - U+2013 EN DASH
+    - U+2013 En dash
   * - Units
     - 32GB
     - 32 GB
-    - U+2009 THIN SPACE
+    - U+2009 Thin space
 
 The `Typography <https://flathub.org/apps/details/org.gnome.design.Typography>`_ app provides a convenient way to copy these recommended characters.
