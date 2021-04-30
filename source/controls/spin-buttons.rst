@@ -1,6 +1,8 @@
 Spin Buttons
 ============
 
+.. image:: ../img/screenshots/spin-buttons.png
+
 A spin button is a text field that accepts a range of values, with buttons that allow the value to be increased or decreased by a fixed amount.
 
 Only use a spin button when the exact numeric value is meaningful or useful. If this isn't the case, a :doc:`slider </controls/sliders>` might be a better choice.

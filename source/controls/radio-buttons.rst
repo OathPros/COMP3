@@ -1,7 +1,9 @@
 Radio Buttons
 =============
 
-Radio buttons allow a selection to be made from a set of options. 
+.. image:: ../img/screenshots/radio-buttons.png
+
+Radio buttons allow a selection to be made from a set of options.
 
 When to use
 -----------

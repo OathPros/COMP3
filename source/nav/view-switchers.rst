@@ -1,6 +1,8 @@
 View Switchers
 ==============
 
+.. image:: ../img/screenshots/view-switcher.png
+
 A view switcher is a control that allows switching between a small number of predefined views. For example, a music application could show different views for artists, albums and playlists.
 
 Guidelines

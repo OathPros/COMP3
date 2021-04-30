@@ -1,6 +1,8 @@
 Overlaid Controls
 =================
 
+.. image:: ../img/screenshots/overlaid-controls.png
+
 Controls are typically opaque and permanently visible. However, in some cases it is desirable to have semi-transparent controls which appear over window content.
 
 When to use

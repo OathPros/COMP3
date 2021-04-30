@@ -1,6 +1,8 @@
 Progress Bars
 =============
 
+.. image:: ../img/screenshots/progress-bars.png
+
 Progress bars indicate progress on a task. Unlike spinners, they can indicate the proportion of the task that has been completed, as well as the time remaining.
 
 Progress bars are most appropriate for indicating progress on tasks that take a relatively long time (as a rule of thumb, tasks that take over 30 seconds). For tasks that have shorter periods, spinners are often a better choice.

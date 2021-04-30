@@ -1,6 +1,8 @@
 Spinners
 ========
 
+.. image:: ../img/screenshots/spinners.png
+
 Indicate progress.
 
 When to use

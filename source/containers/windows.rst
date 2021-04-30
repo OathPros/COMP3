@@ -1,6 +1,8 @@
 Windows
 =======
 
+.. image:: ../img/screenshots/window.png
+
 Windows are the main containers for application user interfaces.
 
 Primary Windows

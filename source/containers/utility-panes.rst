@@ -1,6 +1,8 @@
 Utility Panes
 =============
 
+.. image:: ../img/screenshots/utility-pane.png
+
 Utility panes are vertical panels which are shown on one side of a window. They have some similarities with :doc:`sidebars </nav/sidebars>`, but play a different role and have slightly different behavior.
 
 When to Use

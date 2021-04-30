@@ -1,6 +1,8 @@
 Menus
 =====
 
+.. image:: ../img/screenshots/menu.png
+
 Menus are a common design pattern. In GNOME they typically appear as primary, secondary and context menus.
 
 Primary Menus
