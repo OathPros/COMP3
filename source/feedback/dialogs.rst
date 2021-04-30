@@ -1,5 +1,3 @@
-.. image:: ../img/placeholder-dialogs.jpg
-
 Dialogs
 =======
 
