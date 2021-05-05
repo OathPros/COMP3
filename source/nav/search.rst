@@ -35,6 +35,7 @@ Guidelines on presenting search results:
 * Search should be “live” wherever possible — the content view should update to display search results as they are entered.
 * In order to be effective, it is important that search results are quickly returned.
 * If a search term does not return any results, ensure that feedback is given in the content view. Often a simple “No results” label is sufficient.
+* It is better to show results incrementally, as they are collected, as opposed to waiting for all results to be returned before displaying them.
 
 Additional Guidance
 -------------------
