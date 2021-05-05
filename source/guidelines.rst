@@ -16,6 +16,7 @@ Contents
    guidelines/pointer-touch
    guidelines/keyboard
    guidelines/ui-icons
+   guidelines/ui-styling
    guidelines/writing-style
    guidelines/typography
    guidelines/responsive
