@@ -7,6 +7,15 @@ Whether you are a developer or a designer, these guidelines contain essential in
 
 The GNOME Human Interface Guidelines are the primary design resource for those creating software for the GNOME platform. They are primarily indended for application designers and developers, but are relevant to anyone wanting to familize themselves with the GNOME platform.
 
+Platform Definition
+-------------------
+
+The HIG is intended to be used in reference to recent versions of the GNOME platform, as provided by the GNOME Flatpak SDK.
+
+Application developers are expected to be using GTK 4 and the Adwaita library, and it is for these libraries that the HIG is primarily indended.
+
+Much of the HIG is also relevant to applications that are using GTK 3 and the associated Handy library.
+
 Content Overview
 ----------------
 
@@ -19,11 +28,6 @@ The rest of the HIG provides documentation on the various design patterns and us
 * :doc:`Feedback <feedback>`: elements for displaying information and soliciting responses from users.
 * :doc:`Controls <controls>`: common interactive UI elements.
 * :doc:`Reference <reference>`: keyboard shortcuts and touch gestures.
-
-Platform Scope
---------------
-
-The HIG primarily provides documentation for GTK 4 and the Adwaita companion library. In many places, it is also relevant for GTK 3 and libhandy.
 
 .. toctree::
    :maxdepth: 1
