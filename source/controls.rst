@@ -3,7 +3,7 @@
 Controls
 ========
 
-The basic interactive UI elements for apps, used for taking actions and selecting options.
+Controls include the most basic interactive UI elements, including buttons and swtches.
 
 Contents
 --------

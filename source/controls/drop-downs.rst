@@ -5,15 +5,18 @@ Drop-Down Lists
 
 Drop-down lists are used to select from a mutually exclusive set of options.
 
-:doc:`Radio buttons <radio-buttons>` are generally preferable to drop-down lists, as they present all the available options without the need for interaction. However, drop-down lists may be preferable when:
+A drop-down list example can be found in the *Lists → Selections* demo in the GTK 4 demo application.
 
-* there is little available space
-* the list of options may be long or change over time
+When to Use
+-----------
+
+Drop-down lists are typically appropriate when:
+
+* there is little available space, such as in :doc:`header bars </containers/header-bars>`
+* the list of options may be long
 * the contents of the hidden part of the menu are obvious from its label and the one selected item. For example, if you have an option menu labelled "Month:" with the item "January" selected, the user might reasonably infer that the menu contains the 12 months of the year without having to look.
 
-Drop-down lists can also be useful in :doc:`header bars </containers/header-bars>`.
-
-A drop-down list example can be found in the *Lists → Selections* demo in the GTK 4 demo application.
+If these factors don't apply, a :doc:`radio button <radio-buttons>` might be a better choice, since radio buttons present all the available options without the need to explicitly expose them.
 
 Guidelines
 ----------

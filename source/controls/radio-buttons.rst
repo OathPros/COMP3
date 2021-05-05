@@ -8,10 +8,9 @@ Radio buttons allow a selection to be made from a set of options.
 When to use
 -----------
 
-Radio buttons are similar to :doc:`checkboxes <checkboxes>`, :doc:`switches <switches>` and :doc:`drop-down lists <drop-downs>`. However, radio buttons have crucial differences from these other controls:
+Radio buttons allow each option to be individually labelled, which is necesssary when they are not mutually exclusive. (For example, an option to sort by author or by date.) This makes them more appropriate than switches for this type of option.
 
-* Unlike checkboxes and switches, radio buttons allow each option to be individually labelled. This is important when the options are not obviously mutually exclusive. For example, an option to sort by author or by date.
-* Unlike drop-down lists, radio buttons display all options without the need for disclosure. This has the advantage of not requiring work on the user's part to discover the range of options that are available. As a result, they are preferable for small sets of options, but inappropriate for longer option lists.
+Since radio buttons display all options without the need for disclosure, they are most appropriate for small sets of options. For longer sets of options, a :doc:`drop-down list <drop-downs>` is often a better choice.
 
 Guidelines
 ----------

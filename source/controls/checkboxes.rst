@@ -3,7 +3,7 @@ Checkboxes
 
 .. image:: ../img/screenshots/checkbox.png
 
-Checkboxes are used to show or change a setting.
+Checkboxes allow users to control binary options or properties. In general, :doc:`swiches <switches>` are preferred to check boxes. However, in some situations a check box may be more suitable.
 
 Guidelines
 ----------
