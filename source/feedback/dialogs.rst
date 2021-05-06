@@ -34,14 +34,18 @@ Since action dialogs obscure the parent winodw and require a context switch on t
 
 * Action dialogs have a header bar, a heading which describes the action, and two primary buttons — one which carries out the action and one which cancels it.
 * Label the affirmative button with a specific imperative verb, for example: *Save* or *Print*. This is clearer than a generic label like *OK* or *Done*.
+
+Dialog Button Guidelines
+------------------------
+
 * Sometimes, the user may be required to choose options before an action can be carried out. In these cases, the affirmative dialog button should be insensitive until the required options have been selected.
-
-General Guidelines
-------------------
-
 * Always ensure that the cancel button appears first, before the affirmative button. In left-to-right locales, this is on the left. This button order ensures that users become aware of, and are reminded of, the ability to cancel prior to encountering the affirmative button.
 * Assign the return key to activate the affirmative button. However, this should not be done if its action is irreversible, destructive or otherwise inconvenient to the user. If there is no appropriate button to designate as the default button, do not set one.
 * Ensure that the escape key activates the cancel button, if there is one. Message dialogs with a single button can have both escape and return bound to the same button.
+
+General Dialog Guidelines
+-------------------------
+
 * Never pop up a dialog window unexpectedly. They should only ever be displayed in immediate response to a deliberate user action.
 * Dialogs should always have a parent window, to which they are modal.
 * When opening a dialog, provide initial keyboard focus to the component that you expect users to operate first. This focus is especially important for users who must use a keyboard to navigate.
