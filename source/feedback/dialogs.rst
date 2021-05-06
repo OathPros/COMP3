@@ -1,14 +1,14 @@
 Dialogs
 =======
 
-.. image:: ../img/screenshots/dialog.png
-
 Dialog windows present options, choices or information to users, which they must respond to in order to continue. There are two types of dialog in GNOME: message dialogs and action dialogs.
 
 .. _message-dialogs:
 
 Message Dialogs
 ---------------
+
+.. image:: ../img/screenshots/message-dialog.png
 
 Message dialogs present a message or question, along with 1-3 buttons with which to respond. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message.
 
