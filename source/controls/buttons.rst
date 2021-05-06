@@ -42,6 +42,36 @@ Buttons can be given a distinctive visual style, which can be appropriate in cer
 
 Each view should only ever include a single button using either the suggested or destructive styles.
 
+Tooltips
+--------
+
+Tooltips can be set for any UI element, and have a variety of purposes, but the most common is to provide an explanatory label for buttons that have an icon rather than a label.
+
+When to Use
+~~~~~~~~~~~
+
+Controls in header bars should all have tooltips. Elsewhere, try to keep tooltip usage to a minimum: only use them when they are really useful, either by providing information that users look for, or information that enhances the user experience.
+ 
+Tooltips can get in the way when inadvertently displayed, so avoid providing them for every control or content item. Letting the pointer rest over an application window should typically not result in a tooltip being displayed.
+
+Likewise, while some users will look for and make use of tooltips, they aren't available in all contexts (such as touch devices), and therefore shouldn't be relied upon to communicate essential information.
+
+When setting tooltips, set them for all equivalent controls or elements in the app's UI. If a tooltip is provided for one control in a set, all other controls in that set should also have tooltips.
+
+Tooltip Text
+~~~~~~~~~~~~
+
+* Should be written in :ref:`sentence capitalization <sentence-capitalization>`.
+* For controls:
+   * Should be a short description of what the control does or what it opens. 
+   * Should be slightly longer and more descriptive than a button label, but should still be no longer than around 30 characters. For example: "Recently used documents", "Grid view". Still avoid unnecessary verbs such as "Open recently used documents" or "Switch to grid view". 
+   * When the tooltip is for a control that already has a label, avoid repeating the label and try to provide useful supplementary information. For example, an "Open..." button could have a "Select a file" tooltip, or "Add User..." could have a "Create an account" tooltip.
+
+Standard tooltip labels:
+
+"Menu", "Search <content type>"
+
+
 API Reference
 -------------
 

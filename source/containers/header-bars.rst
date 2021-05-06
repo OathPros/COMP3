@@ -20,6 +20,7 @@ Guidelines
    * If the window includes multiple views (accessed through :doc:`a stack </nav/stacks>`, :doc:`a view switcher </nav/view-switchers>` or :doc:`sidebar </nav/sidebars>`), the header bar can show different controls for each view.
    * If the window incorporates navigation, different controls can be shown depending on the location displayed in the window.
 * Always ensure that there is some blank space in the header bar to allow it to be dragged. This is necessary to allow windows to be moved.
+* Primary window header bar controls should all have :doc:`tooltips </feedback/tooltips>`.
 
 API Reference
 -------------

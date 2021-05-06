@@ -17,3 +17,4 @@ Contents
    feedback/spinners
    feedback/dialogs
    feedback/placeholders
+   feedback/tooltips

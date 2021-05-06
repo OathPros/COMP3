@@ -5,6 +5,8 @@ Menus
 
 Menus are a common design pattern. In GNOME they typically appear as primary, secondary and context menus.
 
+.. _primary-menus:
+
 Primary Menus
 -------------
 
@@ -34,6 +36,8 @@ The following are standard primary menu items, and should be placed in a group a
     - Opens the application's about dialog. This item should include the application's name, such as About Photos or About Calculator. Every primary menu should include this item.
 
 Primary menus shouldn’t include menu items for *Close* or *Quit*: windows can already be closed using the close button in the header bar, and it can be ambiguous as to what a close menu item refers to. Users don't readily differentiate between quit and close, and it can therefore be misleading.
+
+.. _secondary-menus:
 
 Secondary Menus
 ---------------
