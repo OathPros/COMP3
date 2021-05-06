@@ -30,4 +30,5 @@ This technique can be particularly useful when there's a delay between the switc
 API Reference
 -------------
 
-* GtkSwitch: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Switch.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkSwitch.html>`_
+* `GTK 4: GtkSwitch <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Switch.html>`_
+* `GTK 3: GtkSwitch <https://developer.gnome.org/gtk3/stable/GtkSwitch.html>`_

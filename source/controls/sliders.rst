@@ -28,5 +28,6 @@ Guidelines
 API Reference
 -------------
 
-* GTK 4: `GtkScale <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Scale.html>`_
-* GTK 3: `GtkHScale  <https://developer.gnome.org/gtk3/stable/GtkHScale.html>`_, `GtkVSCale <https://developer.gnome.org/gtk3/stable/GtkVScale.html>`_
+* `GTK 4: GtkScale <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Scale.html>`_
+* `GTK 3: GtkHScale  <https://developer.gnome.org/gtk3/stable/GtkHScale.html>`_
+* `GTK 3: GtkVSCale <https://developer.gnome.org/gtk3/stable/GtkVScale.html>`_

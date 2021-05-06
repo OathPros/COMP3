@@ -25,4 +25,5 @@ Guidelines
 API Reference
 -------------
 
-* GtkHeaderBar: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.HeaderBar.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkHeaderBar.html>`_
+* `GTK 4: GtkHeaderBar <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.HeaderBar.html>`_
+* `GTK 3: GtkHeaderBar <https://developer.gnome.org/gtk3/stable/GtkHeaderBar.html>`_

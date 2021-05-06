@@ -53,4 +53,4 @@ It is possible to add buttons to notifications, to allow users to quickly respon
 
 API Reference
 -------------
-* `GNotification <https://developer.gnome.org/gio/stable/GNotification.html>`_
+* `GIO: GNotification <https://developer.gnome.org/gio/stable/GNotification.html>`_

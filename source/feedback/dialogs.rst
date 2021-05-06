@@ -53,4 +53,5 @@ General Dialog Guidelines
 API Reference
 -------------
 
-* GtkMessageDialog: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.MessageDialog.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html>`_
+* `GTK 4: GtkMessageDialog <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.MessageDialog.html>`_
+* `GTK 3: GtkMessageDialog <https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html>`_

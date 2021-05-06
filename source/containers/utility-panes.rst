@@ -22,5 +22,5 @@ Guidelines
 API Reference
 -------------
 
-* `AdwFlap <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwFlap.html>`_
-* `HdyFlap <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyFlap.html>`_
+* `Adwaita: AdwFlap <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwFlap.html>`_
+* `Handy: HdyFlap <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyFlap.html>`_

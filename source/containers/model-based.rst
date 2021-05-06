@@ -57,6 +57,6 @@ A grid view example can be found under *Lists → Colors*, in the GTK 4 demo app
 API Reference
 -------------
 
-* `GtkListView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListView.html>`_ 
-* `GtkColumnView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ColumnView.html>`_
-* `GtkGridView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.GridView.html>`_
+* `GTK 4: GtkListView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListView.html>`_ 
+* `GTK 4: GtkColumnView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ColumnView.html>`_
+* `GTK 4: GtkGridView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.GridView.html>`_

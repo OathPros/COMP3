@@ -25,6 +25,7 @@ Guidelines
 API Reference
 -------------
 
-* GtkStackSidebar: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.StackSidebar.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html>`_
-* `AdwLeaflet <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwLeaflet.html>`_
-* `HdyLeaflet <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyLeaflet.html>`_
+* `GTK 4: GtkStackSidebar <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.StackSidebar.html>`_
+* `Adwaita: AdwLeaflet <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwLeaflet.html>`_
+* `GTK 3: GtkStackSidebar <https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html>`_
+* `Handy: HdyLeaflet <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyLeaflet.html>`_

@@ -17,5 +17,5 @@ Guidelines
 API Reference
 -------------
 
-* `AdwViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwViewSwitcherBar.html>`_
-* `HdyViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyViewSwitcherBar.html>`_
+* `Adwaita: AdwViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwViewSwitcherBar.html>`_
+* `Handy: HdyViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyViewSwitcherBar.html>`_

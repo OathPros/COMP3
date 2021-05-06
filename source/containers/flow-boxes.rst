@@ -25,4 +25,5 @@ The following guidelines primarily apply to cases where flow boxes are used to p
 API Reference
 -------------
 
-* GtkFlowBox: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.FlowBox.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkFlowBox.html>`_
+* `GTK 4: GtkFlowBox <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.FlowBox.html>`_
+* `GTK 3: GtkFlowBox <https://developer.gnome.org/gtk3/stable/GtkFlowBox.html>`_

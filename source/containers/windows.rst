@@ -37,7 +37,9 @@ Additional guidance on window sizing can be found in the :doc:`scaling and respo
 API Reference
 -------------
 
-* GtkApplicationWindow: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ApplicationWindow.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkApplicationWindow.html>`_
-* GtkAboutDialog: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.AboutDialog.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html>`_
-* `AwdPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwPreferencesWindow.html>`_
-* `HdyPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyPreferencesWindow.html>`_
+* `GTK 4: GtkApplicationWindow <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ApplicationWindow.html>`_
+* `GTK 4: GtkAboutDialog <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.AboutDialog.html>`_
+* `Adwaita: AwdPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwPreferencesWindow.html>`_
+* `GTK 3: GtkApplicationWindow <https://developer.gnome.org/gtk3/stable/GtkApplicationWindow.html>`_
+* `GTK 3: GtkAboutDialog <https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html>`_
+* `Handy: HdyPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyPreferencesWindow.html>`_

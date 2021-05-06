@@ -47,5 +47,5 @@ Where possible, ensure that the standard keyboard shortcuts for tabs are support
 API Reference
 -------------
 
-* `HdyTabBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyTabBar.html>`_
-* `HdyTabView <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyTabView.html>`_
+* `Handy: HdyTabBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyTabBar.html>`_
+* `Handy: HdyTabView <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyTabView.html>`_

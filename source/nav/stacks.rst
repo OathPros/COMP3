@@ -14,3 +14,9 @@ Guidelines
 * Support the :ref:`standard keyboard shortcuts for navigation <navigation-shortcuts>`.
 * When in a sub-view, a back button should be shown at the start of the header bar (in left-to-right locales, on the far left).
 * Stacks can be combined with other navigation patterns. For example, a top-level :doc:`view switcher <view-switchers>` can contain stacks for each view.
+
+API Reference
+-------------
+
+* `GTK 4: GtkStack <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Stack.html>`_
+* `GTK 3: GtkStack <https://developer.gnome.org/gtk3/stable/GtkStack.html>`_

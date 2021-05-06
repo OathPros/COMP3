@@ -75,4 +75,5 @@ Menu Size & Structure
 API Reference
 -------------
 
-* GtkPopoverMenu:  `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.PopoverMenu.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html>`_
+* `GTK 4: GtkPopoverMenu <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.PopoverMenu.html>`_
+* `GTK 3: GtkPopoverMenu <https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html>`_

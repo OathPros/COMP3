@@ -26,4 +26,5 @@ General Guidelines
 API Reference
 -------------
 
-* GtkSpinner: `GTK 4 <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Spinner.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkSpinner.html>`_
+* `GTK 4: GtkSpinner <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Spinner.html>`_
+* `GTK 3: GtkSpinner <https://developer.gnome.org/gtk3/stable/GtkSpinner.html>`_

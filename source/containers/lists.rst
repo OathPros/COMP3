@@ -26,7 +26,8 @@ When a list contains controls:
 API Reference
 -------------
 
-* GtkListBox: `GTK 4 <hhttps://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListBox.html>`_, `GTK 3 <https://developer.gnome.org/gtk3/stable/GtkListBox.html>`_
-* `AdwActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwActionRow.html>`_
-* `HdyActionRow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyActionRow.html>`_
+* `GTK 4: GtkListBox <hhttps://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListBox.html>`_
+* `Adwaita: AdwActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwActionRow.html>`_
+* `GTK 3: GtkListBox <https://developer.gnome.org/gtk3/stable/GtkListBox.html>`_
+* `Handy: HdyActionRow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyActionRow.html>`_
 * Use the ``.content`` style class to ensure proper spacing.
