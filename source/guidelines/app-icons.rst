@@ -44,7 +44,7 @@ While the app icon style is simple, it is not “flat” and has depth. This non
 
 .. image:: ../img/icons/perspective.png
 
-The profile should be subtle, and should not be taller than `2 detail units` (`4 nominal pixels`).
+In most cases the profile is subtle, not taller than `2 detail units` (`4 nominal pixels`). But as the example aboves show there can be exceptions
 
 Material & Lighting
 ~~~~~~~~~~~~~~~~~~~
@@ -76,3 +76,12 @@ Each app should have an additional symbolic version of its app icon, which is us
 App symbolics can be drawn in the same SVG as full-size app icon, as indicated in the app icon template. App Icon Preview will export both the full-size and symbolic versions of the icon.
 
 Where possible, the same metaphor as the full size app icon should be reused for the symbolic.
+
+Nightly Variant
+---------------
+
+If you provide a nightly or beta build of your application, you're advised to create a specific version of the app icon for it to easily tell stable from development versions apart.
+
+The App Icon Preview is able to generate a nightly variant of the icon automatically. In some cases it may be desirable to adjust the output manually, but in most cases the nightly variant doesn't need more than an export from App Icon Preview.
+
+.. image:: ../img/icons/app-icon-nightly.png
