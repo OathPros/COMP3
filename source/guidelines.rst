@@ -20,3 +20,4 @@ Contents
    guidelines/writing-style
    guidelines/typography
    guidelines/responsive
+   guidelines/accessibility
