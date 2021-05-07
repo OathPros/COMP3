@@ -17,14 +17,16 @@ In some individual cases, alternative visual styles are provided for specific el
 
 Outside of these individual cases, it is not recommended to manually change the appearance of UI elements.
 
-Dark Style
-~~~~~~~~~~
+Dark UI Style
+~~~~~~~~~~~~~
 
-By default, GNOME apps have a light UI style. However, apps can choose to use a dark style instead. This is generally only recommended for apps which display rich visual content like images or video.
+By default, GNOME apps have a light UI style. However, apps can choose to use a dark UI style instead. The dark style gets used in three ways:
 
-In some cases, like code editors, it is possible to provide a user option to set the dark or light style.
+#. Apps specify to use it by default, without an option to switch to the light style. This is recommended for apps which display rich visual content like images or video.
+#. Apps provide a user setting to select the light or dark style. This is typically used for apps whose content can also be restyled, like code editors.
+#. Users can opt to use the dark style for all apps in the system.
 
-Apps can specify the dark style using the `prefer dark theme GTK property <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/property.Settings.gtk-application-prefer-dark-theme.html>`_.
+Apps specify the dark style using the `prefer dark theme GTK property <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/property.Settings.gtk-application-prefer-dark-theme.html>`_. Since any app can be used with the dark style, it is important to check that your app works well with it, irrespective of whether it uses the dark style itself. This can be done with `GTK Inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_.
 
 Named Colors
 ~~~~~~~~~~~~
@@ -34,4 +36,4 @@ While the vast majority of UI elements have their own default styling which shou
 High-Contrast Mode
 ------------------
 
-High-contrast mode is an accessibility feature which changes the UI style to have very high contrast. As part of testing your app, it is important to test it with high-contrast mode enabled, to ensure that it is correctly rendered with this style.
+High-contrast mode is an accessibility feature which changes the UI style to have very high contrast. As part of testing your app, it is important to test it with high-contrast mode enabled, to ensure that it is correctly rendered with this style. This can be done by using the system high-contrast mode setting, or with `GTK Inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_.
