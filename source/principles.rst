@@ -22,14 +22,16 @@ The best apps do one thing and do it well. Often this requires having insight in
 3. Maintain Focus
 -----------------
 
-The principle of simplicity applies to each view and element of your app, as well as the app as a whole. Don't overwhelm the user with too many elements at once. Focus each view on what is important and what the user needs in that moment. Use progressive disclose and navigation structures to provide a guided experience which doesn't throw everything at the user at once.
+The principle of simplicity applies to each view and element of your app, as well as the app as a whole. Don't overwhelm the user with too many elements at once.  Frequently used actions should be close to hand, with less frequently-used actions being further away.
+
+Focus each view on what is important and what the user needs in that moment. Use progressive disclose and navigation structures to provide a guided experience which doesn't throw everything at the user at once.
 
 4. Reduce User Effort
 ---------------------
 
-It is our job as software creators to reduce the amount of work and effort that our users have to expend. Therefore, always seek to minimize the number of steps required to perform a task. This often requires anticipating user needs, which again is only possible with insight into the kind of situations and people your app is for.
+It is our job as software creators to reduce the amount of work and effort that our users have to expend. This often requires anticipating user needs, which requires having insight into the kind of situations and people your app is for.
 
-If something can be done automatically, do it automatically. Keep text short and to the point.
+Always seek to minimize the number of steps required to perform a task. If something can be done automatically, do it automatically. Keep text short and to the point. Reduce the amount of information that a user needs to remember while using your app (tabs, recently used lists, and automatic suggestions are all effective techniques in this respect).
 
 5. Be Considerate
 ------------------

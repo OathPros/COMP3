@@ -15,6 +15,7 @@ User interface designs should generally aim to accommodate the full range of com
 * Actions which are physically challenging to accomplish, such as double-clicking or chording (pressing multiple buttons simultaneously), should be avoided.
 * All actions which can be accomplished with a pointing device should also be possible with a :doc:`keyboard <keyboard>`.
 * Because designs should generally be input device agnostic, specific input devices or input device buttons should not be referenced in user interfaces. For example, text should not instruct users to "move the mouse" or "tap".
+* Pointer hover should not be relied upon for revealing actions or essential information.
 
 Some types of apps have specialist input devices associated with them, and therefore may need to ignore some or all of these general guidelines. For example, games might provide features that are specific to games controllers, or graphics apps might target graphics tablets. If an app requires a specific type of device in order to be used, this expectation should be clearly communicated to the user.
 
@@ -23,7 +24,7 @@ Primary & Secondary Actions
 
 Mice and many touchpads have a primary and a secondary button. While the default order of the buttons is to have the primary button on the left, this order is user-configurable. Hence, the terms primary and secondary buttons are used.
 
-While not all pointer and touch devices have primary and secondary buttons, they do have equivalents. The primary action activates, opens or selects. The secondary action should display additional actions for whatever is being pointed at, typically through a context menu.
+The primary action activates, opens or selects. The secondary action should display additional actions for whatever is being pointed at, typically through a context menu.
 
 Secondary actions should:
 

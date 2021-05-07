@@ -3,9 +3,11 @@ Keyboard
 
 Keyboard interaction covers a range of behaviors, including text entry, use of shortcuts, and search, through to the keyboard being used as the sole input device. The latter is vital for visually-impaired people or those with mobility impairments.
 
-Every action that can be achieved with a pointing device should therefore also be possible with a keyboard. Trying to use your application with only a keyboard is a great way to test this.
+Every action that can be performed with a pointing device should also be possible with a keyboard. Trying to use your application with only a keyboard is a great way to test this.
 
-The only exceptions to this are actions where fine motor control is an essential part of the task. For example, controlling movement in some types of action games, or freehand painting in an image-editing application.
+Most functionality should be easy to make accessible by using shortcuts, accelerators, and standard keyboard navigation features. However, operations that rely on drag-and-drop, for example, may require more thought.
+
+Ensure that any text that can be selected with the mouse can also be selected with the keyboard. This is a convenience for all users, but especially for those for whom fine control of the mouse is difficult. 
 
 Keyboard Navigation
 -------------------
@@ -14,6 +16,9 @@ Make sure that it is possible to move around and interact with every part of you
 
 * Tab should cycle keyboard focus through each control.
 * Construct a logical keyboard navigation order for your UI. Keyboard focus should move between controls in a predictable order. In Western locales, this is normally left to right and top to bottom.
+* Play the alert sound when the user attempts to navigate past the end of a group of related objects. For example, when navigating a list, stopping at the end with audio feedback is usually preferable to moving the focus back to the first object in the list. Otherwise, users who are blind or have low vision may not realize they have returned to the beginning.
+* When possible, play the alert sound when tab fails to move keyboard focus. For example, when the focus is on the first character in a text field and the user presses left arrow key, or the user tries to perform multiple selection in a single selection dialog. 
+* Ensure that control labels immediately precede the control in the keyboard focus order. This will ensure that the access key you assign to the label will move focus to or activate the control. 
 * In addition to Tab, where possible it should also be possible to move through a UI using the arrow keys, both within user interface elements (such as lists, icon grids or sidebars) and between them.
 
 Note: if activating a control enables other controls, do not automatically give focus to the first dependent control when it is activated, but instead leave focus in place.
@@ -32,7 +37,7 @@ The following keys should automatically work for the majority of GNOME user inte
   * - Tab
     - Move keyboard focus to the next control
   * - Shift+Tab
-    - Move` keyboard focus to the previous control
+    - Move keyboard focus to the previous control
   * - Ctrl+Tab
     - Move keyboard focus to the next control, when Tab has another function, or when controls are grouped
   * - Shift+Ctrl+Tab 
@@ -46,8 +51,7 @@ The following keys should automatically work for the majority of GNOME user inte
   * - Menu / Shift+F10
     - Open context menu for focused location
   * - Esc
-    - Close the current container, if it is transient (applies to menus, popovers and dialogs) 
-  
+    - Close the current container, if it is transient (applies to menus, popovers and dialogs)
 
 .. _access-keys:
 
@@ -61,6 +65,7 @@ Access keys allow someone to operate labelled controls by holding Alt in combina
 * Avoid assigning access keys to “thin” letters (such as lowercase i or l), or letters with descenders (such as lowercase g or y), unless it is unavoidable. The underline is sometimes not as clear with these characters.
 * If the choice of access keys is difficult, assign access keys to the most frequently-used controls first. If the first letter is not available, choose an easy to remember consonant from the label, for example, “p” in “Replace”. Only assign vowels once no consonants are available.
 * Be aware that access keys have to be translated together with the strings that they are taken from, so even if there are no conflicts in your native language, they may occur in translations.
+* Don't assign awkward reaches. Some people may only be able to use one hand on the keyboard, so shortcuts that can be easily used with one hand are preferable for common operations. (This guideline also applies to shortcuts.)
 
 .. _shortcut-keys:
 
@@ -75,6 +80,5 @@ When assigning non-standard shortcuts in your application:
 
 * Try to use Ctrl in combination with a letter for your own shortcuts. Shift+Ctrl and a letter is the recommended pattern for shortcuts that reverse or extend another function. For example, Ctrl+Z and Shift+Ctrl+Z for undo and redo.
 * Shortcuts should be as mnemonic as possible, as these will be easier to learn and remember. For example, Ctrl+E would be a good shortcut for a menu item called Edit Page.
-* Shortcuts that can be easily used with one hand are preferable for common operations.
 * Do not use Alt for shortcut keys, as this may conflict with access keys.
 * GNOME reserves the use of the Super key for use in system shortcuts. Super should therefore not be used by applications. Additional :ref:`legacy system shortcuts <legacy-shortcuts>` should also be avoided by apps.

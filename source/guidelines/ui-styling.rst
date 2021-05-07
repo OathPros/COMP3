@@ -33,6 +33,8 @@ Named Colors
 
 While the vast majority of UI elements have their own default styling which shouldn't be changed, in some cases it is necessary to select colors for backgrounds and borders. Here it is recommended to use named CSS colors from the Adwaita stylesheet, as opposed to specifying exact color values.
 
+Don't hard-code colors, since this can interfere with accessibility features.
+
 High-Contrast Mode
 ------------------
 
