@@ -12,6 +12,8 @@ Primary windows host the main functionality of your application, and are what is
 
 * Primary windows should always be independent — closing one primary window should not result in other primary windows being closed.
 * Apps can be single primary window only, or they can have multiple primary windows open at any one time. Multiple primary windows are common for viewer or editor apps.
+* All primary windows should be resizable.
+* The default size of primary windows should be appropriate to their content. Windows that display large content like documents or videos should be suitably large to provide a good experience without the need to resize the window. On the other hand, windows with a limited amount of UI can and should default to a smaller size.
 
 Secondary Windows
 -----------------

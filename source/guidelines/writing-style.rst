@@ -1,7 +1,7 @@
 Writing Style
 =============
 
-Text plays an important role in user interfaces. Take the time to ensure that any text you use is clearly written, easy to understand and looks good.
+Text plays an important role in user interfaces. Take the time to ensure that any text you use is clearly written, easy to understand, and looks good.
 
 Guidelines
 ----------
@@ -14,7 +14,7 @@ Your main goal should be to ensure that text is easy to understand and quick to 
 * Text should adopt a neutral tone and speak from the point of view of the software. Pronouns like “you” or “my” should be avoided wherever possible. However, if it is impossible to avoid refering to something as belonging to the user, “your” is preferable to “my”. For example, “Your Records”.
 * Use the standard GNOME terms when referring to parts of the user interface, such as “pointer” and “window”. The HIG can be used as a reference in this regard.
 * Avoid repetition where possible.
-* Sentences should not be constructed from text in several controls, and each label should be treated as being self-contained. Sentences that run from one control to another will often not make sense when translated into other languages.
+* Sentences should not be constructed from text in several controls. Sentences that run from one control to another will often not make sense when translated into other languages.
 * Latin abbreviations such as “i.e.” or “e.g.” should be avoided, since they can't always be easily translated and can be unintelligible when read by screen readers. Instead, use full words like “for example”.
 
 Capitalization
@@ -45,10 +45,7 @@ Sentence Capitalization
 
 Sentence capitalization should be used for labels that form sentences or that run on to other text, including labels for check boxes, radio buttons, sliders, text entry boxes, field labels and combobox labels. It should also be used for explanatory or body text, such as in dialogs or notifications.
 
-Capitalize the first letter of:
-
-* The first word.
-* Any words normally capitalized in sentences, such as proper nouns.
+Capitalize the first letter of the first word and any words that are normally capitalized in sentences, such as proper nouns.
 
 For example: “The document cannot be found in this location.” “Finding results for London.”
 

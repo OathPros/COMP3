@@ -1,73 +1,44 @@
 Pointer & Touch
 ===============
 
-A pointing device is any input device that allows the manipulation of a pointer — typically represented as an arrow, and often called a cursor — on screen. While mice and touchpads are the most common, there are a wide variety of such devices, including graphics tablets, track balls, track points and joysticks.
+A pointing device is any input device that allows the manipulation of a pointer — typically represented as an arrow, and often called a cursor — on screen. While mice and touchpads are the most pointing devices, there are many others, including graphics tablets, track balls, track points and joysticks.
 
-While there is no visible pointer with a touchscreen, it fulfills the same role as other pointing devices.
+While there is no visible pointer when using touchscreens, they fulfill the same role as other pointing devices.
 
 General Guidelines
 ------------------
 
-User interface designs should generally aim to accommodate the full range of common pointing devices, and be usable with all of them. This primarily includes mice, touchpads and touchscreens. They should also be suited to the range of physical abilities that users might have. Not everyone has lazer-like precision with a pointer.
+User interface designs should be easy to use with the full range of pointing devices. The only exception to this rule is apps which have specialist input devices associated with them. For example, games might provide features that are specific to games controllers, or specialist graphics apps might expect a graphics tablet table to be used. If an app requires a specific type of device in order to be used, this expectation should be clearly communicated to the user.
+
+Designs should also be easy to use with a range of physical abilities. People and situations can vary enormously in terms of how precise and controlled pointer interaction can be. It is therefore important to design for contexts where pointer accurancy and control is low.
+
+To acheive this broad level of accessibility, the following guidelines should be observed:
 
 * Click targets should be large enough to be comfortably used with different pointing devices and physical abilities.
 * Buttons and controls which are only available on some pointing devices should not be exclusively relied upon for particular actions.
 * Actions which are physically challenging to accomplish, such as double-clicking or chording (pressing multiple buttons simultaneously), should be avoided.
-* All actions which can be accomplished with a pointing device should also be possible with a :doc:`keyboard <keyboard>`.
-* Because designs should generally be input device agnostic, specific input devices or input device buttons should not be referenced in user interfaces. For example, text should not instruct users to "move the mouse" or "tap".
+* Because designs should generally be input device agnostic, specific input devices or input device buttons should not be referenced in user interfaces. For example, text should not instruct users to "move the mouse".
 * Pointer hover should not be relied upon for revealing actions or essential information.
 
-Some types of apps have specialist input devices associated with them, and therefore may need to ignore some or all of these general guidelines. For example, games might provide features that are specific to games controllers, or graphics apps might target graphics tablets. If an app requires a specific type of device in order to be used, this expectation should be clearly communicated to the user.
+In addition, all actions which can be accomplished with a pointing device should also be possible with a :doc:`keyboard <keyboard>`.
 
 Primary & Secondary Actions
 ---------------------------
 
-Mice and many touchpads have a primary and a secondary button. While the default order of the buttons is to have the primary button on the left, this order is user-configurable. Hence, the terms primary and secondary buttons are used.
-
-The primary action activates, opens or selects. The secondary action should display additional actions for whatever is being pointed at, typically through a context menu.
-
-Secondary actions should:
+The primary and secondary action are the most basic actions which are expected to work in the same manner for all pointing devices. The primary action activates, opens or selects. The secondary action should display additional actions for whatever is being pointed at, typically through a context menu. Secondary actions should:
 
 * not be used for additional alternative actions, such as delete or remove
 * only provide a context menu if there is a set of relevant menu items to expose
-*  be possible without using a pointing device: see equivalent actions for :doc:`keyboard <keyboard>`.
+* be accessible with a :doc:`keyboard <keyboard>`.
 
 While some mice have a third “middle” button, it is not recommended to make use of this in application designs.
-
-Pointer & Touch Equivalent Actions
-----------------------------------
-
-The following device equivalent actions are expected to work as described in all contexts. This will usually happen automatically.
-
-Note: touchpads vary in their capabilities. Some have physical primary and secondary buttons. Some have "push to click". Some have click areas. Without these, "tap to click" behavior is required, and that is what is described below.
-
-.. list-table::
-  :widths: 10 30 30 30
-  :header-rows: 1
-
-  * - Operation
-    - Mouse 
-    - Touchpad
-    - Touchscreen
-  * - Primary action
-    - Primary button
-    - Tap*
-    - Tap 
-  * - Secondary action
-    - Secondary button
-    - Two-finger tap*
-    - Long-press
-  * - Drag
-    - Hold primary button and move
-    - Tap, then drag*
-    - Tap, then drag
 
 Scrolling, Panning & Zooming
 ----------------------------
 
-Scrolling moves a view along a single (typically vertical) axis, whereas panning can move the view along two axes. For example, scrolling is typical for web pages and documents, whereas panning is typical for viewing images or maps.
+Scrolling moves a view along a single (typically vertical) axis, and is typical for web pages and documents. Panning moves the view along two axes, and is seen in image viewers and maps.
 
-Input handling conventions for scolling, panning and zooming vary according to whether the view is focused on scrolling or panning, as determined by the content type. For scrolling, the following behaviors are expected for scroll and zoom:
+Views which scroll and don't pan sohuld use the following behaviors:
 
 .. list-table::
   :widths: 10 30 30 30
@@ -79,14 +50,14 @@ Input handling conventions for scolling, panning and zooming vary according to w
     - Touchscreen 
   * - Scroll
     - Scroll wheel
-    - Two-finger drag†‡
-    - Single-finger drag‡
+    - Two-finger drag\ :sup:`*`
+    - Single-finger drag
   * - Zoom
     - Ctrl+scroll wheel
     - Pinch
     - Pinch
 
-However, when an app is focused on panning rather than scrolling, the following should be used:
+Alternatively, views which pan rather than scroll should use the following behaviors:
 
 .. list-table::
   :widths: 10 30 30 30
@@ -98,18 +69,14 @@ However, when an app is focused on panning rather than scrolling, the following 
     - Touchscreen 
   * - Pan
     - Drag
-    - Tap, then drag†
+    - Tap, then drag\ :sup:`*`
     - Single-finger drag
   * - Zoom
     - Scroll wheel
     - Pinch
     - Pinch 
 
-\* Requires tap to click to be enabled.
-
-† Requires two-finger scrolling to be enabled.
-    
-‡ Along the axis to be scrolled.
+:sup:`*` Requires two-finger scrolling to be enabled.
 
 Additional Guidelines
 ---------------------

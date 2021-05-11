@@ -8,7 +8,7 @@ Utility panes are vertical panels which are shown on one side of a window. They 
 When to Use
 -----------
 
-Use a sidebar to display additional controls, locations or information alongside the main window view. The content of the utility pane should be relevant to the main view, and can include things like a tools palette, browser history, spell checking results, or document metadata.
+Use a utility pane to display additional controls, locations or information alongside the main window view. The content of the utility pane should be relevant to the main view, and can include things like a tools palette, browser history, spell checking results, or document metadata.
 
 Guidelines
 ----------

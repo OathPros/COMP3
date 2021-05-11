@@ -1,7 +1,7 @@
 Typography
 ==========
 
-Text is an important part of any user interface. Text size, positioning and weight all contribute to the ability for text to convey information effectively, and also play an important role in creating a beautiful appearance.
+Text is an important part of any user interface. Text size, positioning, and weight all contribute to the ability for text to convey information effectively, and also play an important role in creating a beautiful appearance.
 
 General Guidelines
 ------------------
@@ -12,18 +12,17 @@ General Guidelines
 Variants, Sizes & Weights
 -------------------------
 
-Different text weights and colors can and should be used to distinguish different kinds of information. At the same time, too many variants, sizes, and weights can make text harder to read and isn't an efficient or elegant way to convey information. Make an effort to minimize the range of font variants, sizes and weights.
+Different text weights and colors can and should be used to distinguish different kinds of information. At the same time, too many variants, sizes, and weights can make text harder to read and isn't an efficient or elegant way to convey information. Make an effort to minimize the number of font sizes and weights.
 
 * Use smaller and/or lighter text for less important information, and heavier/darker text to attract attention to important text.
 * Avoid the use of italic or oblique faces, as these are visually more complex, and can be distracting.
-* Do not capitalize every letter in a word or sentence. Shouting at your users isn't nice.
-* Do not use graphical backdrops or “watermarks” behind text. These interfere with the contrast between the text and its background.
-* Don't hard-code font styles or sizes, since this can interfere with accessibility features. Instead, use the standard font styles below or, failing that, express font-sizes as relative values.
+* Do not capitalize every letter (all caps).
+* Don't hard-code font styles or sizes, since this can interfere with accessibility features. Instead, use the standard font styles or, failing that, express font-sizes as relative values.
 
 Standard Font Styles
 --------------------
 
-GNOME has a set of standard font styles which are recommended for use in apps. These can be found in the `Typography <https://flathub.org/apps/details/org.gnome.design.Typography>`_ app, which displays the styles and indicates the corresponding CSS style classes.
+GNOME has a set of standard font styles which are recommended for use in apps. These can be found in the `Typography <https://flathub.org/apps/details/org.gnome.design.Typography>`_ app, which displays the styles and allows copying the name of the corresponding CSS style classes.
 
 .. list-table::
   :widths: 15 15 70

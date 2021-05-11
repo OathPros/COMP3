@@ -1,12 +1,12 @@
 UI Icons
 ========
 
-This page provides general guidance on UI icon usage, including when to use icons in UI, how to find them, and how to create them.
+This page provides general guidance on UI icon usage: when to use them, which ones to use, how to find them, and how to create them.
 
 UI Icon Style
 -------------
 
-GNOME UI icons use the "symbolic" style. This is simple and monochrome, and is designed to work well at smaller sizes. Symbolics can be used at the following sizes, with 16x16 being the default:
+GNOME UI icons use the “symbolic” style. This is simple and monochrome and is designed to work well at smaller sizes. Symbolics are drawn as 16×16px SVGs and can be used at 32×32px, 64×64px and 128×128px. Avoid other sizes to prevent fuzzy rendering.
 
 .. image:: ../img/icons/ui-symbolic.svg
 
@@ -24,13 +24,11 @@ Where possible, it is recommended to reuse these existing icons, as opposed to c
 When to Use UI Icons
 --------------------
 
-As a general rule, controls should be identified with either a label or an icon, not both. This helps to avoid information overload, particularly when controls are tightly packed together. However, there are some exceptions to this rule, where an icon and label can/should be used in combination. These include locations in :doc:`sidebars </nav/sidebars>` and :doc:`view switchers </nav/view-switchers>`.
+As a general rule, controls should be identified with either a label or an icon, and not both. This helps to avoid information overload, particularly when controls are tightly packed together. However, there are some exceptions to this rule, where an icon and label can/should be used in combination. These include locations in :doc:`sidebars </nav/sidebars>` and :doc:`view switchers </nav/view-switchers>`.
 
-The most common usage for UI icons is to identify buttons. Here, it is often preferable to use an icon over a label. However, this should be only done if the icon will be recognized by your users.
+The most common usage for UI icons is to identify buttons. Here, it is often preferable to use an icon over a label. However, this should be only done if the icon will be recognized by your users. The number of commonly recognized icons is actually quite small, and is dictated by convention. It includes standard icons such as search, menu, forward, back and share. If you are in doubt, only use icons which are frequently used in other applications.
 
-Recognition can either stem from the fact that an icon is commonly recognized, or because it is recognized within the domain of your app (users of specialist tools will often be familiar with domain-specific symbols).
-
-The number of commonly recognized icons is actually quite small, and is dictated by convention. It includes standard icons such as search, menu, forward, back and share.If you are in doubt, only use icons which are frequently used in other applications.
+Other icons can also be recognized within specific domains: users of specialist tools will often be familiar with domain-specific symbols.
 
 Note that some icons will only be recognized as part of a set or pair. For example, a media icon for stop is simply a square, and will not be recognized as “stop” without other media symbols  (play, pause, skip, and so on) also being present. Likewise, the “remove” icon is a subtract symbol (in other words, a horizontal line), and will not be recognized without a corresponding “add” icon.
 
@@ -41,11 +39,11 @@ Symbolic Icon Creation
 
 If you require an icon that doesn't already exist, it is possible to create your own. For this, it is recommended to use the `Symbolic Preview app <https://flathub.org/apps/details/org.gnome.design.SymbolicPreview>`_. This will both generate an SVG template to start with, and allows previewing how your icon will appear in different contexts.
 
-When drawing symbolic icons, stick to the characteristics of the icon style:
+When drawing symbolic icons, stick to the characteristics of the symbolic icon style:
 
 * 16×16px nominal size, including a margin to allow for uniqueness of shape and consistency of visual weight.
-* No perspective - uses a simple orthogonal view.
-* 2px strokes for the main features of the icon, with 1px avoided where possible.
+* No perspective - use a simple orthogonal view.
+* 2px strokes for the main features of the icon, with 1px strokes avoided where possible.
 * Defined in monochrome, then programmatically recolored.
 
 General guidelines for symbolic icon creation:
