@@ -11,8 +11,8 @@ Guidelines
 * As a rule of thumb, a view switcher should contain between three and five views. If you have more views, a :doc:`sidebar <sidebars>` might be a more appropriate choice.
 * Label views with :ref:`header capitalization <header-capitalization>`, and use nouns rather than verbs, for example *Albums* or *Updates*. Try to give view labels a similar length.
 * When used for preferences, do not design views whose controls affect the controls in other views. Users are unlikely to discover such dependencies.
-* Buttons in the view switcher widget can indicate when there is activity in a view.
-* View switchers should switch to the bottom window edge, if the window becomes too narrow for them to fit in the header bar.
+* Buttons in the view switcher widget can indicate when there is activity in a view. For example, this could indicate if there is new content available.
+* View switchers should switch to the bottom window edge if the window becomes too narrow for them to fit in the header bar.
 
 API Reference
 -------------

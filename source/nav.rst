@@ -3,7 +3,9 @@
 Navigation
 ==========
 
-Combined with :doc:`containers <containers>`, the navigation design patterns create the basic structure for an app. Simple apps will often use just one or two navigation patterns, but more complex designs can use more. This will typically involve nesting navigation structures inside one another. For example, views inside a view switcher could also include stacks.
+Combined with :doc:`containers <containers>`, the navigation design patterns create the structure of an app.
+
+Simple apps may not use any navigation patterns. More complex ones will likely need to combine several, and these can sometimes involve nesting navigation structures within one another. For example, a view switcher can be combined with stacks to create subpages within each view.
 
 Contents
 --------

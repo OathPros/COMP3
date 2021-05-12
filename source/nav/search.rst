@@ -3,27 +3,27 @@ Search
 
 .. image:: ../img/screenshots/search-bar.png
 
-Search allows content items to be located by filtering content that is displayed on screen. It is distinct from find, which involves moving or highlighting the content that is being searched for, rather than filtering.
+Search allows content items to be located by filtering available content. It is distinct from find, which involves moving to and highlighting the content that is being searched for, rather than filtering.
 
 Examples of search can be found in the *Search Entry* and *Type to Search* demos in the GTK 4 demo app.
 
-When to use
+When to Use
 -----------
 
-Provide search whenever there are more content items than can be displayed, and those content items have a textual component. Examples include a collection of documents, a list or recently used files, or selecting a country.
+Provide search whenever there are more content items than can be easily displayed, and those content items have a textual component. Examples include a collection of documents, a list or recently used files, or selecting a country for a location.
 
 Search is a great way to make it easy for users to find what it is they are looking for, and its consistent availability means that users can rely on and expect it to be present.
 
-However, while search can be highly effective, and some users will use it, others will not. Therefore, it should not be relied on exclusively.
+However, while search can be highly effective, and some users will use it, others will not. Therefore, it should not be relied on exclusively, and thought should be put into how users will find items without search.
 
 The Search Bar
 --------------
 
 The standard pattern for search in GNOME utilizes a search bar which slides down from beneath the header bar. In primary windows, the search bar is typically hidden until it is activated by the user. There are three common ways to activate search in this context:
 
-# typing, even when the search field is not focused (this is called “type to search”)
-# the keyboard shortcut for search (Ctrl+F)
-# the search button in the header bar (which should toggle)
+#. Typing, even when the search field is not focused (this is called “type to search”).
+#. Ctrl+F: the keyboard shortcut for search.
+#. The search button in the header bar, which should toggle.
 
 However, if search is particularly important to your app, the search entry can be located elsewhere and made to be permanently visible.
 
@@ -40,7 +40,7 @@ Guidelines on presenting search results:
 Additional Guidance
 -------------------
 
-* Search should be global and return results from all views, as opposed to just returning results from the current view. This helps to prevent mistakes.
+* Search should be global and return results from all views, as opposed to just returning results from the current view. This makes search more predictable and minimizes user error as a result.
 * Be tolerant of mistakes in search terms. Approximate/fuzzy string matching is one way to do this. Presenting suggestions for similar matches or related content is another.
 * Permit a broad range of matching search terms. This helps people who are unsure of the exact term they require but who do know characteristics associated with the item they want to find. A list of cities could return matches for country or region, for example.
 * Results should be ordered in a way that ensures that the most relevant items are displayed first.
