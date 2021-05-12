@@ -3,9 +3,7 @@ Popovers
 
 .. image:: ../img/screenshots/popover.png
 
-Popovers are anchored containers that can be opened and closed. In this regard, they are similar to menus. However, unlike menus, they can contain a variety of UI elements, making them more flexible and lending thems to creative design solutions.
-
-Examples of popovers content include a list of content items that can be opened, a set options for an options main view, or a palette of tools.
+Popovers are anchored containers that can be opened and closed, and which can contain a variety of UI elements. Examples of popovers content include a list of content items that can be opened, a set controls for view options, or a palette of tools.
 
 Guidelines
 ----------
@@ -13,7 +11,7 @@ Guidelines
 * Don’t mix too many different types of control within the same popover, and try to group controls of the same type together.
 * If the purpose of a popover’s content is ambiguous, the popover can be given a heading.
 * *Close* or *Done* buttons are not usually required in a popover.
-* Popovers should always be small in size (as a rule of thumb, they should not cover more than a third of their parent window) and low in complexity. They should always appear as subordinates to their parent windows.
+* Popovers should always be small in size (as a rule of thumb, they should not cover more than a third of their parent window) and low in complexity.
 * Ensure that the *Esc* key closes the popover when it is open.
 
 API Reference

@@ -7,8 +7,8 @@ Header bars are a standard element that spans the top of windows. They allow the
 
 Header bars often include:
 
-* :doc:`Buttons </controls/buttons>` for key actions, such as *new*, *add*, *open* and *back*, which are placed at the start.
-* A window heading, which are placed in the center. (Or, alternatively, a :doc:`view switcher </nav/view-switchers>`.)
+* :doc:`Buttons </controls/buttons>` for the main user actions, such as *new*, *add*, *open* and *back*, which are placed at the start of the header bar.
+* A window heading, which is placed in the center (sometimes this is replaced with a :doc:`view switcher </nav/view-switchers>`.)
 * :doc:`Menus </controls/menus>`, which are typically placed at the end.
 
 Guidelines

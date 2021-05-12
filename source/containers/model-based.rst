@@ -1,7 +1,7 @@
 Model-Based Containers
 ======================
 
-The standard :doc:`lists <lists>` and :doc:`grids <flow-boxes>` provide user interface containers which are appropriate for the majority of simple use cases. In addition, the GNOME platform also provides a set of model-based containers, which support very large and/or highly dynamic content collections. These model-based containers include :ref:`list views <list-views>`, :ref:`column views <column-views>`, and :ref:`grid views <grid-views>`.
+:doc:`Lists <lists>` and :doc:`flow boxes <flow-boxes>` are appropriate for the majority of simple use cases. In addition, the GNOME platform also provides a set of model-based containers, which support very large and/or highly dynamic content collections. These model-based containers include :ref:`list views <list-views>`, :ref:`column views <column-views>`, and :ref:`grid views <grid-views>`.
 
 These containers can be used in combination, to provide different views on the same content.
 
@@ -12,9 +12,7 @@ While offering performance advantages, these containers have other design limita
 List Views
 ----------
 
-List view rows can contain text, images or controls. Rows can also be filtered and searched. Support is currently limited for creating the kind of standard list styles described :doc:`elsewhere in the HIG <lists>`.
-
-A list view example can be found under *Lists → Settings*, in the GTK 4 demo application.
+List view rows can contain text, images or controls. Rows can also be filtered and searched. A list view example can be found under *Lists → Settings*, in the GTK 4 demo application.
 
 .. _column-views:
 
@@ -50,9 +48,7 @@ Clicking a column header sorted in natural order re-sorts it in reverse order, i
 Grid Views
 ----------
 
-A model-based grid view can follow the same guidance as :doc:`flow boxes <flow-boxes>`. The main difference is that it can be combined with a :ref:`model-based list view <list-views>`, for providing a different view of the same content collection.
-
-A grid view example can be found under *Lists → Colors*, in the GTK 4 demo application.
+Model-based grid views should follow the same guidance as :doc:`flow boxes <flow-boxes>`. A grid view example can be found under *Lists → Colors*, in the GTK 4 demo application.
 
 API Reference
 -------------
