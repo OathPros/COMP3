@@ -6,11 +6,11 @@ Tooltips can be set for any UI element. They are primarily used to convey additi
 When to Use
 -----------
 
-Primary window header bars should all have tooltips. Elsewhere, only use them when they are really useful, either by providing information that users look for, or information that enhances the user experience. Examples of useful tooltips for application content include showing the full URL for a link, or showing information about an syntax error in a code editor.
+Controls in the header bars of primary windows should all have tooltips. Elsewhere, only use tooltips when they are really useful, either by providing information that users look for, or information that enhances the user experience. Examples of useful tooltips for application content include showing the full URL for a link, or showing information about an syntax error in a code editor.
 
-Otherwise, try to keep tooltip usage to a minimum, since they can get in the way when inadvertently displayed, and aren't available in all contexts (such as touch devices). Therefore, avoid setting tooltips for every control and/or content item, and don't rely on tooltips to communicate essential information.
+Otherwise, try to keep tooltip usage to a minimum, since they can get in the way when inadvertently displayed, and aren't available in all contexts (such as touch devices). Don't rely on tooltips to communicate essential information.
 
-When setting tooltips, set them for all equivalent controls or elements in the app's UI: if a tooltip is provided for one control in a set, all other controls in that set should also have tooltips.
+When setting tooltips, set them for all equivalent controls or elements. If a tooltip is provided for one control in a set, all other controls in that set should also have tooltips.
 
 Tooltip Text
 ------------
@@ -21,8 +21,8 @@ Tooltip labels should be short and written in :ref:`header capitalization <heade
   :widths: 50 50
   :header-rows: 1
 
-  * - Effective Label
-    - Ineffective Label
+  * - Good Tooltip
+    - Bad Tooltip
   * - Recently Used Documents
     - Open recently used documents
   * - Grid View
@@ -30,14 +30,14 @@ Tooltip labels should be short and written in :ref:`header capitalization <heade
   * - Fullscreen
     - Show the current image in fullscreen mode
 
-When showing tooltips for controls that already have labels, avoid repeating the control label and try to provide useful supplementary information. For example:
+When showing tooltips for controls that already have labels, avoid repeating the control label and try to provide useful supplementary information, or rephrase the existing label. For example:
 
 .. list-table::
   :widths: 30 70
   :header-rows: 1
 
   * - Button Label
-    - Tooltip Label
+    - Tooltip
   * - Open...
     - Select a File
   * - Add user...
@@ -52,7 +52,7 @@ Standard tooltip labels include:
   :header-rows: 1
 
   * - Button
-    - Tooltip Label
+    - Tooltip
     - Notes
   * - Go back
     - Back

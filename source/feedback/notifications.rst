@@ -3,10 +3,10 @@ Notifications
 
 .. image:: ../img/screenshots/notification.png
 
-Use notifications to inform users about events in your app that they will be interested in. Examples include:
+Notifications are used to inform users about events that they will be interested in. Examples include:
 
 * when a download or other long-running operation has finished
-* when a new content item is available, such as a TV series or 
+* when a new content is available
 * when a message has been received
 
 General Guidelines
@@ -15,7 +15,7 @@ General Guidelines
 * Be careful not to needlessly distract users with notifications, and question whether users really need to be informed about the events you want to communicate.
 * Applications that deal with lots of events, such as email or social media messages, run a particular risk of distracting users with too many notifications. In these situations:
    * It is often desirable to place restrictions on how frequently notifications are shown. For example, instead of showing a notification for each new message, periodic notifications can show a summary of messages that have been received.
-   * Provide an option for users to disable and/or reduce their number.
+   * Provide an option for users to disable and/or reduce the number of notifications.
 * Ensure that your app removes notifications that are no longer valid. For example, a notification for a weather warning that has been revoked, or for emails that have been read.
 * Don't rely solely on notifications for communicating something, as they might not always be seen. The application window should independently communicate all the information contained in notifications.
 

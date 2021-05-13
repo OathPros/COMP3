@@ -3,7 +3,7 @@ Progress Bars
 
 .. image:: ../img/screenshots/progress-bars.png
 
-Progress bars indicate progress on a task. Unlike spinners, they can indicate the proportion of the task that has been completed, as well as the time remaining.
+Progress bars indicate progress on a task. Unlike :doc:`spinners <spinners>`, they can indicate the proportion of the task that has been completed, as well as the time remaining.
 
 Progress bars are most appropriate for indicating progress on tasks that take a relatively long time (as a rule of thumb, tasks that take over 30 seconds). For tasks that have shorter periods, spinners are often a better choice.
 
@@ -37,12 +37,12 @@ Some tasks can be made up of a sequential series of stages, each of which has it
 
 Sometimes it might be possible to estimate the time remaining for part of a task, but not another part. In this situation, the progress bar can show indeterminate progress for part of the task. However, it is best not to show indeterminate progress bars for long periods of time, and the number of progress bar mode changes should be kept to an absolute minimum. Avoid indeterminate progress wherever possible.
 
-Sub-Tasks
+Subtasks
 ---------
 
-Some tasks are comprised of multiple simultaneous sub-tasks (such as downloading several files at the same time). Here, it is generally advisable to show a single progress bar which indicates composite progress for the overall task.
+Some tasks are comprised of multiple simultaneous subtasks (such as downloading several files at the same time). Here, it is generally advisable to show a single progress bar which indicates composite progress for the overall task.
 
-In very rare cases, it might be desirable to show a progress bar for each indvidual sub-task. Only do this if it is genuinely useful for the user to know progress for each  sub-task, or if it might be necessary to pause or stop a sub-task.
+In very rare cases, it might be desirable to show a progress bar for each indvidual subtask. Only do this if it is genuinely useful for the user to know progress for each  subtask, or if it might be necessary to pause or stop a subtask.
 
 General Guidelines
 ------------------

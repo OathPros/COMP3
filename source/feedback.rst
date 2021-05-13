@@ -3,7 +3,7 @@
 Feedback
 ========
 
-Design patterns for showing information about events and status, and for requiring a response from users.
+The feedback section includes design patterns for showing information about events and status, as well as for prompting users for a response.
 
 Contents
 --------
