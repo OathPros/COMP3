@@ -5,7 +5,7 @@ Overlaid Controls
 
 Controls are typically opaque and permanently visible. However, in some cases it is desirable to have semi-transparent controls which appear over window content.
 
-When to use
+When to Use
 -----------
 
 Overlaid controls are appropriate for situations where it is desirable to show fewer controls while the user is not interacting with a window. The classic example is of a video player, which allows for a more immersive and uncluttered viewing experience.

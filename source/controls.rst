@@ -3,7 +3,7 @@
 Controls
 ========
 
-Controls include the most basic interactive UI elements, including buttons and swtches.
+Controls include the most basic interactive UI elements, such as buttons and swtches.
 
 Contents
 --------

@@ -15,9 +15,9 @@ Since radio buttons display all options without the need for disclosure, they ar
 Guidelines
 ----------
 
-* One button in the set should be selected at all times. (The only exception is when the group is showing the properties of a multiple selection, when one or more of the buttons may be in their mixed state.)
-* Use :ref:`sentence capitalization<sentence-capitalization>` for radio button labels. For example, *Single click to open*.
-* If the radio button represents a property of multiple items, and that property is present for some items and non-present for others, show the radio button in its mixed state.
+One button in the set should be selected at all times, except if the radio button represents a property of multiple items, and that property is present for some items and non-present for others. In this case, show the radio button in its mixed state.
+
+Use :ref:`sentence capitalization<sentence-capitalization>` for radio button labels. For example, *Single click to open*.
 
 API Reference
 -------------

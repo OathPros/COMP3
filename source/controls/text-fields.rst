@@ -3,28 +3,33 @@ Text Fields
 
 .. image:: ../img/screenshots/text-fields.png
 
-Text fields are used for single line text entry and have a variety of uses, messaging, preferences and forms. :doc:`Search entries </nav/search>` are a type of text field which have their own dedicated pattern.
+Text fields are used for single line text entry and editing. :doc:`Search entries </nav/search>` are a type of text field which have their own dedicated pattern.
 
 Multi-line text editing can be accomplished with a text view.
 
 Guidelines
 ----------
 
+General guidelines for text fields:
+
 * Give text fields a label using :ref:`header capitalization <header-capitalization>`, and assign an access key to the label, to allow people to focus the control using a keyboard.
 * Size text fields according to the likely size of the content they will contain. This gives a useful visual cue to the amount of expect input.
-* Take care to validate the content of text fields:
-   * When using instant-apply, validate the contents of the entry field when it loses focus or when the window is closed, as opposed to after each keypress.
-   * Alternatively, if the field accepts only a fixed number of characters, such as a hexadecimal color code, validate and apply the change as soon as that number of characters have been entered.
-   * If the text field only accepts certain characters, such as digits, play the system warning beep when someone types an invalid character.
+* When a text field contains a property or setting, apply any changes when Return is pressed or when the field loses focus.  
+
+Text fields can often require their content to have a particular format, such as in the case of an URL or hex color value. In these cases, it is important to provide effective feedback as to whether the field is valid or invalid. When doing this:
+
+* It is generally better to show positive feedback when the content is valid, as opposed to showing negative feedback while it is invalid. This avoids distracting and confusing users while they are in the process of editing the field.
+* One common pattern for individual text fields is to have a linked action button that becomes sensitive when the field content is valid.
+* In general, it is better to show feedback in real time as the field is edited, as opposed to waiting until the field loses focus.
   
 Embedding Icons, Buttons & Text
 -------------------------------
 
 Additional elements can be embedded in text fields. This can include:
 
-* buttons, to provide actions which are internal to the text entry, such as a clear button, or a button that fills the field
-* icons, to provide additional information relavant to the entry, such as a :doc:`progress spinner </feedback/spinners>` or status icon
-* placeholder text, as an alternative to a label, in situations where there is little available space, or where a label would disrupt the overall visual layout
+* Buttons, to provide actions, such as clear.
+* Icons, to provide additional information, such as a :doc:`progress spinner </feedback/spinners>`.
+* Placeholder text, as an alternative to a field label, in situations where there is little available space, or where a label would disrupt the overall visual layout.
 
 These conventions should generally be used with restraint and according to established conventions. Embedded icons should not be relied up to identify a text field, and should only be used when their meaning is commonly recognized without the need for additional explanation (such as through a tooltip).
 
@@ -33,9 +38,7 @@ Embedded icons should use the :doc:`symbolic style </guidelines/ui-icons>`.
 Password Fields
 ---------------
 
-Password fields are a special type of text field which hide any entered text. They include a  control for revealing hidden content, and indicate if *Caps Lock* is on.
-
-Password fields can be used for entering any potentially sensitive text.
+Password fields are a special type of text field which hide any entered text. They include a  control for revealing hidden content, and indicate if *Caps Lock* is on, and can be used for any potentially sensitive text.
 
 A password field example can be found in the *Entry → Password Entry* demo in the GTK 4 demo app.
 
