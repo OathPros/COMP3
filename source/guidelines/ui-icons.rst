@@ -8,7 +8,7 @@ UI Icon Style
 
 GNOME UI icons use the “symbolic” style. This is simple and monochrome and is designed to work well at smaller sizes. Symbolics are drawn as 16×16px SVGs and can be used at 32×32px, 64×64px and 128×128px. Avoid other sizes to prevent fuzzy rendering.
 
-.. image:: ../img/icons/ui-symbolic.svg
+.. image:: ../img/icons/symbolic-icons.svg
 
 All or part of the icon can be programmatically recolored.
 
@@ -52,4 +52,4 @@ General guidelines for symbolic icon creation:
 * Align all shapes to the pixel grid to ensure sharp rendering.
 * When a metaphor relies on negative space, make sure it will work with the colors inverted. For example a camera lens spec/highlight will only work if lighter than the lens itself.
 
-.. image:: ../img/icons/hig-symbolic-inversion.svg
+.. image:: ../img/icons/symbolic-inversion.svg

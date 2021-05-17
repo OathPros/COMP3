@@ -3,7 +3,7 @@ Placeholders
 
 A placeholder is an image with accompanying text, which is used to fill a space that would usually be populated with content.
 
-.. image:: ../img/screenshots/empty-placeholder.png
+.. image:: ../img/screenshots/color-placeholder.png
 
 When to Use
 -----------
@@ -24,6 +24,8 @@ It is often helpful to include a description which provides additional guidance,
 It can also be a good idea to include controls for relevant actions, such as adding content or starting a setup assistant. This is one place where the :ref:`suggested button style <button-styles>` can be appropriate.
 
 If the placeholder is used as part of the initial onboarding experience, the image should be rich and colorful, and the text should be positive and upbeat. This can also be an opportunity to strike up a relationship with the user by addressing them directly.
+
+.. image:: ../img/screenshots/empty-placeholder.png
 
 Alternatively, if the placeholder is used to fill a secondary view (such as an empty folder or album), the image and text should aim to be subtle and not attract undue attention. Therefore, use a symbolic icon in a muted color, and use a neutral tone for the text.
 

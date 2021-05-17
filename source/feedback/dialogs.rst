@@ -31,6 +31,8 @@ Error dialogs are another standard type of message dialog which present an error
 Action Dialogs
 --------------
 
+.. image:: ../img/screenshots/action-dialog.png
+
 Action dialogs present options and/or information about an action, before it is carried out. *Print* and *Save* dialogs are classic examples of action dialogs.
 
 Since action dialogs obscure the parent winodw and require a context switch on the part of a user, inline controls or actions are often preferable. In an email app, for example, email composition is generally better in the primary window, as opposed to an action dialog.

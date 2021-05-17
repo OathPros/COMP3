@@ -24,7 +24,7 @@ Avoid metahors that are unrelated to the name or function of the app, such as us
 GNOME App Icon Style
 --------------------
 
-TODO: add an image with a set of app icons, to give an overview of the general style.
+.. image:: ../img/icons/app-icons.svg
 
 The GNOME app icon style is simple and geometric. In many cases you can draw an entire icon with only basic shapes.
 
@@ -42,7 +42,7 @@ Perspective
 
 While the app icon style is simple, it is not “flat”. Depth is introduced by combining the “top” and “front” of the object, so that each icon has an additional profile at the bottom of the object. This “front” profile is shaded darker than the top surface.
 
-.. image:: ../img/icons/perspective.png
+.. image:: ../img/icons/app-icon-perspective.svg
 
 In most cases the profile is subtle, not taller than `2 detail units` (`4 nominal pixels`). But as the example aboves show there can be exceptions
 
@@ -53,7 +53,7 @@ Icons can make use of skeuomorphic materials (for example: wood, metal, or glass
 
 Straight surfaces should have flat colors, with gradients being reserved for curved surfaces.
 
-.. image:: ../img/icons/scr-app-icon-preview.png
+.. image:: ../img/icons/app-icon-preview.png
 
 Shadows should be avoided if possible, but can be used if it is necessary to give contrast to different icon elements. When drawing shadows, the light source should point straight down from above. Do not draw shadows outside the main silhouette of the icon, as these are generated programmatically based on the context.
 
@@ -62,14 +62,14 @@ Detail
 
 App icons are defined at 128×128px, but are typically viewed at 64×64px, and can be scaled down to 32×32px. Therefore, avoiding adding fine detail, as this will be lost at low sizes.
 
-.. image:: ../img/icons/hig-icon-sizes.svg
+.. image:: ../img/icons/app-icon-sizes.svg
 
 The template includes a 2px grid which should be followed, and will help to avoid adding excess details.
 
 Symbolic App Icons
 ------------------
 
-.. image:: ../img/icons/symbolic-app-icons.png
+.. image:: ../img/icons/app-icons-symbolic.svg
 
 Each app should have an additional symbolic version of its app icon, which is used to represent the app icon at smaller sizes, as well as being used for the high-contrast accessibility theme. A description of the symbolic icon style can be found in the :doc:`UI icons guidelines <ui-icons>`.
 
