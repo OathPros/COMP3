@@ -92,7 +92,7 @@ Unicode provides a wide variety of characters which, when used correctly, can dr
     - U+2013 En dash
   * - Units
     - 32GB
-    - 32 GB
-    - U+2009 Thin space
+    - 32\ GB
+    - U+202F Narrow no-break space
 
 The `Typography <https://flathub.org/apps/details/org.gnome.design.Typography>`_ app provides a convenient way to copy these recommended characters.
