@@ -3,36 +3,29 @@ Placeholders
 
 A placeholder is an image with accompanying text, which is used to fill a space that would usually be populated with content.
 
-In GNOME there are two main types of placeholder: initial state placeholders, and empty placeholders.
-
-Initial State Placeholders
---------------------------
-
-Initial state placeholders are shown when an application is first run. In addition to filling a blank space where content will eventually be shown, the initial state placeholder can also provide guidance and an encouraging start to the user experience.
-
-Guidelines
-~~~~~~~~~~
-
-* Only use an initial state placeholder when the initial state being empty is unavoidable. In many cases it is often better to pre-populate the application.
-* Initial state placeholders should be shown until the application is populated. If the application becomes empty subsequently, an empty state should be shown.
-* Imagery should be rich and colorful.
-* The text that accompanies the image should be positive and upbeat. It can also be an opportunity to strike up a relationship with the user by addressing them directly.
-* It can be a good idea to include controls in the initial state, to help people get started. This is one place where the :ref:`suggested button style <button-styles>` can be appropriate.
-
-Empty Placeholders
-~~~~~~~~~~~~~~~~~~
-
 .. image:: ../img/screenshots/empty-placeholder.png
 
-Empty placeholders are shown in spaces that might often contain content, but for some reason are empty. Examples include locations like folders or albums that are empty.
+When to Use
+-----------
 
-Empty placeholders should not be displayed when an application is being run for the first time. In these situations, a richer, more characterful and positive experience is better, and an initial state should therefore be used.
+One common use for placeholders is for the default state of an app, when it is first run and is yet to be populated with content. This can be a good way to guide the user into the experience, set a positive note, and establish a relationship with the user.
+
+However, you should only use a placeholder for the initial view of your app when starting empty is unavoidable. In many cases it is often better to pre-populate the application instead of using a placeholder.
+
+Empty placeholders should also be shown in other spaces that might often contain content, but which are empty, such as empty folders or albums.
 
 Guidelines
-~~~~~~~~~~
+----------
 
-* For the image, use a symbolic icon that represents the type of content that would ordinarily appear in the space, the space itself, or the app. For example, the icon could be a folder or a document.
-* An empty placeholder should always include a label which communicates the empty state. It is often appropriate to include a smaller subtext which provides additional guidance (such as how to add items). However, this should only be included if this additional information is genuinely useful.
+All placeholders should include a heading which communicates the empty state and provides guidance. For example, “Empty Folder”.
+
+It is often helpful to include a description which provides additional guidance, such as how to add items. For example, “Use the **+** button to add items.”
+
+It can also be a good idea to include controls for relevant actions, such as adding content or starting a setup assistant. This is one place where the :ref:`suggested button style <button-styles>` can be appropriate.
+
+If the placeholder is used as part of the initial onboarding experience, the image should be rich and colorful, and the text should be positive and upbeat. This can also be an opportunity to strike up a relationship with the user by addressing them directly.
+
+Alternatively, if the placeholder is used to fill a secondary view (such as an empty folder or album), the image and text should aim to be subtle and not attract undue attention. Therefore, use a symbolic icon in a muted color, and use a neutral tone for the text.
 
 API Reference
 -------------
