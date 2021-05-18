@@ -197,7 +197,7 @@ Navigation
     - Navigates to the next location in the navigation history.
   * - Up
     - Alt+↑
-    - Navigets to the parent location.
+    - Navigates to the parent location.
   * - Home
     - Alt+Home
     - Navigates to the starting location.
@@ -209,7 +209,7 @@ Navigation
     - Navigates to the previous page.
   * - Next Page
     - PageDown
-    - Navigets to the next page.
+    - Navigates to the next page.
   * - First Page
     - Ctrl+Home
     - Navigates to the first page.
