@@ -232,22 +232,22 @@ The following shortcuts should be avoided by applications, since they are used b
    * - Keys
      - Function
    * - Alt+Tab, Shift+Alt+Tab
-     - Switch to next/previous window.
+     - Switches to the next/previous window.
    * - Alt+Tab+`, Shift+Alt+Tab+`
-     - Switch to next/previous window of the focused application.
+     - Switches to the next/previous window of the focused application.
    * - Alt+F4
      - Close the focused window.
    * - Alt+F6, Shift+Alt+F6
-     - Switch to next/previous window of the focused application.
+     - Switches to the next/previous window of the focused application.
    * - Alt+F7
-     - Move the focused window.
+     - Movees the focused window.
    * - Alt+F8
-     - Resize the focused window.
+     - Resizes the focused window.
    * - Alt+F5
-     - Unmaximize the focused window.
+     - Unmaximizes the focused window.
    * - Ctrl+Alt+Tab, Shift+Ctrl+Alt+Tab
-     - Switch between system areas
+     - Switches between system areas
    * - Alt+Space
-     - Open window menu.
+     - Opens window menu.
    * - Ctrl+Alt+Delete
      - System power off.
