@@ -44,5 +44,7 @@ Where possible, ensure that the standard keyboard shortcuts for tabs are support
 API Reference
 -------------
 
+* `Adwaita: AdwTabBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.TabBar.html>`_
+* `Adwaita: AdwTabView <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.TabView.html>`_
 * `Handy: HdyTabBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyTabBar.html>`_
 * `Handy: HdyTabView <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyTabView.html>`_
