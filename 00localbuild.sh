@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -rf ./build && sphinx-build -b html ./source ./build
+rm -rf ./build && sphinx-build -j auto -b html ./source ./build
