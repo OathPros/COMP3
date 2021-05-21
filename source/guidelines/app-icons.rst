@@ -79,8 +79,8 @@ Where possible, the same metaphor as the full size app icon should be used for t
 Nightly Variant
 ---------------
 
-If you provide a nightly or beta build of your application, it is recommended to create a specific version of the app icon for it.
+If you provide a nightly or beta build of your application, it is recommended to create a specific version of the app icon for it so it is possible to tell them apart.
 
-The App Icon Preview is able to generate a nightly variant of the icon automatically. In some cases it may be desirable to adjust the output manually, though in most cases this shouldn't be necessary.
+The [App Icon Preview](https://flathub.org/apps/details/org.gnome.design.AppIconPreview) is able to generate a nightly variant of the icon automatically. In some cases it may be desirable to adjust the output manually, though in most cases this shouldn't be necessary.
 
 .. image:: ../img/icons/app-icon-nightly.png
