@@ -288,3 +288,32 @@ footer {
 }
 
 .headerlink { visibility: hidden !important; }
+
+.sidebar-search-container,
+.sidebar-search {
+	border-radius: 99999px;
+	border: none;
+}
+.sidebar-search-container {
+	margin: 0 var(--sidebar-item-spacing-horizontal);
+	transition: background-color 0.2s linear;
+	background-color: rgba(0,0,0,0.06);
+}
+.sidebar-search-container:hover {
+  background-color: rgba(0,0,0,0.09);
+}
+.sidebar-search-container:focus-within {
+  background-color: rgba(0,0,0,0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  .sidebar-search-container {
+    background-color: rgba(255,255,255,0.06);
+  }
+  .sidebar-search-container:hover {
+    background-color: rgba(255,255,255,0.09);
+  }
+  .sidebar-search-container:focus-within {
+    background-color: rgba(255,255,255,0.12);
+  }
+}
