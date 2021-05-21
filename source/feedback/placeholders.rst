@@ -32,5 +32,5 @@ Alternatively, if the placeholder is used to fill a secondary view (such as an e
 API Reference
 -------------
 
-* `Adwaita: AdwStatusPage <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwStatusPage.html>`_
+* `Adwaita: AdwStatusPage <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.StatusPage.html>`_
 * `Handy: HdyStatusPage <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyStatusPage.html>`_

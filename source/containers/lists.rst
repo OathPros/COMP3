@@ -28,8 +28,8 @@ API Reference
 -------------
 
 * `GTK 4: GtkListBox <hhttps://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListBox.html>`_
-* `Adwaita: AdwActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwActionRow.html>`_
-* `Adwaita: AdwExpanderRow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyExpanderRow.html>`_
+* `Adwaita: AdwActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ActionRow.html>`_
+* `Adwaita: AdwExpanderRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ExpanderRow.html>`_
 * `GTK 3: GtkListBox <https://developer.gnome.org/gtk3/stable/GtkListBox.html>`_
 * `Handy: HdyActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwExpanderRow.html>`_
 * `Handy: HdyExpanderRow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyActionRow.html>`_
