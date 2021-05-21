@@ -3,7 +3,7 @@
 GNOME User Interface Guidelines
 ===============================
 
-The GNOME Human Interface Guidelines are the primary design resource for those creating software for the GNOME platform. They are primarily indended for application designers and developers, but are relevant to anyone wanting to familize themselves with the GNOME platform.
+The GNOME Human Interface Guidelines are the primary design resource for those creating software with the GNOME development platform. They are primarily indended for application designers and developers, but are relevant to anyone wanting to familize themselves with GNOME UX.
 
 Platform Definition
 -------------------
@@ -32,7 +32,7 @@ The rest of the HIG provides documentation on the various design patterns and us
 Issues & Contributions
 ----------------------
 
-See the `HIG project <https://gitlab.gnome.org/Teams/Design/hig-www>`_ on GNOME's Gitlab instance issue reporting and change proposals.
+See the `HIG project <https://gitlab.gnome.org/Teams/Design/hig-www>`_ on GNOME's Gitlab instance for issue reporting and change proposals.
 
 .. toctree::
    :maxdepth: 1
