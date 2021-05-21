@@ -29,8 +29,8 @@ The rest of the HIG provides documentation on the various design patterns and us
 * :doc:`Controls <controls>`: common interactive UI elements, including buttons, menus, switches, and so on.
 * :doc:`Reference <reference>`: standard keyboard shortcuts and colors.
 
-Issues & Contributions
-----------------------
+Contribute
+----------
 
 See the `HIG project <https://gitlab.gnome.org/Teams/Design/hig-www>`_ on GNOME's Gitlab instance for issue reporting and change proposals.
 
