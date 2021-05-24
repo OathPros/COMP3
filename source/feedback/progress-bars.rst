@@ -18,7 +18,7 @@ There are three types of progress bar:
 
 Accuracy is preferable for progress bars: where possible, use a time-remaining progress bar, followed by typical-time. Try to avoid using indeterminate progress bars.
 
-When using a typical-time progress bar, handle overestimation by showing explanatory progress text at the end of the oporation, such as “Almost done”. Handle underestimation by filling in the remaining portion of the progress bar.
+When using a typical-time progress bar, handle overestimation by showing explanatory progress text at the end of the operation, such as “Almost done”. Handle underestimation by filling in the remaining portion of the progress bar.
 
 Progress Text
 -------------
