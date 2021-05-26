@@ -38,7 +38,7 @@ Scrolling, Panning & Zooming
 
 Scrolling moves a view along a single (typically vertical) axis, and is typical for web pages and documents. Panning moves the view along two axes, and is seen in image viewers and maps.
 
-Views which scroll and don't pan sohuld use the following behaviors:
+Views which scroll and don't pan should use the following behaviors:
 
 .. list-table::
   :widths: 10 30 30 30
@@ -50,7 +50,7 @@ Views which scroll and don't pan sohuld use the following behaviors:
     - Touchscreen 
   * - Scroll
     - Scroll wheel
-    - Two-finger drag\ :sup:`*`
+    - Two-finger drag
     - Single-finger drag
   * - Zoom
     - Ctrl+scroll wheel
@@ -69,14 +69,12 @@ Alternatively, views which pan rather than scroll should use the following behav
     - Touchscreen 
   * - Pan
     - Drag
-    - Tap, then drag\ :sup:`*`
+    - Drag
     - Single-finger drag
   * - Zoom
     - Scroll wheel
-    - Pinch
+    - Two-finger drag / pinch
     - Pinch 
-
-:sup:`*` Requires two-finger scrolling to be enabled.
 
 Additional Guidelines
 ---------------------
