@@ -68,8 +68,8 @@ Alternatively, views which pan rather than scroll should use the following behav
     - Touchpad
     - Touchscreen 
   * - Pan
-    - Drag
-    - Drag
+    - Click+drag
+    - Click+drag or tap then drag
     - Single-finger drag
   * - Zoom
     - Scroll wheel
