@@ -7,7 +7,7 @@ General Guidelines
 ------------------
 
 * Wherever possible, use the default system fonts as provided by the distribution or operating system on which your application is running. In GNOME, the default font is Cantarell, which was originally designed and developed by David Crossland.
-* Do not position text over graphical backgrounds or textures, since this reduces contrast and makes text less readable. This can be a particular issue for users with visual impairments. 
+* Do not position text over graphical backgrounds or textures, since this reduces contrast and makes text less readable. This can be a particular issue for users with visual impairments.
 
 Variants, Sizes & Weights
 -------------------------
@@ -47,7 +47,7 @@ GNOME has a set of standard font styles which are recommended for use in apps. T
     - ``title-1``–``title-4``
     - A range of heading styles, which can be used for display, including placeholder and welcome graphics.
 
-Note: these standard font styles are available in GTK 4 and not GTK 3.
+Note: these standard font styles are available in GTK 4 but not in GTK 3.
 
 Take Advantage of Unicode
 -------------------------
@@ -57,7 +57,7 @@ Unicode provides a wide variety of characters which, when used correctly, can dr
 .. list-table::
   :widths: 20 20 20 40
   :header-rows: 1
-  
+
   * - Usage
     - Incorrect
     - Correct

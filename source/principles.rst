@@ -5,7 +5,7 @@ Design Principles
 
 The HIG and the GNOME platform are reflective of the GNOME design tradition and philosophy, which has been informed by the GNOME project's collective experience creating user-facing software for over 20 years.
 
-Designers and developers who are using the GNOME platform are encouraged to follow the GNOME design philosophy, as this will enhance their ability to produce beautiful, effective, attractive, easy to use apps. It will also mean that they are 
+Designers and developers who are using the GNOME platform are encouraged to follow the GNOME design philosophy, as this will enhance their ability to produce beautiful, effective, attractive, easy to use apps.
 
 1. Design for People
 --------------------
@@ -24,7 +24,7 @@ The best apps do one thing and do it well. Often this requires having insight in
 
 The principle of simplicity applies to each view and element of your app, as well as the app as a whole. Don't overwhelm the user with too many elements at once.  Frequently used actions should be close to hand, with less frequently-used actions being further away.
 
-Focus each view on what is important and what the user needs in that moment. Use progressive disclose and navigation structures to provide a guided experience which doesn't throw everything at the user at once.
+Focus each view on what is important and what the user needs in that moment. Use progressive disclosure and navigation structures to provide a guided experience which doesn't throw everything at the user at once.
 
 4. Reduce User Effort
 ---------------------
