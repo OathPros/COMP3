@@ -15,11 +15,11 @@ Metaphor
 Each app icon should have a simple, recognizable metaphor. Ideally this should have a clear and obvious relationship with the :doc:`app name <app-naming>`. Common types of metaphors include:
 
 * Physical objects directly related to what the app does (for example, a speaker for a music app).
-* Physical objects which are related to the app’s domain, or to an older analog version of it (for example, a cassette tape for a podcasting app).
+* Physical objects which are at least somewhat related to the app’s domain, or to an older analog version of it (for example, a cassette tape for a podcasting app).
 * Symbols related to the domain (for example, the “play” triangle for a video player).
 * If the app has a distinctive UI, a simplified, stylized version of it.
 
-Avoid metahors that are unrelated to the name or function of the app, such as using characters or mascots. Also avoid using logos which rely on a specific visual style.
+Avoid metaphors that are unrelated to the name or function of the app, such as using characters or mascots. Also avoid using logos which rely on a specific visual style.
 
 GNOME App Icon Style
 --------------------
@@ -43,7 +43,7 @@ While the app icon style is simple, it is not “flat”. Depth is introduced by
 
 .. image:: ../img/icons/app-icon-perspective.svg
 
-In most cases the profile is subtle, not taller than `2 detail units` (`4 nominal pixels`). But as the example aboves show there can be exceptions
+In most cases the profile is subtle, not taller than `2 detail units` (`4 nominal pixels`). But as the example aboves show there can be exceptions.
 
 Material & Lighting
 ~~~~~~~~~~~~~~~~~~~
@@ -59,7 +59,7 @@ Shadows should be avoided if possible, but can be used if it is necessary to giv
 Detail
 ~~~~~~
 
-App icons are defined at 128×128px, but are typically viewed at 64×64px, and can be scaled down to 32×32px. Therefore, avoiding adding fine detail, as this will be lost at low sizes.
+App icons are defined at 128×128px, but are typically viewed at 64×64px, and can be scaled down to 32×32px. Therefore, avoiding adding too much detail, as this will be lost at small sizes.
 
 .. image:: ../img/icons/app-icon-sizes.svg
 
@@ -81,6 +81,6 @@ Nightly Variant
 
 If you provide a nightly or beta build of your application, it is recommended to create a specific version of the app icon for it so it is possible to tell them apart.
 
-The [App Icon Preview](https://flathub.org/apps/details/org.gnome.design.AppIconPreview) is able to generate a nightly variant of the icon automatically. In some cases it may be desirable to adjust the output manually, though in most cases this shouldn't be necessary.
+`App Icon Preview <https://flathub.org/apps/details/org.gnome.design.AppIconPreview>`_ is able to generate a nightly variant of the icon automatically. In some cases it may be desirable to adjust the output manually, though in most cases this shouldn't be necessary.
 
 .. image:: ../img/icons/app-icon-nightly.png

@@ -1,7 +1,7 @@
 Pointer & Touch
 ===============
 
-A pointing device is any input device that allows the manipulation of a pointer — typically represented as an arrow, and often called a cursor — on screen. While mice and touchpads are the most pointing devices, there are many others, including graphics tablets, track balls, track points and joysticks.
+A pointing device is any input device that allows the manipulation of a pointer — typically represented as an arrow, and often called a cursor — on screen. While mice and touchpads are the most common pointing devices, there are many others, including graphics tablets, track balls, track points and joysticks.
 
 While there is no visible pointer when using touchscreens, they fulfill the same role as other pointing devices.
 
@@ -12,7 +12,7 @@ User interface designs should be easy to use with the full range of pointing dev
 
 Designs should also be easy to use with a range of physical abilities. People and situations can vary enormously in terms of how precise and controlled pointer interaction can be. It is therefore important to design for contexts where pointer accuracy and control is low.
 
-To acheive this broad level of accessibility, the following guidelines should be observed:
+To achieve this broad level of accessibility, the following guidelines should be observed:
 
 * Click targets should be large enough to be comfortably used with different pointing devices and physical abilities.
 * Buttons and controls which are only available on some pointing devices should not be exclusively relied upon for particular actions.
@@ -45,9 +45,9 @@ Views which scroll and don't pan should use the following behaviors:
   :header-rows: 1
 
   * - Operation
-    - Mouse 
+    - Mouse
     - Touchpad
-    - Touchscreen 
+    - Touchscreen
   * - Scroll
     - Scroll wheel
     - Two-finger drag
@@ -64,9 +64,9 @@ Alternatively, views which pan rather than scroll should use the following behav
   :header-rows: 1
 
   * - Operation
-    - Mouse 
+    - Mouse
     - Touchpad
-    - Touchscreen 
+    - Touchscreen
   * - Pan
     - Click+drag
     - Click+drag or tap then drag
@@ -80,5 +80,5 @@ Additional Guidelines
 ---------------------
 
 * Pressing *Esc* while a pointer operation is in progress should cancel it. For example, while dragging and dropping a file or drawing a shape.
-* In GNOME, three and four finger gestures are reserved for use by the system, and these should be avoided by applications. This includes both touchpad and touchscreen gestures. Drags from the top and bottom screen edges are also reserved.
+* In GNOME, three and four finger gestures are reserved for use by the system, so these should be avoided by applications. This includes both touchpad and touchscreen gestures. Drags from the top and bottom screen edges are also reserved.
 * Apps are free to use two finger gestures as well as drags from the left and right screen edge.

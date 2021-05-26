@@ -1,7 +1,7 @@
 Keyboard
 ========
 
-Keyboard interaction covers a range of behaviors, including text entry and shortcuts, through to the keyboard being used as the sole input device. The latter is vital for visually-impaired people or those with mobility impairments.
+Keyboard interaction covers a range of behaviors, from text entry and shortcuts, through to the keyboard being used as the sole input device. The latter is vital for visually-impaired people or those with mobility impairments.
 
 While many aspects of keyboard interaction are relevant to accessibility, some users prefer to use the keyboard and it can be an efficient alternative to pointer-based interaction.
 
@@ -43,7 +43,7 @@ Guidelines for selecting access keys:
 * If it is difficult to assign access keys to all labelled controls, assign access keys to the most frequently-used controls first. If the first letter is not available, choose an easy to remember consonant from the label, for example, “p” in “Replace”. Only assign vowels once no consonants are available.
 * Be aware that access keys have to be translated together with the strings that they are taken from, so even if there are no conflicts in your native language, they may occur in translations.
 
-The technical term for access keys is *mneumonics*.
+The technical term for access keys is *mnemonics*.
 
 .. _keyboard-nav:
 
@@ -56,7 +56,7 @@ The keyboard focus sequence follows the internal widget tree, and is usually log
 
 Other guidelines for keyboard navigation:
 
-* When possible, play the alert sound when tab fails to move keyboard focus. For example, when the focus is on the first character in a text field and the user presses left arrow key, or vhen the user tries to perform multiple selection in a single selection dialog. 
+* When possible, play the alert sound when tab fails to move keyboard focus. For example, when the focus is on the first character in a text field and the user presses left arrow key, or when the user tries to perform multiple selection in a single selection dialog.
 * Control labels should immediately precede their control in the keyboard focus order. This will ensure that the access key you assign to the label will move focus to or activate the control.
 * Where possible, arrow keys should allow moving around the UI in a directional fashion.
 
@@ -77,14 +77,14 @@ The following keys should automatically work for the majority of GNOME user inte
     - Move keyboard focus to the previous control
   * - Ctrl+Tab
     - Move keyboard focus to the next control, when Tab has another function (this is primarily relevant to text entries)
-  * - Shift+Ctrl+Tab 
+  * - Shift+Ctrl+Tab
     - Move keyboard focus to the previous control, when Tab has another function
   * - Return
     - Activate the focused control or content item
   * - Space
     - Toggle the state of a control
   * - F10
-    - Open primary or secondary menu 
+    - Open primary or secondary menu
   * - Menu / Shift+F10
     - Open context menu for focused location
   * - Esc

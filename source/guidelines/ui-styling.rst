@@ -8,12 +8,12 @@ In general, the visual styling of UI elements is provided by the platform, so th
 Style Options
 -------------
 
-Whle UI elements do not generally require their own styling. However, there are some cases where designers do need to make UI style decisions.
+UI elements do not generally require their own styling. However, there are some cases where designers do need to make UI style decisions.
 
 Optional Element Styles
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Alternative visual styles are avalible for some UI elements. For example, the :ref:`suggested and destructive styles <button-styles>` make it possible to give buttons different colors depending on their function. In cases such as this, the HIG provides specific guidance for when and how to use the optional styles that are available.
+Alternative visual styles are available for some UI elements. For example, the :ref:`suggested and destructive styles <button-styles>` make it possible to give buttons different colors depending on their function. In cases such as this, the HIG provides specific guidance for when and how to use the optional styles that are available.
 
 Outside of these individual cases, it is not recommended to manually change the appearance of UI elements.
 

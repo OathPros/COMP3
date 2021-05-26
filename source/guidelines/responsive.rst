@@ -8,9 +8,7 @@ The :doc:`page on windows </containers/windows>` includes additional guidance th
 Small Size Handling
 -------------------
 
-The smallest recommended displays for GNOME is currently 1024×600px, and this size should be supported by all applications. Apps that are appropriate for a phone form factor should scale down to a width of 340px.
-
-These size requirements should be doubled for high-resolution displays (those with greater than 96 PPI).
+The smallest recommended display size for GNOME on desktop is currently 1024×600px, and this size should be supported by all applications. Apps that are appropriate for a phone form factor should scale down to 360×294px.
 
 Large Size Handling
 -------------------
