@@ -38,7 +38,7 @@ The following process can be an effective way to select a good name.
 
 First, generate ideas for your app name. One way to do this is to write down all the words from your app's domain (for example, for a video player, you could write down words relating to video, cinema and TV). Use a thesaurus to find alternatives based on the names you've already identified.
 
-1. Come up with a shortlist
+2. Come up with a shortlist
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once you have a long list of names, sort through them and identify the strongest candidates. As a rule of thumb, you might start with around 20 names, and reduce it to a shortlist of five.
