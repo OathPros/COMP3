@@ -55,4 +55,4 @@ Once you have a shortlist of viable names, you just need to select one. Here it 
 
 * How unique the name is compared with other apps.
 * Whether the name has a pleasant sound when spoken aloud.
-* If the name reflects the overall character of you app.
+* If the name reflects the overall character of your app.

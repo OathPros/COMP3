@@ -10,7 +10,7 @@ Examples of search can be found in the *Search Entry* and *Type to Search* demos
 When to Use
 -----------
 
-Provide search whenever there are more content items than can be easily displayed, and those content items have a textual component. Examples include a collection of documents, a list or recently used files, or selecting a country for a location.
+Provide search whenever there are more content items than can be easily displayed, and those content items have a textual component. Examples include a collection of documents, a list of recently used files, or selecting a country for a location.
 
 Search is a great way to make it easy for users to find what it is they are looking for, and its consistent availability means that users can rely on and expect it to be present.
 

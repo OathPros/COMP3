@@ -3,7 +3,7 @@ Checkboxes
 
 .. image:: ../img/screenshots/checkbox.png
 
-Checkboxes allow users to control binary options or properties. In general, :doc:`switches <switches>` are preferred to check boxes. However, in some situations a check box may be more suitable.
+Checkboxes allow users to control binary options or properties. In general, :doc:`switches <switches>` are preferred to checkboxes. However, in some situations a checkbox may be more suitable.
 
 Guidelines
 ----------
@@ -17,7 +17,7 @@ Checkbox label guidelines:
 Other checkbox guidelines:
 
 * Clicking a checkbox should not affect the values of other controls. However, it may affect their sensitivity or visibility.
-* If toggling a checkbox affects the sensitivity of other controls, place the checkbox immediately above the controls that it affects. This helps to indicate that the controls are dependent on the state of the check box.
+* If toggling a checkbox affects the sensitivity of other controls, place the checkbox immediately above the controls that it affects. This helps to indicate that the controls are dependent on the state of the checkbox.
 
 Mixed States
 ------------

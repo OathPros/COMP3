@@ -28,4 +28,4 @@ General Guidelines
 
 * Remember to test your app design at a range of window sizes, both large and small. Consider portrait as well as landscape display orientation.
 * Some design patterns have specific guidance for responsive handling, such as :doc:`view switchers </nav/view-switchers>` and :doc:`sidebars </nav/sidebars>`.
-* Following the GNOME design conventions for app structure and progressive disclosure will help to ensure that your app works well at a range of sizes. Windows that are sub-divided it a numerous small panes or panels will struggle to be responsive.
+* Following the GNOME design conventions for app structure and progressive disclosure will help to ensure that your app works well at a range of sizes. Windows that are sub-divided into numerous small panes or panels will struggle to be responsive.

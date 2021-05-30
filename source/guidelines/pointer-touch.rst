@@ -8,7 +8,7 @@ While there is no visible pointer when using touchscreens, they fulfill the same
 General Guidelines
 ------------------
 
-User interface designs should be easy to use with the full range of pointing devices. The only exception to this rule is apps which have specialist input devices associated with them. For example, games might provide features that are specific to games controllers, or specialist graphics apps might expect a graphics tablet table to be used. If an app requires a specific type of device in order to be used, this expectation should be clearly communicated to the user.
+User interface designs should be easy to use with the full range of pointing devices. The only exception to this rule is apps which have specialist input devices associated with them. For example, games might provide features that are specific to game controllers, or specialist graphics apps might expect a graphics tablet to be used. If an app requires a specific type of device in order to be used, this expectation should be clearly communicated to the user.
 
 Designs should also be easy to use with a range of physical abilities. People and situations can vary enormously in terms of how precise and controlled pointer interaction can be. It is therefore important to design for contexts where pointer accuracy and control is low.
 

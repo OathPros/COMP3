@@ -13,10 +13,10 @@ Guidelines
 General guidelines for text fields:
 
 * Give text fields a label using :ref:`header capitalization <header-capitalization>`, and assign an access key to the label, to allow people to focus the control using a keyboard.
-* Size text fields according to the likely size of the content they will contain. This gives a useful visual cue to the amount of expect input.
+* Size text fields according to the likely size of the content they will contain. This gives a useful visual cue to the amount of expected input.
 * When a text field contains a property or setting, apply any changes when Return is pressed or when the field loses focus.  
 
-Text fields can often require their content to have a particular format, such as in the case of an URL or hex color value. In these cases, it is important to provide effective feedback as to whether the field is valid or invalid. When doing this:
+Text fields can often require their content to have a particular format, such as in the case of a URL or hex color value. In these cases, it is important to provide effective feedback as to whether the field is valid or invalid. When doing this:
 
 * It is generally better to show positive feedback when the content is valid, as opposed to showing negative feedback while it is invalid. This avoids distracting and confusing users while they are in the process of editing the field.
 * One common pattern for individual text fields is to have a linked action button that becomes sensitive when the field content is valid.
@@ -31,7 +31,7 @@ Additional elements can be embedded in text fields. This can include:
 * Icons, to provide additional information, such as a :doc:`progress spinner </feedback/spinners>`.
 * Placeholder text, as an alternative to a field label, in situations where there is little available space, or where a label would disrupt the overall visual layout.
 
-These conventions should generally be used with restraint and according to established conventions. Embedded icons should not be relied up to identify a text field, and should only be used when their meaning is commonly recognized without the need for additional explanation (such as through a tooltip).
+These conventions should generally be used with restraint and according to established conventions. Embedded icons should not be relied upon to identify a text field, and should only be used when their meaning is commonly recognized without the need for additional explanation (such as through a tooltip).
 
 Embedded icons should use the :doc:`symbolic style </guidelines/ui-icons>`.
 
