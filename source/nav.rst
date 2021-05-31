@@ -1,5 +1,3 @@
-.. image:: img/hig-navigation.svg
-
 Navigation
 ==========
 
@@ -11,10 +9,36 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 1
+   :hidden:
 
    nav/stacks
    nav/view-switchers
    nav/tabs
    nav/sidebars
    nav/search
+
+.. cssclass:: tiled-toc
+*  .. image:: img/tiles/nav-stacks.svg
+      :target: nav/stacks.html
+
+   :doc:`Stacks </nav/stacks>` 
+
+*  .. image:: img/tiles/nav-viewswitchers.svg
+      :target: nav/view-switchers.html
+
+   :doc:`View Switchers </nav/view-switchers>` 
+
+*  .. image:: img/tiles/nav-tabs.svg
+      :target: nav/tabs.html
+
+   :doc:`Tabs </nav/tabs>` 
+
+*  .. image:: img/tiles/nav-sidebars.svg
+      :target: nav/sidebars.html
+
+   :doc:`Sidebars </nav/sidebars>` 
+
+*  .. image:: img/tiles/nav-search.svg
+      :target: nav/search.html
+
+   :doc:`Search </nav/search>` 
