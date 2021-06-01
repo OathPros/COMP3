@@ -3,9 +3,6 @@ Reference
 
 Design reference materials.
 
-Contents
---------
-
 .. toctree::
    :hidden:
 

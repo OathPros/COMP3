@@ -5,9 +5,6 @@ Combined with :doc:`containers <containers>`, the navigation design patterns cre
 
 Simple apps may not use any navigation patterns. More complex ones will likely need to combine several, and these can sometimes involve nesting navigation structures within one another. For example, a view switcher can be combined with stacks to create subpages within each view.
 
-Contents
---------
-
 .. toctree::
    :hidden:
 
