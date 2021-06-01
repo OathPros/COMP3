@@ -242,6 +242,46 @@ ul.simple {
       background-color: transparent;
     }
 
+
+/* tiled TOC with images */
+
+ul.tiled-toc {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: row;
+  margin: 1rem 0; padding: 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+  ul.tiled-toc li {
+    display: block;
+    list-style: none;
+  }
+  ul.tiled-toc li img {
+    display: block;
+    width: 100%;
+  }
+  ul.tiled-toc li img::after {
+    content: "Foo";
+  }
+
+  ul.tiled-toc a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  @media (min-width: 700px) {
+    ul.tiled-toc {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    ul.tiled-toc a { color: white; }
+  }
+
+
 table.docutils {
   font-size: 90%;
   box-shadow: none;
