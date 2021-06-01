@@ -6,7 +6,7 @@ Notifications
 Notifications are used to inform users about events that they will be interested in. Examples include:
 
 * when a download or other long-running operation has finished
-* when a new content is available
+* when new content is available
 * when a message has been received
 
 General Guidelines

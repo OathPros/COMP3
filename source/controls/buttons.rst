@@ -22,7 +22,7 @@ Toggle Buttons
 
 Toggle buttons switch between two states, set and unset. This state is indicated by the button being either “pushed in” or “popped out”, respectively.
 
-Toggle buttons are an appropriate choice for modes or settings which have a obvious binary nature. They are generally used when space is limited, as an alternative to :doc:`switches </controls/switches>`.
+Toggle buttons are an appropriate choice for modes or settings which have an obvious binary nature. They are generally used when space is limited, as an alternative to :doc:`switches </controls/switches>`.
 
 Toggle buttons can also be linked, to create a control for selecting one of a series of options. This approach is appropriate when the available options are not binary in nature and the options available can be expressed with short labels.
 

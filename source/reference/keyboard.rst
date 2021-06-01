@@ -103,7 +103,7 @@ Editing
     - Selects all content in the focused control or view.
   * - Deselect All
     - Shift+Ctrl+A
-    - Deselcts all ontent in the focused control or view.
+    - Deselects all content in the focused control or view.
   * - Find
     - Ctrl+F
     - Shows and focuses a find/search UI.
@@ -240,7 +240,7 @@ The following shortcuts should be avoided by applications, since they are used b
    * - Alt+F6, Shift+Alt+F6
      - Switches to the next/previous window of the focused application.
    * - Alt+F7
-     - Movees the focused window.
+     - Moves the focused window.
    * - Alt+F8
      - Resizes the focused window.
    * - Alt+F5

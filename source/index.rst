@@ -3,14 +3,14 @@
 GNOME User Interface Guidelines
 ===============================
 
-The GNOME Human Interface Guidelines are the primary design resource for those creating software with the GNOME development platform. They are primarily indended for application designers and developers, but are relevant to anyone wanting to familize themselves with GNOME UX.
+The GNOME Human Interface Guidelines are the primary design resource for those creating software with the GNOME development platform. They are primarily intended for application designers and developers, but are relevant to anyone wanting to familiarize themselves with GNOME UX.
 
 Platform Definition
 -------------------
 
 The HIG is intended to be used in conjunction with recent versions of the GNOME platform, as provided by the GNOME Flatpak SDK.
 
-Application developers are expected to be using GTK 4 and the Adwaita library, and it is for these libraries that the HIG is primarily indended.
+Application developers are expected to be using GTK 4 and the Adwaita library, and it is for these libraries that the HIG is primarily intended.
 
 Much of the HIG is also relevant to applications that are using GTK 3 and the associated Handy library.
 

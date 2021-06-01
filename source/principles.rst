@@ -36,4 +36,4 @@ Always seek to minimize the number of steps required to perform a task. If somet
 5. Be Considerate
 ------------------
 
-Anticipating user needs goes beyond providing useful functionality. It also requires thinking about what users don't want from your app. Wherever possible, anticipate and help to prevent user errors. Allow destructive actions to be undone. Respect the user's time and attention. Don't interupt them, and don't distract them unnecessarily.
+Anticipating user needs goes beyond providing useful functionality. It also requires thinking about what users don't want from your app. Wherever possible, anticipate and help to prevent user errors. Allow destructive actions to be undone. Respect the user's time and attention. Don't interrupt them, and don't distract them unnecessarily.
