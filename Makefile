@@ -7,3 +7,6 @@ clean:
 run:
 	epiphany build/index.html || firefox build/index.html
 
+install:
+
+
