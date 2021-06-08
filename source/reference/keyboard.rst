@@ -31,6 +31,8 @@ Basic Shortcuts
   * - Keyboard Shortcuts
     - Ctrl+?
     - Opens the keyboard shortcuts window. 
+  * - Ctrl+,
+    - Opens the preferences window
 
 Content & Files
 ---------------
