@@ -1,5 +1,3 @@
-.. image:: img/hig-vision.svg
-
 Design Principles
 =================
 
