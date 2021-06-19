@@ -31,7 +31,7 @@ General Guidelines
 * Windows should follow the standard Ctrl+W keyboard shortcut to close. Additionally, modal windows should close on Esc.
 * Applications which restore a particular view or content item when they are restarted should also restore their previous window size (but not position).
 
-Additional guidance on window sizing can be found in the :doc:`scaling and responsiveness guidelines </guidelines/responsive>`.
+Additional guidance on window sizing can be found in the :doc:`scaling and adaptiveness guidelines </guidelines/adaptive>`.
 
 API Reference
 -------------
