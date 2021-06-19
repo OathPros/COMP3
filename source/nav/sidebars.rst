@@ -20,7 +20,7 @@ Guidelines
 * Order the list according to what is most useful for the users of your application. It is often best to place recently updated items at the top of the list.
 * Header bar controls which affect the sidebar list should be placed above the list.
 * Each list row can include multiple lines of text, as well as images. However, be careful to ensure that the most important information is not lost, and work to ensure a clean and attractive appearance.
-* To support :doc:`responsive scaling </guidelines/responsive>`, sidebars should collapse to a stack when the window becomes narrow. This can be accomplished with a leaflet.
+* To support :doc:`adaptive scaling </guidelines/adaptive>`, sidebars should collapse to a stack when the window becomes narrow. This can be accomplished with a leaflet.
 
 API Reference
 -------------

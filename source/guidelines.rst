@@ -14,7 +14,7 @@ The guidelines section covers the standard conventions used in GNOME UX design. 
    guidelines/ui-styling
    guidelines/writing-style
    guidelines/typography
-   guidelines/responsive
+   guidelines/adaptive
    guidelines/accessibility
 
 .. cssclass:: tiled-toc
@@ -61,7 +61,7 @@ The guidelines section covers the standard conventions used in GNOME UX design. 
 *  .. image:: img/tiles/guidelines-scalingandadaptiveness.svg
       :target: guidelines/responsive.html
 
-   :doc:`Scaling & Adaptiveness </guidelines/responsive>` 
+   :doc:`Scaling & Adaptiveness </guidelines/adaptive>`
 
 *  .. image:: img/tiles/guidelines-accessibility.svg
       :target: guidelines/accessibility.html

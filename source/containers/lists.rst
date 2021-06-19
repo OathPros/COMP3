@@ -14,7 +14,7 @@ Guidelines
 * Rows typically contain between one and three elements. Different text elements can be differentiated using :doc:`text size, weight and color </guidelines/typography>`.
 * If icons are included in a list, they should use the :doc:`symbolic style </guidelines/ui-icons>`. The lower visual footprint of these icons will mean that they do not visually overload or dominate your list.
 * Rows which expand or open another view when activated should have a ``go-next-symbolic`` arrow placed at the end.
-* Lists should have a minimum and maximum width, in order to support :doc:`responsive scaling </guidelines/responsive>`.
+* Lists should have a minimum and maximum width, in order to support :doc:`adaptive scaling </guidelines/adaptive>`.
 
 When a list contains controls:
 
