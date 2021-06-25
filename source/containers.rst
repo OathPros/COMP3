@@ -13,6 +13,7 @@ Containers are some of the main UI building blocks. They include the primary con
    containers/lists
    containers/flow-boxes
    containers/model-based
+   containers/preferences
 
 .. cssclass:: tiled-toc
 *  .. image:: img/tiles/containers-windows.svg
@@ -48,4 +49,9 @@ Containers are some of the main UI building blocks. They include the primary con
 *  .. image:: img/tiles/containers-modelbased.svg
       :target: containers/model-based.html
 
-   :doc:`Model Based </containers/model-based>` 
+   :doc:`Model Based </containers/model-based>`
+
+*  .. image:: img/tiles/containers-windows.svg
+      :target: containers/preferences.html
+   :doc:`Preferences </containers/preferences>`
+
