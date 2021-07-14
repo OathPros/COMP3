@@ -14,6 +14,7 @@ The guidelines section covers the standard conventions used in GNOME UX design. 
    guidelines/ui-styling
    guidelines/writing-style
    guidelines/typography
+   guidelines/navigation
    guidelines/adaptive
    guidelines/accessibility
 
@@ -56,7 +57,12 @@ The guidelines section covers the standard conventions used in GNOME UX design. 
 *  .. image:: img/tiles/guidelines-typography.svg
       :target: guidelines/typography.html
 
-   :doc:`Typography </guidelines/typography>` 
+   :doc:`Typography </guidelines/typography>`
+
+*  .. image:: img/tiles/guidelines-navigation.svg
+      :target: guidelines/navigation.html
+
+   :doc:`Navigation </guidelines/navigation>`
 
 *  .. image:: img/tiles/guidelines-scalingandadaptiveness.svg
       :target: guidelines/responsive.html

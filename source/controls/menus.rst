@@ -37,7 +37,7 @@ Most applications have primary menus, and they are the location for standard fea
 
 * The button for primary menus should use the ``menu-open-symbolic`` icon.
 * Primary menus are typically placed at the end (in Western locales on the right) of the header bar. Although, there are two exceptions to this rule:
-   * If the window incorporates :doc:`a stack </nav/stacks>`, the primary menu should only be visible while on the top level view. (If other views require a menu, a secondary menu can be used.)
+   * If the window incorporates :doc:`hierarchical navigation </guidelines/navigation>`, the primary menu should only be visible while on the top level view. (If other views require a menu, a secondary menu can be used.)
    * If the window has a :doc:`sidebar </nav/sidebars>`, the primary menu should be placed above the sidebar list.
 
 Standard Primary Menu Items
@@ -69,7 +69,7 @@ Secondary menus are located in the header bar, and are used to contain actions a
 
 Secondary menus:
 
-* Are typically used in combination with :doc:`stacks </nav/stacks>` and :doc:`sidebars </nav/sidebars>`.
+* Are typically used in combination with :doc:`hierarchical navigation </guidelines/navigation>` and :doc:`sidebars </nav/sidebars>`.
 * Are optional and only need to be used if there are enough actions or options to require a menu.
 * Generally shouldn't reproduce menu items that are included in primary menus, like *Preferences* and *About*.
 
