@@ -17,7 +17,7 @@ Guidelines
 * As described above, arrange controls within the header bar according to the three alignment points — left, center and right.
 * Header bars should only contain a small number of key controls — this will help users to understand the primary functionality provided by the window, and will ensure that the window can be resized to narrow widths. Additional controls can be included elsewhere.
 * The content of header bars can — and should — update along with view or mode changes. This ensures that header bar controls are always relevant to the current context:
-   * If the window includes multiple views (accessed through :doc:`a stack </nav/stacks>`, :doc:`a view switcher </nav/view-switchers>` or :doc:`sidebar </nav/sidebars>`), the header bar can show different controls for each view.
+   * If the window includes multiple views (see :doc:`navigation </guidelines/navigation>`), the header bar can show different controls for each view.
    * If the window incorporates navigation, different controls can be shown depending on the location displayed in the window.
 * Always ensure that there is some blank space in the header bar to allow it to be dragged. This is necessary to allow windows to be moved.
 * Primary window header bar controls should all have :doc:`tooltips </feedback/tooltips>`.

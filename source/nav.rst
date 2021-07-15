@@ -1,24 +1,22 @@
 Navigation
 ==========
 
-Combined with :doc:`containers <containers>`, the navigation design patterns create the structure of an app.
-
-Simple apps may not use any navigation patterns. More complex ones will likely need to combine several, and these can sometimes involve nesting navigation structures within one another. For example, a view switcher can be combined with stacks to create subpages within each view.
+Combined with :doc:`containers <containers>`, the navigation design patterns create the structure of an app. See the :doc:`navigation guidelines </nav>` for more information.
 
 .. toctree::
    :hidden:
 
-   nav/stacks
+   nav/browsing
    nav/view-switchers
    nav/tabs
    nav/sidebars
    nav/search
 
 .. cssclass:: tiled-toc
-*  .. image:: img/tiles/nav-stacks.svg
-      :target: nav/stacks.html
+*  .. image:: img/tiles/nav-browsing.svg
+      :target: nav/browsing.html
 
-   :doc:`Stacks </nav/stacks>` 
+   :doc:`Browsing </nav/browsing>`
 
 *  .. image:: img/tiles/nav-viewswitchers.svg
       :target: nav/view-switchers.html
