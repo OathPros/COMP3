@@ -32,6 +32,4 @@ Large window sizes can present a number of challenges, including:
 * lines of text becoming uncomfortably long
 * visual structure like grids being lost
 
-To avoid these issues, place content within containers that have a maximum width. These can include both visible containers, like :doc:`lists </containers/lists>`, or invisible containers which act as a restraining frame.
-
-:doc:`Flow boxes </containers/flow-boxes>` can be given a maximum number of columns, and will adjust their column width according to the overall grid width.
+To avoid these issues, place content within containers that have a maximum width. These can include both visible containers, like :doc:`lists </containers/boxed-lists>`, or invisible containers which act as a restraining frame.

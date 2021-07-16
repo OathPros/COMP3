@@ -1,7 +1,7 @@
 Containers
 ==========
 
-Containers are some of the main UI building blocks. They include the primary containers for other UI elements, like :doc:`windows </containers/windows>` and :doc:`header bars </containers/header-bars>`. They also include some of the main layout frameworks, in the shape of :doc:`lists </containers/lists>` and :doc:`flow boxes </containers/flow-boxes>`.
+Containers are some of the main UI building blocks. They include the primary containers for other UI elements, like :doc:`windows </containers/windows>` and :doc:`header bars </containers/header-bars>`. They also include some of the main layout frameworks, in the shape of :doc:`boxed lists </containers/boxed-lists>`, :doc:`grid views </containers/grid-views>` and :doc:`list views </containers/list-column-views>`.
 
 .. toctree::
    :hidden:
@@ -10,9 +10,9 @@ Containers are some of the main UI building blocks. They include the primary con
    containers/header-bars
    containers/popovers
    containers/utility-panes
-   containers/lists
-   containers/flow-boxes
-   containers/model-based
+   containers/boxed-lists
+   containers/grid-views
+   containers/list-column-views
 
 .. cssclass:: tiled-toc
 *  .. image:: img/tiles/containers-windows.svg
@@ -35,17 +35,17 @@ Containers are some of the main UI building blocks. They include the primary con
 
    :doc:`Utility Panes </containers/utility-panes>` 
 
-*  .. image:: img/tiles/containers-lists.svg
-      :target: containers/lists.html
+*  .. image:: img/tiles/containers-boxedlists.svg
+      :target: containers/boxed-lists.html
 
-   :doc:`Lists </containers/lists>` 
+   :doc:`Boxed Lists </containers/boxed-lists>` 
 
-*  .. image:: img/tiles/containers-flowboxes.svg
-      :target: containers/flow-boxes.html
+*  .. image:: img/tiles/containers-gridviews.svg
+      :target: containers/grid-views.html
 
-   :doc:`Flow Boxes </containers/flow-boxes>` 
+   :doc:`Grid Views </containers/grid-views>` 
 
-*  .. image:: img/tiles/containers-modelbased.svg
-      :target: containers/model-based.html
+*  .. image:: img/tiles/containers-listcolumnviews.svg
+      :target: containers/list-column-views.html
 
-   :doc:`Model Based </containers/model-based>` 
+   :doc:`List & Column Views </containers/list-column-views>`
