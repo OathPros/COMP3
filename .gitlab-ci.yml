@@ -2,8 +2,9 @@ pages:
   stage: deploy
   needs: []
   script:
-    - dnf install -y python3-sphinx python3-pip
-    - pip3 install --upgrade furo
+    - dnf install -y python3-pip
+    - pip3 install --upgrade pip-tools
+    - pip-compile
     - sphinx-build -b html source build
     - mv build public
   artifacts:
