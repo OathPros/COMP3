@@ -3,8 +3,7 @@ pages:
   needs: []
   script:
     - dnf install -y python3-pip
-    - pip3 install --upgrade pip-tools
-    - pip-compile
+    - pip3 install -r requirements.txt
     - sphinx-build -b html source build
     - mv build public
   artifacts:
