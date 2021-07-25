@@ -76,5 +76,7 @@ Secondary menus:
 API Reference
 -------------
 
+* `GTK 4: GtkMenuButton <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.MenuButton.html>`_
+* `GTK 3: GtkMenuButton <https://developer.gnome.org/gtk3/stable/GtkMenuButton.html>`_
 * `GTK 4: GtkPopoverMenu <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.PopoverMenu.html>`_
 * `GTK 3: GtkPopoverMenu <https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html>`_
