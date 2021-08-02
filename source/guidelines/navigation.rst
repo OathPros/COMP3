@@ -3,7 +3,7 @@ Navigation
 
 Navigation refers to movement through different views. It is an essential technique for allowing collections of content to be viewed. Navigation can also be an effective way to organize large numbers of UI controls, such as preferences.
 
-There are a number of standard design patterns for implementing navigation, which are covered in the :doc:`navigation section </nav>`. This page covers general design considerations which are relevant to all forms of navigation.
+There are a number of standard design patterns for implementing navigation, which are covered in the :doc:`navigation section </patterns/nav>`. This page covers general design considerations which are relevant to all forms of navigation.
 
 .. _navigation-types:
 
@@ -19,7 +19,7 @@ Lateral
 
 Lateral navigation allows movement between a set of views. It is possible to move from one view to another, in any order. Lateral navigation is appropriate for arranging views or content which is similar in type, scale and importance.
 
-:doc:`View switchers </nav/view-switchers>` and :doc:`sidebars </nav/sidebars>` and :doc:`tabs </nav/tabs>` are the main design patterns for this type of navigation.
+:doc:`View switchers </patterns/nav/view-switchers>` and :doc:`sidebars </patterns/nav/sidebars>` and :doc:`tabs </patterns/nav/tabs>` are the main design patterns for this type of navigation.
 
 Hierarchical
 ~~~~~~~~~~~~
@@ -28,7 +28,7 @@ Hierarchical
 
 Hierarchical navigation allows movement between an overview page which shows multiple items, and dedicated views for each of those items. Movement is typically only vertical: navigation between individual sub-views is not possible.
 
-Hierarchical navigation is appropriate when it is desireable to have both an "overview" and dedicated views of each item. Hierarchical navigation typically uses :doc:`browsing </nav/browsing>`.
+Hierarchical navigation is appropriate when it is desireable to have both an "overview" and dedicated views of each item. Hierarchical navigation typically uses :doc:`browsing </patterns/nav/browsing>`.
 
 Path-Based
 ~~~~~~~~~~

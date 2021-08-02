@@ -19,6 +19,7 @@ The guidelines section covers the standard conventions used in GNOME UX design. 
    guidelines/accessibility
 
 .. cssclass:: tiled-toc
+
 *  .. image:: img/tiles/guidelines-appnaming.svg
       :target: guidelines/app-naming.html
 

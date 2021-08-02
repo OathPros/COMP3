@@ -17,17 +17,13 @@ Much of the HIG is also relevant to applications that are using GTK 3 and the as
 Content Overview
 ----------------
 
-:doc:`Design principles <principles>` provides the highest level of guidance and is the best place to start for anyone who is new to the HIG. :doc:`Resources <resources>` is an overview of the tools and assets that are available for GNOME design work.
+The HIG is made up of the following sections:
 
-The :doc:`guidelines section <guidelines>` covers the standard conventions to be used in GNOME UX design, including how to write text, use icons, create app identities, and handle different types of input.
-
-The rest of the HIG provides documentation on the various design patterns and user interface elements that are found in the GNOME platform, including:
-
-* :doc:`Containers <containers>`: the most basic elements, including windows, lists and grids.
-* :doc:`Navigation <nav>`: patterns for structure, movement and flow, including views, browsing, tabs.
-* :doc:`Feedback <feedback>`: elements for displaying information and soliciting responses from users.
-* :doc:`Controls <controls>`: common interactive UI elements, including buttons, menus, switches, and so on.
-* :doc:`Reference <reference>`: standard keyboard shortcuts and colors.
+* :doc:`Design principles <principles>`: basic design rules and goals for the GNOME platform. This is the best place to start for anyone who is new to the HIG or GNOME design.
+* :doc:`Resources <resources>`: an overview of the tools and assets that are available for GNOME design work.
+* :doc:`Guidelines <guidelines>`: the standard conventions that are used in GNOME UX design, including how to write text, use icons, create app identities, and handle different types of input.
+* :doc:`Patterns <patterns>`: covers the elements from which designs can be composed, such as :doc:`windows </patterns/containers/windows>`, :doc:`buttons </patterns/controls/buttons>`, :doc:`notifications </patterns/feedback/notifications>` or :doc:`view switchers </patterns/nav/view-switchers>`. The patterns are organized into four types: :doc:`containers </patterns/containers>`, :doc:`navigation </patterns/nav>`, :doc:`feedback </patterns/feedback>`, and :doc:`controls </patterns/controls>`.
+* :doc:`Reference <reference>`: standard keyboard shortcuts and UI colors.
 
 Contribute
 ----------
@@ -41,8 +37,6 @@ See the `HIG project <https://gitlab.gnome.org/Teams/Design/hig-www>`_ on GNOME'
    principles
    resources
    guidelines
-   containers
-   nav
-   feedback
-   controls
+   patterns
    reference
+

@@ -10,6 +10,7 @@ Design reference materials.
    reference/palette
 
 .. cssclass:: tiled-toc
+
 *  .. image:: img/tiles/reference-keyboard.svg
       :target: reference/keyboard.html
 
