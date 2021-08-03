@@ -12,7 +12,7 @@ Some general guidance for designing and building adaptive apps:
 
 * Following the GNOME design conventions for app structure and progressive disclosure will help to ensure that your app works well at a range of sizes. Windows that are sub-divided into numerous small panes or panels are hard to make adaptive.
 * When designing UI layouts, start from the most constrained environment (smallest screen size, most limited input devices) and then work your way up to the least constrained one. This not only helps avoid designing layouts that will be impossible to scale down, but also helps focus the interface and ensure a clean structure.
-* Using established patterns and widgets (such as :doc:`view switchers </nav/view-switchers>`) generally makes things easier as they are often designed with adaptiveness in mind.
+* Using established patterns and widgets (such as :doc:`view switchers </patterns/nav/view-switchers>`) generally makes things easier as they are often designed with adaptiveness in mind.
 * Using list patterns for content is encouraged because they scale well to both very narrow and very wide view widths.
 * Ensure that the width of each container always feels good, irrespective of the window width, without requiring manual resizing by the user. For example, sidebars should never look excessively wide or narrow in relation to the main window area.
 * Resizing the window should be smooth and glitch-free. For example widgets should not jump around or disappear without an animation.
@@ -32,4 +32,4 @@ Large window sizes can present a number of challenges, including:
 * lines of text becoming uncomfortably long
 * visual structure like grids being lost
 
-To avoid these issues, place content within containers that have a maximum width. These can include both visible containers, like :doc:`lists </containers/boxed-lists>`, or invisible containers which act as a restraining frame.
+To avoid these issues, place content within containers that have a maximum width. These can include both visible containers, like :doc:`lists </patterns/containers/boxed-lists>`, or invisible containers which act as a restraining frame.

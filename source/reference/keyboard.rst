@@ -24,7 +24,7 @@ Basic Shortcuts
     - Opens the help app on the page for the app.
   * - Side Pane
     - F9
-    - Toggles :doc:`utility pane </containers/utility-panes>` visibility.
+    - Toggles :doc:`utility pane </patterns/containers/utility-panes>` visibility.
   * - Menu
     - F10
     - Opens the primary or secondary menu. 

@@ -239,8 +239,6 @@ ul.simple {
     .toctree-wrapper > ul ul a {
       background-color: transparent;
     }
-
-
 /* tiled TOC with images */
 
 ul.tiled-toc {
@@ -371,6 +369,12 @@ footer {
 }
 .sidebar-tree li > ul .reference {
 	padding-left: calc(1.5*var(--sidebar-item-spacing-horizontal));
+}
+
+.sidebar-tree li.toctree-l3 a {
+  margin: 1px 0;
+  padding: var(--sidebar-item-spacing-vertical) var(--sidebar-item-spacing-horizontal) 
+           var(--sidebar-item-spacing-vertical) calc(2*var(--sidebar-item-spacing-horizontal)) ; /* extra indentation */
 }
 
 .sidebar-tree .reference {
