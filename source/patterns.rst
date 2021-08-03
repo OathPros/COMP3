@@ -5,7 +5,7 @@ The GNOME design patterns represent the elements from which an overall design ca
 
 In many cases, a pattern corresponds to a single user interface widget or API. However, patterns can also consist of multiple widgets used together in a particular way.
 
-The patterns are divided into four categories: :doc:`containers <patterns/containers>`, :doc:`navigation <patterns/nav>`, :doc:`controls <patterns/controls>`, and :doc:`feedback <patterns/feedback>`.
+The patterns are divided into four categories:
 
 .. toctree::
    :hidden:
