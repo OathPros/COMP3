@@ -12,6 +12,8 @@ People are at the heart of GNOME design. Wherever possible, we seek to be as inc
 
 The drive to create accommodating software threads its way through each of our guiding principles.
 
+.. image:: img/design-for-people.svg
+
 Make it Simple
 --------------
 
