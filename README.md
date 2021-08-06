@@ -4,7 +4,7 @@ The GNOME Human Interface Guidelines are the primary source of UX design documen
 
 This version replaces the previous version which was hosted as part of the [gnome-devel-docs](https://gitlab.gnome.org/GNOME/gnome-devel-docs/) module.
 
-The HIG is written in [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html), generated using [Sphinx](https://www.sphinx-doc.org/en/master/index.html), and hosted using [Gitlab pages](https://docs.gitlab.com/ee/user/project/pages/). It can be viewed online [here](https://teams.pages.gitlab.gnome.org/Design/hig-www/index.html).
+The HIG is written in [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html), generated using [Sphinx](https://www.sphinx-doc.org/en/master/index.html), and hosted using [Gitlab pages](https://docs.gitlab.com/ee/user/project/pages/). It can be viewed online [here](https://developer.gnome.org/hig/).
 
 ## Goals for the HIG
 
