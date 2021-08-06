@@ -24,7 +24,7 @@ The HIG is made up of the following sections:
 Contribute
 ----------
 
-The `HIG project <https://gitlab.gnome.org/Teams/Design/hig-www>`_ on GNOME's Gitlab instance can be used to report issues and propose changes.
+The `HIG project <https://gitlab.gnome.org/Teams/Design/hig-www>`_ on GNOME's GitLab instance can be used to report issues and propose changes.
 
 .. toctree::
    :maxdepth: 1
