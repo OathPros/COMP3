@@ -66,7 +66,7 @@ The guidelines section covers the standard conventions used in GNOME UX design. 
    :doc:`Navigation </guidelines/navigation>`
 
 *  .. image:: img/tiles/guidelines-scalingandadaptiveness.svg
-      :target: guidelines/responsive.html
+      :target: guidelines/adaptive.html
 
    :doc:`Scaling & Adaptiveness </guidelines/adaptive>`
 
