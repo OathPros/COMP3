@@ -60,4 +60,4 @@ API Reference
 -------------
 
 * `GTK 4: GtkMessageDialog <https://docs.gtk.org/gtk4/class.MessageDialog.html>`_
-* `GTK 3: GtkMessageDialog <https://developer-old.gnome.org/gtk3/3.24/GtkMessageDialog.html>`_
+* `GTK 3: GtkMessageDialog <https://docs.gtk.org/gtk3/class.MessageDialog.html>`_

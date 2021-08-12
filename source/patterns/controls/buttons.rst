@@ -47,5 +47,5 @@ API Reference
 
 * `GTK 4: GtkButton <https://docs.gtk.org/gtk4/class.Button.html>`_
 * `GTK 4: GtkToggleButton <https://docs.gtk.org/gtk4/class.ToggleButton.html>`_
-* `GTK 3: GtkButton <https://developer-old.gnome.org/gtk3/3.24/GtkButton.html>`_
-* `GTK 3: GtkToggleButton <https://developer-old.gnome.org/gtk3/3.24/GtkToggleButton.html>`_
+* `GTK 3: GtkButton <https://docs.gtk.org/gtk3/class.Button.html>`_
+* `GTK 3: GtkToggleButton <https://docs.gtk.org/gtk3/class.ToggleButton.html>`_

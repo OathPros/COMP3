@@ -23,4 +23,4 @@ API Reference
 -------------
 
 * `GTK 4: GtkCheckButton <https://docs.gtk.org/gtk4/class.CheckButton.html>`_
-* `GTK 3: GtkRadioButton <https://developer-old.gnome.org/gtk3/3.24/GtkRadioButton.html>`_
+* `GTK 3: GtkRadioButton <https://docs.gtk.org/gtk3/class.RadioButton.html>`_

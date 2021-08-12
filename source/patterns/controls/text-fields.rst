@@ -62,5 +62,5 @@ API Reference
 * `GTK 4: GtkEntry <https://docs.gtk.org/gtk4/class.Entry.html>`_
 * `GTK 4: GtkTextView <https://docs.gtk.org/gtk4/class.TextView.html>`_
 * `GTK 4: GtkPasswordEntry <https://docs.gtk.org/gtk4/class.PasswordEntry.html>`_
-* `GTK 3: GtkEntry <https://developer-old.gnome.org/gtk3/3.24/GtkEntry.html>`_
-* `GTK 3: GtkTextView <https://developer-old.gnome.org/gtk3/3.24/GtkTextView.html>`_
+* `GTK 3: GtkEntry <https://docs.gtk.org/gtk3/class.Entry.html>`_
+* `GTK 3: GtkTextView <https://docs.gtk.org/gtk3/class.TextView.html>`_

@@ -25,4 +25,4 @@ API Reference
 -------------
 
 * `GTK 4: GtkSpinner <https://docs.gtk.org/gtk4/class.Spinner.html>`_
-* `GTK 3: GtkSpinner <https://developer-old.gnome.org/gtk3/3.24/GtkSpinner.html>`_
+* `GTK 3: GtkSpinner <https://docs.gtk.org/gtk3/class.Spinner.html>`_

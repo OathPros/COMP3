@@ -50,5 +50,5 @@ API Reference
 
 * `GTK 4: GtkSearchBar <https://docs.gtk.org/gtk4/class.SearchBar.html>`_
 * `GTK 4: GtkSearchEntry <https://docs.gtk.org/gtk4/class.SearchEntry.html>`_
-* `GTK 3: GtkSearchBar <https://developer-old.gnome.org/gtk3/3.24/GtkSearchBar.html>`__
-* `GTK 3: GtkSearchEntry <https://developer-old.gnome.org/gtk3/3.24/GtkSearchEntry.html>`_
+* `GTK 3: GtkSearchBar <https://docs.gtk.org/gtk3/class.SearchBar.html>`_
+* `GTK 3: GtkSearchEntry <https://docs.gtk.org/gtk3/class.SearchEntry.html>`_
