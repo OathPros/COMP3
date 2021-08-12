@@ -30,4 +30,4 @@ API Reference
 -------------
 
 * `GTK 4: GtkDropDown <https://docs.gtk.org/gtk4/class.DropDown.html>`_
-* `GTK 3: GtkComboBox <https://developer.gnome.org/gtk3/stable/GtkComboBox.html>`_
+* `GTK 3: GtkComboBox <https://developer-old.gnome.org/gtk3/3.24/GtkComboBox.html>`_

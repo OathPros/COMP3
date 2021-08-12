@@ -27,5 +27,5 @@ API Reference
 
 * `GTK 4: GtkStackSidebar <https://docs.gtk.org/gtk4/class.StackSidebar.html>`_
 * `Adwaita: AdwLeaflet <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.Leaflet.html>`_
-* `GTK 3: GtkStackSidebar <https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html>`_
+* `GTK 3: GtkStackSidebar <https://developer-old.gnome.org/gtk3/3.24/GtkStackSidebar.html>`_
 * `Handy: HdyLeaflet <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyLeaflet.html>`_

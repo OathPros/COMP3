@@ -25,4 +25,4 @@ API Reference
 -------------
 
 * `GTK 4: GtkInfoBar <https://docs.gtk.org/gtk4/class.InfoBar.html>`_
-* `GTK 3: GtkInfoBar <https://developer.gnome.org/gtk3/stable/GtkInfoBar.html>`_
+* `GTK 3: GtkInfoBar <https://developer-old.gnome.org/gtk3/3.24/GtkInfoBar.html>`_

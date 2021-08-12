@@ -29,4 +29,4 @@ API Reference
 -------------
 
 * `GTK 4: GtkScale <https://docs.gtk.org/gtk4/class.Scale.html>`_
-* `GTK 3: GtkScale  <https://developer.gnome.org/gtk3/stable/GtkScale.html>`_
+* `GTK 3: GtkScale  <https://developer-old.gnome.org/gtk3/3.24/GtkScale.html>`_

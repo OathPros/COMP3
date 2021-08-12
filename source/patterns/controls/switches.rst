@@ -31,4 +31,4 @@ API Reference
 -------------
 
 * `GTK 4: GtkSwitch <https://docs.gtk.org/gtk4/class.Switch.html>`_
-* `GTK 3: GtkSwitch <https://developer.gnome.org/gtk3/stable/GtkSwitch.html>`_
+* `GTK 3: GtkSwitch <https://developer-old.gnome.org/gtk3/3.24/GtkSwitch.html>`_

@@ -21,4 +21,4 @@ API Reference
 -------------
 
 * `GTK 4: GtkSpinButton <https://docs.gtk.org/gtk4/class.SpinButton.html>`_
-* `GTK 3: GtkSpinButton <https://developer.gnome.org/gtk3/stable/GtkSpinButton.html>`_
+* `GTK 3: GtkSpinButton <https://developer-old.gnome.org/gtk3/3.24/GtkSpinButton.html>`_
