@@ -399,3 +399,10 @@ footer {
 .sidebar-tree .current-page > .reference {
 	font-weight: 600;
 }
+
+.hig-palette-table .hig-palette-color {
+  height: 50px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
