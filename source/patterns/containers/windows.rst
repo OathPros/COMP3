@@ -37,8 +37,8 @@ API Reference
 -------------
 
 * `Adwaita: AdwApplicationWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ApplicationWindow.html>`_
-* `GTK 4: GtkApplicationWindow <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ApplicationWindow.html>`_
-* `GTK 4: GtkAboutDialog <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.AboutDialog.html>`_
+* `GTK 4: GtkApplicationWindow <https://docs.gtk.org/gtk4/class.ApplicationWindow.html>`_
+* `GTK 4: GtkAboutDialog <https://docs.gtk.org/gtk4/class.AboutDialog.html>`_
 * `Adwaita: AdwPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.PreferencesWindow.html>`_
 * `Handy: HdyApplicationWindow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyApplicationWindow.html>`_
 * `GTK 3: GtkApplicationWindow <https://developer.gnome.org/gtk3/stable/GtkApplicationWindow.html>`_

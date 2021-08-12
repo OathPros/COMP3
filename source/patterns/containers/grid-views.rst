@@ -17,4 +17,4 @@ Guidelines
 API Reference
 -------------
 
-* `GTK 4: GtkGridView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.GridView.html>`_
+* `GTK 4: GtkGridView <https://docs.gtk.org/gtk4/class.GridView.html>`_

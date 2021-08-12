@@ -22,6 +22,6 @@ Guidelines
 API Reference
 -------------
 
-* `GTK 4: GtkOverlay <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Overlay.html>`_
+* `GTK 4: GtkOverlay <https://docs.gtk.org/gtk4/class.Overlay.html>`_
 * `GTK 3: GtkOverlay <https://developer.gnome.org/gtk3/stable/GtkOverlay.html>`_
 * Use the ``.osd`` style class for overlaid controls.

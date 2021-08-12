@@ -30,5 +30,5 @@ If a feature has been disabled or is unavailable, it is better to make the switc
 API Reference
 -------------
 
-* `GTK 4: GtkSwitch <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Switch.html>`_
+* `GTK 4: GtkSwitch <https://docs.gtk.org/gtk4/class.Switch.html>`_
 * `GTK 3: GtkSwitch <https://developer.gnome.org/gtk3/stable/GtkSwitch.html>`_

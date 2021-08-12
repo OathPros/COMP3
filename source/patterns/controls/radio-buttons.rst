@@ -22,5 +22,5 @@ Use :ref:`sentence capitalization<sentence-capitalization>` for radio button lab
 API Reference
 -------------
 
-* `GTK 4: GtkCheckButton <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.CheckButton.html>`_
+* `GTK 4: GtkCheckButton <https://docs.gtk.org/gtk4/class.CheckButton.html>`_
 * `GTK 3: GtkRadioButton <https://developer.gnome.org/gtk3/stable/GtkRadioButton.html>`_

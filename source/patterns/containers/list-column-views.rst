@@ -42,5 +42,5 @@ Clicking a column header sorted in natural order re-sorts it in reverse order, i
 API Reference
 -------------
 
-* `GTK 4: GtkListView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListView.html>`_ 
-* `GTK 4: GtkColumnView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ColumnView.html>`_
+* `GTK 4: GtkListView <https://docs.gtk.org/gtk4/class.ListView.html>`_
+* `GTK 4: GtkColumnView <https://docs.gtk.org/gtk4/class.ColumnView.html>`_

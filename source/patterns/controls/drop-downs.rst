@@ -29,5 +29,5 @@ Guidelines
 API Reference
 -------------
 
-* `GTK 4: GtkDropDown <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.DropDown.html>`_
+* `GTK 4: GtkDropDown <https://docs.gtk.org/gtk4/class.DropDown.html>`_
 * `GTK 3: GtkComboBox <https://developer.gnome.org/gtk3/stable/GtkComboBox.html>`_

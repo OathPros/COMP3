@@ -27,7 +27,7 @@ Design conventions exist for editable boxed lists, with rows that can be added a
 API Reference
 -------------
 
-* `GTK 4: GtkListBox <hhttps://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ListBox.html>`_
+* `GTK 4: GtkListBox <hhttps://docs.gtk.org/gtk4/class.ListBox.html>`_
 * `Adwaita: AdwActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ActionRow.html>`_
 * `Adwaita: AdwExpanderRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ExpanderRow.html>`_
 * `GTK 3: GtkListBox <https://developer.gnome.org/gtk3/stable/GtkListBox.html>`_

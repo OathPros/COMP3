@@ -24,5 +24,5 @@ Guidelines
 API Reference
 -------------
 
-* `GTK 4: GtkInfoBar <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.InfoBar.html>`_
+* `GTK 4: GtkInfoBar <https://docs.gtk.org/gtk4/class.InfoBar.html>`_
 * `GTK 3: GtkInfoBar <https://developer.gnome.org/gtk3/stable/GtkInfoBar.html>`_
