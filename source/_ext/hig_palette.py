@@ -17,7 +17,7 @@ extname = "hig_palette"
 # The variable in conf.py that maps color names to (R, G, B) tuples
 colors_var = "hig_palette_colors_rgb"
 # This can be used within the CSS to apply styles to the resulting image
-svg_class_name = "hig-palette-color"
+svg_class_name = "hig-palette-swatch"
 
 """
 Creates an SVG containing a rect, filled with the RGB tuple passed in.

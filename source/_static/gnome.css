@@ -87,6 +87,7 @@ https://pypi.org/project/furo/
   --tocbg: var(--light2);
   --tocfg: var(--dark3);
   --borders: var(--light3);
+  --swatch-radius-max: 44px;
 }
 
 ::selection {
@@ -400,9 +401,27 @@ footer {
 	font-weight: 600;
 }
 
-.hig-palette-table .hig-palette-color {
-  height: 50px;
-  width: 100%;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+.hig-palette-table .stub p {
+  text-align: center;
+  line-height: 0;
+}
+
+.hig-palette-swatch {
+  aspect-ratio: 1 / 1;
+  max-height: var(--swatch-radius-max);
+  border-radius: 50%;
+}
+
+@supports not (aspect-ratio: 1 / 1) {
+  .hig-palette-swatch {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (min-width: 700px) {
+    .hig-palette-swatch {
+      width: var(--swatch-radius-max);
+      height: var(--swatch-radius-max);
+    }
+  }
 }
