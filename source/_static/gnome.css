@@ -87,7 +87,6 @@ https://pypi.org/project/furo/
   --tocbg: var(--light2);
   --tocfg: var(--dark3);
   --borders: var(--light3);
-  --swatch-radius-max: 44px;
 }
 
 ::selection {
@@ -314,6 +313,23 @@ table.docutils {
   .hig-palette-table {
     width: 100%;
   }
+  
+  .hig-palette-table colgroup { display: none; }
+  img.hig-palette-swatch { 
+    display: block;
+    width: 36px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+  }
+
+  .hig-palette-table .stub p {
+    text-align: center;
+    line-height: 0;
+  }
+
+  .hig-palette-swatch {
+  
+  }
 
 video {
   width: 100%;
@@ -404,29 +420,4 @@ footer {
 
 .sidebar-tree .current-page > .reference {
 	font-weight: 600;
-}
-
-.hig-palette-table .stub p {
-  text-align: center;
-  line-height: 0;
-}
-
-.hig-palette-swatch {
-  aspect-ratio: 1 / 1;
-  max-height: var(--swatch-radius-max);
-  border-radius: 50%;
-}
-
-@supports not (aspect-ratio: 1 / 1) {
-  .hig-palette-swatch {
-    width: 20px;
-    height: 20px;
-  }
-
-  @media (min-width: 700px) {
-    .hig-palette-swatch {
-      width: var(--swatch-radius-max);
-      height: var(--swatch-radius-max);
-    }
-  }
 }
