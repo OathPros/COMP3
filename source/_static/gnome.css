@@ -310,11 +310,11 @@ table.docutils {
     border-bottom: 2px solid var(--borders);
   }
   
-  .hig-palette-table {
-    width: 100%;
+  .hig-palette-table.align-default { 
+    display: table; 
+    width: 100%; 
   }
   
-  .hig-palette-table colgroup { display: none; }
   img.hig-palette-swatch { 
     display: block;
     width: 36px;
