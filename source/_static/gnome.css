@@ -292,6 +292,7 @@ table.docutils {
   /* reset crazy */
   table.docutils th, table.docutils tr, table.docutils td {
     background-color: transparent;
+    text-align: left;
   }
 
   table.docutils td, table.docutils th {
