@@ -310,8 +310,12 @@ table.docutils {
     box-sizing: inherit;
     border-bottom: 2px solid var(--borders);
   }
+  
+  .hig-palette-table {
+    width: 100%;
+  }
 
-    video {
+video {
   width: 100%;
   height: auto;
 }

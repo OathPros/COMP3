@@ -7,8 +7,6 @@ reference table is provided below.
 The palette can also be accessed using the `Palette app <https://flathub.org/apps/details/org.gnome.design.Palette>`_, through the predefined palettes in recent versions of the GIMP and Inkscape, or by `downloading it in GIMP/Inkscape format <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_.
 
 .. list-table::
-  :widths: 10 30 30 30
-  :width: 100%
   :header-rows: 1
   :stub-columns: 1
   :class: hig-palette-table
