@@ -189,10 +189,12 @@ ul.simple {
   .related-pages a.prev-page,
   .related-pages a.next-page {
     float: none;
+    max-width: inherit; /* cancel furo's 50% */
   }
   .related-pages a.prev-page:hover, .related-pages a.next-page:hover {
     background-color: var(--tocbg);
   }
+
   @media (min-width: 700px) {
     .related-pages {
       font-size: 14pt;
@@ -206,6 +208,12 @@ ul.simple {
       padding: 16px 16px 16px 48px;
       border-radius: 24px;
     }
+  }
+  .related-pages a.prev-page:only-child,
+  .related-pages a.next-page:only-child,
+  .page-info {
+      /* align-self: flex-end; i wish */
+      width: 100%; /* big buttons instead */
   }
 
 .toctree-wrapper ul {
