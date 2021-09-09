@@ -317,18 +317,15 @@ table.docutils {
   
   img.hig-palette-swatch { 
     display: block;
-    width: 36px;
+    width: 42px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
   }
 
-  .hig-palette-table .stub p {
-    text-align: center;
-    line-height: 0;
-  }
-
-  .hig-palette-swatch {
-  
+  .hig-palette-table colgroup { display: none; }
+  .hig-palette-table .stub,
+  .hig-palette-table .head.stub {
+    width: 50px;
   }
 
 video {
