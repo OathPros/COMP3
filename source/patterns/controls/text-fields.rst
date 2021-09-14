@@ -59,8 +59,8 @@ Currently, entry tags require a custom implementation. However, the GTK 4 demo a
 API Reference
 -------------
 
-* `GTK 4: GtkEntry <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Entry.html>`_
-* `GTK 4: GtkTextView <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.TextView.html>`_
-* `GTK 4: GtkPasswordEntry <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.PasswordEntry.html>`_
-* `GTK 3: GtkEntry <https://developer.gnome.org/gtk3/stable/GtkEntry.html>`_
-* `GTK 3: GtkTextView <https://developer.gnome.org/gtk3/stable/GtkTextView.html>`_
+* `GTK 4: GtkEntry <https://docs.gtk.org/gtk4/class.Entry.html>`_
+* `GTK 4: GtkTextView <https://docs.gtk.org/gtk4/class.TextView.html>`_
+* `GTK 4: GtkPasswordEntry <https://docs.gtk.org/gtk4/class.PasswordEntry.html>`_
+* `GTK 3: GtkEntry <https://docs.gtk.org/gtk3/class.Entry.html>`_
+* `GTK 3: GtkTextView <https://docs.gtk.org/gtk3/class.TextView.html>`_

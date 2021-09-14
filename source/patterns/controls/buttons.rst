@@ -45,7 +45,7 @@ Each view should only ever include a single button using either the suggested or
 API Reference
 -------------
 
-* `GTK 4: GtkButton <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.Button.html>`_
-* `GTK 4: GtkToggleButton <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.ToggleButton.html>`_
-* `GTK 3: GtkButton <https://developer.gnome.org/gtk3/stable/GtkButton.html>`_
-* `GTK 3: GtkToggleButton <https://developer.gnome.org/gtk3/stable/GtkToggleButton.html>`_
+* `GTK 4: GtkButton <https://docs.gtk.org/gtk4/class.Button.html>`_
+* `GTK 4: GtkToggleButton <https://docs.gtk.org/gtk4/class.ToggleButton.html>`_
+* `GTK 3: GtkButton <https://docs.gtk.org/gtk3/class.Button.html>`_
+* `GTK 3: GtkToggleButton <https://docs.gtk.org/gtk3/class.ToggleButton.html>`_

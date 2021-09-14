@@ -26,7 +26,7 @@ By default, GNOME apps have a light UI style. However, apps can choose to use a 
 #. Apps can include a user setting to select the light or dark style. This is typically used for apps whose content can also be restyled, like code editors.
 #. Users can opt to use the dark style for all apps in the system.
 
-Apps specify the dark style using the `prefer dark theme GTK property <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/property.Settings.gtk-application-prefer-dark-theme.html>`_. Since any app can be used with the dark style, it is important to check that your app works well with it, irrespective of whether it uses the dark style itself. `GTK Inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_ can be used to change the style of an app to dark, for testing.
+Apps specify the dark style using the `prefer dark theme GTK property <https://docs.gtk.org/gtk4/property.Settings.gtk-application-prefer-dark-theme.html>`_. Since any app can be used with the dark style, it is important to check that your app works well with it, irrespective of whether it uses the dark style itself. `GTK Inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_ can be used to change the style of an app to dark, for testing.
 
 Named Colors
 ~~~~~~~~~~~~

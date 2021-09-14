@@ -33,5 +33,5 @@ When a checkbox is in its mixed state and the checkbox is clicked:
 API Reference
 -------------
 
-* `GTK 4: GtkCheckButton <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.CheckButton.html>`_
-* `GTK 3: GtkCheckButton <https://developer.gnome.org/gtk3/stable/GtkCheckButton.html>`_
+* `GTK 4: GtkCheckButton <https://docs.gtk.org/gtk4/class.CheckButton.html>`_
+* `GTK 3: GtkCheckButton <https://docs.gtk.org/gtk3/class.CheckButton.html>`_

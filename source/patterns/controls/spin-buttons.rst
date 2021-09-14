@@ -20,5 +20,5 @@ General Guidelines
 API Reference
 -------------
 
-* `GTK 4: GtkSpinButton <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.SpinButton.html>`_
-* `GTK 3: GtkSpinButton <https://developer.gnome.org/gtk3/stable/GtkSpinButton.html>`_
+* `GTK 4: GtkSpinButton <https://docs.gtk.org/gtk4/class.SpinButton.html>`_
+* `GTK 3: GtkSpinButton <https://docs.gtk.org/gtk3/class.SpinButton.html>`_

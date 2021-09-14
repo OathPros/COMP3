@@ -48,7 +48,7 @@ Additional Guidance
 API Reference
 -------------
 
-* `GTK 4: GtkSearchBar <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.SearchBar.html>`_
-* `GTK 4: GtkSearchEntry <https://gnome.pages.gitlab.gnome.org/gtk/gtk4/class.SearchEntry.html>`_
-* `GTK 3: GtkSearchBar <https://developer.gnome.org/gtk3/stable/GtkSearchBar.html>`__
-* `GTK 3: GtkSearchEntry <https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html>`_
+* `GTK 4: GtkSearchBar <https://docs.gtk.org/gtk4/class.SearchBar.html>`_
+* `GTK 4: GtkSearchEntry <https://docs.gtk.org/gtk4/class.SearchEntry.html>`_
+* `GTK 3: GtkSearchBar <https://docs.gtk.org/gtk3/class.SearchBar.html>`_
+* `GTK 3: GtkSearchEntry <https://docs.gtk.org/gtk3/class.SearchEntry.html>`_
