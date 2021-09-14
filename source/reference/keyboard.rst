@@ -174,8 +174,8 @@ Bookmarking
     - Ctrl+D
     - Adds a bookmark for the current location.
   * - Edit Bookmarks
-    - Ctrl+B
-    - Shows a UI for bookmark editing.
+    - Ctrl+Alt+D
+    - Opens the bookmark list.
 
 .. _navigation-shortcuts:
 
