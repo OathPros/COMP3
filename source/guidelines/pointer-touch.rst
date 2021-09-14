@@ -12,7 +12,7 @@ User interface designs should be easy to use with the full range of pointing dev
 
 Designs should also be easy to use with a range of physical abilities. People and situations can vary enormously in terms of how precise and controlled pointer interaction can be. It is therefore important to design for contexts where pointer accuracy and control is low.
 
-To achieve this broad level of accessibility, the following guidelines should be observed:
+To achieve this broad level of accessibility, the following guidelines should be followed:
 
 * Click targets should be large enough to be comfortably used with different pointing devices and physical abilities.
 * Buttons and controls which are only available on some pointing devices should not be exclusively relied upon for particular actions.
