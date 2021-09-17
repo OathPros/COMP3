@@ -10,7 +10,7 @@ List views and column views also share the same data model as :doc:`grid views <
 General Guidelines
 ------------------
 
-* Keep list rows are column cells simple and regular. Most should only contain one or two elements each.
+* Keep list rows simple and regular. Most should only contain one or two elements each.
 * When a list row contains multiple text elements, adjust the font size and weight to differentiate each element (see the :doc:`typography guidelines </guidelines/typography>` for more information).
 * If icons are included in a list, they should use the :doc:`symbolic style </guidelines/ui-icons>`.
 * By default, use a list order that will be most useful to users.
