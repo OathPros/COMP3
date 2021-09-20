@@ -1,7 +1,7 @@
 List & Column Views
 ===================
 
-List views are a type of list, in which each row is a generic container that can include text, images and controls. Column views are similar to list views, with the difference that they can display multiple columns. The top of each column has a header, which can allows sorting the view by that column.
+List views are a type of list, in which each row is a generic container that can include text, images and controls. Column views are similar to list views, with the difference that they can display multiple columns. The top of each column has a header, which allows sorting the view by that column.
 
 List views are an alternative to the :doc:`boxed list design pattern <boxed-lists>`. Boxed lists are appropriate for simple use cases, in which the number of items is static and low. In contrast, list views are able to handle very large lists, including those with dynamic content.
 
