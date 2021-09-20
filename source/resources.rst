@@ -5,6 +5,12 @@ A variety of tools and resources are available for GNOME UX design. There is no 
 
 Most of these tools and resources are referenced elsewhere in the HIG, where they are most relevant.
 
+General Resources
+-----------------
+
+* Color palette: `Inkscape/GIMP format <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_, :doc:`reference table <reference/palette>`
+* Cantarell font: pre-installed in GNOME-based distributions and `available to download <https://gitlab.gnome.org/GNOME/cantarell-fonts/-/releases>`_.
+
 Apps
 ----
 
@@ -34,7 +40,3 @@ The following templates can be used as a starting point for mockups and icons.
 
 GNOME design operates in the open, and `all its work  is therefore publicly visible, and can be freely reused <https://gitlab.gnome.org/Teams/Design>`_. However, be aware that not all of this work is up to date or follows the latest recommendations.
 
-Other Resources
----------------
-
-* `Color palette definition (Inkscape/GIMP format) <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_
