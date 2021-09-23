@@ -35,7 +35,7 @@ Primary Menus
 
 Most applications have primary menus, and they are the location for standard features which every application is expected to have.
 
-* The button for primary menus should use the ``menu-open-symbolic`` icon.
+* The button for primary menus should use the ``open-menu-symbolic`` icon.
 * Primary menus are typically placed at the end (in Western locales on the right) of the header bar. Although, there are two exceptions to this rule:
    * If the window incorporates :doc:`hierarchical navigation </guidelines/navigation>`, the primary menu should only be visible while on the top level view. (If other views require a menu, a secondary menu can be used.)
    * If the window has a :doc:`sidebar </patterns/nav/sidebars>`, the primary menu should be placed above the sidebar list.
