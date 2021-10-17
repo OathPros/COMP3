@@ -18,7 +18,7 @@ Guidelines
 * Utility panes can vary in whether they appear on the left or right side of the window. To determine this, follow the visual and functional hierarchy of the window: if the pane affects the main view, place it on the left; if it is subordinate to the main view, place it on the right.
 * Utility panes can be permanent or transient. Visiblity can be toggled by the user, or panes can be shown when particular features are in use.
 * Unlike sidebars, utility panes do not intersect the header bar.
-* To support :doc:`adaptive scaling </guidelines/adaptive>`, ensure that a utility pane will overlap the main view when there isn't available width to show it alongside. This can be acheived with a flap widget.
+* To support :doc:`adaptive scaling </guidelines/adaptive>`, ensure that a utility pane will overlap the main view when there isn't available width to show it alongside. This can be achieved with a flap widget.
 * If utility pane visibility can be toggled, assign the F9 key as a shortcut.
 
 API Reference
