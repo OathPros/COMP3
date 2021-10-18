@@ -1,7 +1,7 @@
 .. image:: img/hig.svg
 
-GNOME User Interface Guidelines
-===============================
+GNOME Human Interface Guidelines
+================================
 
 The GNOME Human Interface Guidelines are the primary source of design documentation for those creating software with the GNOME development platform. They are primarily intended for application designers and developers, but are relevant to anyone wanting to familiarize themselves with GNOME UX.
 
