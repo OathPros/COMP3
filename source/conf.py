@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath("./_ext"))
 
 # -- Project information -----------------------------------------------------
 
-project = 'GNOME User Interface Guidelines'
+project = 'GNOME Human Interface Guidelines'
 copyright = '2021, Allan Day'
 author = 'Allan Day'
 
