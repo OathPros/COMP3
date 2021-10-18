@@ -5,7 +5,7 @@ Keyboard interaction covers a range of behaviors, from text entry and shortcuts,
 
 While many aspects of keyboard interaction are relevant to accessibility, some users prefer to use the keyboard and it can be an efficient alternative to pointer-based interaction.
 
-Just as it should be possible to perform every action with a pointing device, so every action should also be possible with the keyboard. Most of the time, this is easy to acheive with the standard keyboard features described below. However, some operations  — like drag-and-drop — may require more thought.
+Just as it should be possible to perform every action with a pointing device, so every action should also be possible with the keyboard. Most of the time, this is easy to achieve with the standard keyboard features described below. However, some operations  — like drag-and-drop — may require more thought.
 
 Test how accessible your app is by trying to use it with just a keyboard.
 
