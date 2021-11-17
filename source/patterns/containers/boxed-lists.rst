@@ -31,6 +31,6 @@ API Reference
 * `Adwaita: AdwActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ActionRow.html>`_
 * `Adwaita: AdwExpanderRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ExpanderRow.html>`_
 * `GTK 3: GtkListBox <https://docs.gtk.org/gtk3/class.ListBox.html>`_
-* `Handy: HdyActionRow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/AdwExpanderRow.html>`_
-* `Handy: HdyExpanderRow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyActionRow.html>`_
+* `Handy: HdyActionRow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyActionRow.html>`_
+* `Handy: HdyExpanderRow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyExpanderRow.html>`_
 * Use the ``.content`` style class to ensure proper spacing.
