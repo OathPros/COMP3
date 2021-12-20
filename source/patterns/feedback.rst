@@ -7,6 +7,7 @@ The feedback section includes design patterns for showing information about even
    :hidden:
 
    feedback/notifications
+   feedback/toasts
    feedback/info-bars
    feedback/progress-bars
    feedback/spinners
@@ -20,6 +21,11 @@ The feedback section includes design patterns for showing information about even
       :target: feedback/notifications.html
 
    :doc:`Notifications <feedback/notifications>` 
+
+*  .. image:: /img/tiles/feedback-toasts.svg
+      :target: feedback/toasts.html
+
+   :doc:`Toasts <feedback/toasts>` 
 
 *  .. image:: /img/tiles/feedback-infobars.svg
       :target: feedback/info-bars.html
