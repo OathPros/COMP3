@@ -17,6 +17,8 @@ GTK provides default accessible descriptions for many UI elements, but they may 
 
 Accessible names should be short and descriptive.
 
+.. _accessibility-tests:
+
 Testing for Accessibility
 -------------------------
 

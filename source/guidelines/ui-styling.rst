@@ -1,47 +1,51 @@
 UI Styling
 ==========
 
-The visual style used for UI elements in GNOME is called Adwaita.
+The visual style used for UI in GNOME is called Adwaita. It includes light and dark style options, which apply to all UI components, as well as a range of style options for individual widgets.
 
-In general, the visual styling of UI elements is provided by the platform, so there is little need for designers or developers to manually set it. Indeed, developers are discouraged from defining their own UI styles, since this leads to incompatibilities with both Adwaita and high-contrast mode.
+Light and Dark UI Styles
+------------------------
 
-Style Options
--------------
+The GNOME platform provides the ability for apps to have either a light or a dark UI style. Applications can choose which of the two styles to use by default. They can also include a control to allow users to switch between the light and dark style, and they can select the light and dark style based on  the system-wide UI style setting.
 
-UI elements do not generally require their own styling. However, there are some cases where designers do need to make UI style decisions.
+Guidelines:
 
-Optional Element Styles
-~~~~~~~~~~~~~~~~~~~~~~~
+* Most apps should use the standard light UI style by default. However, apps can alternatively choose to use the dark style by default instead. This is primarily recommended for apps which display rich visual content like images or video.
+* Apps that use the light UI by default style are encouraged to follow the system style setting, which allows users to set a preference to use dark instead of light.
+* Per-application style preferences are primarily useful for text editing apps, or apps which users use for long periods of time. In these cases, the style preference can be useful as a way of controlling visual contrast and brightness.
+* When providing a per-application style preference, three options should typically be included: light, dark, and follow system preference.
 
-Alternative visual styles are available for some UI elements. For example, the :ref:`suggested and destructive styles <button-styles>` make it possible to give buttons different colors depending on their function. In cases such as this, the HIG provides specific guidance for when and how to use the optional styles that are available.
+See `AdwStyleManager <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.StyleManager.html>`_ and `HdyStyleManager <https://gnome.pages.gitlab.gnome.org/libhandy/doc/master/HdyStyleManager.html>`_ for the relevant APIs.
 
-Outside of these individual cases, it is not recommended to manually change the appearance of UI elements.
-
-Dark UI Style
-~~~~~~~~~~~~~
-
-By default, GNOME apps have a light UI style. However, apps can choose to use a dark UI style instead. The dark style can be used in three ways:
-
-#. Apps can specify to use it by default, without an option to switch to the light style. This is recommended for apps which display rich visual content like images or video.
-#. Apps can include a user setting to select the light or dark style. This is typically used for apps whose content can also be restyled, like code editors.
-#. Users can opt to use the dark style for all apps in the system.
-
-Apps specify the dark style using the `prefer dark theme GTK property <https://docs.gtk.org/gtk4/property.Settings.gtk-application-prefer-dark-theme.html>`_. Since any app can be used with the dark style, it is important to check that your app works well with it, irrespective of whether it uses the dark style itself. `GTK Inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_ can be used to change the style of an app to dark, for testing.
-
-Named Colors
-~~~~~~~~~~~~
-
-While the vast majority of UI elements have their own default styling which shouldn't be changed, in some cases it is necessary to select colors for backgrounds and borders. Here it is recommended to use named CSS colors from the Adwaita stylesheet, as opposed to specifying exact color values (this can interfere with accessibility features).
-
-High-Contrast Mode
+High Contrast Mode
 ------------------
 
-High-contrast mode is an accessibility feature which changes the UI style to have very high contrast. As part of testing your app, it is important to test it with high-contrast mode enabled, to ensure that it is correctly rendered with this style. This can be done by using the system high-contrast mode setting, or with `GTK Inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_.
+High contrast mode is an accessibility feature which changes the UI style to have very high contrast. As part of testing your app, it is important to test it with high contrast mode enabled, to ensure that it is correctly rendered with this style. This can be done by using the system high-contrast mode setting, or with `GTK Inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_.
+
+Built-In Style Options
+----------------------
+
+Adwaita includes a range of visual style options for individual UI elements. For example, the :ref:`suggested and destructive styles <button-styles>` changes the color of buttons, to indicate their function. The HIG pages for each design pattern include further guidance on the style options that are available for each UI element.
+
+`libadwaita's style class documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html>`_ also provides a complete list of the different style classes that are available.
+
+Custom Styling
+--------------
+
+GTK and Adwaita can be used as the basis for custom UI elements, which are not included in the GNOME platform. The appearance of preexisting widgets can also be customized.
+
+As a general rule, it is better to keep the amount of this custom styling to a minimum, as this will reduce maintenance overhead, will reduce bugs, and will help to ensure compatibility with accessibility and internationalization features.
+
+When designing custom styling, it is recommended to use existing style classes and color variables as much as possible, since these automatically adjust for the light, dark and high-contrast styles. Be careful not to use classes and variables outside of their intended uses, as this could cause issues.
+
+The libadwaita `named color <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/named-colors.html>`_ and `style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html>`_ documentation can be a useful reference here.
 
 Accessibility Considerations
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When creating custom UI elements, there are a number of accessibility issues to avoid regarding visual styling:
 
 * Using color as the only means to distinguish items of information. Instead, all information should be provided by at least one other method, such as shape, position or text description.
 * The use of flashing or blinking elements, as this may cause problems for people who are susceptible to visually-induced seizures.
+
+Thorough testing of custom UI is essential. In particular, take care to run through the range of :ref:`accessibility tests <accessibility-tests>`.
