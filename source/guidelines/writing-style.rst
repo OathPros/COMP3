@@ -49,6 +49,29 @@ Capitalize the first letter of the first word and any words that are normally ca
 
 For example: “The document cannot be found in this location.” “Finding results for London.”
 
+.. _informal-headings:
+
+Headings
+--------
+
+Headings are written in a concise form and do not form complete sentences. As part of this, auxillary verbs, such as “have” and “is”, are often omitted. So are articles, like “a”, “an”, “the”.
+
+For example, a heading would typically be written as “Three Documents Updated”, as opposed to “Three Documents Have Been Updated”.
+
+Headings typically use header capitalization and a heavy font style.
+
+Informal Headings
+~~~~~~~~~~~~~~~~~
+
+When a heading exists without accompanying information, it can be useful to express it as a full sentence. In this case:
+
+* Write the heading as a sentence, including auxillary verbs and articles.
+* Use sentence capitalization.
+* Omit the period from the end of the sentence.
+* Continue to use a bold font style.
+
+This heading style should not be used in the majority of cases, but when it is used, it can help to give a more informal feel.
+
 .. _ellipses:
 
 Ellipses (…)

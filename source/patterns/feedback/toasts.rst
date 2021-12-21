@@ -8,7 +8,7 @@ Toasts are popup banners which contain a label and sometimes a button. They are 
 When to Use
 -----------
 
-Toasts can be used to show messages and offer actions in response to user interaction with an app. One common use for toasts is to show an undo button after a destructive action.
+Toasts can be used to show m    essages and offer actions in response to user interaction with an app. One common use for toasts is to show an undo button after a destructive action.
 
 Toasts are transient and are therefore best suited to communicating individual events, as opposed to ongoing states. The latter are better served by :doc:`info bars <info-bars>`.
 
@@ -19,6 +19,7 @@ Guidelines
 
 * Each toast should have a short and simple title.
 * Toasts shouldn't always include a button. Only include one if it is directly relevant to the message that is being communicated, and will be generally useful.
+* Toast titles should use the :ref:`informal heading style <informal-headings>`.
 
 API Reference
 -------------
