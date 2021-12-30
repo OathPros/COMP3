@@ -40,7 +40,7 @@ snowballstemmer==2.1.0
     # via sphinx
 soupsieve==2.2.1
     # via beautifulsoup4
-sphinx==4.1.1
+sphinx==4.3.0
     # via
     #   -r requirements.in
     #   furo
@@ -61,4 +61,3 @@ urllib3==1.26.6
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
-
