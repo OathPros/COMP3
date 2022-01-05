@@ -37,6 +37,13 @@ Some tasks are comprised of multiple simultaneous subtasks (such as downloading 
 
 In rare cases, it might be desirable to show a progress bar for each indvidual subtask. Only do this if it is genuinely useful for the user to know progress for each  subtask, or if it might be necessary to pause or stop a subtask.
 
+Thin Progress Bars
+------------------
+
+For situations where task progress happens in the background, and accompanying text isn't as important, a thin progress bar can be used. These are smaller than regular progress bars, don't show accompanying status text, and are attached to the bottom of the header bar.
+
+See the `style class documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#progress-bars>`_ for details.
+
 General Guidelines
 ------------------
 
