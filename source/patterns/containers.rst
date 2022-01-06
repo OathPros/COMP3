@@ -13,6 +13,7 @@ Containers are some of the main UI building blocks. They include the primary con
    containers/boxed-lists
    containers/grid-views
    containers/list-column-views
+   containers/selection-mode
 
 .. cssclass:: tiled-toc
 
@@ -50,3 +51,9 @@ Containers are some of the main UI building blocks. They include the primary con
       :target: containers/list-column-views.html
 
    :doc:`List & Column Views <containers/list-column-views>`
+
+*  .. image:: /img/tiles/containers-selectionmode.svg
+      :target: containers/selection-mode.html
+
+   :doc:`Selection & Edit Modes <containers/selection-mode>`
+

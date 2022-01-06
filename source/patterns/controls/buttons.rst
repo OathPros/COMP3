@@ -35,12 +35,24 @@ A linked toggle button example can be found in the *Flap* demo in the LibAdwaita
 Button Styles
 -------------
 
-Buttons can be given a distinctive visual style, which can be appropriate in certain situations. This includes:
+A number of predefined styles are available for buttons, which allows them to be adapted for a range of situations. It is also possible to create custom button styles, particularly to give them custom colors (see :doc:`UI Styling </guidelines/ui-styling>`).
 
-* ``suggested-action`` can be used to highlight a button for affirmative action. This can be used to draw attention to the next step in a process or a call to action.
-* ``destructive-action`` can be used to draw attention to the potentially damaging consequences of using a button. This style acts as a warning to the user.
+Suggested & Destructive Actions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The  suggested action and destructive action styles give buttons a strong color which conveys meaning.
+
+* `Suggested action <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#suggested-action>`_ highlights a button for affirmative action. This can be used to draw attention to the next step in a process or a call to action.
+* `Destructive action <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#destructive-action>`_ is a warning - it draws attention to the potentially damaging consequences of using a button.
 
 Each view should only ever include a single button using either the suggested or destructive styles.
+
+Alternative Shapes
+~~~~~~~~~~~~~~~~~~
+
+The `pill <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#pill>`_ and `circular <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#circular>`_ styles change the shape of a button. Pill can be used when a text button is situated in open space, and is a primary action for the view. Here the larger rounder shape helps to accommodate the button its surroundings, as well as making it a more inviting click target.
+
+Circular buttons are less common, but can be useful in situations where a number of smaller buttons are positions in close proximity.
 
 API Reference
 -------------
@@ -49,3 +61,5 @@ API Reference
 * `GTK 4: GtkToggleButton <https://docs.gtk.org/gtk4/class.ToggleButton.html>`_
 * `GTK 3: GtkButton <https://docs.gtk.org/gtk3/class.Button.html>`_
 * `GTK 3: GtkToggleButton <https://docs.gtk.org/gtk3/class.ToggleButton.html>`_
+* `Adwaita: Button Styles <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#buttons>`_
+
