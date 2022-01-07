@@ -4,6 +4,7 @@ Notifications
 .. image:: /img/screenshots/notification.png
 
 Notifications are used to inform users about events that they will be interested in. Examples include:
+Notifications are used to inform users about events that are relevant to them. Examples include:
 
 * when a download or other long-running operation has finished
 * when new content is available

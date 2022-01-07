@@ -1,18 +1,26 @@
-Placeholders
-============
+Placeholder Pages
+=================
 
-A placeholder is an image with accompanying text, which is used to fill a space that would usually be populated with content.
+Placeholder pages fill a view with an image, a heading, and an optional line of descriptive text. They are used to fill a space that is empty but which would usually be populated with content.
+
+There are two styles of placeholder pages: illustration and symbolic. Illustration placeholders use a colorful graphic for the image, whereas symbolic placeholders use a simple monochrome icon.
+
+Illustration style:
 
 .. image:: /img/screenshots/color-placeholder.png
+
+Symbolic style:
+
+.. image:: /img/screenshots/empty-placeholder.png
 
 When to Use
 -----------
 
-One common use for placeholders is for the default state of an app, when it is first run and is yet to be populated with content. This can be a good way to guide the user into the experience, set a positive note, and establish a relationship with the user.
+Placeholder pages with the illustration style are primarily used in the main view of an app, when it is empty. The main purpose of doing this is to avoid an awkward empty state when the app is first used. This type of placeholder can be a good way to provide guidance, set a positive note, and establish a relationship with the user.
 
-However, you should only use a placeholder for the initial view of your app when starting empty is unavoidable. In many cases it is often better to pre-populate the application instead of using a placeholder.
+However, placeholder pages should only be used for the initial view of an app when the initial empty state is unavoidable.
 
-Empty placeholders should also be shown in other spaces that might often contain content, but which are empty, such as empty folders or albums.
+Symbolic placeholder pages should be used in other spaces that might often contain content, but which are empty, such as empty folders, albums or search results views.
 
 Guidelines
 ----------
@@ -23,11 +31,9 @@ It is often helpful to include a description which provides additional guidance,
 
 It can also be a good idea to include controls for relevant actions, such as adding content or starting a setup assistant. This is one place where the :ref:`suggested button style <button-styles>` can be appropriate.
 
-If the placeholder is used as part of the initial onboarding experience, the image should be rich and colorful, and the text should be positive and upbeat. This can also be an opportunity to strike up a relationship with the user by addressing them directly.
+If an illustration placeholder is used as part of the initial onboarding experience, the image should be rich and colorful, and the text should be positive and upbeat. This can also be an opportunity to strike up a relationship with the user by addressing them directly.
 
-.. image:: /img/screenshots/empty-placeholder.png
-
-Alternatively, if the placeholder is used to fill a secondary view (such as an empty folder or album), the image and text should aim to be subtle and not attract undue attention. Therefore, use a symbolic icon in a muted color, and use a neutral tone for the text.
+Symbolic placeholders should aim to be subtle and not attract undue attention. Use the default symbolic icon color and a neutral tone for the text.
 
 API Reference
 -------------

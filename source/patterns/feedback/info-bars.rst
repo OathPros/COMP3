@@ -2,6 +2,7 @@ Info Bars
 =========
 
 Info bars can be used to communicate persistent states. Examples include indicating that an app is offline, or a document being read-only. In some situations, they can also be used to present supplementary information about special locations or content items.
+Info bars can be used to communicate persistent states. Examples include indicating that an app is offline, or that a document is read-only. In some situations, they can also be used to present supplementary information about special locations or content items.
 
 When to Use
 -----------
@@ -19,6 +20,7 @@ Guidelines
 * Only include a longer explanation if it is really needed: a simple heading can sometimes be sufficient.
 * Generally speaking, info bars do not require an icon.
 * If an info bar is dismissable, use a close button using the ``window-close-symbolic`` icon.
+* If an info bar is dismissible, use a close button using the ``window-close-symbolic`` icon.
 * Info bars can include buttons to provide additional actions relating to the state they describe. They should typically have no more than two of these.
 
 API Reference

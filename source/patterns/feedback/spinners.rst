@@ -8,7 +8,7 @@ Spinners indicate ongoing progress on an action or operation.
 When to Use
 -----------
 
-Progress needs to be indicated whenever an operation takes more than around three seconds, both in order to indicate that the operation really is taking place and that an error hasn't occurred. If an operation takes less than three seconds, it isn't necessary to indicate progress.
+Progress needs to be indicated whenever an operation takes more than around three seconds. This communicates that the operation is taking place and that an error hasn't occurred. If an operation takes less than three seconds, it isn't necessary to indicate progress.
 
 Spinners do not display the proportion of the task that has been completed, or the time remaining. They are therefore better-suited to shorter operations. If the task is likely to take more than 30 seconds, a :doc:`progress bar <progress-bars>` might be a better choice.
 
