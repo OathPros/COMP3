@@ -24,6 +24,8 @@ Secondary windows are used to contain supplemental controls or information, whic
 * Secondary windows can contain information and preferences that are relevant to the entire application, or they can contain information and options for a single content item, such as a document **Properties Window**.
 * Typically, secondary windows are modal to a parent window. This ensures that windows are grouped together.
 * In more unusual cases, secondary windows can be non-modal to their parent window. This is typically when they provide equivalent functionality to the primary window, such as an email app that allows individual emails to be popped out into their own windows.
+* Avoid stacking secondary windows on top of one another.
+* In general, secondary windows should not be bigger than their parent windows, and should have limited, simple content.
 
 General Guidelines
 ------------------

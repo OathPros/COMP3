@@ -1,9 +1,9 @@
 Browsing
 ========
 
-Browsing moves forward and back through a :doc:`navigation structure </guidelines/navigation>`. Content items and views can be opened, and a back button allows moving to the previous view.
+Browsing changes what is shown in a view. Users open views by clicking on content items or links, and can return to previous views using the back button.
 
-When using a navigation structure that is provided by the app itself, it is typical to use a back button. When the navigation structure is external to the app, a forward button might also be included.
+Some apps use browsing as a key part of their navigation, such as in the case of web browsers and file managers. However, more limited forms of browsing can be used to navigate content structures within an app, such as for collections of content items, or multiple views of settings or information (see the :doc:`navigation guidelines </guidelines/navigation>`).
 
 Guidelines
 ----------
