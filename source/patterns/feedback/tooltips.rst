@@ -8,9 +8,9 @@ When to Use
 
 Controls in the header bars of primary windows should all have tooltips. Elsewhere, only use tooltips when they are really useful, either by providing information that users look for, or information that enhances the user experience. Examples of useful tooltips for application content include showing the full URL for a link, or showing information about a syntax error in a code editor.
 
-Otherwise, try to keep tooltip usage to a minimum, since they can get in the way when inadvertently displayed, and aren't available in all contexts (such as touch devices). Don't rely on tooltips to communicate essential information.
+Otherwise, try to keep tooltip usage to a minimum, since they can get in the way when inadvertently displayed, and aren't always accessible (such as when using a touch device). Don't rely on tooltips to communicate essential information.
 
-When setting tooltips, set them for all equivalent controls or elements. If a tooltip is provided for one control in a set, all other controls in that set should also have tooltips.
+If a tooltip is provided for one control in a container, all other controls in that container should also have tooltips.
 
 Tooltip Text
 ------------

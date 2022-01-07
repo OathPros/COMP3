@@ -18,6 +18,8 @@ Menu Items
 * Two linked actions can be combined into a single menu item, by changing the label when the item is selected. For example, a *Play* item may change to *Pause*. However, only use this type of item when actions are logical opposites which are obvious to users. Likewise, do not use this technique for settings — use check boxes or radio buttons instead.
 * Provide an :ref:`access key <access-keys>` for every menu item. You may use the same access key on different menus in your application, but avoid duplicating access keys on the same menu.
 
+.. _menu-organization:
+
 Menu Size & Structure
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -69,9 +71,9 @@ Secondary menus are located in the header bar, and are used to contain actions a
 
 Secondary menus:
 
-* Are typically used in combination with :doc:`hierarchical navigation </guidelines/navigation>` and :doc:`sidebars </patterns/nav/sidebars>`.
-* Are optional and only need to be used if there are enough actions or options to require a menu.
-* Generally shouldn't reproduce menu items that are included in primary menus, like *Preferences* and *About*.
+* are typically used in combination with :doc:`hierarchical navigation </guidelines/navigation>` and :doc:`sidebars </patterns/nav/sidebars>`;
+* are optional and only need to be used if there are enough actions or options to require a menu;
+* generally shouldn't reproduce menu items that are included in primary menus, like *Preferences* and *About*.
 
 API Reference
 -------------

@@ -5,7 +5,7 @@ Radio Buttons
 
 Radio buttons allow a selection to be made from a set of options.
 
-When to use
+When to Use
 -----------
 
 Radio buttons allow each option to be individually labelled, which is necesssary when they are not mutually exclusive. (For example, an option to sort by author or by date.) This makes them more appropriate than switches for this type of option.

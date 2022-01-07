@@ -1,56 +1,54 @@
 Navigation
 ==========
 
-Navigation refers to movement through different views. It is an essential technique for allowing collections of content to be viewed. Navigation can also be an effective way to organize large numbers of UI controls, such as preferences.
+While some apps only need a single view in which to show their UI, most need to be broken down into a series of views or windows. The :doc:`navigation </patterns/nav>` and :doc:`containers </patterns/containers>` patterns cover the most common design options for doing this. This page provides some general guidance on how to put them together.
 
-There are a number of standard design patterns for implementing navigation, which are covered in the :doc:`navigation section </patterns/nav>`. This page covers general design considerations which are relevant to all forms of navigation.
+Window-Based Navigation
+-----------------------
 
-.. _navigation-types:
+Different views can either be shown in a single window, with design patterns which allow moving between views in place, or they can be shown in secondary windows which are shown above the window. Deciding which to use is a matter of:
 
-Navigation Types
-----------------
+* fitting the content you have to an appropriately sized container
+* observing :doc:`general guidelines </patterns/containers/windows>`, such as avoiding stacking secondary windows
+* in some cases, following convention, such as for preferences and about windows
 
-There are various types of navigation structure. The following are three of the main types.
+These guidelines notwithstanding, showing multiple views inside an existing window is generally preferable to showing new windows, since it results in a smoother experience. This is particularly true of any content or functionality which is central to the purpose of the app.
 
-Lateral
-~~~~~~~
+Simple Navigation
+-----------------
 
-.. image:: ../img/navigation/lateral.svg
+A number of design patterns support simple navigation with a small number of views.
 
-Lateral navigation allows movement between a set of views. It is possible to move from one view to another, in any order. Lateral navigation is appropriate for arranging views or content which is similar in type, scale and importance.
+Flat Navigation
+~~~~~~~~~~~~~~~
 
-:doc:`View switchers </patterns/nav/view-switchers>` and :doc:`sidebars </patterns/nav/sidebars>` and :doc:`tabs </patterns/nav/tabs>` are the main design patterns for this type of navigation.
+.. image:: ../img/navigation/flat.svg
 
-Hierarchical
-~~~~~~~~~~~~
+The simplest navigation design pattern is the :doc:`view switcher </patterns/nav/view-switchers>`, which allows having a small number of equivalent pages within a single window. This can often be sufficient for apps which have different types of information or controls to display.
+
+View switchers have a flat navigation structure - each page is equivalent in importance, and can be opened from any of the others.
+
+:doc:`Sidebars </patterns/nav/sidebars>` are another flat navigation pattern, which can be used if there are too many pages to be accommodated within a view switcher.
+
+These flat navigation patterns can be combined with other common navigation patterns. For example, view switchers can be used in sidebar locations, or in secondary windows.
+
+Hierarchical Navigation
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../img/navigation/hierarchical.svg
 
-Hierarchical navigation allows movement between an overview page which shows multiple items, and dedicated views for each of those items. Movement is typically only vertical: navigation between individual sub-views is not possible.
+In hierarchical navigation, a parent view provides links to multiple sub-views. The parent view can be a grid of images or a list, and each sub-view can be either a secondary window or a different view which is shown in the same window as the parent. Moving between parent and sub-view is accomplished with :doc:`browsing </patterns/nav/browsing>`.
 
-Hierarchical navigation is appropriate when it is desireable to have both an "overview" and dedicated views of each item. Hierarchical navigation typically uses :doc:`browsing </patterns/nav/browsing>`.
+Hierarchical navigation is appropriate when it is desirable to provide an "overview" which shows multiple items, such as a collection of photos, or a summary of application settings.
 
-Path-Based
-~~~~~~~~~~
+Complex Navigation
+------------------
 
-.. image:: ../img/navigation/path.svg
-
-Path-based navigation is typically used when an app allows free navigation through an external data structure, as in the cases of web and file browsers. This type of navigation is typically sequential in nature, with back and forward actions reflecting the steps taken by the user, as opposed to the underlying navigation structure.
-
-Combining Navigation Types
---------------------------
+.. image:: ../img/navigation/combined.svg
 
 The types of navigation structure described above can be used on their own, and this is appropriate for relatively simple structures. However, for more complex cases with content of varying types, it is often necessary to combine them into more elaborate arrangements.
 
-.. image:: ../img/navigation/lateral-hierarchy.svg
-
-One of the most common navigation combinations arranges multiple content overviews laterally. This makes it possible to browse multiple sets of content items. The top-level lateral arrangement provides a clear and easy to understand structure.
-
-.. image:: ../img/navigation/hierarchy-sequence.svg
-
-While it isn't typically expected of hierarchical navigation, in some cases movement between sub-views can be appropriate. This is particularly the case when there is a pre-existing order to the sub-views.
-
-A photo viewer is a good example of this principle. Since photos have a time order, it makes sense to allow browsing between each individual photo in that sequence.
+Here, one common design pattern is to combine flat top-level navigation with hierarchical navigation below. This makes it possible to browse categories of content items.
 
 Guidelines
 ----------

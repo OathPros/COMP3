@@ -14,7 +14,7 @@ Guidelines
 * Provide a context menu on each tab. This should include an item for *Move to New Window* if it is supported, and *Close* as the last item. Additional tab-specific features can be included, if they are present, including *Duplicate*, *Pin*/*Unpin*, *Mute* and *Reload*.
 * Avoid making reference to left and right directions in tab context menus, since these will be incorrect in right-to-left locales.
 
-Tabs have a variety of features which can be used as appropriate. Many of these are more common in web browsers, but can be used elsewhere if needed. They include indicating that a tab needs attention, pinning/unpinning and adding a clickable indicator icon (primarily used for showing audio output and allowing it to be muted).
+Tabs have a variety of features which can be used as appropriate. Many of these are more common in web browsers, but can be used elsewhere if needed. They include indicating that a tab needs attention, pinning/unpinning, and clickable indicator icons (primarily used for showing audio output and allowing it to be muted).
 
 
 Standard Keyboard Shortcuts

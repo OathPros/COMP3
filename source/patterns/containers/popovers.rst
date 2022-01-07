@@ -3,7 +3,9 @@ Popovers
 
 .. image:: /img/screenshots/popover.png
 
-Popovers are anchored containers that can be opened and closed, and which can contain a variety of UI elements. Examples of popovers content include a list of content items that can be opened, a set controls for view options, or a palette of tools.
+A popover is a type of container that is overlaid on top of a window and which can be opened and closed using a button, to which it is attached. Popovers can contain a variety of UI elements.
+
+Examples of popovers content include a list of content items that can be opened, a set controls for view options, or a palette of tools.
 
 Guidelines
 ----------

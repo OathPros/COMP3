@@ -13,7 +13,7 @@ When to Use
 Drop-down lists are typically appropriate when:
 
 * the list of options is long
-* the contents of the hidden part of the menu are obvious from its label and the one selected item. For example, if you have an option menu labelled "Month:" with the item "January" selected, the user might reasonably infer that the menu contains the 12 months of the year without having to look.
+* the contents of the hidden part of the menu are obvious from its label and the one selected item (for example, a "Month" drop-down with the item "January" selected suggests what the other options will be)
 * there is little available space, such as in :doc:`header bars </patterns/containers/header-bars>`
 
 If these factors don't apply, a :doc:`radio button <radio-buttons>` might be a better choice, since radio buttons present all the available options without the need to explicitly expose them.

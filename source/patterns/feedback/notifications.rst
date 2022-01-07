@@ -3,11 +3,13 @@ Notifications
 
 .. image:: /img/screenshots/notification.png
 
-Notifications are used to inform users about events that they will be interested in. Examples include:
+Notifications are used to inform users about events that are relevant to them. Examples include:
 
 * when a download or other long-running operation has finished
 * when new content is available
 * when a message has been received
+
+Because they are shown by the system, notifications are a useful way of communicating with users while they are using other applications. If a message is only relevant while the sender app is being used, :doc:`toasts <toasts>` are a better option.
 
 General Guidelines
 ------------------

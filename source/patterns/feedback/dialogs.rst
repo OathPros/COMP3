@@ -10,21 +10,23 @@ Message Dialogs
 
 .. image:: /img/screenshots/message-dialog.png
 
-Message dialogs present a message or question, along with between one and three buttons with which to respond. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message. However, they are also disruptive and alternatives should therefore always be considered.
+Message dialogs present a message or question, along with between one and three buttons with which to respond. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message. However, they are also disruptive and alternatives should therefore be considered.
 
 Confirmation Dialogs
 ~~~~~~~~~~~~~~~~~~~~
 
 Confirmation dialogs are a standard type of message dialog which check — or confirm — that the user wants to carry out an action before carrying it out. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.
 
-Destructive actions should always be accompanied by either a confirmation dialog or undo. Since users will often habitually click through confirmation dialogs without fully reading or considering them, undo is typically a better option than a confirmation dialog. Undo also avoids interrupting the user, allows users to recover from errors, and gives them more time to change their mind.
+Destructive actions should always be accompanied by either a confirmation dialog or an offer to undo the action (typically using a :doc:`toast <toasts>`. Since users will often habitually click through confirmation dialogs without fully reading or considering them, undo is typically a better option than a confirmation dialog. Undo also avoids interrupting the user, allows users to recover from errors, and gives them more time to change their mind.
 
 However, in cases where it is not possible to offer an undo feature, a confirmation dialog is still recommended, to alert the user to the risk, to clarify which action will be taken, and to give them the opportunity to cancel.
 
 Error Dialogs
 ~~~~~~~~~~~~~
 
-Error dialogs are another standard type of message dialog which present an error message to the user. They often include a single button that allows the user to acknowledge and close the dialog.
+Error dialogs are another type of message dialog. These present an error message to the user and often include just a single button to close the dialog.
+
+Error dialogs should be avoided where possible, since they are disruptive. For simple non-critical errors, :doc:`toasts <toasts>` can be a good alternative.
 
 .. _action-dialogs:
 

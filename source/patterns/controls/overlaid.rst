@@ -8,9 +8,9 @@ Controls are typically opaque and permanently visible. However, in some cases it
 When to Use
 -----------
 
-Overlaid controls are appropriate for situations where it is desirable to show fewer controls while the user is not interacting with a window. The classic example is of a video player, which allows for a more immersive and uncluttered viewing experience.
+Use overlaid controls when it is desirable to show fewer controls while the user is not interacting with a window. The classic example is of a video player, where overlaid controls result in a non-distracting viewing experience.
 
-Overlaid controls may be inappropriate if they obscure relevant parts of the content below. Image editing controls may interfere with the ability to see their effects, for example. In these cases, controls should not be overlaid.
+Overlaid controls may be inappropriate if they obscure relevant parts of the content they are placed above. Image editing controls may interfere with the ability to see their effects, for example. In these cases, controls should not be overlaid.
 
 Guidelines
 ----------

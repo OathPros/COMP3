@@ -1,7 +1,7 @@
 Feedback
 ========
 
-The feedback section includes design patterns for showing information about events and status, as well as for prompting users for a response.
+Feedback includes design patterns for showing information about events and status, as well as for prompting users for a response.
 
 .. toctree::
    :hidden:

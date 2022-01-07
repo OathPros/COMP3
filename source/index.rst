@@ -8,7 +8,7 @@ The GNOME Human Interface Guidelines are the primary source of design documentat
 Platform Definition
 -------------------
 
-The HIG is intended to be used in conjunction with recent versions of the GNOME platform, as provided by the GNOME Flatpak SDK. It has been written to be used in conjunction with GTK 4 and the associated libadwaita library. However, much of the HIG is also relevant to applications that are using GTK 3 and libhandy.
+The HIG is intended to be used in conjunction with recent versions of the GNOME platform, in particular GTK 4 and libadwaita. However, much of the HIG is also relevant to applications that are using GTK 3 and libhandy.
 
 Content Overview
 ----------------

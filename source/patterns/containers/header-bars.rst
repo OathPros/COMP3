@@ -15,10 +15,12 @@ Guidelines
 ----------
 
 * Arrange controls within the header bar according to the three alignment points — left, center and right.
-* Header bars should only contain a small number of key controls. This helps people to understand the primary functionality provided by the window, and ensures that the window can be resized to narrow widths. Additional controls can be included elsewhere.
+* Header bars should only contain a small number of controls. This helps people to understand the primary functionality provided by the window, and ensures that the window can be resized to narrow widths.
 * The content of header bars can — and should — update along with view or mode changes, so that different controls are shown depending on the content of the window. This ensures that header bar controls are always relevant to the current context.
 * Always ensure that there is some blank space in the header bar to allow it to be dragged.
 * Primary window header bar controls should all have :doc:`tooltips </patterns/feedback/tooltips>`.
+
+.. _header-bar-buttons:
 
 Button Style
 ------------
