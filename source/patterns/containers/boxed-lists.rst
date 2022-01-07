@@ -48,5 +48,4 @@ API Reference
 
 * `GTK 4: GtkListBox <https://docs.gtk.org/gtk4/class.ListBox.html>`_
 * `GTK 3: GtkListBox <https://docs.gtk.org/gtk3/class.ListBox.html>`_
-* `Handy: HdyActionRow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyActionRow.html>`_
-* Use the ``.content`` style class to ensure proper spacing.
+* `Adwaita .boxed-list documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/boxed-lists.html>`_

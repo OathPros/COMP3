@@ -33,3 +33,8 @@ Large window sizes can present a number of challenges, including:
 * visual structure like grids being lost
 
 To avoid these issues, place content within containers that have a maximum width. These can include both visible containers, like :doc:`lists </patterns/containers/boxed-lists>`, or invisible containers which act as a restraining frame.
+
+Technical Reference
+-------------------
+
+* `Adwaita: Adaptive Layouts <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/adaptive-layouts.html>`_

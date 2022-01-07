@@ -8,7 +8,8 @@ Buttons are one of the most common and basic user interface elements.
 General Guidelines
 ------------------
 
-* Typically, a button contains either an icon or a label. Buttons generally shouldn't contain both.
+* Follow the :ref:`guidelines for buttons in header bars <header-bar-buttons>`.
+* Outside of header bars, buttons should contain either an icon or a label, and not both.
 * Do not use more than one or two different widths of button in the same window, and ensure that buttons placed next to each other have the same width. This will give a better appearance.
 * Do not assign actions to double-clicking or right-clicking a button. Users are unlikely to discover these actions, and if they do, it will distort their expectations of other buttons.
 * Make invalid buttons insensitive, rather than showing an error message when the user clicks them.
