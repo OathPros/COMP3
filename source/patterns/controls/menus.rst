@@ -1,7 +1,10 @@
 Menus
 =====
 
-.. image:: /img/screenshots/menu.png
+.. image:: /img/adw-screenshots/popover-menu-list.png
+   :class: light
+.. image:: /img/adw-screenshots/popover-menu-list-dark.png
+   :class: dark
 
 Menus are a common design pattern. In GNOME they typically appear as primary, secondary and context menus.
 

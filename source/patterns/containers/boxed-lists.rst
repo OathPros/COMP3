@@ -1,7 +1,10 @@
 Boxed Lists
 ===========
 
-.. image:: /img/screenshots/list.png
+.. image:: /img/screenshots/boxed-lists.png
+   :class: light
+.. image:: /img/screenshots/boxed-lists-dark.png
+   :class: dark
 
 Boxed lists are a common type of list that can contain both controls and information. Examples include application preferences or a short list of recent documents in a picker.
 
@@ -26,6 +29,10 @@ Predefined List Rows
 --------------------
 
 For convenience, GNOME provides a number of predefined list rows. These can also be used as the basis of custom row designs of your own.
+
+.. image:: /img/adw-screenshots/action-row.png
+.. image:: /img/adw-screenshots/expander-row.png
+.. image:: /img/adw-screenshots/combo-row.png
 
 * `Action rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ActionRow.html>`_ include a title, subtitle, and a control.
 * `Expander rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ExpanderRow.html>`_ expand to reveal additional rows below.

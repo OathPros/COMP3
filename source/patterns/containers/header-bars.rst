@@ -1,7 +1,10 @@
 Header Bars
 ===========
 
-.. image:: /img/screenshots/header-bar.png
+.. image:: /img/adw-screenshots/header-bar.png
+   :class: light
+.. image:: /img/adw-screenshots/header-bar-dark.png
+   :class: dark
 
 Header bars are a standard element that span the top of windows. They allow windows to be dragged, are the site for window management features, and contain application controls.
 
@@ -24,6 +27,8 @@ Guidelines
 
 Button Style
 ------------
+
+.. image:: /img/screenshots/header-bar-buttons.png
 
 As far as possible, header bar buttons should appear without a visible background or border. This style is automatically applied to types of button where it is known to work effectively, including buttons with an icon only, buttons with an icon and label, and split buttons.
 

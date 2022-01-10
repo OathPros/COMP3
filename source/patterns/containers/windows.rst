@@ -1,7 +1,10 @@
 Windows
 =======
 
-.. image:: /img/screenshots/window.png
+.. image:: /img/adw-screenshots/application-window.png
+   :class: light
+.. image:: /img/adw-screenshots/application-window-dark.png
+   :class: dark
 
 Windows are the main containers for application user interfaces.
 

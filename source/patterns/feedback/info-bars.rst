@@ -1,6 +1,11 @@
 Info Bars
 =========
 
+.. image:: /img/screenshots/info-bar.png
+   :class: light
+.. image:: /img/screenshots/info-bar-dark.png
+   :class: dark
+
 Info bars can be used to communicate persistent states. Examples include indicating that an app is offline, or that a document is read-only. In some situations, they can also be used to present supplementary information about special locations or content items.
 
 When to Use

@@ -2,6 +2,9 @@ Popovers
 ========
 
 .. image:: /img/screenshots/popover.png
+   :class: light
+.. image:: /img/screenshots/popover-dark.png
+   :class: dark
 
 A popover is a type of container that is overlaid on top of a window and which can be opened and closed using a button, to which it is attached. Popovers can contain a variety of UI elements.
 
