@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="libadwaita" version="1.0"/>
+  <object class="GtkMessageDialog" id="widget">
+    <property name="text">Are You Sure?</property>
+    <property name="secondary-text">If you do this, it will have consequences.</property>
+    <property name="text">Are You Sure?</property>
+    <property name="buttons">ok</property>
+  </object>
+</interface>

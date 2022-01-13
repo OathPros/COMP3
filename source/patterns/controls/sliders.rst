@@ -2,6 +2,9 @@ Sliders
 =======
 
 .. image:: /img/screenshots/sliders.png
+   :class: light
+.. image:: /img/screenshots/sliders-dark.png
+   :class: dark
 
 A slider allows quickly selecting a value from a range. Common uses include seeking through audio or video, changing a volume level, or setting values in image editors.
 

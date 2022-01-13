@@ -1,7 +1,10 @@
 Sidebars
 ========
 
-.. image:: /img/screenshots/side-bar.png
+.. image:: /img/adw-screenshots/adaptive-split-headers-wide.png
+   :class: light
+.. image:: /img/adw-screenshots/adaptive-split-headers-wide-dark.png
+   :class: dark
 
 A sidebar is a vertical panel which contains a list of different views, which can be switched between. Visually, sidebars are similar to :doc:`utility panes </patterns/containers/utility-panes>`, but they play a different role and have different behavior.
 

@@ -2,6 +2,9 @@ Text Fields
 ===========
 
 .. image:: /img/screenshots/text-fields.png
+   :class: light
+.. image:: /img/screenshots/text-fields-dark.png
+   :class: dark
 
 Text fields are used for single line text entry and editing.
 

@@ -1,7 +1,10 @@
 Overlaid Controls
 =================
 
-.. image:: /img/screenshots/overlaid-controls.png
+.. image:: /img/screenshots/osd-toolbar.png
+   :class: light
+.. image:: /img/screenshots/osd-toolbar-dark.png
+   :class: dark
 
 Controls are typically opaque and permanently visible. However, in some cases it is desirable to have semi-transparent controls which appear over window content.
 

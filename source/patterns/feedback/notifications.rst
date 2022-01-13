@@ -1,6 +1,8 @@
 Notifications
 =============
 
+.. This screenshot doesn't have a light or dark style because it doesn't have light or dark variants.
+
 .. image:: /img/screenshots/notification.png
 
 Notifications are used to inform users about events that are relevant to them. Examples include:

@@ -1,8 +1,6 @@
 Grid Views
 ==========
 
-.. image:: /img/screenshots/grid-view.png
-
 Grid views present a grid of images. Examples include a document browser, with a grid of document thumbnails that can be opened, or a background chooser, with a grid of images from which the user can select.
 
 Guidelines

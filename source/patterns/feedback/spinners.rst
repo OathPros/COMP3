@@ -1,7 +1,10 @@
 Spinners
 ========
 
-.. image:: /img/screenshots/spinners.png
+.. image:: /img/screenshots/spinner.png
+   :class: light
+.. image:: /img/screenshots/spinner-dark.png
+   :class: dark
 
 Spinners indicate ongoing progress on an action or operation.
 

@@ -2,6 +2,9 @@ Radio Buttons
 =============
 
 .. image:: /img/screenshots/radio-buttons.png
+   :class: light
+.. image:: /img/screenshots/radio-buttons-dark.png
+   :class: dark
 
 Radio buttons allow a selection to be made from a set of options.
 

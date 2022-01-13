@@ -1,7 +1,10 @@
 Tabs
 ====
 
-.. image:: /img/screenshots/tabs.png
+.. image:: /img/adw-screenshots/tab-bar.png
+   :class: light
+.. image:: /img/adw-screenshots/tab-bar-dark.png
+   :class: dark
 
 Tabs allow a window to contain a mutable set of content items, such as pages, documents or images. They are primarily used as part of editor or browser applications.
 

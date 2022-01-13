@@ -1,7 +1,10 @@
 Toasts
 ======
 
-.. image:: /img/screenshots/toast.png
+.. image:: /img/adw-screenshots/toast-overlay.png
+   :class: light
+.. image:: /img/adw-screenshots/toast-overlay-dark.png
+   :class: dark
 
 Toasts are popup banners that contain a label and sometimes a button. They are always transient and user dismissible.
 
