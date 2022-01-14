@@ -14,7 +14,7 @@ Use selection mode when an application includes large collections of items, and 
 
 Just because an app contains content items for which there are different actions does not necessarily mean that selection mode will be beneficial - it is typically only worthwhile when intensive content management is common. In other cases, being able to act on content items individually (such as through a context menu) will often be enough.
 
-Selection mode should only be used when there are a range of actions that can be taken on selected items (at least three). If the number is smaller of actions is smaller, then a single action could be permanently shown, or edit mode could be used instead.
+Selection mode should only be used when there are a range of actions that can be taken on selected items (at least three). If the number of actions is smaller, then a single action could be permanently shown, or edit mode could be used instead.
 
 
 Selection Mode Guidelines
