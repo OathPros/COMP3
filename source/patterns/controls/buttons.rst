@@ -66,7 +66,7 @@ Alternative Shapes
 
 The `pill <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#pill>`_ and `circular <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#circular>`_ styles change the shape of a button. Pill can be used when a text button is situated in open space, and is a primary action for the view. Here the larger rounder shape helps to accommodate the button its surroundings, as well as making it a more inviting click target.
 
-Circular buttons are less common, but can be useful in situations where a number of smaller buttons are positions in close proximity.
+Circular buttons are less common, but can be useful in situations where a number of smaller buttons are positioned in close proximity.
 
 API Reference
 -------------
