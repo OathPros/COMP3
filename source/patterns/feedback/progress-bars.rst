@@ -45,7 +45,7 @@ Thin Progress Bars
 
 .. image:: /img/adw-screenshots/osd-progress-bar.png
    :class: light
-.. image:: /img/screenshots/button-shapes-dark.png
+.. image:: /img/adw-screenshots/osd-progress-bar-dark.png
    :class: dark
 
 For situations where task progress happens in the background, and accompanying text isn't as important, a thin progress bar can be used. These are smaller than regular progress bars, don't show accompanying status text, and are attached to the bottom of the header bar.
