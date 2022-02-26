@@ -20,7 +20,7 @@ Confirmation Dialogs
 
 Confirmation dialogs are a standard type of message dialog which check — or confirm — that the user wants to carry out an action before carrying it out. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.
 
-Destructive actions should always be accompanied by either a confirmation dialog or an offer to undo the action (typically using a :doc:`toast <toasts>`. Since users will often habitually click through confirmation dialogs without fully reading or considering them, undo is typically a better option than a confirmation dialog. Undo also avoids interrupting the user, allows users to recover from errors, and gives them more time to change their mind.
+Destructive actions should always be accompanied by either a confirmation dialog or an offer to undo the action (typically using a :doc:`toast <toasts>`). Since users will often habitually click through confirmation dialogs without fully reading or considering them, undo is typically a better option than a confirmation dialog. Undo also avoids interrupting the user, allows users to recover from errors, and gives them more time to change their mind.
 
 However, in cases where it is not possible to offer an undo feature, a confirmation dialog is still recommended, to alert the user to the risk, to clarify which action will be taken, and to give them the opportunity to cancel.
 
