@@ -8,6 +8,7 @@ Design reference materials.
 
    reference/keyboard
    reference/palette
+   reference/backgrounds
 
 .. cssclass:: tiled-toc
 
@@ -20,3 +21,8 @@ Design reference materials.
       :target: reference/palette.html
 
    :doc:`Color Palette </reference/palette>` 
+
+*  .. image:: img/tiles/reference-backgrounds.svg
+     :target: reference/backgrounds.html
+
+   :doc: `Backgrounds </reference/backgrounds>`
