@@ -34,7 +34,7 @@ Background designs should aim to avoid awkward layouts when cropped to fit these
 Lock screen
 -----------
 
-Background images are utilized as part of GNOME's lock screen, and it is important background designs are suitable for this purpose.
+Background images are utilized as part of GNOME's lock screen, and it is important that background designs are suitable for this purpose.
 
 The lock screen presents a blurred version of the background image with UI elements overlaid on top. In the initial presentation, the lock screen shows the time and date:
 
