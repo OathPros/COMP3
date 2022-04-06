@@ -87,6 +87,8 @@ https://pypi.org/project/furo/
   --tocbg: var(--light2);
   --tocfg: var(--dark3);
   --borders: var(--light3);
+  --link: var(--blue5);
+  --link-underline: var(--blue1);
 }
 
 ::selection {
@@ -98,6 +100,8 @@ https://pypi.org/project/furo/
     --tocbg: var(--dark5);
     --tocfg: var(--light5);
     --borders: var(--dark3);
+    --link: var(--blue1);
+    --link-underline: var(--blue5);
   }
 	::selection {
 		background-color:  rgba(26,95,180,0.4);
@@ -123,6 +127,11 @@ html, body {
       font-size: 18px;
     }
   }
+
+a {
+  color: var(--link);
+  text-decoration-color: var(--link-underline);
+}
 
 p strong {
   font-weight: 600;
@@ -393,6 +402,11 @@ footer {
 .sidebar-tree .toctree-l2 {
 	margin: 1px 12px;
 	border-radius: 6px;
+  color: var(--link);
+}
+
+.sidebar-tree .toctree-l1 > .reference {
+  color: var(--link);
 }
 
 .sidebar-tree .toctree-l2 {
