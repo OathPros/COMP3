@@ -31,7 +31,7 @@ The GNOME app icon style is simple and geometric. In many cases you can draw an 
 Size & Shape
 ~~~~~~~~~~~~
 
-App icons are drawn within a 128×128px area, but shouldn't fill this space. When judging how large to draw the icon, follow the guides in the `app icon template <https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/master/template.svg>`_, and ensure that your icon has a similar visual weight to other app icons.
+App icons are drawn within a 128×128px area, but shouldn't fill this space. When judging how large to draw the icon, follow the guides in the `app icon template <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/blob/master/template.svg>`_, and ensure that your icon has a similar visual weight to other app icons.
 
 * Avoid extreme aspect ratios for the icon shape, such as very narrow or very wide shapes.
 * The bottom of the icon should be aligned against the standard baseline, which is indicated in the template.
