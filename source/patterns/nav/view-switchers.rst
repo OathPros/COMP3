@@ -25,6 +25,6 @@ API Reference
    * `AdwViewSwitcherTitle <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ViewSwitcherTitle.html>`_
    * `AdwViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ViewSwitcherBar.html>`_
 * Handy:
-   * `HdyViewSwitcher <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyViewSwitcher.html>`_
-   * `HdyViewSwitcherTitle <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyViewSwitcherTitle.html>`_
-   * `HdyViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyViewSwitcherBar.html>`_
+   * `HdyViewSwitcher <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.ViewSwitcher.html>`_
+   * `HdyViewSwitcherTitle <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.ViewSwitcherTitle.html>`_
+   * `HdyViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.ViewSwitcherBar.html>`_

@@ -41,4 +41,4 @@ API Reference
 -------------
 
 * `Adwaita: AdwStatusPage <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.StatusPage.html>`_
-* `Handy: HdyStatusPage <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyStatusPage.html>`_
+* `Handy: HdyStatusPage <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.StatusPage.html>`_
