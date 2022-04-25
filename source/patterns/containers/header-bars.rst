@@ -54,6 +54,6 @@ Button grouping can be acheived by adding spacing between sets of buttons. This 
 API Reference
 -------------
 * `Adwaita: AdwHeaderBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.HeaderBar.html>`_
-* `Handy: HdyHeaderBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/HdyHeaderBar.html>`_
+* `Handy: HdyHeaderBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.HeaderBar.html>`_
 * `GTK 4: GtkHeaderBar <https://docs.gtk.org/gtk4/class.HeaderBar.html>`_
 * `GTK 3: GtkHeaderBar <https://docs.gtk.org/gtk3/class.HeaderBar.html>`_
