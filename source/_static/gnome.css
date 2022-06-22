@@ -35,6 +35,15 @@ https://pypi.org/project/furo/
   font-display: block;
 }
 
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("fonts/Inter.var.woff2") format("woff2");
+}
+
 :root {
   --rounded-corner: 12px;
   --gnomeblue: #1c71d8;
@@ -118,7 +127,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+  font-family: "Inter var", sans-serif;
   font-weight: 400;
   line-height: 1.6;
 }
@@ -139,22 +148,27 @@ p strong {
 }
 
 h1 {
+   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 300;
    font-size: 24pt;
 }
 h2 {
+   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 800;
    font-size: 17pt;
 }
 h3 {
+   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 800;
    font-size: 15pt;
 }
 h4 {
+   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 700;
    font-size: 14pt;
 }
 h5 {
+   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 700;
    font-size: 12pt;
 }
@@ -363,6 +377,7 @@ footer {
 }
 
 .sidebar-brand-text {
+  font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
   font-size: 14pt;
   font-weight: 800;
 }
