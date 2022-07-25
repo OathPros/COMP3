@@ -17,7 +17,8 @@ Organize lists semantically, using the :ref:`same guidelines as menus <menu-orga
 
 Boxed list rows can include purely informational content or controls. They can also act as a link to another view (rows which do this should have a ``go-next-symbolic`` arrow placed at the end).
 
-Rows that include controls should generally just have one, and should have a maximum of two. When there is a control, clicking the list background should trigger the control.
+Rows that include controls should generally just have one, and should have a maximum of two. When there is a control, clicking the list background should trigger the control. The controls should be focusable, but the
+list row should not be, allowing direct switching of keyboard focus between the controls and prior/subsequent rows.
 
 Lists have a number of style and layout considerations:
 
