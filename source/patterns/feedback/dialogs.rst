@@ -67,5 +67,5 @@ Guidelines on dialog buttons:
 API Reference
 -------------
 
-* `GTK 4: GtkMessageDialog <https://docs.gtk.org/gtk4/class.MessageDialog.html>`_
+* `GTK 4: AdwMessageDialog <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.MessageDialog.html>`_
 * `GTK 3: GtkMessageDialog <https://docs.gtk.org/gtk3/class.MessageDialog.html>`_
