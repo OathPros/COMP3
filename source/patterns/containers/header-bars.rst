@@ -47,7 +47,7 @@ Button Grouping
 
 Buttons can be grouped within a header bar, in order to communicate a functional relationship between them. This is most common with pairs of interconnected buttons, such as the back/forward buttons in a browser.
 
-Button grouping can be acheived by adding spacing between sets of buttons. This can be implemented with separators which have the `spacer style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#spacers>`_. Using spacing in this way is recommended as an alternative to using linked buttons, which don't have their background removed when in a header bar.
+Button grouping can be achieved by adding spacing between sets of buttons. This can be implemented with separators which have the `spacer style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#spacers>`_. Using spacing in this way is recommended as an alternative to using linked buttons, which don't have their background removed when in a header bar.
 
 `Split buttons <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.SplitButton.html>`_, which incorporate a single button and connected dropdown, are another way to group buttons inside a header bar while ensuring a consistent appearance.
 
