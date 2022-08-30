@@ -10,7 +10,9 @@ Screenshots are organized as follows:
 
 ## How to generate screenshots
 
-Using the libadwaita screenshot tool requires a local build of libadwaita. The build needs to be local and not in a Builder/Flatpak sandbox. Once you have that set up, you can use the tool as follows:
+Using the libadwaita screenshot tool requires a local build of libadwaita. This build needs to be local and not in a Builder/Flatpak sandbox. It also needs to have docs enabled as a build option. If building with JHBuild, this can be done by adding `module_mesonargs['libadwaita'] = '-Dgtk_doc=true'` to `~/.config/jhbuildrc`.
+
+The `screenshot` tool can then be found in the build directory. You can use it as follows:
 
 ```
 $ ./PATH-TO-SCREENSHOT-TOOL --image=IMAGE-NAME PATH-TO-UI-FILES OUTPUT-PATH
