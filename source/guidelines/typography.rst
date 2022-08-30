@@ -66,10 +66,6 @@ Unicode provides a wide variety of characters which, when used correctly, can dr
     - \"quote\"
     - “quote”
     - U+201C Left double quotation mark, U+201D Right double quotation mark
-  * - Time
-    - 4:20
-    - 4∶20
-    - U+2236 Ratio
   * - Multiplication
     - 1024x768
     - 1024×768
