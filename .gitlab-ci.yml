@@ -1,3 +1,5 @@
+image: fedora:latest
+
 pages:
   stage: deploy
   needs: []
