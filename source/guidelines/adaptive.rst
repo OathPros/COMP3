@@ -21,6 +21,8 @@ Some general guidance for designing and building adaptive apps:
 Small Size Handling
 -------------------
 
+.. The Librem 5 has a display resolution of 720×1440px and is a high resolution display. This results in a standard width of 360px. In landscape orientation, the screen width becomes the height. The Phosh top and bottom bars then need to be subtracted from the height, which results in 294px remaining for the window.
+
 The smallest recommended display size for GNOME on desktop is currently 1024×600px, and this size should be supported by all applications. Apps that are appropriate for a phone form factor should scale down to 360×294px.
 
 Large Size Handling
