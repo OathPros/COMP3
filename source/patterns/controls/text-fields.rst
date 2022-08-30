@@ -6,15 +6,21 @@ Text Fields
 .. image:: /img/screenshots/text-fields-dark.png
    :class: dark
 
-Text fields are used for single line text entry and editing.
+Text fields allow single line text entry and editing.
+
+When to Use
+-----------
+
+Use text fields for actions that require text input, such as search or messaging. Text fields can also be used for forms or preferences, though in these cases, an :ref:`entry row <predefined-list-rows>` will often be preferable.
 
 Guidelines
 ----------
 
 General guidelines for text fields:
 
-* Give text fields a label using :ref:`header capitalization <header-capitalization>`, and assign an access key to the label, to allow people to focus the control using a keyboard.
-* If there is a little available space, or a label would disrupt the overall visual layout, placeholder text can be shown inside the field instead of using a label.
+* Text fields should have placeholder text or a label. Placeholder text is often preferred over labels, since it allows more elegant UI layouts. However, labels should be used if the purpose of a text field is not be clear while it contains text.
+* Text fields labels should use :ref:`header capitalization <header-capitalization>`, and have an access key assigned to the label, to allow people to focus the control using a keyboard.
+* Placeholders can be phrased in the same way as labels. Alternatively, if the text field performs an action, they can be phrased as an instruction, followed by ellipses. For example: “Search for a city…” or “Write a message…”.
 * Size text fields according to the likely size of the content they will contain. This gives a useful visual cue to the amount of expected input.
 * When a text field contains a property or setting, apply any changes when Return is pressed or when the field loses focus.
 * Buttons and icons can be embedded inside text fields. This can be helpful to provide feedback (for example, a spinner to indicate progress) or common actions (for example, a clear button). Embedded buttons and icons should use the :doc:`symbolic style </guidelines/ui-icons>`.
