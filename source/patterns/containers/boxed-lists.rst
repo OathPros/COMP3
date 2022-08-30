@@ -25,6 +25,8 @@ Lists have a number of style and layout considerations:
 * If icons are included in a list row, they should typically have the :doc:`symbolic style </guidelines/ui-icons>`. The lower visual footprint of these icons will mean that they do not visually overload or dominate your list.
 * Lists should have a minimum and maximum width, in order to support :doc:`adaptive scaling </guidelines/adaptive>`.
 
+.. _predefined-list-rows:
+
 Predefined List Rows
 --------------------
 
@@ -35,6 +37,7 @@ For convenience, GNOME provides a number of predefined list rows. These can also
 .. image:: /img/adw-screenshots/combo-row.png
 
 * `Action rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ActionRow.html>`_ include a title, subtitle, and a control.
+* `Entry rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/boxed-lists.html#entry-rows>`_ allow text entry and editing.
 * `Expander rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ExpanderRow.html>`_ expand to reveal additional rows below.
 * `Combo rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ComboRow.html>`_ include a drop down list, from which a single option can be selected.
 
