@@ -6,28 +6,28 @@ These guidelines are primarily intended for Linux distributions who are creating
 Image size
 ----------
 
-The recommended size for wallpaper images is 4096×2160px. This size aims to strike a balance between supporting large displays, and the hardware resources required to display large background images.
+The recommended size for wallpaper images is 4096×4096px. This size aims to cover high resolution displays, ultrawide and portrait displays.
 
 Scaling and cropping
 --------------------
 
 When creating backgrounds, it is important to be aware of how a background image will be cropped to fit different display sizes and orientations.
 
-GNOME scales and fits background images to each display using the "zoom" method. The background image is scaled to the display, keeping its aspect ratio fixed, and keeping as much of the image visible as possible. Parts of the image that cannot be fitted on screen are excluded.
+GNOME scales and fits background images to each display using the "zoom" method. The background image is scaled to the display, keeping its aspect ratio fixed, and keeping as much of the image visible as possible. Parts of the image that cannot be fitted on screen are excluded. Only the center of the image is guaranteed to be featured on all displays.
 
 Additionally, system interface elements, such as the top bar, are overlaid on top of the background image.
 
-For example, the following image illustrates the visible portion of a 4096×2160px background on a 1920×1200px display:
+For example, the following image illustrates the visible portion of a 4096×4096px background on a 1920×1200px display:
 
-.. image:: /img/backgrounds/background-cropping-1920.png
+.. image:: /img/backgrounds/background-cropping-1920.webp
 
-The following image illustrates how a range of landscape resolutions (5120×1440px, 1920×1200px, 1536×864px, 1440×900px, and 1366×768px) would be cropped to fit:
+The following image illustrates how a range of landscape aspect ratios (32/9, 16/9, and 4/3) would be cropped to fit:
 
-.. image:: /img/backgrounds/background-cropping-landscape.png
+.. image:: /img/backgrounds/background-cropping-landscape.webp
 
 While landscape is the most common orientation for displays used with GNOME, portrait is also a consideration. Portrait displays are scaled and cropped as follows:
 
-.. image:: /img/backgrounds/background-cropping-portrait.png
+.. image:: /img/backgrounds/background-cropping-portrait.webp
 
 Background designs should aim to avoid awkward layouts when cropped to fit these different display sizes, and it is recommended to test backgrounds to ensure adequate performance at a range of display resolutions and orientations. `An overlay image is available <https://gitlab.gnome.org/Teams/Design/hig-www/-/tree/main/source/img/backgrounds/background-cropping-overlay.png>`_ which can be used to test background designs.
 
@@ -38,11 +38,11 @@ Background images are utilized as part of GNOME's lock screen, and it is importa
 
 The lock screen presents a blurred version of the background image with UI elements overlaid on top. In the initial presentation, the lock screen shows the time and date:
 
-.. image:: /img/backgrounds/lock-screen.png
+.. image:: /img/backgrounds/lock-screen.webp
 
 Then when authenticating, a login prompt is shown:
 
-.. image:: /img/backgrounds/lock-screen-auth.png
+.. image:: /img/backgrounds/lock-screen-auth.webp
 
 Background designs should look good when blurred on the lock screen. Care should be taken to ensure that designs do not appear muddy or overly diffuse when blurred in this way. Designs with strong visual elements shouldn't look unbalanced when blurred.
 
