@@ -46,5 +46,5 @@ To build, run `00localbuild.sh` from the project root. The build output can then
 
 ### 4. Deploy changes
 
-Changes to master are automatically deployed to the site using CI.
+Changes to `main` branch are automatically deployed to the site using CI.
 
