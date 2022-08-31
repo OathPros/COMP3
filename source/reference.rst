@@ -23,6 +23,6 @@ Design reference materials.
    :doc:`Color Palette </reference/palette>` 
 
 *  .. image:: img/tiles/reference-backgrounds.svg
-     :target: reference/backgrounds.html
+      :target: reference/backgrounds.html
 
-   :doc: `Backgrounds </reference/backgrounds>`
+   :doc:`Backgrounds </reference/backgrounds>`
