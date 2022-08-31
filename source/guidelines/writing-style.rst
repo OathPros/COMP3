@@ -43,6 +43,7 @@ Header capitalization should capitalize the first letter of:
 
 * All words with four or more letters.
 * Verbs of any length, such as “Be”, “Are”, “Is”, “See” and “Add”.
+* Nouns of any length.
 * The first and last word.
 * Hyphenated words; for example: “Self-Test” or “Post-Install”.
 
