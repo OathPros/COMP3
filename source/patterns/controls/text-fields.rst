@@ -18,8 +18,8 @@ Guidelines
 
 General guidelines for text fields:
 
-* Text fields should have placeholder text or a label. Placeholder text is often preferred over labels, since it allows more elegant UI layouts. However, labels should be used if the purpose of a text field is not be clear while it contains text.
-* Text fields labels should use :ref:`header capitalization <header-capitalization>`, and have an access key assigned to the label, to allow people to focus the control using a keyboard.
+* Text fields should have placeholder text or a label. Placeholder text is often preferred over labels, since it allows more elegant UI layouts. However, labels should be used if the purpose of a text field is not clear while it contains text.
+* Text field labels should use :ref:`header capitalization <header-capitalization>`, and have an access key assigned to the label, to allow people to focus the control using a keyboard.
 * Placeholders can be phrased in the same way as labels. Alternatively, if the text field performs an action, they can be phrased as an instruction, followed by ellipses. For example: “Search for a city…” or “Write a message…”.
 * Size text fields according to the likely size of the content they will contain. This gives a useful visual cue to the amount of expected input.
 * When a text field contains a property or setting, apply any changes when Return is pressed or when the field loses focus.

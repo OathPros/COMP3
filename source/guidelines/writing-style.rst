@@ -6,7 +6,7 @@ Text plays an important role in user interfaces. Above all, user interface text 
 General Style
 -------------
 
-User interface text should be text short and to the point. This improves speed of comprehension for the user. It also reduces the expansion of text when translated. 
+User interface text should be short and to the point. This improves speed of comprehension for the user. It also reduces the expansion of text when translated. 
 
 Try to find the fewest possible words to satisfactorily convey the necessary meaning. However, do not shorten text to the point of losing meaning. A three-word label that provides clear information is better than a one-word label that is ambiguous or vague.
 
@@ -17,7 +17,7 @@ Terminology
 
 Use words, phrases, and concepts that are familiar to the people who will be using your application, rather than terms from the underlying system. This may mean using terms that are associated with the tasks your application supports. For example, in medicine, the paper folder that contains patient information is called a “chart”. Hence, a medical application might refer to a patient record as a “chart” rather than as a “patient record”.
 
-When refering to parts of the user interface, use the standard GNOME terms, such as “pointer” and “window”. The HIG can be used as a reference in this regard.
+When referring to parts of the user interface, use the standard GNOME terms, such as “pointer” and “window”. The HIG can be used as a reference in this regard.
 
 Translations
 ------------
@@ -43,6 +43,7 @@ Header capitalization should capitalize the first letter of:
 
 * All words with four or more letters.
 * Verbs of any length, such as “Be”, “Are”, “Is”, “See” and “Add”.
+* Nouns of any length.
 * The first and last word.
 * Hyphenated words; for example: “Self-Test” or “Post-Install”.
 
