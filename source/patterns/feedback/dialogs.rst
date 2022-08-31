@@ -8,9 +8,9 @@ Dialog windows present options, choices or information to users, which they must
 Message Dialogs
 ---------------
 
-.. image:: /img/screenshots/message-dialog.png
+.. image:: /img/adw-screenshots/message-dialog.png
    :class: light
-.. image:: /img/screenshots/message-dialog-dark.png
+.. image:: /img/adw-screenshots/message-dialog-dark.png
    :class: dark
 
 Message dialogs present a message or question, along with between one and three buttons with which to respond. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message. However, they are also disruptive and alternatives should therefore be considered.
