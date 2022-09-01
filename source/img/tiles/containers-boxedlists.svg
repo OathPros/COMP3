@@ -1,1 +1,105 @@
-<svg height="140" width="230" xmlns="http://www.w3.org/2000/svg"><defs><clipPath clipPathUnits="userSpaceOnUse" id="a"><rect style="fill:#99c1f1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-dashoffset:26.4" width="60.854" height="37.042" x="223.573" y="163.248" ry="2.117" rx="2.117"/></clipPath></defs><rect style="fill:#99c1f1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4" width="230" height="140" x=".001" ry="8" rx="8"/><g transform="translate(-845 -617.018) scale(3.77953)" clip-path="url(#a)"><rect width="33.046" height="15.877" x="237.456" y="186.794" rx="2.117" ry="2.117" fill="#fff" style="stroke-width:.264583"/><path d="M270.544 192.22h-33.061m33.046 5.285h-33.062" fill="none" stroke="#99c1f1" stroke-width=".269"/><path fill="#99c1f1" style="fill:#d1e3f9;fill-opacity:1;stroke-width:.264583" d="M240.242 189.179h19.579v1.058h-19.579zm0 5.027h24.342v1.058h-24.342zm0 5.556h12.435v1.058h-12.435z"/><path fill="#99c1f1" style="fill:#fff;fill-opacity:1;stroke-width:.264583" d="M237.596 183.887H254v1.058h-16.404z"/><rect width="33.046" height="10.583" x="237.456" y="169.861" rx="2.117" ry="2.117" fill="#fff" style="stroke-width:.264583"/><path d="M270.544 175.287h-33.061" fill="none" stroke="#99c1f1" stroke-width=".269"/><path fill="#99c1f1" style="fill:#d1e3f9;fill-opacity:1;stroke-width:.264583" d="M240.242 172.245h21.696v1.058h-21.696zm0 5.028h15.081v1.058h-15.081z"/><path fill="#99c1f1" style="fill:#fff;fill-opacity:1;stroke-width:.264583" d="M237.596 166.954h12.435v1.058h-12.435z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="140"
+   width="230"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="containers-boxedlists.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview29"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:current-layer="svg27" />
+  <defs
+     id="defs5">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="a">
+      <rect
+         style="fill:#99c1f1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-dashoffset:26.4"
+         width="60.854"
+         height="37.042"
+         x="223.573"
+         y="163.248"
+         ry="2.117"
+         rx="2.117"
+         id="rect2" />
+    </clipPath>
+  </defs>
+  <rect
+     style="fill:#1a5fb4;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4;fill-opacity:0.33000001"
+     width="230"
+     height="140"
+     x=".001"
+     ry="8"
+     rx="8"
+     id="rect7" />
+  <g
+     transform="translate(-845 -617.018) scale(3.77953)"
+     clip-path="url(#a)"
+     id="g25">
+    <rect
+       width="33.046"
+       height="15.877"
+       x="237.456"
+       y="186.794"
+       rx="2.117"
+       ry="2.117"
+       fill="#fff"
+       style="stroke-width:.264583"
+       id="rect9" />
+    <path
+       d="M270.544 192.22h-33.061m33.046 5.285h-33.062"
+       fill="none"
+       stroke="#99c1f1"
+       stroke-width=".269"
+       id="path11" />
+    <path
+       fill="#99c1f1"
+       style="fill:#d1e3f9;fill-opacity:1;stroke-width:.264583"
+       d="M240.242 189.179h19.579v1.058h-19.579zm0 5.027h24.342v1.058h-24.342zm0 5.556h12.435v1.058h-12.435z"
+       id="path13" />
+    <path
+       fill="#99c1f1"
+       style="fill:#fff;fill-opacity:1;stroke-width:.264583"
+       d="M237.596 183.887H254v1.058h-16.404z"
+       id="path15" />
+    <rect
+       width="33.046"
+       height="10.583"
+       x="237.456"
+       y="169.861"
+       rx="2.117"
+       ry="2.117"
+       fill="#fff"
+       style="stroke-width:.264583"
+       id="rect17" />
+    <path
+       d="M270.544 175.287h-33.061"
+       fill="none"
+       stroke="#99c1f1"
+       stroke-width=".269"
+       id="path19" />
+    <path
+       fill="#99c1f1"
+       style="fill:#d1e3f9;fill-opacity:1;stroke-width:.264583"
+       d="M240.242 172.245h21.696v1.058h-21.696zm0 5.028h15.081v1.058h-15.081z"
+       id="path21" />
+    <path
+       fill="#99c1f1"
+       style="fill:#fff;fill-opacity:1;stroke-width:.264583"
+       d="M237.596 166.954h12.435v1.058h-12.435z"
+       id="path23" />
+  </g>
+</svg>
