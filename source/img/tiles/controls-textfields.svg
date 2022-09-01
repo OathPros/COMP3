@@ -5,7 +5,7 @@
    version="1.1"
    id="svg16"
    sodipodi:docname="controls-textfields.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,9 +21,11 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      showgrid="false"
-     inkscape:current-layer="svg16" />
+     inkscape:current-layer="svg16"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#505050" />
   <rect
-     style="fill:#99c1f1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4"
+     style="fill:#1a5fb4;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:0.33;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
      width="230"
      height="140"
      x=".001"

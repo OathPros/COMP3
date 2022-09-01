@@ -1,1 +1,67 @@
-<svg height="140" width="230" xmlns="http://www.w3.org/2000/svg"><rect style="fill:#99c1f1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4" width="230" height="140" x=".001" ry="8" rx="8"/><g transform="translate(-4020 -430) scale(3.77953)"><path style="fill:#fff;fill-opacity:.269756;stroke:none;stroke-width:.529164;stroke-miterlimit:4;stroke-dasharray:none" d="M1065.742 150.813a2.112 2.112 0 0 1-2.117-2.117v-24.342h52.51a5.685 5.685 0 0 1 5.698 5.698v20.76z"/><path style="fill:#fff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" d="M3460 100v40h57.978a12.16 12.16 0 0 0 12.188-12.188v-15.624A12.16 12.16 0 0 0 3517.978 100z" transform="translate(148.167 100.542) scale(.26458)"/><rect width="23.812" height="10.583" x="1084.836" y="-137.583" rx="3.225" ry="3.225" fill="#fff" style="fill:#99c1f1;fill-opacity:1;stroke:none;stroke-width:.529165;stroke-miterlimit:4;stroke-dasharray:none" transform="scale(1 -1)"/><path d="M1113.897 130.97h.34c.085.004.17.042.228.103l.754.753.765-.754c.087-.076.147-.101.227-.103h.33v.33a.372.372 0 0 1-.081.248l-.754.755.744.744c.062.062.092.15.092.237v.331h-.331a.336.336 0 0 1-.238-.093l-.754-.754-.754.754a.336.336 0 0 1-.237.093h-.331v-.33c0-.088.03-.176.092-.238l.754-.744-.754-.754a.3.3 0 0 1-.092-.248z" style="line-height:normal;-inkscape-font-specification:'Andale Mono';text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;fill:#99c1f1;fill-opacity:1;stroke:none;stroke-width:.264583;marker:none" color="#bebebe" font-weight="400" font-family="'Andale Mono'" overflow="visible" fill="#2e3436"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="140"
+   width="230"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="controls-buttons.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:current-layer="svg14" />
+  <rect
+     style="fill:#1a5fb4;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4;fill-opacity:0.33000001"
+     width="230"
+     height="140"
+     x=".001"
+     ry="8"
+     rx="8"
+     id="rect2" />
+  <g
+     transform="translate(-4020 -430) scale(3.77953)"
+     id="g12">
+    <path
+       style="fill:#fff;fill-opacity:.269756;stroke:none;stroke-width:.529164;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M1065.742 150.813a2.112 2.112 0 0 1-2.117-2.117v-24.342h52.51a5.685 5.685 0 0 1 5.698 5.698v20.76z"
+       id="path4" />
+    <path
+       style="fill:#fff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M3460 100v40h57.978a12.16 12.16 0 0 0 12.188-12.188v-15.624A12.16 12.16 0 0 0 3517.978 100z"
+       transform="translate(148.167 100.542) scale(.26458)"
+       id="path6" />
+    <rect
+       width="23.812"
+       height="10.583"
+       x="1084.836"
+       y="-137.583"
+       rx="3.225"
+       ry="3.225"
+       fill="#fff"
+       style="fill:#99c1f1;fill-opacity:1;stroke:none;stroke-width:.529165;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="scale(1 -1)"
+       id="rect8" />
+    <path
+       d="M1113.897 130.97h.34c.085.004.17.042.228.103l.754.753.765-.754c.087-.076.147-.101.227-.103h.33v.33a.372.372 0 0 1-.081.248l-.754.755.744.744c.062.062.092.15.092.237v.331h-.331a.336.336 0 0 1-.238-.093l-.754-.754-.754.754a.336.336 0 0 1-.237.093h-.331v-.33c0-.088.03-.176.092-.238l.754-.744-.754-.754a.3.3 0 0 1-.092-.248z"
+       style="line-height:normal;-inkscape-font-specification:'Andale Mono';text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;fill:#99c1f1;fill-opacity:1;stroke:none;stroke-width:.264583;marker:none"
+       color="#bebebe"
+       font-weight="400"
+       font-family="'Andale Mono'"
+       overflow="visible"
+       fill="#2e3436"
+       id="path10" />
+  </g>
+</svg>
