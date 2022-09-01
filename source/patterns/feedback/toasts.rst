@@ -22,6 +22,7 @@ Guidelines
 
 * Each toast should have a short and simple title.
 * Toasts shouldn't always include a button. Only include one if it is directly relevant to the message that is being communicated, and will be generally useful.
+* Toasts should be positioned towards the bottom of their parent window, and should be horizontally centered. They shouldn't be placed over a particular area.
 * Toast titles should use the :ref:`informal heading style <heading-style>`.
 
 API Reference
