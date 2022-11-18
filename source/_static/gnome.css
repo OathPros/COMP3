@@ -435,6 +435,13 @@ footer {
 	padding-left: calc(1.5*var(--sidebar-item-spacing-horizontal));
 }
 
+.sidebar-tree label[for^="toctree-checkbox"] {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .sidebar-tree li.toctree-l3 a {
   margin: 1px 0;
   padding: var(--sidebar-item-spacing-vertical) var(--sidebar-item-spacing-horizontal) 
