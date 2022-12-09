@@ -6,7 +6,7 @@ GNOME  supports a variety of device types, including desktops, laptops, converti
 Adaptive Design
 ---------------
 
-The term "adaptive" refers to this approach to designing applications which adjust to different sizes. Adaptive apps scale from narrow sizes that are appropriate for phones or split screen, all the way up to very large desktop sizes, while always providing the same functionality.
+The term "adaptive" refers to this approach to designing apps which adjust to different sizes. Adaptive apps scale from narrow sizes that are appropriate for phones or split screen, all the way up to very large desktop sizes, while always providing the same functionality.
 
 Some general guidance for designing and building adaptive apps:
 
@@ -23,7 +23,7 @@ Small Size Handling
 
 .. The Librem 5 has a display resolution of 720×1440px and is a high resolution display. This results in a standard width of 360px. In landscape orientation, the screen width becomes the height. The Phosh top and bottom bars then need to be subtracted from the height, which results in 294px remaining for the window.
 
-The smallest recommended display size for GNOME on desktop is currently 1024×600px, and this size should be supported by all applications. Apps that are appropriate for a phone form factor should scale down to 360×294px.
+The smallest recommended display size for GNOME on desktop is currently 1024×600px, and this size should be supported by all apps. Apps that are appropriate for a phone form factor should scale down to 360×294px.
 
 Large Size Handling
 -------------------

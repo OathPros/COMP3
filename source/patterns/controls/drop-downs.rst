@@ -3,7 +3,7 @@ Drop-Down Lists
 
 Drop-down lists are used to select an item from a mutually exclusive set of options.
 
-A drop-down list example can be found in the *Lists → Selections* demo in the GTK 4 demo application.
+A drop-down list example can be found in the *Lists → Selections* demo in the GTK 4 demo app.
 
 When to Use
 -----------

@@ -1,7 +1,7 @@
 App Naming
 ==========
 
-App names are a vital and essential part of the user experience. Not only do they play an important practical role in communicating what an application does, but they also establish app identity and character.
+App names are a vital and essential part of the user experience. Not only do they play an important practical role in communicating what an app does, but they also establish app identity and character.
 
 The visual aspect of app names should also not be overlooked: the size and shape of app names have both practical and aesthetic consequences.
 

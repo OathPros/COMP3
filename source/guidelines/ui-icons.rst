@@ -26,7 +26,7 @@ When to Use UI Icons
 
 As a general rule, controls should be identified with either a label or an icon, and not both. This helps to avoid information overload, particularly when controls are tightly packed together. However, there are some exceptions to this rule, where an icon and label can/should be used in combination. These include locations in :doc:`sidebars </patterns/nav/sidebars>` and :doc:`view switchers </patterns/nav/view-switchers>`.
 
-The most common usage for UI icons is to identify buttons. Here, it is often preferable to use an icon over a label. However, this should be only done if the icon will be recognized by your users. The number of commonly recognized icons is actually quite small, and is dictated by convention. It includes standard icons such as search, menu, forward, back and share. If you are in doubt, only use icons which are frequently used in other applications.
+The most common usage for UI icons is to identify buttons. Here, it is often preferable to use an icon over a label. However, this should be only done if the icon will be recognized by your users. The number of commonly recognized icons is actually quite small, and is dictated by convention. It includes standard icons such as search, menu, forward, back and share. If you are in doubt, only use icons which are frequently used in other apps.
 
 Other icons can also be recognized within specific domains: users of specialist tools will often be familiar with domain-specific symbols.
 

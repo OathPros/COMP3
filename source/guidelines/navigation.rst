@@ -39,7 +39,7 @@ Hierarchical Navigation
 
 In hierarchical navigation, a parent view provides links to multiple sub-views. The parent view can be a grid of images or a list, and each sub-view can be either a secondary window or a different view which is shown in the same window as the parent. Moving between parent and sub-view is accomplished with :doc:`browsing </patterns/nav/browsing>`.
 
-Hierarchical navigation is appropriate when it is desirable to provide an "overview" which shows multiple items, such as a collection of photos, or a summary of application settings.
+Hierarchical navigation is appropriate when it is desirable to provide an "overview" which shows multiple items, such as a collection of photos, or a summary of app settings.
 
 Complex Navigation
 ------------------

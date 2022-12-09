@@ -53,7 +53,7 @@ Tags
 
 Tags or tokens are a typical convention for some types of text field. For example, the *To* field in an email app will often display each recipient as a tag. This aids readability and makes it easy to remove each item from the field.
 
-Currently, entry tags require a custom implementation. However, the GTK 4 demo application does include an example under *Entry → Tagged Entry*.
+Currently, entry tags require a custom implementation. However, the GTK 4 demo app does include an example under *Entry → Tagged Entry*.
 
 API Reference
 -------------

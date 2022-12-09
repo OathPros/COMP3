@@ -12,8 +12,8 @@ Guidelines:
 
 * Most apps should use the standard light UI style by default. However, apps can alternatively choose to use the dark style by default instead. This is primarily recommended for apps which display rich visual content like images or video.
 * Apps that use the light UI by default style are encouraged to follow the system style setting, which allows users to set a preference to use dark instead of light.
-* Per-application style preferences are primarily useful for text editing apps, or apps which users use for long periods of time. In these cases, the style preference can be useful as a way of controlling visual contrast and brightness.
-* When providing a per-application style preference, three options should typically be included: light, dark, and follow system preference.
+* Per-app style preferences are primarily useful for text editing apps, or apps which users use for long periods of time. In these cases, the style preference can be useful as a way of controlling visual contrast and brightness.
+* When providing a per-app style preference, three options should typically be included: light, dark, and follow system preference.
 
 See `AdwStyleManager <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.StyleManager.html>`_ and `HdyStyleManager <https://gnome.pages.gitlab.gnome.org/libhandy/doc/master/HdyStyleManager.html>`_ for the relevant APIs.
 

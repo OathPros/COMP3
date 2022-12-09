@@ -6,7 +6,7 @@ Boxed Lists
 .. image:: /img/screenshots/boxed-lists-dark.png
    :class: dark
 
-Boxed lists are a common type of list that can contain both controls and information. Examples include application preferences or a short list of recent documents in a picker.
+Boxed lists are a common type of list that can contain both controls and information. Examples include app preferences or a short list of recent documents in a picker.
 
 The boxed list pattern is appropriate for relatively small static lists. For large or dynamic lists, see :doc:`list views <list-column-views>`.
 

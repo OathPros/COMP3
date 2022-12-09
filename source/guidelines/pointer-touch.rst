@@ -31,7 +31,7 @@ The primary and secondary action are the most basic actions which are expected t
 * only provide a context menu if there is a set of relevant menu items to expose
 * be accessible with a :doc:`keyboard <keyboard>`.
 
-While some mice have a third “middle” button, it is not recommended to make use of this in application designs.
+While some mice have a third “middle” button, it is not recommended to make use of this in app designs.
 
 Scrolling, Panning & Zooming
 ----------------------------
@@ -80,5 +80,5 @@ Additional Guidelines
 ---------------------
 
 * Pressing *Esc* while a pointer operation is in progress should cancel it. For example, while dragging and dropping a file or drawing a shape.
-* In GNOME, three and four finger gestures are reserved for use by the system, so these should be avoided by applications. This includes both touchpad and touchscreen gestures. Drags from the top and bottom screen edges are also reserved.
+* In GNOME, three and four finger gestures are reserved for use by the system, so these should be avoided by apps. This includes both touchpad and touchscreen gestures. Drags from the top and bottom screen edges are also reserved.
 * Apps are free to use two finger gestures as well as drags from the left and right screen edge.

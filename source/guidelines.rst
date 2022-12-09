@@ -1,7 +1,7 @@
 Guidelines
 ==========
 
-The guidelines section covers the standard conventions used in GNOME UX design. These are all generally applicable, and are relevant to all applications and design patterns.
+The guidelines section covers the standard conventions used in GNOME UX design. These are all generally applicable, and are relevant to all apps and design patterns.
 
 .. toctree::
    :hidden:

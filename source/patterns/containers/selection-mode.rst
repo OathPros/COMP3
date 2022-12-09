@@ -10,7 +10,7 @@ Both selection and edit mode provide an alternative method of interacting with t
 Selection Mode
 --------------
 
-Use selection mode when an application includes large collections of items, and there is a need to be able to manipulate multiple items at the same time. Typical examples include archiving emails from an inbox, or selecting photos to add to an album.
+Use selection mode when an app includes large collections of items, and there is a need to be able to manipulate multiple items at the same time. Typical examples include archiving emails from an inbox, or selecting photos to add to an album.
 
 Just because an app contains content items for which there are different actions does not necessarily mean that selection mode will be beneficial - it is typically only worthwhile when intensive content management is common. In other cases, being able to act on content items individually (such as through a context menu) will often be enough.
 
