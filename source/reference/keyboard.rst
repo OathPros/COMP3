@@ -1,7 +1,7 @@
 Standard Keyboard Shortcuts
 ===========================
 
-When providing keyboard shortcuts, the following conventions should be adhered to, in order to ensure consistency between applications.
+When providing keyboard shortcuts, the following conventions should be adhered to, in order to ensure consistency between apps.
 
 Basic Shortcuts
 ---------------
@@ -226,7 +226,7 @@ Navigation
 Legacy System Reserved Shortcuts
 --------------------------------
 
-The following shortcuts should be avoided by applications, since they are used by the system.
+The following shortcuts should be avoided by apps, since they are used by the system.
 
 .. list-table::
    :widths: 10 90
@@ -237,11 +237,11 @@ The following shortcuts should be avoided by applications, since they are used b
    * - Alt+Tab, Shift+Alt+Tab
      - Switches to the next/previous window.
    * - Alt+Tab+`, Shift+Alt+Tab+`
-     - Switches to the next/previous window of the focused application.
+     - Switches to the next/previous window of the focused app.
    * - Alt+F4
      - Close the focused window.
    * - Alt+F6, Shift+Alt+F6
-     - Switches to the next/previous window of the focused application.
+     - Switches to the next/previous window of the focused app.
    * - Alt+F7
      - Moves the focused window.
    * - Alt+F8

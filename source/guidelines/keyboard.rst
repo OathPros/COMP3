@@ -14,17 +14,17 @@ Test how accessible your app is by trying to use it with just a keyboard.
 Shortcut Keys
 -------------
 
-Use the :doc:`standard GNOME shortcut keys</reference/keyboard>` if your application supports those functions. This ensures consistency between GNOME applications and aids discoverability.
+Use the :doc:`standard GNOME shortcut keys</reference/keyboard>` if your app supports those functions. This ensures consistency between GNOME apps and aids discoverability.
 
-Shortcut keys should also be assigned to the most commonly-used actions in your application. However, don't assign shortcuts for everything.
+Shortcut keys should also be assigned to the most commonly-used actions in your app. However, don't assign shortcuts for everything.
 
-When assigning non-standard shortcuts in your application:
+When assigning non-standard shortcuts in your app:
 
 * Try to use Ctrl in combination with a letter.
 * Shift+Ctrl and a letter is the recommended pattern for shortcuts that reverse or extend another function. For example, Ctrl+Z is the shortcut for undo, and Shift+Ctrl+Z is the shortcut for redo.
 * Shortcuts should be as mnemonic as possible, as this makes them easier to learn and remember. For example, Ctrl+E would be a good shortcut for an edit action.
 * Do not use Alt for shortcut keys, as this may conflict with access keys.
-* GNOME reserves the use of the Super key for use in system shortcuts. Super should therefore not be used by applications. Additional :ref:`legacy system shortcuts <legacy-shortcuts>` should also be avoided by apps.
+* GNOME reserves the use of the Super key for use in system shortcuts. Super should therefore not be used by apps. Additional :ref:`legacy system shortcuts <legacy-shortcuts>` should also be avoided by apps.
 * Don't assign awkward reaches. Some people may only be able to use one hand on the keyboard, so shortcuts that can be easily used with one hand are preferable for common operations. (This guideline also applies to access keys below.)
 
 The technical term for shortcut keys is *accelerators*.

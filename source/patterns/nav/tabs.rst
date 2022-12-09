@@ -6,14 +6,14 @@ Tabs
 .. image:: /img/adw-screenshots/tab-bar-dark.png
    :class: dark
 
-Tabs allow a window to contain a mutable set of content items, such as pages, documents or images. They are primarily used as part of editor or browser applications.
+Tabs allow a window to contain a mutable set of content items, such as pages, documents or images. They are primarily used as part of editor or browser apps.
 
 Guidelines
 ----------
 
 * Tabs can be assigned an icon and a label. Only use both if it is necessary.
 * Where possible, ensure that tab labels are short and concise, and that the most useful part of the label is displayed first. This ensures that the label continues to be useful even when ellipsized.
-* The presence of the tab bar can vary according to the role of tabs in your application. If tabs are integral to the app, the tab bar can always be shown. Alternatively, it can be hidden until there is more than one tab.
+* The presence of the tab bar can vary according to the role of tabs in your app. If tabs are integral to the app, the tab bar can always be shown. Alternatively, it can be hidden until there is more than one tab.
 * Provide a context menu on each tab. This should include an item for *Move to New Window* if it is supported, and *Close* as the last item. Additional tab-specific features can be included, if they are present, including *Duplicate*, *Pin*/*Unpin*, *Mute* and *Reload*.
 * Avoid making reference to left and right directions in tab context menus, since these will be incorrect in right-to-left locales.
 

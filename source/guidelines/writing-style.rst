@@ -15,7 +15,7 @@ Text should typically have a neutral perspective and tone. Pronouns like “you�
 Terminology
 -----------
 
-Use words, phrases, and concepts that are familiar to the people who will be using your application, rather than terms from the underlying system. This may mean using terms that are associated with the tasks your application supports. For example, in medicine, the paper folder that contains patient information is called a “chart”. Hence, a medical application might refer to a patient record as a “chart” rather than as a “patient record”.
+Use words, phrases, and concepts that are familiar to the people who will be using your app, rather than terms from the underlying system. This may mean using terms that are associated with the tasks your app supports. For example, in medicine, the paper folder that contains patient information is called a “chart”. Hence, a medical app might refer to a patient record as a “chart” rather than as a “patient record”.
 
 When referring to parts of the user interface, use the standard GNOME terms, such as “pointer” and “window”. The HIG can be used as a reference in this regard.
 

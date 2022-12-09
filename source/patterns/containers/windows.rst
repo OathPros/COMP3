@@ -6,12 +6,12 @@ Windows
 .. image:: /img/adw-screenshots/application-window-dark.png
    :class: dark
 
-Windows are the main containers for application user interfaces.
+Windows are the main containers for app user interfaces.
 
 Primary Windows
 ---------------
 
-Primary windows host the main functionality of your application, and are what is displayed when your application is launched.
+Primary windows host the main functionality of your app, and are what is displayed when your app is launched.
 
 * Primary windows should always be independent — closing one primary window should not result in other primary windows being closed.
 * Apps can be restricted to a single primary window, or can make it possible to have multiple primary windows open at the same time (the latter being common in viewer and editor apps).
@@ -24,7 +24,7 @@ Secondary Windows
 Secondary windows are used to contain supplemental controls or information. **About Windows** and **Preferences Windows** are both types of secondary window.
 
 * Secondary windows should always belong on a primary window, so that closing the primary also closes the secondary.
-* Secondary windows can contain information and preferences that are relevant to the entire application, or they can contain information and options for a single content item, such as a document **Properties Window**.
+* Secondary windows can contain information and preferences that are relevant to the entire app, or they can contain information and options for a single content item, such as a document **Properties Window**.
 * Typically, secondary windows are modal to their parent primary window. This ensures that windows are grouped together. However, in some unusual cases, secondary windows can be non-modal to their parent window. This is typically when they provide equivalent functionality to the primary window, such as an email app that allows individual emails to be popped out into their own windows.
 * Avoid stacking secondary windows on top of one another.
 * In general, secondary windows should not be bigger than their parent windows, and should have limited, simple content.
@@ -33,7 +33,7 @@ General Guidelines
 ------------------
 
 * Windows should follow the standard Ctrl+W keyboard shortcut to close. Additionally, modal windows should close on Esc.
-* Applications which restore a particular view or content item when they are restarted should also restore their previous window size.
+* Apps which restore a particular view or content item when they are restarted should also restore their previous window size.
 
 Additional guidance on window sizing can be found in the :doc:`scaling and adaptiveness guidelines </guidelines/adaptive>`.
 

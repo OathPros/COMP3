@@ -6,7 +6,7 @@ Header Bars
 .. image:: /img/adw-screenshots/header-bar-dark.png
    :class: dark
 
-Header bars are a standard element that span the top of windows. They allow windows to be dragged, are the site for window management features, and contain application controls.
+Header bars are a standard element that span the top of windows. They allow windows to be dragged, are the site for window management features, and contain app controls.
 
 Header bars often include:
 

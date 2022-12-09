@@ -11,17 +11,17 @@ Notifications are used to inform users about events that are relevant to them. E
 * when new content is available
 * when a message has been received
 
-Because they are shown by the system, notifications are a useful way of communicating with users while they are using other applications. If a message is only relevant while the sender app is being used, :doc:`toasts <toasts>` are a better option.
+Because they are shown by the system, notifications are a useful way of communicating with users while they are using other apps. If a message is only relevant while the sender app is being used, :doc:`toasts <toasts>` are a better option.
 
 General Guidelines
 ------------------
 
 * Be careful not to needlessly distract users with notifications, and question whether users really need to be informed about the events you want to communicate.
-* Applications that deal with lots of events, such as email or social media messages, run a particular risk of distracting users with too many notifications. In these situations:
+* Apps that deal with lots of events, such as email or social media messages, run a particular risk of distracting users with too many notifications. In these situations:
    * It is often desirable to place restrictions on how frequently notifications are shown. For example, instead of showing a notification for each new message, periodic notifications can show a summary of messages that have been received.
    * Provide an option for users to disable and/or reduce the number of notifications.
 * Ensure that your app removes notifications that are no longer valid. For example, a notification for a weather warning that has been revoked, or for emails that have been read.
-* Don't rely solely on notifications for communicating something, as they might not always be seen. The application window should independently communicate all the information contained in notifications.
+* Don't rely solely on notifications for communicating something, as they might not always be seen. The app window should independently communicate all the information contained in notifications.
 
 Notification Elements
 ---------------------
@@ -34,8 +34,8 @@ Notifications in GNOME have a number of standard elements:
 
   * - Element
     - Description
-  * - Application Icon
-    - Indicates which application sent the notification.
+  * - App Icon
+    - Indicates which app sent the notification.
   * - Title
     - A short and concise summary of the event that triggered the notification, written in :ref:`header capitalization<header-capitalization>`. The notification should be understandable from the title alone.
   * - Body
@@ -52,7 +52,7 @@ It is possible to add buttons to notifications, to allow users to quickly respon
 
 * Only use notification actions when the functionality that they provide is often required.
 * Notification actions should be related to the content of the notification.
-* Actions should not replace user interface controls elsewhere — it should be possible to take the same actions from your application’s windows.
+* Actions should not replace user interface controls elsewhere — it should be possible to take the same actions from your app’s windows.
 * Notification actions should not duplicate the default action. For example, a new email notification does not need to include an Open button, since the default action should already perform this action.
 
 API Reference

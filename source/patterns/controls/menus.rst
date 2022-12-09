@@ -19,7 +19,7 @@ Menu Items
 * Label menu items with verbs for commands and adjectives for settings, using :ref:`header capitalization <header-capitalization>`.
 * Menu items can include :doc:`checkboxes <checkboxes>` and :doc:`radio buttons <radio-buttons>`.
 * Two linked actions can be combined into a single menu item, by changing the label when the item is selected. For example, a *Play* item may change to *Pause*. However, only use this type of item when actions are logical opposites which are obvious to users. Likewise, do not use this technique for settings — use check boxes or radio buttons instead.
-* Provide an :ref:`access key <access-keys>` for every menu item. You may use the same access key on different menus in your application, but avoid duplicating access keys on the same menu.
+* Provide an :ref:`access key <access-keys>` for every menu item. You may use the same access key on different menus in your app, but avoid duplicating access keys on the same menu.
 
 .. _menu-organization:
 
@@ -38,7 +38,7 @@ Menu Size & Structure
 Primary Menus
 -------------
 
-Most applications have primary menus, and they are the location for standard features which every application is expected to have.
+Most apps have primary menus, and they are the location for standard features which every app is expected to have.
 
 * The button for primary menus should use the ``open-menu-symbolic`` icon.
 * Primary menus are typically placed at the end (in Western locales on the right) of the header bar. Although, there are two exceptions to this rule:
@@ -55,13 +55,13 @@ The following are standard primary menu items, and should be placed in a group a
   :header-rows: 0
 
   * - Preferences
-    - Opens the application's preferences dialog, if it has one.
+    - Opens the app's preferences dialog, if it has one.
   * - Keyboard Shortcuts
-    - Opens the application's keyboard shortcuts window, if it has one.
+    - Opens the app's keyboard shortcuts window, if it has one.
   * - Help
-    - Opens the application's user documentation in the Help application.
-  * - About Application
-    - Opens the application's about dialog. This item should include the application's name, such as About Photos or About Calculator. Every primary menu should include this item.
+    - Opens the app's user documentation in the Help app.
+  * - About App
+    - Opens the app's about dialog. This item should include the app's name, such as About Photos or About Calculator. Every primary menu should include this item.
 
 Primary menus shouldn’t include menu items for *Close* or *Quit*: windows can already be closed using the close button in the header bar, and it isn't always obvious what a close menu item refers to.
 
@@ -70,7 +70,7 @@ Primary menus shouldn’t include menu items for *Close* or *Quit*: windows can 
 Secondary Menus
 ---------------
 
-Secondary menus are located in the header bar, and are used to contain actions and settings for a particular view or content item (such as a document, contact, conversation or photo). This differentiates them from primary menus, whose menu items relate to the entire application.
+Secondary menus are located in the header bar, and are used to contain actions and settings for a particular view or content item (such as a document, contact, conversation or photo). This differentiates them from primary menus, whose menu items relate to the entire app.
 
 Secondary menus:
 

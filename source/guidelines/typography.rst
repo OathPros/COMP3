@@ -6,7 +6,7 @@ Text is an important part of any user interface. Text size, positioning, and wei
 General Guidelines
 ------------------
 
-* Wherever possible, use the default system fonts as provided by the distribution or operating system on which your application is running. In GNOME, the default font is Cantarell, which was originally designed and developed by David Crossland.
+* Wherever possible, use the default system fonts as provided by the distribution or operating system on which your app is running. In GNOME, the default font is Cantarell, which was originally designed and developed by David Crossland.
 * Do not position text over graphical backgrounds or textures, since this reduces contrast and makes text less readable. This can be a particular issue for users with visual impairments.
 
 Variants, Sizes & Weights
@@ -52,7 +52,7 @@ Note: these standard font styles are available in GTK 4 but not in GTK 3.
 Take Advantage of Unicode
 -------------------------
 
-Unicode provides a wide variety of characters which, when used correctly, can dramatically improve the impression given by your application. The following Unicode characters are recommended:
+Unicode provides a wide variety of characters which, when used correctly, can dramatically improve the impression given by your app. The following Unicode characters are recommended:
 
 .. list-table::
   :widths: 20 20 20 40
