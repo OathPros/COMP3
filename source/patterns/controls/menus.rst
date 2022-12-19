@@ -44,6 +44,7 @@ Most apps have primary menus, and they are the location for standard features wh
 * Primary menus are typically placed at the end (in Western locales on the right) of the header bar. Although, there are two exceptions to this rule:
    * If the window incorporates :doc:`hierarchical navigation </guidelines/navigation>`, the primary menu should only be visible while on the top level view. (If other views require a menu, a secondary menu can be used.)
    * If the window has a :doc:`sidebar </patterns/nav/sidebars>`, the primary menu should be placed above the sidebar list.
+* The menu button :doc:`tooltip </patterns/feedback/tooltips>` and accessibility label should refer to the menu as ‘Main Menu’.
 
 Standard Primary Menu Items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
