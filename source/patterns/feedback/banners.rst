@@ -1,0 +1,39 @@
+Banners
+=======
+
+.. image:: /img/adw-screenshots/banner.png
+   :class: light
+.. image:: /img/adw-screenshots/banner-dark.png
+   :class: dark
+
+A banner is a strip along the top of view, which contains a title and an optional button. They are used to communicate persistent states.
+
+Examples include indicating that an app is offline, or that a document is read-only. They can also be used to present supplementary information about special locations or content items.
+
+When to Use
+-----------
+
+Banners do not automatically hide, and are displayed for ongoing periods of time. This makes them appropriate for communicating states or location-specific information. 
+
+Don't use a banner to communicate events or short-lived states: use :doc:`notifications <notifications>` or :doc:`toasts <toasts>` instead. 
+
+Banners are deliberately attention-grabbing, and should therefore only be used to communicate important information.
+
+Guidelines
+----------
+
+Banners have a single title, which should be short and to the point, and should be written using an :ref:`informal heading style <heading-style>`. Try to avoid lengthy explanations, and instead stick to precise factual statements.
+
+Examples of good titles include:
+
+* “Metered network ‒ automatic updates paused”
+* “Unlock to change settings”
+* “Working offline”
+
+Banner titles can either be centered or left-aligned. Choose an alignment that matches the content below the banner: if the content is centered, use a centered title. If it is left-aligned, use the same for the banner title.
+
+API Reference
+-------------
+
+* `Libadwaita: AdwBanner <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.Banner.html>`_
+
