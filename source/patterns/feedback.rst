@@ -8,7 +8,7 @@ Feedback includes design patterns for showing information about events and statu
 
    feedback/notifications
    feedback/toasts
-   feedback/info-bars
+   feedback/banners
    feedback/progress-bars
    feedback/spinners
    feedback/dialogs
@@ -27,10 +27,10 @@ Feedback includes design patterns for showing information about events and statu
 
    :doc:`Toasts <feedback/toasts>` 
 
-*  .. image:: /img/tiles/feedback-infobars.svg
-      :target: feedback/info-bars.html
+*  .. image:: /img/tiles/feedback-banners.svg
+      :target: feedback/banners.html
 
-   :doc:`Info Bars <feedback/info-bars>` 
+   :doc:`Banners <feedback/banners>` 
 
 *  .. image:: /img/tiles/feedback-progressbars.svg
       :target: feedback/progress-bars.html
