@@ -6,7 +6,7 @@ Banners
 .. image:: /img/adw-screenshots/banner-dark.png
    :class: dark
 
-A banner is a strip along the top of view, which contains a title and an optional button. They are used to communicate persistent states.
+A banner is a strip along the top of a view, which contains a title and an optional button. They are used to communicate persistent states.
 
 Examples include indicating that an app is offline, or that a document is read-only. They can also be used to present supplementary information about special locations or content items.
 
@@ -15,7 +15,7 @@ When to Use
 
 Banners do not automatically hide, and are displayed for ongoing periods of time. This makes them appropriate for communicating states or location-specific information. 
 
-Don't use a banner to communicate events or short-lived states: use :doc:`notifications <notifications>` or :doc:`toasts <toasts>` instead. 
+Don't use a banner to communicate events, one-time messages, or short-lived states: use :doc:`notifications <notifications>` or :doc:`toasts <toasts>` instead. 
 
 Banners are deliberately attention-grabbing, and should therefore only be used to communicate important information.
 
