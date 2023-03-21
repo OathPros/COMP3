@@ -30,8 +30,6 @@ Examples of good titles include:
 * “Unlock to change settings”
 * “Working offline”
 
-Banner titles can either be centered or left-aligned. Choose an alignment that matches the content below the banner: if the content is centered, use a centered title. If it is left-aligned, use the same for the banner title.
-
 API Reference
 -------------
 
