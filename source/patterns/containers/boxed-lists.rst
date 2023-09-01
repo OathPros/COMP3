@@ -33,14 +33,33 @@ Predefined List Rows
 
 For convenience, GNOME provides a number of predefined list rows. These can also be used as the basis of custom row designs of your own.
 
+`Switch rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.SwitchRow.html>`_ include a title, subtitle, and a switch:
+
+.. image:: /img/adw-screenshots/switch-row.png
+
+`Action rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ActionRow.html>`_ include a title, subtitle, and a control:
+
 .. image:: /img/adw-screenshots/action-row.png
-.. image:: /img/adw-screenshots/expander-row.png
+
+`Combo rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ComboRow.html>`_ include a drop down list, from which a single option can be selected:
+
 .. image:: /img/adw-screenshots/combo-row.png
 
-* `Action rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ActionRow.html>`_ include a title, subtitle, and a control.
-* `Entry rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/boxed-lists.html#entry-rows>`_ allow text entry and editing.
-* `Expander rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ExpanderRow.html>`_ expand to reveal additional rows below.
-* `Combo rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ComboRow.html>`_ include a drop down list, from which a single option can be selected.
+`Entry rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/boxed-lists.html#entry-rows>`_ allow text entry and editing:
+
+.. image:: /img/adw-screenshots/entry-row.png
+
+`Spin rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.SpinRow.html>`_ include a number which can be edited or adjusted using plus and minus buttons:
+
+.. image:: /img/adw-screenshots/spin-row.png
+
+`Property rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/boxed-lists.html#property-rows>`_ include a property name and a value:
+
+.. image:: /img/adw-screenshots/property-row.png
+
+`Expander rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ExpanderRow.html>`_ expand to reveal additional rows below:
+
+.. image:: /img/adw-screenshots/expander-row.png
 
 Editable Lists
 --------------
@@ -59,4 +78,4 @@ API Reference
 
 * `GTK 4: GtkListBox <https://docs.gtk.org/gtk4/class.ListBox.html>`_
 * `GTK 3: GtkListBox <https://docs.gtk.org/gtk3/class.ListBox.html>`_
-* `Adwaita .boxed-list documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/boxed-lists.html>`_
+* `Adwaita .boxed-list documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/boxed-lists.html>`_

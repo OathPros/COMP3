@@ -15,6 +15,7 @@ Some general guidance for designing and building adaptive apps:
 * Using established patterns and widgets (such as :doc:`view switchers </patterns/nav/view-switchers>`) generally makes things easier as they are often designed with adaptiveness in mind.
 * Using list patterns for content is encouraged because they scale well to both very narrow and very wide view widths.
 * Ensure that the width of each container always feels good, irrespective of the window width, without requiring manual resizing by the user. For example, sidebars should never look excessively wide or narrow in relation to the main window area.
+* Breakpoints can be used to switch between different UI layouts depending on the available space, and this can be used to optimize a design for different form factors. For example, a utility pane can be replaced with a bottom panel when a window is narrow, or controls can be dynamically moved to a toolbar that is only shown at narrow widths.
 * Resizing the window should be smooth and glitch-free. For example widgets should not jump around or disappear without an animation.
 * Be mindful that hardware capabilities are often dynamic and can vary from what might be expected for a particular physical form factor. For example, large screens can have touch capacities, and devices with small screens can be paired with physical keyboards.
 
