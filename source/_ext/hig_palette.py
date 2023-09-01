@@ -49,7 +49,7 @@ def create_svg_node(rgb, name):
     node = nodes.image(svg_str)
     node["uri"] = uri
 
-    node.set_class(svg_class_name)
+    node['classes'].append(svg_class_name)
     node["alt"] = f"Color '{name}' from the GNOME HIG palette"
 
     return node
