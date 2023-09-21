@@ -1,12 +1,12 @@
 Sidebars
 ========
 
-.. image:: /img/adw-screenshots/adaptive-split-headers-wide.png
+.. image:: /img/adw-screenshots/adaptive-sidebar-wide.png
    :class: light
-.. image:: /img/adw-screenshots/adaptive-split-headers-wide-dark.png
+.. image:: /img/adw-screenshots/adaptive-sidebar-wide-dark.png
    :class: dark
 
-A sidebar is a vertical panel which contains a list of different views, which can be switched between. Visually, sidebars are similar to :doc:`utility panes </patterns/containers/utility-panes>`, but they play a different role and have different behavior.
+A sidebar is a vertical panel which contains a list of different locations. Clicking each location navigates to it. Sidebars are similar to :doc:`utility panes </patterns/containers/utility-panes>`, but they play a different role and have different behavior.
 
 When to Use
 -----------
@@ -28,8 +28,4 @@ Guidelines
 API Reference
 -------------
 
-* `GTK 4: GtkStackSidebar <https://docs.gtk.org/gtk4/class.StackSidebar.html>`_
-* `Adwaita: AdwLeaflet <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.Leaflet.html>`_
-* `Adwaita: .navigation-sidebar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#sidebars>`_
-* `GTK 3: GtkStackSidebar <https://docs.gtk.org/gtk3/class.StackSidebar.html>`_
-* `Handy: HdyLeaflet <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.Leaflet.html>`_
+* `Adwaita: AdwNavigationSplitView <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.NavigationSplitView.html>`_

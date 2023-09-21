@@ -27,5 +27,4 @@ Guidelines
 API Reference
 -------------
 
-* `Adwaita: AdwFlap <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.Flap.html>`_
-* `Handy: HdyFlap <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.Flap.html>`_
+* `Adwaita: AdwOverlaySplitView <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.OverlaySplitView.html>`_
