@@ -25,6 +25,5 @@ Guidelines
 API Reference
 -------------
 
+* `Libadwaita .osd style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#osd>`_
 * `GTK 4: GtkOverlay <https://docs.gtk.org/gtk4/class.Overlay.html>`_
-* `GTK 3: GtkOverlay <https://docs.gtk.org/gtk3/class.Overlay.html>`_
-* Use the ``.osd`` style class for overlaid controls.

@@ -28,4 +28,3 @@ API Reference
 -------------
 
 * `GTK 4: GtkDropDown <https://docs.gtk.org/gtk4/class.DropDown.html>`_
-* `GTK 3: GtkComboBox <https://docs.gtk.org/gtk3/class.ComboBox.html>`_

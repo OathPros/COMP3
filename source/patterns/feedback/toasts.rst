@@ -28,4 +28,4 @@ Guidelines
 API Reference
 -------------
 
-* `AdwToast <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.Toast.html>`_
+* `Libadwaita: AdwToast <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.Toast.html>`_

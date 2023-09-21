@@ -37,4 +37,3 @@ API Reference
 -------------
 
 * `GTK 4: GtkCheckButton <https://docs.gtk.org/gtk4/class.CheckButton.html>`_
-* `GTK 3: GtkCheckButton <https://docs.gtk.org/gtk3/class.CheckButton.html>`_

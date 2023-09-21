@@ -32,4 +32,3 @@ API Reference
 -------------
 
 * `GTK 4: GtkScale <https://docs.gtk.org/gtk4/class.Scale.html>`_
-* `GTK 3: GtkScale <https://docs.gtk.org/gtk3/class.Scale.html>`_

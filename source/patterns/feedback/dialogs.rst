@@ -67,5 +67,4 @@ Guidelines on dialog buttons:
 API Reference
 -------------
 
-* `GTK 4: AdwMessageDialog <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.MessageDialog.html>`_
-* `GTK 3: GtkMessageDialog <https://docs.gtk.org/gtk3/class.MessageDialog.html>`_
+* `Libadwaita: AdwMessageDialog <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.MessageDialog.html>`_

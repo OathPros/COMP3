@@ -42,6 +42,5 @@ API Reference
 -------------
 
 * `GTK 4: GtkActionBar <https://docs.gtk.org/gtk4/class.ActionBar.html>`_
-* `GTK 3: GtkActionBar <https://docs.gtk.org/gtk3/class.ActionBar.html>`_
-* Adwaita: `.selection-mode style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#selection-mode-check-buttons>`_
+* `Libadwaita: .selection-mode style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#selection-mode-check-buttons>`_
 

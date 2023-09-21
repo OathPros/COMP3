@@ -27,4 +27,4 @@ Guidelines
 API Reference
 -------------
 
-* `Adwaita: AdwOverlaySplitView <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.OverlaySplitView.html>`_
+* `Libadwaita: AdwOverlaySplitView <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.OverlaySplitView.html>`_

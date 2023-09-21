@@ -63,4 +63,3 @@ API Reference
 -------------
 
 * `GTK 4: GtkProgressBar <https://docs.gtk.org/gtk4/class.ProgressBar.html>`_
-* `GTK 3: GtkProgressBar <https://docs.gtk.org/gtk3/class.ProgressBar.html>`_

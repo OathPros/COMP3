@@ -77,4 +77,3 @@ API Reference
 -------------
 
 * `GTK 4: GtkTooltip <https://docs.gtk.org/gtk4/class.Tooltip.html>`_
-* `GTK 3: GtkTooltip <https://docs.gtk.org/gtk3/class.Tooltip.html>`_

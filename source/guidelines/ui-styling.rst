@@ -15,7 +15,7 @@ Guidelines:
 * Per-app style preferences are primarily useful for text editing apps, or apps which users use for long periods of time. In these cases, the style preference can be useful as a way of controlling visual contrast and brightness.
 * When providing a per-app style preference, three options should typically be included: light, dark, and follow system preference.
 
-See `AdwStyleManager <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.StyleManager.html>`_ and `HdyStyleManager <https://gnome.pages.gitlab.gnome.org/libhandy/doc/master/HdyStyleManager.html>`_ for the relevant APIs.
+See `AdwStyleManager <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.StyleManager.html>`_ for the relevant APIs.
 
 High Contrast Mode
 ------------------
@@ -25,20 +25,20 @@ High contrast mode is an accessibility feature which changes the UI style to hav
 Built-In Style Options
 ----------------------
 
-Adwaita includes a range of visual style options for individual UI elements. For example, the :ref:`suggested and destructive styles <button-styles>` changes the color of buttons, to indicate their function. The HIG pages for each design pattern include further guidance on the style options that are available for each UI element.
+Libadwaita includes a range of visual style options for individual UI elements. For example, the :ref:`suggested and destructive styles <button-styles>` changes the color of buttons, to indicate their function. The HIG pages for each design pattern include further guidance on the style options that are available for each UI element.
 
-`libadwaita's style class documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html>`_ also provides a complete list of the different style classes that are available.
+`Libadwaita's style class documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html>`_ also provides a complete list of the different style classes that are available.
 
 Custom Styling
 --------------
 
-GTK and Adwaita can be used as the basis for custom UI elements, which are not included in the GNOME platform. The appearance of preexisting widgets can also be customized.
+GTK and Libadwaita can be used as the basis for custom UI elements, which are not included in the GNOME platform. The appearance of preexisting widgets can also be customized.
 
 As a general rule, it is better to keep the amount of this custom styling to a minimum, as this will reduce maintenance overhead, will reduce bugs, and will help to ensure compatibility with accessibility and internationalization features.
 
 When designing custom styling, it is recommended to use existing style classes and color variables as much as possible, since these automatically adjust for the light, dark and high-contrast styles. Be careful not to use classes and variables outside of their intended uses, as this could cause issues.
 
-The libadwaita `named color <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/named-colors.html>`_ and `style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html>`_ documentation can be a useful reference here.
+The Libadwaita `named color <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/named-colors.html>`_ and `style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html>`_ documentation can be a useful reference here.
 
 Accessibility Considerations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

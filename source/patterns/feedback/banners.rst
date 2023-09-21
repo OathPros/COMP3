@@ -34,4 +34,3 @@ API Reference
 -------------
 
 * `Libadwaita: AdwBanner <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.Banner.html>`_
-

@@ -83,6 +83,4 @@ API Reference
 -------------
 
 * `GTK 4: GtkMenuButton <https://docs.gtk.org/gtk4/class.MenuButton.html>`_
-* `GTK 3: GtkMenuButton <https://docs.gtk.org/gtk3/class.MenuButton.html>`_
 * `GTK 4: GtkPopoverMenu <https://docs.gtk.org/gtk4/class.PopoverMenu.html>`_
-* `GTK 3: GtkPopoverMenu <https://docs.gtk.org/gtk3/class.PopoverMenu.html>`_

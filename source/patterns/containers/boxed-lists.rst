@@ -76,6 +76,5 @@ Design conventions exist for editable boxed lists, which allow users to add, rem
 API Reference
 -------------
 
+* `Libadwaita .boxed-list documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/boxed-lists.html>`_
 * `GTK 4: GtkListBox <https://docs.gtk.org/gtk4/class.ListBox.html>`_
-* `GTK 3: GtkListBox <https://docs.gtk.org/gtk3/class.ListBox.html>`_
-* `Adwaita .boxed-list documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/boxed-lists.html>`_

@@ -40,20 +40,18 @@ Types of buttons which don't automatically have their appearance adjusted when i
 
 These button types should generally be avoided for primary window header bars, since it leads to a complex and inconsistent visual appearance. To achieve this, icons can be added to label-only buttons, and spacing can be used instead of the linked style (see below). Note that these guideline do not apply to :ref:`action dialogs <action-dialogs>`, which can safely retain their label-only buttons.
 
-For more information, see the `toolbar style class documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#toolbars>`_.
+For more information, see the `toolbar style class documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#toolbars>`_.
 
 Button Grouping
 ~~~~~~~~~~~~~~~
 
 Buttons can be grouped within a header bar, in order to communicate a functional relationship between them. This is most common with pairs of interconnected buttons, such as the back/forward buttons in a browser.
 
-Button grouping can be achieved by adding spacing between sets of buttons. This can be implemented with separators which have the `spacer style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#spacers>`_. Using spacing in this way is recommended as an alternative to using linked buttons, which don't have their background removed when in a header bar.
+Button grouping can be achieved by adding spacing between sets of buttons. This can be implemented with separators which have the `spacer style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#spacers>`_. Using spacing in this way is recommended as an alternative to using linked buttons, which don't have their background removed when in a header bar.
 
-`Split buttons <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.SplitButton.html>`_, which incorporate a single button and connected dropdown, are another way to group buttons inside a header bar while ensuring a consistent appearance.
+`Split buttons <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.SplitButton.html>`_, which incorporate a single button and connected dropdown, are another way to group buttons inside a header bar while ensuring a consistent appearance.
 
 API Reference
 -------------
-* `Adwaita: AdwHeaderBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.HeaderBar.html>`_
-* `Handy: HdyHeaderBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.HeaderBar.html>`_
+* `Libadwaita: AdwHeaderBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.HeaderBar.html>`_
 * `GTK 4: GtkHeaderBar <https://docs.gtk.org/gtk4/class.HeaderBar.html>`_
-* `GTK 3: GtkHeaderBar <https://docs.gtk.org/gtk3/class.HeaderBar.html>`_

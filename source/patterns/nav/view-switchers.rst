@@ -20,11 +20,6 @@ Guidelines
 API Reference
 -------------
 
-* Adwaita:
-   * `AdwViewSwitcher <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ViewSwitcher.html>`_
-   * `AdwViewSwitcherTitle <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ViewSwitcherTitle.html>`_
-   * `AdwViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ViewSwitcherBar.html>`_
-* Handy:
-   * `HdyViewSwitcher <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.ViewSwitcher.html>`_
-   * `HdyViewSwitcherTitle <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.ViewSwitcherTitle.html>`_
-   * `HdyViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.ViewSwitcherBar.html>`_
+
+* `Libadwaita: AdwViewSwitcher <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ViewSwitcher.html>`_
+* `Libadwaita: AdwViewSwitcherBar <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ViewSwitcherBar.html>`_

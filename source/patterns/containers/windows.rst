@@ -40,11 +40,7 @@ Additional guidance on window sizing can be found in the :doc:`scaling and adapt
 API Reference
 -------------
 
-* `Adwaita: AdwApplicationWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.ApplicationWindow.html>`_
+* `Libadwaita: AdwApplicationWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ApplicationWindow.html>`_
+* `Libadwaita: AdwAboutWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.AboutWindow.html>`_
+* `Libadwaita: AdwPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.PreferencesWindow.html>`_
 * `GTK 4: GtkApplicationWindow <https://docs.gtk.org/gtk4/class.ApplicationWindow.html>`_
-* `Adwaita: AdwAboutWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.AboutWindow.html>`_
-* `Adwaita: AdwPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.PreferencesWindow.html>`_
-* `Handy: HdyApplicationWindow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.ApplicationWindow.html>`_
-* `GTK 3: GtkApplicationWindow <https://docs.gtk.org/gtk3/class.ApplicationWindow.html>`_
-* `GTK 3: GtkAboutDialog <https://docs.gtk.org/gtk3/class.AboutDialog.html>`_
-* `Handy: HdyPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.PreferencesWindow.html>`_

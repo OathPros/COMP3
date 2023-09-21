@@ -51,8 +51,8 @@ Suggested & Destructive Actions
 
 The  suggested action and destructive action styles give buttons a strong color which conveys meaning.
 
-* `Suggested action <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#suggested-action>`_ highlights a button for affirmative action. This can be used to draw attention to the next step in a process or a call to action.
-* `Destructive action <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#destructive-action>`_ is a warning - it draws attention to the potentially damaging consequences of using a button.
+* `Suggested action <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#suggested-action>`_ highlights a button for affirmative action. This can be used to draw attention to the next step in a process or a call to action.
+* `Destructive action <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#destructive-action>`_ is a warning - it draws attention to the potentially damaging consequences of using a button.
 
 Each view should only ever include a single button using either the suggested or destructive styles.
 
@@ -64,7 +64,7 @@ Alternative Shapes
 .. image:: /img/screenshots/button-shapes-dark.png
    :class: dark
 
-The `pill <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#pill>`_ and `circular <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#circular>`_ styles change the shape of a button. Pill can be used when a text button is situated in open space, and is a primary action for the view. Here the larger rounder shape helps to accommodate the button to its surroundings, as well as making it a more inviting click target.
+The `pill <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#pill>`_ and `circular <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#circular>`_ styles change the shape of a button. Pill can be used when a text button is situated in open space, and is a primary action for the view. Here the larger rounder shape helps to accommodate the button to its surroundings, as well as making it a more inviting click target.
 
 Circular buttons are less common, but can be useful in situations where a number of smaller buttons are positioned in close proximity.
 
@@ -73,7 +73,5 @@ API Reference
 
 * `GTK 4: GtkButton <https://docs.gtk.org/gtk4/class.Button.html>`_
 * `GTK 4: GtkToggleButton <https://docs.gtk.org/gtk4/class.ToggleButton.html>`_
-* `GTK 3: GtkButton <https://docs.gtk.org/gtk3/class.Button.html>`_
-* `GTK 3: GtkToggleButton <https://docs.gtk.org/gtk3/class.ToggleButton.html>`_
-* `Adwaita: Button Styles <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/style-classes.html#buttons>`_
+* `Libadwaita: Button Styles <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#buttons>`_
 

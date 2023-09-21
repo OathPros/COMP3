@@ -16,4 +16,4 @@ Guidelines
 API Reference
 -------------
 
-* `Adwaita: AdwNavigationView <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.NavigationView.html>`_
+* `Libadwaita: AdwNavigationView <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.NavigationView.html>`_

@@ -28,4 +28,4 @@ Guidelines
 API Reference
 -------------
 
-* `Adwaita: AdwNavigationSplitView <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.NavigationSplitView.html>`_
+* `Libadwaita: AdwNavigationSplitView <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.NavigationSplitView.html>`_

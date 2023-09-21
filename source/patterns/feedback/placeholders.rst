@@ -40,5 +40,4 @@ Symbolic placeholders should aim to be subtle and not attract undue attention. U
 API Reference
 -------------
 
-* `Adwaita: AdwStatusPage <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.StatusPage.html>`_
-* `Handy: HdyStatusPage <https://gnome.pages.gitlab.gnome.org/libhandy/doc/1-latest/class.StatusPage.html>`_
+* `Libadwaita: AdwStatusPage <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.StatusPage.html>`_
