@@ -5,6 +5,7 @@ pages:
   needs: []
   script:
     - dnf install -y python3-pip git gcc
+    - dnf builddep dbus-python
     - pip3 install -r requirements.txt
     - sphinx-build -b html source build
     - mv build/_static/404.html build/404.html
