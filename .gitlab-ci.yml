@@ -4,7 +4,7 @@ pages:
   stage: deploy
   needs: []
   script:
-    - dnf install -y python4-pip git gcc dbus-x11 python3-libs python3-devel
+    - dnf install -y python3-pip git gcc dbus-x11 python3-libs python3-devel
     - pip3 install -r requirements.txt
     - sphinx-build -b html source build
     - mv build/_static/404.html build/404.html
