@@ -14,15 +14,27 @@ Design reference materials.
 
 *  .. image:: img/tiles/reference-keyboard.svg
       :target: reference/keyboard.html
-
+      :class: only-light
+   .. image:: /img/tiles/reference-keyboard-dark.svg
+      :target: controls/keyboard.html
+      :class: only-dark
+      
    :doc:`Standard Keyboard Shortcuts </reference/keyboard>` 
 
 *  .. image:: img/tiles/reference-palette.svg
       :target: reference/palette.html
-
+      :class: only-light
+   .. image:: /img/tiles/reference-palette-dark.svg
+      :target: controls/palette.html
+      :class: only-dark
+      
    :doc:`Color Palette </reference/palette>` 
 
 *  .. image:: img/tiles/reference-backgrounds.svg
       :target: reference/backgrounds.html
-
+      :class: only-light
+   .. image:: /img/tiles/reference-backgrounds-dark.svg
+      :target: controls/backgrounds.html
+      :class: only-dark
+      
    :doc:`Backgrounds </reference/backgrounds>`

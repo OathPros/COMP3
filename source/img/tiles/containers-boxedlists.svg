@@ -5,9 +5,10 @@
    version="1.1"
    id="svg27"
    sodipodi:docname="containers-boxedlists.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -19,87 +20,94 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     showgrid="false"
-     inkscape:current-layer="svg27" />
+     showgrid="true"
+     inkscape:current-layer="svg27">
+    <inkscape:grid
+       id="grid2"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#3f3fff"
+       empopacity="0.25098039"
+       color="#3f3fff"
+       opacity="0.1254902"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
   <defs
      id="defs5">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#99c1f1;stop-opacity:1"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#dc8add;stop-opacity:1"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="18.582474"
+       y1="20.058662"
+       x2="225.31178"
+       y2="139.41388"
+       gradientUnits="userSpaceOnUse" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="a">
-      <rect
-         style="fill:#99c1f1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-dashoffset:26.4"
-         width="60.854"
-         height="37.042"
-         x="223.573"
-         y="163.248"
-         ry="2.117"
-         rx="2.117"
-         id="rect2" />
+       id="clipPath11">
+      <g
+         id="g12">
+        <rect
+           style="fill:#99c1f1;stroke:none;stroke-width:4.76251;stroke-linecap:round;stroke-dashoffset:26.4"
+           width="229.99951"
+           height="140.00134"
+           x="0.00085330813"
+           y="-0.017282408"
+           ry="2.1170001"
+           rx="2.1170001"
+           id="rect12" />
+      </g>
     </clipPath>
   </defs>
   <rect
-     style="fill:#1a5fb4;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4;fill-opacity:0.33000001"
+     style="fill:url(#linearGradient2);fill-opacity:1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4"
      width="230"
      height="140"
-     x=".001"
-     ry="8"
-     rx="8"
-     id="rect7" />
-  <g
-     transform="translate(-845 -617.018) scale(3.77953)"
-     clip-path="url(#a)"
-     id="g25">
-    <rect
-       width="33.046"
-       height="15.877"
-       x="237.456"
-       y="186.794"
-       rx="2.117"
-       ry="2.117"
-       fill="#fff"
-       style="stroke-width:.264583"
-       id="rect9" />
-    <path
-       d="M270.544 192.22h-33.061m33.046 5.285h-33.062"
-       fill="none"
-       stroke="#99c1f1"
-       stroke-width=".269"
-       id="path11" />
-    <path
-       fill="#99c1f1"
-       style="fill:#d1e3f9;fill-opacity:1;stroke-width:.264583"
-       d="M240.242 189.179h19.579v1.058h-19.579zm0 5.027h24.342v1.058h-24.342zm0 5.556h12.435v1.058h-12.435z"
-       id="path13" />
-    <path
-       fill="#99c1f1"
-       style="fill:#fff;fill-opacity:1;stroke-width:.264583"
-       d="M237.596 183.887H254v1.058h-16.404z"
-       id="path15" />
-    <rect
-       width="33.046"
-       height="10.583"
-       x="237.456"
-       y="169.861"
-       rx="2.117"
-       ry="2.117"
-       fill="#fff"
-       style="stroke-width:.264583"
-       id="rect17" />
-    <path
-       d="M270.544 175.287h-33.061"
-       fill="none"
-       stroke="#99c1f1"
-       stroke-width=".269"
-       id="path19" />
-    <path
-       fill="#99c1f1"
-       style="fill:#d1e3f9;fill-opacity:1;stroke-width:.264583"
-       d="M240.242 172.245h21.696v1.058h-21.696zm0 5.028h15.081v1.058h-15.081z"
-       id="path21" />
-    <path
-       fill="#99c1f1"
-       style="fill:#fff;fill-opacity:1;stroke-width:.264583"
-       d="M237.596 166.954h12.435v1.058h-12.435z"
-       id="path23" />
-  </g>
+     x="0.001"
+     ry="20"
+     rx="20"
+     id="rect7"
+     y="0" />
+  <rect
+     style="fill:#000000;fill-opacity:0.271991;stroke-width:1;stroke-linecap:round;stroke-opacity:0.158818;paint-order:markers stroke fill;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     id="rect3"
+     width="62.40958"
+     height="10"
+     x="50"
+     y="10"
+     rx="5"
+     ry="5" />
+  <path
+     id="rect6"
+     style="fill:#000000;fill-opacity:0.27199101;stroke-linecap:round;stroke-opacity:0.158818;paint-order:markers stroke fill"
+     d="M 60 25 C 54.460006 25 50 29.460006 50 35 L 50 55 C 50 60.539994 54.460006 65 60 65 L 170 65 C 175.53999 65 180 60.539994 180 55 L 180 35 C 180 29.460006 175.53999 25 170 25 L 60 25 z M 67.5 35 L 157.5 35 C 158.885 35 160 36.115001 160 37.5 C 160 38.884999 158.885 40 157.5 40 L 67.5 40 C 66.115001 40 65 38.884999 65 37.5 C 65 36.115001 66.115001 35 67.5 35 z M 67.5 50 L 132.5 50 C 133.885 50 135 51.115001 135 52.5 C 135 53.884999 133.885 55 132.5 55 L 67.5 55 C 66.115001 55 65 53.884999 65 52.5 C 65 51.115001 66.115001 50 67.5 50 z M 60 95 C 54.460006 95 50 99.460006 50 105 L 50 150 C 50 155.53999 54.460006 160 60 160 L 170 160 C 175.53999 160 180 155.53999 180 150 L 180 105 C 180 99.460006 175.53999 95 170 95 L 60 95 z M 67.5 105 L 137.5 105 C 138.885 105 140 106.115 140 107.5 C 140 108.885 138.885 110 137.5 110 L 67.5 110 C 66.115001 110 65 108.885 65 107.5 C 65 106.115 66.115001 105 67.5 105 z M 67.5 120 L 167.5 120 C 168.885 120 170 121.115 170 122.5 C 170 123.885 168.885 125 167.5 125 L 67.5 125 C 66.115001 125 65 123.885 65 122.5 C 65 121.115 66.115001 120 67.5 120 z M 67.5 135 L 147.5 135 C 148.885 135 150 136.115 150 137.5 C 150 138.885 148.885 140 147.5 140 L 67.5 140 C 66.115001 140 65 138.885 65 137.5 C 65 136.115 66.115001 135 67.5 135 z " />
+  <rect
+     style="fill:#000000;fill-opacity:0.271991;stroke-width:1;stroke-linecap:round;stroke-opacity:0.158818;paint-order:markers stroke fill;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     id="rect10"
+     width="62.40958"
+     height="10"
+     x="50"
+     y="80"
+     rx="5"
+     ry="5" />
 </svg>

@@ -5,7 +5,7 @@
    version="1.1"
    id="svg19540"
    sodipodi:docname="guidelines-scalingandadaptiveness.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,16 +21,34 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     showgrid="false"
-     inkscape:current-layer="svg19540" />
+     showgrid="true"
+     inkscape:current-layer="svg19540">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#3f3fff"
+       empopacity="0.25098039"
+       color="#3f3fff"
+       opacity="0.1254902"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
   <rect
-     style="fill:#1a5fb4;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:0.33;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#3584e4;fill-opacity:0.992875;stroke:none;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.4;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
      width="230"
      height="140"
-     x=".001"
-     ry="8"
-     rx="8"
-     id="rect19516" />
+     x="0.001"
+     ry="20"
+     rx="20"
+     id="rect19516"
+     y="0" />
   <g
      transform="translate(-1100 -810) scale(3.77953)"
      id="g19538">
