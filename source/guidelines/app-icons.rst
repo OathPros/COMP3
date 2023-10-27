@@ -59,7 +59,7 @@ Shadows should be avoided if possible, but can be used if it is necessary to giv
 Detail
 ~~~~~~
 
-App icons are defined at 128×128px, but are typically viewed at 64×64px, and can be scaled down to 32×32px. Therefore, avoiding adding too much detail, as this will be lost at small sizes.
+App icons are defined at 128×128px, but are typically viewed at 64×64px, and can be scaled down to 32×32px. Therefore, avoid adding too much detail, as this will be lost at small sizes.
 
 .. image:: ../img/icons/app-icon-sizes.svg
 
