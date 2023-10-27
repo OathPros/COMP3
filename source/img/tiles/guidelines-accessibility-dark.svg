@@ -17,17 +17,9 @@
        id="linearGradient1"
        inkscape:collect="always">
       <stop
-         style="stop-color:#ff7800;stop-opacity:1;"
+         style="stop-color:#ffa348;stop-opacity:1"
          offset="0"
          id="stop1" />
-      <stop
-         style="stop-color:#e5a50a;stop-opacity:1"
-         offset="0.28574559"
-         id="stop4" />
-      <stop
-         style="stop-color:#ed333b;stop-opacity:1"
-         offset="0.77201712"
-         id="stop3" />
       <stop
          style="stop-color:#813d9c;stop-opacity:1"
          offset="1"
