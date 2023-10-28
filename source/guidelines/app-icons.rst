@@ -42,6 +42,9 @@ Perspective
 While the app icon style is simple, it is not “flat”. Depth is introduced by combining the “top” and “front” of the object, so that each icon has an additional profile at the bottom of the object. This “front” profile is shaded darker than the top surface.
 
 .. image:: ../img/icons/app-icon-perspective.svg
+   :class: only-light
+.. image:: ../img/icons/app-icon-perspective-dark.svg
+   :class: only-dark
 
 In most cases the profile is subtle, not taller than `2 detail units` (`4 nominal pixels`). But as the example aboves show there can be exceptions.
 
@@ -62,6 +65,9 @@ Detail
 App icons are defined at 128×128px, but are typically viewed at 64×64px, and can be scaled down to 32×32px. Therefore, avoid adding too much detail, as this will be lost at small sizes.
 
 .. image:: ../img/icons/app-icon-sizes.svg
+   :class: only-light
+.. image:: ../img/icons/app-icon-sizes-dark.svg
+   :class: only-dark
 
 The template includes a 2px grid which should be followed, and will help to avoid adding excess details.
 
@@ -69,6 +75,9 @@ Symbolic App Icons
 ------------------
 
 .. image:: ../img/icons/app-icons-symbolic.svg
+   :class: only-light
+.. image:: ../img/icons/app-icons-symbolic-dark.svg
+   :class: only-dark
 
 Each app should have an additional symbolic version of its app icon, which is used to represent the app icon at smaller sizes, as well as being used for the high-contrast accessibility theme. A description of the symbolic icon style can be found in the :doc:`UI icons guidelines <ui-icons>`.
 
