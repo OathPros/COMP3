@@ -1,6 +1,6 @@
 # Human Interface Guidelines
 
-The GNOME Human Interface Guidelines are the primary source of UX design documentation for GNOME.
+The GNOME Human Interface Guidelines are the primary source of UX design documentation for GNOME. Live at [developer.gnome.org/hig](https://developer.gnome.org/hig).
 
 This version replaces the previous version which was hosted as part of the [gnome-devel-docs](https://gitlab.gnome.org/GNOME/gnome-devel-docs/) module.
 
