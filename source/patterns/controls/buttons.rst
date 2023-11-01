@@ -2,9 +2,9 @@ Buttons
 =======
 
 .. image:: /img/screenshots/buttons.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/buttons-dark.png
-   :class: dark
+   :class: only-dark
 
 Buttons are one of the most common and basic user interface elements.
 
@@ -45,9 +45,9 @@ Suggested & Destructive Actions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /img/screenshots/buttons-suggested-destructive.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/buttons-suggested-destructive-dark.png
-   :class: dark
+   :class: only-dark
 
 The  suggested action and destructive action styles give buttons a strong color which conveys meaning.
 
@@ -60,9 +60,9 @@ Alternative Shapes
 ~~~~~~~~~~~~~~~~~~
 
 .. image:: /img/screenshots/button-shapes.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/button-shapes-dark.png
-   :class: dark
+   :class: only-dark
 
 The `pill <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#pill>`_ and `circular <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#circular>`_ styles change the shape of a button. Pill can be used when a text button is situated in open space, and is a primary action for the view. Here the larger rounder shape helps to accommodate the button to its surroundings, as well as making it a more inviting click target.
 

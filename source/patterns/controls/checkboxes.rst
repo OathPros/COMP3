@@ -2,9 +2,9 @@ Checkboxes
 ==========
 
 .. image:: /img/screenshots/checkboxes.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/checkboxes-dark.png
-   :class: dark
+   :class: only-dark
 
 Checkboxes allow users to control binary options or properties. In general, :doc:`switches <switches>` are preferred to checkboxes. However, in some situations a checkbox may be more suitable.
 

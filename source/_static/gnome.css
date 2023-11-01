@@ -178,13 +178,6 @@ ul.simple {
   margin: 1rem 1rem 3rem;
 }
 
-img.light { display: inline-block; }
-img.dark { display: none; }
-@media (prefers-color-scheme: dark) {
-  img.light { display: none;}
-  img.dark { display: inline-block; }
-}
-
   ul.simple li {
     list-style-image: url(bullet.svg);
     margin-inline-end: 1ch;

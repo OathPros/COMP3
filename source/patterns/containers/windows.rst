@@ -2,9 +2,9 @@ Windows
 =======
 
 .. image:: /img/adw-screenshots/application-window.png
-   :class: light
+   :class: only-light
 .. image:: /img/adw-screenshots/application-window-dark.png
-   :class: dark
+   :class: only-dark
 
 Windows are the main containers for app user interfaces.
 

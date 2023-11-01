@@ -34,7 +34,7 @@ The libadwaita tool generates light and dark variants of each screenshot, with t
 
 ```
 .. image:: /img/screenshots/boxed-lists.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/boxed-lists-dark.png
-   :class: dark
+   :class: only-dark
 ```

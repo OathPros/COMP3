@@ -2,9 +2,9 @@ Sidebars
 ========
 
 .. image:: /img/adw-screenshots/adaptive-sidebar-wide.png
-   :class: light
+   :class: only-light
 .. image:: /img/adw-screenshots/adaptive-sidebar-wide-dark.png
-   :class: dark
+   :class: only-dark
 
 A sidebar is a vertical panel which contains a list of different locations. Clicking each location navigates to it. Sidebars are similar to :doc:`utility panes </patterns/containers/utility-panes>`, but they play a different role and have different behavior.
 

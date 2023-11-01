@@ -2,9 +2,9 @@ View Switchers
 ==============
 
 .. image:: /img/adw-screenshots/view-switcher-title.png
-   :class: light
+   :class: only-light
 .. image:: /img/adw-screenshots/view-switcher-title-dark.png
-   :class: dark
+   :class: only-dark
 
 A view switcher is a control that allows switching between a small number of predefined views. For example, a music app could show different views for artists, albums and playlists.
 

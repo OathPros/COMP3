@@ -2,9 +2,9 @@ Text Fields
 ===========
 
 .. image:: /img/screenshots/text-fields.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/text-fields-dark.png
-   :class: dark
+   :class: only-dark
 
 Text fields allow single line text entry and editing.
 

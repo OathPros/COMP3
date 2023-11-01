@@ -2,9 +2,9 @@ Search
 ======
 
 .. image:: /img/screenshots/search.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/search-dark.png
-   :class: dark
+   :class: only-dark
 
 Search allows content items to be located by filtering available content. It is distinct from find, which involves moving to and highlighting the content that is being searched for, rather than filtering.
 

@@ -2,9 +2,9 @@ Switches
 ========
 
 .. image:: /img/screenshots/switches.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/switches-dark.png
-   :class: dark
+   :class: only-dark
 
 Switches can be used for controlling features, settings or hardware that have a clear on/off logic.
 

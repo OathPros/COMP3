@@ -2,9 +2,9 @@ Banners
 =======
 
 .. image:: /img/adw-screenshots/banner.png
-   :class: light
+   :class: only-light
 .. image:: /img/adw-screenshots/banner-dark.png
-   :class: dark
+   :class: only-dark
 
 A banner is a strip along the top of a view, which contains a title and an optional button. They are used to communicate persistent states.
 
