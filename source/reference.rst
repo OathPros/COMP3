@@ -16,7 +16,7 @@ Design reference materials.
       :target: reference/keyboard.html
       :class: only-light
    .. image:: /img/tiles/reference-keyboard-dark.svg
-      :target: controls/keyboard.html
+      :target: reference/keyboard.html
       :class: only-dark
       
    :doc:`Standard Keyboard Shortcuts </reference/keyboard>` 
@@ -25,7 +25,7 @@ Design reference materials.
       :target: reference/palette.html
       :class: only-light
    .. image:: /img/tiles/reference-palette-dark.svg
-      :target: controls/palette.html
+      :target: reference/palette.html
       :class: only-dark
       
    :doc:`Color Palette </reference/palette>` 
@@ -34,7 +34,7 @@ Design reference materials.
       :target: reference/backgrounds.html
       :class: only-light
    .. image:: /img/tiles/reference-backgrounds-dark.svg
-      :target: controls/backgrounds.html
+      :target: reference/backgrounds.html
       :class: only-dark
       
    :doc:`Backgrounds </reference/backgrounds>`
