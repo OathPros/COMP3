@@ -6,14 +6,14 @@ Placeholder pages fill a view with an image, a heading, and an optional line of 
 There are two styles of placeholder pages: illustration and symbolic. Illustration placeholders use a colorful graphic for the image, whereas symbolic placeholders use a simple monochrome icon.
 
 .. image:: /img/screenshots/placeholder-illustration.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/placeholder-illustration-dark.png
-   :class: dark
+   :class: only-dark
 
 .. image:: /img/screenshots/placeholder-symbolic.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/placeholder-symbolic-dark.png
-   :class: dark
+   :class: only-dark
 
 When to Use
 -----------

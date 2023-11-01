@@ -9,9 +9,9 @@ Message Dialogs
 ---------------
 
 .. image:: /img/adw-screenshots/message-dialog.png
-   :class: light
+   :class: only-light
 .. image:: /img/adw-screenshots/message-dialog-dark.png
-   :class: dark
+   :class: only-dark
 
 Message dialogs present a message or question, along with between one and three buttons with which to respond. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message. However, they are also disruptive and alternatives should therefore be considered.
 
@@ -37,9 +37,9 @@ Action Dialogs
 --------------
 
 .. image:: /img/screenshots/action-dialog.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/action-dialog-dark.png
-   :class: dark
+   :class: only-dark
 
 Action dialogs present options and/or information about an action, before it is carried out. *Print* and *Save* dialogs are classic examples of action dialogs.
 

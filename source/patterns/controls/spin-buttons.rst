@@ -2,9 +2,9 @@ Spin Buttons
 ============
 
 .. image:: /img/screenshots/spin-button.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/spin-button-dark.png
-   :class: dark
+   :class: only-dark
 
 A spin button is a text field that accepts a range of values, with buttons that allow the value to be increased or decreased by a fixed amount.
 

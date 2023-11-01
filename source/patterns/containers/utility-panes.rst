@@ -2,9 +2,9 @@ Utility Panes
 =============
 
 .. image:: /img/adw-screenshots/adaptive-utility-pane-wide.png
-   :class: light
+   :class: only-light
 .. image:: /img/adw-screenshots/adaptive-utility-pane-wide-dark.png
-   :class: dark
+   :class: only-dark
 
 Utility panes are vertical panels which are shown on one side of a window. They have some similarities with :doc:`sidebars </patterns/nav/sidebars>`, but play a different role and have a unique behavior.
 

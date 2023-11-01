@@ -2,9 +2,9 @@ Boxed Lists
 ===========
 
 .. image:: /img/screenshots/boxed-lists.png
-   :class: light
+   :class: only-light
 .. image:: /img/screenshots/boxed-lists-dark.png
-   :class: dark
+   :class: only-dark
 
 Boxed lists are a common type of list that can contain both controls and information. Examples include app preferences or a short list of recent documents in a picker.
 
