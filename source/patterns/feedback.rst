@@ -21,7 +21,7 @@ Feedback includes design patterns for showing information about events and statu
       :target: feedback/notifications.html
       :class: only-light
    .. image:: /img/tiles/feedback-notifications-dark.svg
-      :target: controls/notifications.html
+      :target: feedback/notifications.html
       :class: only-dark
       
    :doc:`Notifications <feedback/notifications>` 
@@ -30,7 +30,7 @@ Feedback includes design patterns for showing information about events and statu
       :target: feedback/toasts.html
       :class: only-light
    .. image:: /img/tiles/feedback-toasts-dark.svg
-      :target: controls/toasts.html
+      :target: feedback/toasts.html
       :class: only-dark
       
    :doc:`Toasts <feedback/toasts>` 
@@ -39,7 +39,7 @@ Feedback includes design patterns for showing information about events and statu
       :target: feedback/banners.html
       :class: only-light
    .. image:: /img/tiles/feedback-banners-dark.svg
-      :target: controls/banners.html
+      :target: feedback/banners.html
       :class: only-dark
       
    :doc:`Banners <feedback/banners>` 
@@ -48,7 +48,7 @@ Feedback includes design patterns for showing information about events and statu
       :target: feedback/progress-bars.html
       :class: only-light
    .. image:: /img/tiles/feedback-progressbars-dark.svg
-      :target: controls/progressbars.html
+      :target: feedback/progressbars.html
       :class: only-dark
       
    :doc:`Progress Bars <feedback/progress-bars>` 
@@ -57,7 +57,7 @@ Feedback includes design patterns for showing information about events and statu
       :target: feedback/spinners.html
       :class: only-light
    .. image:: /img/tiles/feedback-spinners-dark.svg
-      :target: controls/spinners.html
+      :target: feedback/spinners.html
       :class: only-dark
       
    :doc:`Spinners <feedback/spinners>` 
@@ -66,7 +66,7 @@ Feedback includes design patterns for showing information about events and statu
       :target: feedback/dialogs.html
       :class: only-light
    .. image:: /img/tiles/feedback-dialogs-dark.svg
-      :target: controls/dialogs.html
+      :target: feedback/dialogs.html
       :class: only-dark
       
    :doc:`Dialogs <feedback/dialogs>` 
@@ -75,7 +75,7 @@ Feedback includes design patterns for showing information about events and statu
       :target: feedback/placeholders.html
       :class: only-light
    .. image:: /img/tiles/feedback-placeholders-dark.svg
-      :target: controls/placeholders.html
+      :target: feedback/placeholders.html
       :class: only-dark
       
    :doc:`Placeholders <feedback/placeholders>` 
@@ -84,7 +84,7 @@ Feedback includes design patterns for showing information about events and statu
       :target: feedback/tooltips.html
       :class: only-light
    .. image:: /img/tiles/feedback-tooltips-dark.svg
-      :target: controls/tooltips.html
+      :target: feedback/tooltips.html
       :class: only-dark
       
    :doc:`Tooltips <feedback/tooltips>` 
