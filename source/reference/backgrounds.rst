@@ -29,7 +29,7 @@ While landscape is the most common orientation for displays used with GNOME, por
 
 .. image:: /img/backgrounds/background-cropping-portrait.webp
 
-Background designs should aim to avoid awkward layouts when cropped to fit these different display sizes, and it is recommended to test backgrounds to ensure adequate performance at a range of display resolutions and orientations. `An overlay image is available <https://gitlab.gnome.org/Teams/Design/hig-www/-/tree/main/source/img/backgrounds/background-cropping-overlay.png>`_ which can be used to test background designs.
+Background designs should aim to avoid awkward layouts when cropped to fit these different display sizes, and it is recommended to test backgrounds to ensure adequate performance at a range of display resolutions and orientations. `An overlay image is available <https://gitlab.gnome.org/Teams/Websites/developer.gnome.org-hig/-/blob/main/source/img/backgrounds/background-cropping-overlay.png>`_ which can be used to test background designs.
 
 Lock screen
 -----------
