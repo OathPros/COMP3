@@ -23,7 +23,6 @@ Guidelines
 * Order the list according to what is most useful for the users of your app. Sidebars which contain a large number of dynamic items will often need to be ordered so that recently updated items are at the top of the list.
 * Header bar controls which affect the sidebar list should be placed above the list.
 * Each list row can include multiple lines of text, as well as images. However, be careful to ensure that the most important information is not lost, and work to ensure a clean and attractive appearance.
-* To be :doc:`adaptive </guidelines/adaptive>`, sidebars need to switch to be a separate top-level view when the window becomes narrow. This can be accomplished with a leaflet.
 
 API Reference
 -------------
