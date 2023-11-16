@@ -30,7 +30,7 @@ The patterns are divided into four categories:
       :target: patterns/nav.html
       :class: only-light
    .. image:: /img/tiles/nav-browsing-dark.svg
-      :target: patterns/containers.html
+      :target: patterns/nav.html
       :class: only-dark
 
    :doc:`Navigation <patterns/nav>`
