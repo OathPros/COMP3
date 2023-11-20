@@ -26,7 +26,7 @@ Toolkit
 The following tools are useful for seeing how the different patterns and design elements work in practice:
 
 * Adwaita Demo: a demo app for libadwaita. This can be installed from the `gnome-nightly flatpak repository <https://nightly.gnome.org/repo/appstream/org.gnome.Adwaita1.Demo.flatpakref>`_ and is sometimes packaged by distributions as ``adwaita-1-demo``.
-* `GTK inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_: can be used to inspect any GTK app
+* `GTK inspector <https://docs.gtk.org/gtk4/running.html#interactive-debugging>`_: can be used to inspect any GTK app
 
 SVG Templates & Examples
 ------------------------
