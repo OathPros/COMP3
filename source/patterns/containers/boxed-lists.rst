@@ -36,30 +36,51 @@ For convenience, GNOME provides a number of predefined list rows. These can also
 `Switch rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.SwitchRow.html>`_ include a title, subtitle, and a switch:
 
 .. image:: /img/adw-screenshots/switch-row.png
+   :class: only-light
+.. image:: /img/adw-screenshots/switch-row-dark.png
+   :class: only-dark
 
 `Action rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ActionRow.html>`_ include a title, subtitle, and a control:
 
 .. image:: /img/adw-screenshots/action-row.png
+   :class: only-light
+.. image:: /img/adw-screenshots/action-row-dark.png
+   :class: only-dark
 
 `Combo rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ComboRow.html>`_ include a drop down list, from which a single option can be selected:
 
 .. image:: /img/adw-screenshots/combo-row.png
+   :class: only-light
+.. image:: /img/adw-screenshots/combo-row-dark.png
+   :class: only-dark
 
 `Entry rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/boxed-lists.html#entry-rows>`_ allow text entry and editing:
 
 .. image:: /img/adw-screenshots/entry-row.png
+   :class: only-light
+.. image:: /img/adw-screenshots/entry-row-dark.png
+   :class: only-dark
 
 `Spin rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.SpinRow.html>`_ include a number which can be edited or adjusted using plus and minus buttons:
 
 .. image:: /img/adw-screenshots/spin-row.png
+   :class: only-light
+.. image:: /img/adw-screenshots/spin-row-dark.png
+   :class: only-dark
 
 `Property rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/boxed-lists.html#property-rows>`_ include a property name and a value:
 
 .. image:: /img/adw-screenshots/property-row.png
+   :class: only-light
+.. image:: /img/adw-screenshots/property-row-dark.png
+   :class: only-dark
 
 `Expander rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ExpanderRow.html>`_ expand to reveal additional rows below:
 
 .. image:: /img/adw-screenshots/expander-row.png
+   :class: only-light
+.. image:: /img/adw-screenshots/expander-row-dark.png
+   :class: only-dark
 
 Editable Lists
 --------------
