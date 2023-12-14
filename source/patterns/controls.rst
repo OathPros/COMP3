@@ -32,7 +32,7 @@ Controls include the most basic interactive UI elements, such as buttons and swi
       :target: controls/menus.html
       :class: only-light
    .. image:: /img/tiles/controls-menus-dark.svg
-      :target: controls/menu.html
+      :target: controls/menus.html
       :class: only-dark
       
    :doc:`Menus <controls/menus>` 
