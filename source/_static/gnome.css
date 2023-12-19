@@ -218,6 +218,16 @@ ul.simple {
   .related-pages a.prev-page:hover, .related-pages a.next-page:hover {
     background-color: var(--tocbg);
   }
+  
+  .related-pages svg {
+    color: var(--color-foreground-border);
+  }
+  .related-pages .prev-page svg {
+    margin-right: 16px;
+  }
+  .related-pages .next-page svg {
+    margin-left: 16px;
+  }
 
   @media (min-width: 700px) {
     .related-pages {
