@@ -127,7 +127,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: "Inter var", sans-serif;
+  font-family: system-ui, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
   font-weight: 400;
   line-height: 1.6;
 }
@@ -148,27 +148,27 @@ p strong {
 }
 
 h1 {
-   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+   font-family: system-ui, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 300;
    font-size: 24pt;
 }
 h2 {
-   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+   font-family: system-ui, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 800;
    font-size: 17pt;
 }
 h3 {
-   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+   font-family: system-ui, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 800;
    font-size: 15pt;
 }
 h4 {
-   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+   font-family: system-ui, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 700;
    font-size: 14pt;
 }
 h5 {
-   font-family: Cantarell, -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+   font-family: system-ui, "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 700;
    font-size: 12pt;
 }
