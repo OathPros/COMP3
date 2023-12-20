@@ -9,7 +9,7 @@ https://pypi.org/project/furo/
 	font-family: "Cantarell";
 	font-style: normal;
 	font-weight: 800;
-	src: local("Cantarell"), url(fonts/cantarell-extra-bold-latin.woff2) format("woff2");
+	src: local("Cantarell Heavy"), local("Cantarell"), url(fonts/cantarell-extra-bold-latin.woff2) format("woff2");
 	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
 	font-display: swap;
 }
@@ -17,7 +17,7 @@ https://pypi.org/project/furo/
 	font-family: "Cantarell";
 	font-style: normal;
 	font-weight: 600;
-	src: local("Cantarell"), url(fonts/cantarell-bold-latin.woff2) format("woff2");
+	src: local("Cantarell Ultra-Bold"), local("Cantarell"), url(fonts/cantarell-bold-latin.woff2) format("woff2");
 	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
 	font-display: swap;
 }
@@ -25,7 +25,7 @@ https://pypi.org/project/furo/
 	font-family: "Cantarell";
 	font-style: normal;
 	font-weight: 400;
-	src: local("Cantarell"), url(fonts/cantarell-regular-latin.woff2) format("woff2");
+	src: local("Cantarell Bold"), local("Cantarell"), url(fonts/cantarell-regular-latin.woff2) format("woff2");
 	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
 	font-display: swap;
 }
@@ -34,7 +34,7 @@ https://pypi.org/project/furo/
 	font-family: "Cantarell";
 	font-style: normal;
 	font-weight: 300;
-	src: local("Cantarell"), url(fonts/cantarell-light.woff2) format("woff2");
+	src: local("Cantarell Normal"),local("Cantarell"), url(fonts/cantarell-light.woff2) format("woff2");
   font-display: swap;
 }
 
@@ -44,7 +44,7 @@ https://pypi.org/project/furo/
   font-display: swap;
   font-style: normal;
   font-named-instance: "Regular";
-  src: local("Inter Var"), local("Inter"), url("fonts/Inter.var.woff2") format("woff2");
+  src: url("fonts/Inter.var.woff2") format("woff2");
   font-display: swap;
 }
 
