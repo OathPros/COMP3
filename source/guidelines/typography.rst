@@ -75,7 +75,7 @@ Unicode provides a wide variety of characters which, when used correctly, can dr
     - Introducing…
     - U+2026 Horizontal ellipsis
   * - Apostrophe
-    - The user's preferences
+    - The user\ \'s preferences
     - The user’s preferences
     - U+2019 Right single quotation mark
   * - Bullet list
