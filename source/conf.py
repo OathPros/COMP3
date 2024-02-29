@@ -105,6 +105,10 @@ html_theme_options = {
 }
 html_favicon = 'img/favicon.svg'
 html_logo = "img/logo.svg"
+
+# Set the explicit title of the HTML output
+html_title = 'GNOME Human Interface Guidelines'
+
 # add custom files that are stored in _static
 html_css_files = ['gnome.css']
 
