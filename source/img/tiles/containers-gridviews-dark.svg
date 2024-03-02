@@ -5,7 +5,7 @@
    version="1.1"
    id="svg36"
    sodipodi:docname="containers-gridviews-dark.svg"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -17,11 +17,11 @@
        id="linearGradient20"
        inkscape:collect="always">
       <stop
-         style="stop-color:#f6d32d;stop-opacity:1"
+         style="stop-color:#3584e4;stop-opacity:1"
          offset="0"
          id="stop20" />
       <stop
-         style="stop-color:#ff7800;stop-opacity:1"
+         style="stop-color:#26a269;stop-opacity:1"
          offset="1"
          id="stop21" />
     </linearGradient>
@@ -53,7 +53,15 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      showgrid="true"
-     inkscape:current-layer="svg36">
+     inkscape:current-layer="svg36"
+     inkscape:zoom="2.0478261"
+     inkscape:cx="136.24204"
+     inkscape:cy="4.8832271"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -135,7 +143,7 @@
        rx="2.5"
        ry="2.5" />
     <rect
-       style="fill:#f9f06b;fill-opacity:1;stroke-linecap:round;stroke-opacity:0.158818;-inkscape-stroke:none;paint-order:markers stroke fill"
+       style="fill:#5e5c64;fill-opacity:1;stroke-linecap:round;stroke-opacity:0.158818;-inkscape-stroke:none;paint-order:markers stroke fill"
        id="rect19"
        width="30"
        height="5"
