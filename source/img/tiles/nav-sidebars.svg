@@ -44,11 +44,11 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     showgrid="true"
+     showgrid="false"
      inkscape:current-layer="svg27041"
-     inkscape:zoom="1.8769074"
-     inkscape:cx="66.865314"
-     inkscape:cy="71.39404"
+     inkscape:zoom="0.9384537"
+     inkscape:cx="-190.20651"
+     inkscape:cy="-74.590787"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -69,7 +69,7 @@
        dotted="false"
        gridanglex="30"
        gridanglez="30"
-       visible="true" />
+       visible="false" />
   </sodipodi:namedview>
   <rect
      style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#linearGradient2);fill-opacity:0.97124565;stroke:none;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.4;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"

@@ -17,11 +17,11 @@
        id="linearGradient1"
        inkscape:collect="always">
       <stop
-         style="stop-color:#f66151;stop-opacity:1"
+         style="stop-color:#f98e82;stop-opacity:1;"
          offset="0"
          id="stop1" />
       <stop
-         style="stop-color:#ed333b;stop-opacity:1"
+         style="stop-color:#f66151;stop-opacity:1"
          offset="1"
          id="stop2" />
     </linearGradient>
@@ -48,8 +48,8 @@
      showgrid="true"
      inkscape:current-layer="svg26181"
      inkscape:zoom="1.8769073"
-     inkscape:cx="27.971547"
-     inkscape:cy="94.304071"
+     inkscape:cx="203.7927"
+     inkscape:cy="125.20597"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -96,7 +96,7 @@
        style="opacity:1;stroke-width:0.488966"
        id="rect26175" />
     <path
-       style="fill:#ed333b;fill-opacity:1;stroke-width:0.529173"
+       style="fill:#f66151;fill-opacity:1;stroke-width:0.529173"
        d="M692.15 178.858a2.92 2.92 0 0 0-2.914 2.91 2.921 2.921 0 0 0 2.914 2.911 2.9 2.9 0 0 0 1.65-.514l1.949 1.947c.132.138.33.194.515.145a.524.524 0 0 0 .378-.379.527.527 0 0 0-.144-.514l-1.949-1.948a2.89 2.89 0 0 0 .514-1.647 2.92 2.92 0 0 0-2.913-2.91zm0 1.059c1.03 0 1.854.822 1.854 1.852 0 1.03-.825 1.852-1.854 1.852a1.844 1.844 0 0 1-1.854-1.852c0-1.03.823-1.852 1.854-1.852z"
        id="path26177" />
   </g>

@@ -17,11 +17,11 @@
        id="linearGradient1"
        inkscape:collect="always">
       <stop
-         style="stop-color:#2ec27e;stop-opacity:1"
+         style="stop-color:#33d17a;stop-opacity:1"
          offset="0"
          id="stop1" />
       <stop
-         style="stop-color:#57e389;stop-opacity:1"
+         style="stop-color:#8ff0a4;stop-opacity:1"
          offset="1"
          id="stop2" />
     </linearGradient>
@@ -46,9 +46,9 @@
      inkscape:deskcolor="#505050"
      showgrid="false"
      inkscape:current-layer="svg25360"
-     inkscape:zoom="1.8769073"
-     inkscape:cx="-2.9303524"
-     inkscape:cy="87.377781"
+     inkscape:zoom="1.3271739"
+     inkscape:cx="-58.39476"
+     inkscape:cy="137.1335"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -84,7 +84,7 @@
      transform="matrix(3.77953,0,0,3.77953,-2305.0022,-430)"
      id="g25358">
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.25999999;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:6.985;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.38999999;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:6.985;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        width="30.248394"
        height="23.813"
        x="613.8335"
@@ -93,7 +93,7 @@
        rx="2.1170003"
        id="rect25352" />
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.5;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:6.985;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.55000001;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:6.985;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        width="29.103817"
        height="23.813"
        x="624.41687"
