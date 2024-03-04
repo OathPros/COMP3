@@ -92,10 +92,10 @@ The guidelines section covers the standard conventions used in GNOME UX design. 
       
    :doc:`Typography </guidelines/typography>`
 
-*  .. image:: img/tiles/guidelines-navigation.svg
+*  .. image:: img/tiles/nav-browsing.svg
       :target: guidelines/navigation.html
       :class: only-light
-   .. image:: /img/tiles/guidelines-navigation-dark.svg
+   .. image:: /img/tiles/nav-browsing-dark.svg
       :target: guidelines/navigation.html
       :class: only-dark
       
