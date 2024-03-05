@@ -16,9 +16,10 @@
   })();
 </script>
 <!-- End Matomo Code -->
-{% endblock %}`
+{% endblock %}
 
 {% block body -%}
+{{ super() }}
 {% include "partials/icons.html" %}
 
 <input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
@@ -42,10 +43,19 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="{{ pathto(master_doc) }}"><div class="brand">{{ project }}</div></a>
+      <a href="{{ pathto(master_doc) }}"><div class="brand">{{ docstitle if docstitle else project }}</div></a>
     </div>
     <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
       <label class="toc-overlay-icon toc-header-icon{% if furo_hide_toc %} no-toc{% endif %}" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -61,14 +71,39 @@
       {% endblock left_sidebar %}
     </div>
   </aside>
-  <main class="main">
+  <div class="main">
     <div class="content">
-      <article role="main">
-        <label class="toc-overlay-icon toc-content-icon{% if furo_hide_toc %} no-toc{% endif %}" for="__toc">
-          <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
-        </label>
-        {% block content %}{{ body }}{% endblock %}
-      </article>
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>{% trans %}Back to top{% endtrans %}</span>
+        </a>
+        <div class="content-icon-container">
+          {% if theme_top_of_page_button == "edit" -%}
+          {%- include "components/edit-this-page.html" with context -%}
+          {%- elif theme_top_of_page_button != None -%}
+          {{ warning("Got an unsupported value for 'top_of_page_button'") }}
+          {%- endif -%}
+          {#- Theme toggle -#}
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon{% if furo_hide_toc %} no-toc{% endif %}" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          {% block content %}{{ body }}{% endblock %}
+        </article>
+      </div>
       <footer>
         {% block footer %}
         <div class="related-pages">
@@ -80,12 +115,12 @@
                 </div>
                 <div class="title">{{ next.title }}</div>
               </div>
-              <svg><use href="#svg-arrow-right"></use></svg>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
           {%- endif %}
           {% if prev -%}
             <a class="prev-page" href="{{ prev.link }}">
-              <svg><use href="#svg-arrow-right"></use></svg>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>{{ _("Previous") }}</span>
@@ -99,8 +134,9 @@
             </a>
           {%- endif %}
         </div>
-        {% endblock footer %}
+      {% endblock footer %}
       </footer>
+      
     </div>
     <aside class="toc-drawer{% if furo_hide_toc %} no-toc{% endif %}">
       {% block right_sidebar %}
@@ -108,7 +144,7 @@
       <div class="toc-sticky toc-scroll">
         <div class="toc-title-container">
           <span class="toc-title">
-            {{ _("Contents") }}
+            {{ _("On this page") }}
           </span>
         </div>
         <div class="toc-tree-container">
@@ -120,6 +156,6 @@
       {% endif %}
       {% endblock right_sidebar %}
     </aside>
-  </main>
+  </div>
 </div>
 {%- endblock %}

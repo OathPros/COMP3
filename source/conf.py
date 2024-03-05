@@ -101,7 +101,8 @@ html_theme_options = {
     "light_css_variables": {
         "color-brand-primary": "#4a86cf",
         "color-brand-content": "#4a86cf",
-    }
+    },
+    "source_edit_link": "https://gitlab.gnome.org/Teams/Websites/developer.gnome.org-hig/-/edit/main/source/{filename}",
 }
 html_favicon = 'img/favicon.svg'
 html_logo = "img/logo.svg"
