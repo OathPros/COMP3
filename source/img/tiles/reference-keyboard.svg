@@ -5,13 +5,36 @@
    version="1.1"
    id="svg24"
    sodipodi:docname="reference-keyboard.svg"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs28" />
+     id="defs28">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#f66151;stop-opacity:1"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#c061cb;stop-opacity:1"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="20"
+       y1="30"
+       x2="210"
+       y2="115"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      id="namedview26"
      pagecolor="#505050"
@@ -20,10 +43,18 @@
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
-     showgrid="true"
+     showgrid="false"
      inkscape:current-layer="svg24"
      inkscape:showpageshadow="0"
-     inkscape:deskcolor="#505050">
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="2.1516249"
+     inkscape:cx="180.32883"
+     inkscape:cy="9.7600655"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -39,10 +70,10 @@
        dotted="false"
        gridanglex="30"
        gridanglez="30"
-       visible="true" />
+       visible="false" />
   </sodipodi:namedview>
   <rect
-     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#c061cb;fill-opacity:1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.4;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#linearGradient2);fill-opacity:1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.4;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
      width="230"
      height="140"
      x="0.001"
@@ -58,7 +89,7 @@
      rx="12.000008"
      ry="12.000008"
      fill="#fff"
-     style="fill:#c0bfbc;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.8"
      id="rect4" />
   <path
      d="m 39.619974,76.473801 c 1.536001,0 3.200128,-0.362457 4.458711,-0.981317 l -0.618709,-2.005343 c -0.938835,0.362835 -2.15471,0.576 -3.178584,0.576 -3.242837,0 -5.269421,-2.112001 -5.269421,-5.439991 0,-3.157343 1.834584,-4.928015 4.949294,-4.928015 1.173545,0 2.517545,0.234708 3.477546,0.618671 l 0.789166,-2.133318 c -1.280127,-0.597355 -2.730711,-0.91733 -4.181294,-0.91733 -4.69342,0 -7.872005,3.093319 -7.872005,7.743993 0,4.47999 3.008128,7.46665 7.445296,7.46665 z"
@@ -84,7 +115,7 @@
      rx="12.000008"
      ry="12.000008"
      fill="#fff"
-     style="fill:#c0bfbc;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.8"
      id="rect10" />
   <path
      d="m 110.78059,76.260484 h 2.92271 l 4.37329,-13.376021 h -0.59716 l 4.33058,13.376021 h 3.05046 l -5.14129,-14.805326 h -3.51988 z m 3.47754,-3.690673 h 7.08246 l -0.384,-2.453331 h -6.31446 z"
@@ -106,7 +137,7 @@
      rx="12.000008"
      ry="12.000008"
      fill="#fff"
-     style="fill:#c0bfbc;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.8"
      id="rect16" />
   <path
      d="m 182.93824,76.260484 h 2.92271 l 4.37329,-13.376021 h -0.59716 l 4.33058,13.376021 h 3.05084 l -5.14167,-14.805326 h -3.51988 z m 3.47755,-3.690673 h 7.08246 l -0.384,-2.453331 h -6.31446 z"
