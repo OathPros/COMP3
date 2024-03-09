@@ -37,7 +37,7 @@ Two styles of capitalization are used in GNOME user interfaces: header capitaliz
 Header Capitalization
 ~~~~~~~~~~~~~~~~~~~~~
 
-Header capitalization should be used for any headings, including headings in header bars, tab titles, and view titles. It should also be used for short control labels that do not normally form proper sentences, such as button labels, switch labels and menu items.
+Header capitalization should be used for any headings, including headings in header bars, tab titles, and view titles. It should also be used for short control labels that do not normally form proper sentences, such as button labels, switch labels, menu items and tooltips.
 
 Header capitalization should capitalize the first letter of:
 
