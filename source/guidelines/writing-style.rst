@@ -58,7 +58,7 @@ Sentence capitalization should be used for labels that form sentences or that ru
 
 Capitalize the first letter of the first word and any words that are normally capitalized in sentences, such as proper nouns.
 
-For example: “The document cannot be found in this location.” “Finding results for London.”
+For example: “The document cannot be found in this location”, “Finding results for London”.
 
 .. _heading-style:
 
