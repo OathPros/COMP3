@@ -48,7 +48,7 @@ Feedback includes design patterns for showing information about events and statu
       :target: feedback/progress-bars.html
       :class: only-light
    .. image:: /img/tiles/feedback-progressbars-dark.svg
-      :target: feedback/progressbars.html
+      :target: feedback/progress-bars.html
       :class: only-dark
       
    :doc:`Progress Bars <feedback/progress-bars>` 
