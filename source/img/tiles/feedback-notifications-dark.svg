@@ -5,13 +5,37 @@
    version="1.1"
    id="svg8640"
    sodipodi:docname="feedback-notifications-dark.svg"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs8644" />
+     id="defs8644">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6"
+       id="linearGradient7"
+       x1="23.160086"
+       y1="44.343983"
+       x2="219.79391"
+       y2="112.48217"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-230.00089)" />
+    <linearGradient
+       id="linearGradient6"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#c061cb;stop-opacity:1"
+         offset="0"
+         id="stop6" />
+      <stop
+         style="stop-color:#813d9c;stop-opacity:1"
+         offset="1"
+         id="stop7" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      id="namedview8642"
      pagecolor="#505050"
@@ -21,8 +45,16 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
-     showgrid="true"
-     inkscape:current-layer="svg8640">
+     showgrid="false"
+     inkscape:current-layer="g8638"
+     inkscape:zoom="3.0428573"
+     inkscape:cx="116.66666"
+     inkscape:cy="7.8873237"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -38,22 +70,23 @@
        dotted="false"
        gridanglex="30"
        gridanglez="30"
-       visible="true" />
+       visible="false" />
   </sodipodi:namedview>
   <rect
-     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#9141ac;fill-opacity:1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.4;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     style="fill:url(#linearGradient7);fill-opacity:1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-dashoffset:26.4"
      width="230"
      height="140"
-     x="0.001"
-     ry="25.193888"
-     rx="25.193888"
-     id="rect8612"
-     y="0" />
+     x="-229.99989"
+     ry="20"
+     rx="20"
+     id="rect2-5"
+     y="-3.8859557e-06"
+     transform="scale(-1,1)" />
   <g
      transform="translate(-3174.997 -430) scale(3.77953)"
      id="g8638">
     <rect
-       style="fill:#c061cb;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-dashoffset:26.4"
+       style="fill:#241f31;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-dashoffset:26.4;opacity:0.7"
        width="37.043"
        height="9.525"
        x="851.957"
@@ -63,24 +96,24 @@
        id="rect8614" />
     <path
        fill="#99c1f1"
-       style="fill:#613583;fill-opacity:1;stroke-width:0.264583"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583;opacity:0.8"
        transform="scale(1 -1)"
        d="M862.542-123.031h21.167v1.058h-21.167z"
        id="path8616" />
     <path
        fill="#99c1f1"
-       style="fill:#613583;fill-opacity:1;stroke-width:0.264582"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264582;opacity:0.8"
        transform="scale(1 -1)"
        d="M862.542-120.915h22.49v1.058h-22.49z"
        id="path8618" />
     <circle
-       style="fill:#613583;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:26.4;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:26.4;stroke-opacity:1;opacity:0.8"
        cx="857.25"
        cy="121.444"
        r="2.646"
        id="circle8620" />
     <rect
-       style="fill:#c061cb;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-dashoffset:26.4"
+       style="fill:#241f31;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-dashoffset:26.4;opacity:0.7"
        width="37.043"
        height="9.525"
        x="851.957"
@@ -90,24 +123,24 @@
        id="rect8622" />
     <path
        fill="#99c1f1"
-       style="fill:#613583;fill-opacity:1;stroke-width:0.264583"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583;opacity:0.8"
        transform="scale(1 -1)"
        d="M862.542-133.879h11.906v1.058h-11.906z"
        id="path8624" />
     <path
        fill="#99c1f1"
-       style="fill:#613583;fill-opacity:1;stroke-width:0.264582"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264582;opacity:0.8"
        transform="scale(1 -1)"
        d="M862.542-131.763h22.49v1.058h-22.49z"
        id="path8626" />
     <circle
-       style="fill:#613583;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:26.4;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:26.4;stroke-opacity:1;opacity:0.8"
        cx="857.25"
        cy="132.292"
        r="2.646"
        id="circle8628" />
     <rect
-       style="fill:#c061cb;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-dashoffset:26.4"
+       style="fill:#241f31;fill-opacity:1;stroke:none;stroke-width:4.7625;stroke-linecap:round;stroke-dashoffset:26.4;opacity:0.7"
        width="37.043"
        height="9.525"
        x="851.957"
@@ -117,18 +150,18 @@
        id="rect8630" />
     <path
        fill="#99c1f1"
-       style="fill:#613583;fill-opacity:1;stroke-width:0.264583"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583;opacity:0.8"
        transform="scale(1 -1)"
        d="M862.542-144.727h19.844v1.058h-19.844z"
        id="path8632" />
     <path
        fill="#99c1f1"
-       style="fill:#613583;fill-opacity:1;stroke-width:0.264582"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264582;opacity:0.8"
        transform="scale(1 -1)"
        d="M862.542-142.61h22.49v1.058h-22.49z"
        id="path8634" />
     <circle
-       style="fill:#613583;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:26.4;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:26.4;stroke-opacity:1;opacity:0.8"
        cx="857.25"
        cy="143.14"
        r="2.646"

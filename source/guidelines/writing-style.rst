@@ -10,7 +10,7 @@ User interface text should be short and to the point. This improves speed of com
 
 Try to find the fewest possible words to satisfactorily convey the necessary meaning. However, do not shorten text to the point of losing meaning. A three-word label that provides clear information is better than a one-word label that is ambiguous or vague.
 
-Text should typically have a neutral perspective and tone. Pronouns like “you” or “my” should generally be avoided. However, if it is necessary to refer to something as belonging to the user, “your” is preferable to “my”. For example, “Your Records”.
+Text should typically have a neutral perspective and tone. Pronouns like “you” or “my” should generally be avoided. However, if it is necessary to refer to something as belonging to the user, “your” is preferable to “my”. For example: “Your Records”.
 
 Terminology
 -----------
@@ -47,7 +47,11 @@ Header capitalization should capitalize the first letter of:
 * The first and last word.
 * Hyphenated words; for example: “Self-Test” or “Post-Install”.
 
-For example: “Create a Document”, “Find and Replace”, “Document Cannot Be Found”.
+For example:
+
+* “Create a Document”
+* “Find and Replace”
+* “Document Cannot Be Found”
 
 .. _sentence-capitalization:
 
@@ -58,7 +62,10 @@ Sentence capitalization should be used for labels that form sentences or that ru
 
 Capitalize the first letter of the first word and any words that are normally capitalized in sentences, such as proper nouns.
 
-For example: “The document cannot be found in this location”, “Finding results for London”.
+For example:
+
+* “The document cannot be found in this location”
+* “Finding results for London”
 
 .. _heading-style:
 
@@ -75,14 +82,21 @@ In some cases, a heading can be given a more informal style by expressing it as 
 * Use sentence capitalization.
 * Continue to use a bold font style.
 
-For example: "File has changed on disk", "App is potentially unsafe".
+For example:
+
+* "File has changed on disk"
+* "App is potentially unsafe"
 
 .. _ellipses:
 
 Ellipses (…)
 ------------
 
-Use an ellipsis (…) at the end of a label if further input or confirmation is required from the user before the action can be carried out. For example, *Save As…*, *Find…* or *Delete…*.
+Use an ellipsis (…) at the end of a label if further input or confirmation is required from the user before the action can be carried out. For example:
+
+* *Save As…*
+* *Find…*
+* *Delete…*
 
 Do not add an ellipsis to labels such as *Properties* or *Preferences*. While these commands open windows that can incorporate further functionality, the label does not specify an action, and therefore does not need to communicate that further input or confirmation is required.
 
