@@ -87,13 +87,28 @@ Editable Lists
 
 Design conventions exist for editable boxed lists, which allow users to add, remove and reorder rows.
 
-
 * Rows can be added using an add button that is shown at the top of the list, or with an add list row, which is placed at the end of the list.
 * Place a remove button at the end of each row.
 * If changing list order is required:
    * Include drag handles at the beginning of the rows, to allow moving them.
    * Instead of showing a remove button at the end of each row, include a button menu, with items for "move up", "move down," and "remove" (menu items for move actions are required for accessibility purposes).
-    
+
+Adding Buttons
+--------------
+
+Sometimes it is necessary to include actions with lists, such as for add, delete, clear, or reset actions. Typically this is done by adding either :ref:`pill buttons <button-styles>` or button rows.
+
+Pill buttons are used when there is a single action which requires attention or delineation from the content above. In other cases, button rows are generally used. Button rows can also be used when the button is part of the list itself, such as for add to list actions.
+
+`Button rows <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ButtonRow.html>`_ include a title, a start, and an end icon:
+
+.. image:: /img/adw-screenshots/button-rows.png
+   :class: only-light
+.. image:: /img/adw-screenshots/button-rows-dark.png
+   :class: only-dark
+
+Button row labels should follow the standard guidance for :doc:`buttons </patterns/controls/buttons>`, including the use of :ref:`ellipses <ellipses>`. However, if the row opens a new view, then the ellipsis should be replaced by a trailing rightwards arrow.
+
 API Reference
 -------------
 
