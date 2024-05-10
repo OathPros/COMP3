@@ -1,24 +1,24 @@
 Dialogs
 =======
 
-Dialog windows present options, choices or information to users, which they must respond to in order to continue. There are two types of dialog in GNOME: message dialogs and action dialogs.
+Dialog windows present options, choices or information to users, which they must respond to in order to continue. There are two types of dialog in GNOME: alert dialogs and action dialogs.
 
-.. _message-dialogs:
+.. _alert-dialogs:
 
-Message Dialogs
+Alert Dialogs
 ---------------
 
-.. image:: /img/adw-screenshots/message-dialog.png
+.. image:: /img/adw-screenshots/alert-dialog.png
    :class: only-light
-.. image:: /img/adw-screenshots/message-dialog-dark.png
+.. image:: /img/adw-screenshots/alert-dialog-dark.png
    :class: only-dark
 
-Message dialogs present a message or question, along with between one and three buttons with which to respond. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message. However, they are also disruptive and alternatives should therefore be considered.
+Alert dialogs present a message or question, along with between one and three buttons with which to respond. Alert dialogs are an appropriate choice when it is essential that the user sees and responds to a message. However, they are also disruptive and alternatives should therefore be considered.
 
 Confirmation Dialogs
 ~~~~~~~~~~~~~~~~~~~~
 
-Confirmation dialogs are a standard type of message dialog which check — or confirm — that the user wants to carry out an action before carrying it out. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.
+Confirmation dialogs are a standard type of alert dialog which check — or confirm — that the user wants to carry out an action before carrying it out. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.
 
 Destructive actions should always be accompanied by either a confirmation dialog or an offer to undo the action (typically using a :doc:`toast <toasts>`). Since users will often habitually click through confirmation dialogs without fully reading or considering them, undo is typically a better option than a confirmation dialog. Undo also avoids interrupting the user, allows users to recover from errors, and gives them more time to change their mind.
 
@@ -27,7 +27,7 @@ However, in cases where it is not possible to offer an undo feature, a confirmat
 Error Dialogs
 ~~~~~~~~~~~~~
 
-Error dialogs are another type of message dialog. These present an error message to the user and often include just a single button to close the dialog.
+Error dialogs are another type of alert dialog. These present an error message to the user and often include just a single button to close the dialog.
 
 Error dialogs should be avoided where possible, since they are disruptive. For simple non-critical errors, :doc:`toasts <toasts>` can be a good alternative.
 
@@ -62,9 +62,9 @@ Guidelines on dialog buttons:
 
 * Always ensure that the cancel button appears first, before the affirmative button. In left-to-right locales, this is on the left. This button order ensures that users become aware of, and are reminded of, the ability to cancel prior to encountering the affirmative button.
 * Assign the return key to activate the affirmative button. However, this should not be done if its action is irreversible, destructive or otherwise inconvenient to the user. If there is no appropriate button to designate as the default button, do not set one.
-* Ensure that the Esc key activates the cancel button, if there is one. Message dialogs with a single button can have both escape and return bound to the same button.
+* Ensure that the Esc key activates the cancel button, if there is one. Alert dialogs with a single button can have both escape and return bound to the same button.
 
 API Reference
 -------------
 
-* `Libadwaita: AdwMessageDialog <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.MessageDialog.html>`_
+* `Libadwaita: AdwAlertDialog <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.AlertDialog.html>`_
