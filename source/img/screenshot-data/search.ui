@@ -6,6 +6,7 @@
     <property name="title">Window</property>
     <property name="default-width">400</property>
     <property name="default-height">150</property>
+    <property name="height-request">-1</property>
     <property name="title">Search</property>
     <property name="content">
       <object class="AdwToolbarView">

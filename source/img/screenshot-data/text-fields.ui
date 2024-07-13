@@ -12,14 +12,14 @@
         <property name="spacing">12</property>
         <child>
           <object class="GtkEntry">
-            <property name="placeholder-text">Enter address...</property>
+            <property name="placeholder-text">Enter address…</property>
             <property name="secondary-icon-name">edit-copy-symbolic</property>
             <property name="hexpand">true</property>
           </object>
         </child>
         <child>
           <object class="GtkEntry">
-            <property name="placeholder-text">Write a message...</property>
+            <property name="placeholder-text">Write a message…</property>
             <property name="secondary-icon-name">emoji-people-symbolic</property>
             <property name="hexpand">true</property>
           </object>

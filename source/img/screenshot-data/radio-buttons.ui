@@ -11,7 +11,6 @@
       <object class="GtkCheckButton" id="radio1">
         <property name="active">true</property>
         <property name="label">Lorem ipsum dolor</property>
-        <property name="group">radio1</property>
       </object>
     </child>
     <child>
