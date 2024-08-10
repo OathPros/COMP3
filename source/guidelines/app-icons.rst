@@ -79,7 +79,7 @@ Symbolic App Icons
 .. image:: ../img/icons/app-icons-symbolic-dark.svg
    :class: only-dark
 
-Each app should have an additional symbolic version of its app icon, which is used to represent the app icon at smaller sizes, as well as being used for the high-contrast accessibility theme. A description of the symbolic icon style can be found in the :doc:`UI icons guidelines <ui-icons>`.
+Each app should have an additional symbolic version of its app icon, which is used to represent the app icon at smaller sizes, and in some special contexts. A description of the symbolic icon style can be found in the :doc:`UI icons guidelines <ui-icons>`.
 
 App symbolics can be drawn in the same SVG as the full-size app icon, as indicated in the app icon template. App Icon Preview will export both the full-size and symbolic versions of the icon.
 
