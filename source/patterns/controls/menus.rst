@@ -49,7 +49,7 @@ Most apps have primary menus, and they are the location for standard features wh
 Standard Primary Menu Items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The following are standard primary menu items, and should be placed in a group at the end of the menu:
+The following are standard primary menu items, and should be placed in a group at the end of the menu in the following order:
 
 .. list-table::
   :widths: 20 80
