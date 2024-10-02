@@ -1,7 +1,52 @@
 Dialogs
 =======
 
-Dialog windows present options, choices or information to users, which they must respond to in order to continue. There are two types of dialog in GNOME: alert dialogs and action dialogs.
+Dialogs present options, choices or information to users, which they must respond to in order to continue. They are typically contained within their parent window, and block input to the parent window until dismissed.
+
+Within the context of the GNOME platform, there are three main types of dialogs: general dialogs, action dialogs, and alert dialogs.
+
+.. _general-dialogs:
+
+General Dialogs 
+----------------
+
+General dialogs are the general-use application of the dialog pattern. They can be used to present any information or option which requires its own container.
+
+The two most common dialogs of this type are the Preferences Dialog and the About Dialog.
+
+Prefences Dialogs
+~~~~~~~~~~~~~~~~~
+
+Preferences dialogs contain a heirarchical ordering of the various configurable aspects of an application.
+
+Preferences dialogs have pages, which in turn have sections, which, in turn, have rows.
+
+..
+   TODO:  Expand on proper structuring of preference dialogs: Whata should be a page, what should be a section, etc. 
+..
+
+About Dialogs
+~~~~~~~~~~~~~
+
+About dialogs present information about an application, such as its name, version, license, and author, amongst others. The platform dicates a particular style and API for these types of dialogs, which should be adhered to in most circumstances.
+
+.. _action-dialogs:
+
+Action Dialogs
+--------------
+
+.. image:: /img/screenshots/action-dialog.png
+   :class: only-light
+.. image:: /img/screenshots/action-dialog-dark.png
+   :class: only-dark
+
+Action dialogs are a variation of general dialogs. They present options and/or information about an action, before it is carried out. *Print* and *Save* dialogs are classic examples of action dialogs.
+e a context switch on the part of a user, inline controls or actions are often preferable. In an email app, for example, email composition is generally better in a window, as opposed to an action dialog.
+Since action dialogs obscure the parent window and requir
+
+* Action dialogs have a header bar, a heading which describes the action, and two primary buttons — one which carries out the action and one which cancels it.
+* Label the affirmative button with a specific imperative verb, for example: *Save* or *Print*. This is clearer than a generic label like *OK* or *Done*.
+* Sometimes, the user may be required to choose options before an action can be carried out. In these cases, the affirmative dialog button should be insensitive until the required options have been selected.
 
 .. _alert-dialogs:
 
@@ -31,23 +76,6 @@ Error dialogs are another type of alert dialog. These present an error message t
 
 Error dialogs should be avoided where possible, since they are disruptive. For simple non-critical errors, :doc:`toasts <toasts>` can be a good alternative.
 
-.. _action-dialogs:
-
-Action Dialogs
---------------
-
-.. image:: /img/screenshots/action-dialog.png
-   :class: only-light
-.. image:: /img/screenshots/action-dialog-dark.png
-   :class: only-dark
-
-Action dialogs present options and/or information about an action, before it is carried out. *Print* and *Save* dialogs are classic examples of action dialogs.
-
-Since action dialogs obscure the parent window and require a context switch on the part of a user, inline controls or actions are often preferable. In an email app, for example, email composition is generally better in the primary window, as opposed to an action dialog.
-
-* Action dialogs have a header bar, a heading which describes the action, and two primary buttons — one which carries out the action and one which cancels it.
-* Label the affirmative button with a specific imperative verb, for example: *Save* or *Print*. This is clearer than a generic label like *OK* or *Done*.
-* Sometimes, the user may be required to choose options before an action can be carried out. In these cases, the affirmative dialog button should be insensitive until the required options have been selected.
 
 General Guidelines
 ------------------
@@ -67,4 +95,7 @@ Guidelines on dialog buttons:
 API Reference
 -------------
 
+* `Libadwaita: AdwDialog <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.Dialog.html>`_
+* `Libadwaita: AdwPreferencesDialog <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.PreferencesDialog.html>`_
+* `Libadwaita: AdwAboutDialog <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.AboutDialog.html>`_
 * `Libadwaita: AdwAlertDialog <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/class.AlertDialog.html>`_
