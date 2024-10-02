@@ -44,4 +44,4 @@ API Reference
 -------------
 
 * `Libadwaita: AdwApplicationWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ApplicationWindow.html>`_
-* `Libadwaita: AdwWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.Window.html>`
+* `Libadwaita: AdwWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.Window.html>`_

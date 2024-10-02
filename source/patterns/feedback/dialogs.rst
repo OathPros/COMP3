@@ -14,10 +14,10 @@ General dialogs are the general-use application of the dialog pattern. They can 
 
 The two most common dialogs of this type are the Preferences Dialog and the About Dialog.
 
-Prefences Dialogs
+Preferences Dialogs
 ~~~~~~~~~~~~~~~~~
 
-Preferences dialogs contain a heirarchical ordering of the various configurable aspects of an application.
+Preferences dialogs contain a hierarchical ordering of the various configurable aspects of an application.
 
 Preferences dialogs have pages, which in turn have sections, which, in turn, have rows.
 
@@ -28,7 +28,7 @@ Preferences dialogs have pages, which in turn have sections, which, in turn, hav
 About Dialogs
 ~~~~~~~~~~~~~
 
-About dialogs present information about an application, such as its name, version, license, and author, amongst others. The platform dicates a particular style and API for these types of dialogs, which should be adhered to in most circumstances.
+About dialogs present information about an application, such as its name, version, license, and author, amongst other things. The platform dictates a particular style and API for these types of dialogs, which should be adhered to in most circumstances.
 
 .. _action-dialogs:
 
