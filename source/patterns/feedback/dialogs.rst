@@ -1,7 +1,7 @@
 Dialogs
 =======
 
-Dialogs present options, choices or information to users, which they must respond to in order to continue. They are typically contained within their parent window, and block input to the parent window until dismissed.
+Dialogs present options, choices or information to users, which they must respond to in order to continue. They are typically contained within their parent window, and block input to the parent window until dismissed. Depending on available screen size, they may either be displayed as "floating", or as attached to the bottom of the window.
 
 Within the context of the GNOME platform, there are three main types of dialogs: general dialogs, action dialogs, and alert dialogs.
 
@@ -10,6 +10,11 @@ Within the context of the GNOME platform, there are three main types of dialogs:
 General Dialogs 
 ----------------
 
+.. image:: /img/adw-screenshots/dialog-floating.png
+   :class: only-light
+.. image:: /img/adw-screenshots/dialog-floating-dark.png
+   :class: only-dark
+
 General dialogs are the general-use application of the dialog pattern. They can be used to present any information or option which requires its own container.
 
 The two most common dialogs of this type are the Preferences Dialog and the About Dialog.
@@ -17,9 +22,14 @@ The two most common dialogs of this type are the Preferences Dialog and the Abou
 Preferences Dialogs
 ~~~~~~~~~~~~~~~~~
 
+.. image:: /img/adw-screenshots/preferences-dialog.png
+   :class: only-light
+.. image:: /img/adw-screenshots/preferences-dialog-dark.png
+   :class: only-dark
+
 Preferences dialogs contain a hierarchical ordering of the various configurable aspects of an application.
 
-Preferences dialogs have pages, which in turn have sections, which, in turn, have rows.
+Preferences dialogs have pages, which have sections, which, in turn, have rows. The exact organization of preferences is very app-specific, but try to group preferences into logical categories, without putting too many or to few preferences in a page or section.
 
 ..
    TODO:  Expand on proper structuring of preference dialogs: Whata should be a page, what should be a section, etc. 
@@ -27,6 +37,12 @@ Preferences dialogs have pages, which in turn have sections, which, in turn, hav
 
 About Dialogs
 ~~~~~~~~~~~~~
+
+.. image:: /img/adw-screenshots/about-dialog.png
+   :class: only-light
+.. image:: /img/adw-screenshots/about-dialog-dark.png
+   :class: only-dark
+
 
 About dialogs present information about an application, such as its name, version, license, and author, amongst other things. The platform dictates a particular style and API for these types of dialogs, which should be adhered to in most circumstances.
 
