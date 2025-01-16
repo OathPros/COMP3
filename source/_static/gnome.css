@@ -21,7 +21,7 @@ https://pypi.org/project/furo/
 	font-family: Inter Variable;
 	font-style: normal;
 	font-weight: 100 1000;
-	src: local("Inter Var"), local("Inter Variable"), local("InterVariable"), url(https://static.gnome.org/fonts/Inter.var.woff2) format("woff2");
+	src: local(Inter), url(https://static.gnome.org/fonts/Inter.var.woff2) format("woff2");
 	font-display: auto;
 }
 
