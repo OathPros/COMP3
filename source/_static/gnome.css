@@ -15,7 +15,7 @@ https://pypi.org/project/furo/
 	font-display: auto;
 }
 
-@import url("https://static.gnome.org/fonts/inter.css");
+@import url("https://static.gnome.org/css/inter.css");
 
 :root {
   --rounded-corner: 12px;
