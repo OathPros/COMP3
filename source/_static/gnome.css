@@ -15,9 +15,25 @@ https://pypi.org/project/furo/
 	font-display: auto;
 }
 
-@import url("https://static.gnome.org/css/inter.css");
+/* @import url(https://static.gnome.org/css/inter.css) doesn't work. possibly due to relative links */
+
+@font-face {
+  font-family: InterVariable;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://static.gnome.org/fonts/InterVariable.woff2") format("woff2");
+}
+@font-face {
+  font-family: InterVariable;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://static.gnome.org/fonts/InterVariable-Italic.woff2") format("woff2");
+}
 
 :root {
+  font-feature-settings: 'liga' 1, 'calt' 1, 'cv05' 1; /* Inter features */
   --rounded-corner: 12px;
   --gnomeblue: #1c71d8;
   --blue1: rgb(153,193,241);
