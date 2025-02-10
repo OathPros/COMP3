@@ -6,15 +6,6 @@ https://pypi.org/project/furo/
 
 /* FONTS */
 
-/* cantarell-regular */
-@font-face {
-	font-family: Cantarell Variable;
-	font-style: normal;
-	font-weight: 100 1000;
-	src: local("Cantarell Variable"), local("Cantarell"), url(https://static.gnome.org/fonts/Cantarell-VF.woff2) format("woff2");
-	font-display: auto;
-}
-
 /* @import url(https://static.gnome.org/css/inter.css) doesn't work. possibly due to relative links */
 
 @font-face {
@@ -137,27 +128,22 @@ p strong {
 }
 
 h1 {
-   font-family: "Cantarell Variable", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 800;
    font-size: 24pt;
 }
 h2 {
-   font-family: "Cantarell Variable", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 800;
    font-size: 17pt;
 }
 h3 {
-   font-family: "Cantarell Variable", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 800;
    font-size: 15pt;
 }
 h4 {
-   font-family: "Cantarell Variable", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 700;
    font-size: 14pt;
 }
 h5 {
-   font-family: "Cantarell Variable", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
    font-weight: 700;
    font-size: 12pt;
 }
@@ -369,7 +355,6 @@ footer {
 }
 
 .sidebar-brand-text {
-  font-family: "Cantarell Variable", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
   font-size: 14pt;
   font-weight: 800;
   text-align: center;
