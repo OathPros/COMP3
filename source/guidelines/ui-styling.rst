@@ -20,7 +20,7 @@ See `AdwStyleManager <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-late
 High Contrast Mode
 ------------------
 
-High contrast mode is an accessibility feature which changes the UI style to have very high contrast. As part of testing your app, it is important to test it with high contrast mode enabled, to ensure that it is correctly rendered with this style. This can be done by using the system high-contrast mode setting, or with `GTK Inspector <https://wiki.gnome.org/Projects/GTK/Inspector>`_.
+High contrast mode is an accessibility feature which changes the UI style to have very high contrast. As part of testing your app, it is important to test it with high contrast mode enabled, to ensure that it is correctly rendered with this style. This can be done by using the system high-contrast mode setting, or with `GTK Inspector <https://docs.gtk.org/gtk4/running.html#interactive-debugging>`_.
 
 Built-In Style Options
 ----------------------
@@ -38,7 +38,7 @@ As a general rule, it is better to keep the amount of this custom styling to a m
 
 When designing custom styling, it is recommended to use existing style classes and color variables as much as possible, since these automatically adjust for the light, dark and high-contrast styles. Be careful not to use classes and variables outside of their intended uses, as this could cause issues.
 
-The Libadwaita `named color <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/named-colors.html>`_ and `style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html>`_ documentation can be a useful reference here.
+The Libadwaita `CSS variable <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/css-variables.html>`_ and `style class <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html>`_ documentation can be a useful reference here.
 
 Accessibility Considerations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
