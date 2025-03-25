@@ -7,7 +7,6 @@ General Resources
 -----------------
 
 * Color palette: `Inkscape/GIMP format <https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false>`_, :doc:`reference table <reference/palette>`
-* Cantarell font: pre-installed in GNOME-based distributions and `available to download <https://cantarell.gnome.org>`_.
 
 Apps
 ----

@@ -6,7 +6,7 @@ Text is an important part of any user interface. Text size, positioning, and wei
 General Guidelines
 ------------------
 
-* Wherever possible, use the default system fonts as provided by the distribution or operating system on which your app is running. In GNOME, the default font is Cantarell, which was originally designed and developed by David Crossland.
+* Wherever possible, use the default system fonts as provided by the distribution or operating system on which your app is running. In GNOME, the default font is Adwaita Sans, a custom built variant of Inter — a typeface designed by Rasmus Andersson.
 * Do not position text over graphical backgrounds or textures, since this reduces contrast and makes text less readable. This can be a particular issue for users with visual impairments.
 
 Variants, Sizes & Weights
