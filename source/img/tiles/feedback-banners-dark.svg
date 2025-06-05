@@ -5,7 +5,7 @@
    version="1.1"
    id="svg7777"
    sodipodi:docname="feedback-banners-dark.svg"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -106,8 +106,8 @@
      inkscape:zoom="1.3326228"
      inkscape:cx="99.803188"
      inkscape:cy="-17.259198"
-     inkscape:window-width="1920"
-     inkscape:window-height="1011"
+     inkscape:window-width="1536"
+     inkscape:window-height="792"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"><inkscape:grid
@@ -139,7 +139,7 @@
      overflow="visible"
      fill="#2e3436"
      id="path7767" /><path
-     style="fill:#1a5fb4;fill-opacity:1;stroke:none;stroke-width:6.50589;stroke-linecap:round;stroke-dashoffset:26.4"
+     style="fill:#4d4658;fill-opacity:1;stroke:none;stroke-width:6.50589;stroke-linecap:round;stroke-dashoffset:26.4"
      d="M 15.009066,49.849305 H 214.99534 V 80 H 15.009066 Z"
      id="path7769"
      sodipodi:nodetypes="ccccc" /><path
