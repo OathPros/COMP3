@@ -5,7 +5,7 @@
    version="1.1"
    id="svg16"
    sodipodi:docname="controls-textfields-dark.svg"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -50,8 +50,8 @@
      inkscape:zoom="2.1516249"
      inkscape:cx="105.0369"
      inkscape:cy="104.10737"
-     inkscape:window-width="1920"
-     inkscape:window-height="1011"
+     inkscape:window-width="1536"
+     inkscape:window-height="792"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1">
@@ -70,7 +70,8 @@
        dotted="false"
        gridanglex="30"
        gridanglez="30"
-       visible="true" />
+       visible="true"
+       enabled="false" />
   </sodipodi:namedview>
   <rect
      style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:url(#linearGradient6);fill-opacity:1;stroke:none;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:26.4;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
@@ -81,23 +82,6 @@
      rx="20.538832"
      id="rect2"
      y="0" />
-  <g
-     transform="matrix(8.5674392,0,0,8.5674392,-9133.5454,-1495.4602)"
-     id="g14"
-     style="fill:#241f31;stroke-width:0.441151">
-    <g
-       aria-label="A"
-       id="text8"
-       style="font-weight:700;font-size:8.46667px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';letter-spacing:0;word-spacing:0;fill:#241f31;stroke-width:0.116721">
-      <path
-         d="m 1075.0786,185.66 h 1.1599 l 1.7357,-5.3086 h -0.2371 l 1.7187,5.3086 h 1.2108 l -2.0405,-5.87587 h -1.397 z m 1.38,-1.46473 h 2.811 l -0.1524,-0.97367 h -2.5062 z"
-         id="path22"
-         style="fill:#deddda;stroke-width:0.116721" />
-    </g>
-    <g
-       style="fill:#241f31;stroke:#d1e3f9;stroke-width:0.293839;stroke-opacity:1"
-       id="g12" />
-  </g>
   <g
      id="g6"
      style="fill:#9a9996"
@@ -130,4 +114,9 @@
        rx="2.34375"
        ry="2.5" />
   </g>
+  <path
+     d="M 77,96.083286 95.59618,44 h 11.60514 l 18.52626,52.083286 H 115.55561 L 106.4323,68.713344 q -1.36325,-4.334448 -2.86633,-9.193224 -1.50307,-4.893732 -3.42561,-11.535225 h 2.55173 q -1.92254,6.641493 -3.460566,11.535225 -1.503075,4.858776 -2.936239,9.193224 l -9.368001,27.369942 z m 11.045851,-12.44406 v -7.585284 h 26.635879 v 7.585284 z"
+     id="text1"
+     style="font-weight:600;font-size:71.5883px;line-height:1.25;font-family:'Adwaita Sans';-inkscape-font-specification:'Adwaita Sans Semi-Bold';text-align:center;text-anchor:middle;fill:#deddda;stroke-width:0"
+     aria-label="A" />
 </svg>
