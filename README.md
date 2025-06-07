@@ -27,7 +27,7 @@ Sphinx can be used to build and preview the static html site locally, either wit
 
 ## Tiles
 
-The tiles for the patterns follow a 5x5 pixel grid and are 230x140 pixels in size.
+The tile images follow a 5x5 pixel grid and are 230x140 pixels in size, with a 20px corner radius.
 
 ### 1. Install dependencies
 
