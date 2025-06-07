@@ -21,13 +21,13 @@ Non-goals:
  - Don't document every design pattern or possible variation
  - Don't be prescriptive: allow designers to make their own choices, and give them the space to be creative
 
-## How to build and edit
-
-Sphinx can be used to build and preview the static html site locally, either with the browser or VS Code.
-
 ## Tiles
 
 The tile images follow a 5x5 pixel grid and are 230x140 pixels in size, with a 20px corner radius.
+
+## How to build and edit
+
+Sphinx can be used to build and preview the static html site locally, either with the browser or VS Code.
 
 ### 1. Install dependencies
 
