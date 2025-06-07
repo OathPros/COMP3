@@ -25,6 +25,10 @@ Non-goals:
 
 Sphinx can be used to build and preview the static html site locally, either with the browser or VS Code.
 
+## Tiles
+
+The tiles for the patterns follow a 5x5 pixel grid and are 230x140 pixels in size.
+
 ### 1. Install dependencies
 
 On Fedora, run:
