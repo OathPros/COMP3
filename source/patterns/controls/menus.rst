@@ -58,7 +58,7 @@ The following are standard primary menu items, and should be placed in a group a
   * - Preferences
     - Opens the app's preferences dialog, if it has one.
   * - Keyboard Shortcuts
-    - Opens the app's keyboard shortcuts window, if it has one.
+    - Opens the app's keyboard shortcuts dialog, if it has one.
   * - Help
     - Opens the app's user documentation in the Help app.
   * - About App

@@ -27,10 +27,10 @@ Basic Shortcuts
     - Toggles :doc:`utility pane </patterns/containers/utility-panes>` visibility.
   * - Menu
     - F10
-    - Opens the primary or secondary menu. 
+    - Opens the primary or secondary menu.
   * - Keyboard Shortcuts
     - Ctrl+?
-    - Opens the keyboard shortcuts window. 
+    - Opens the keyboard shortcuts dialog.
   * - Preferences
     - Ctrl+,
     - Opens the preferences window
@@ -254,3 +254,8 @@ The following shortcuts should be avoided by apps, since they are used by the sy
      - Opens window menu.
    * - Ctrl+Alt+Delete
      - System power off.
+
+Sections
+--------
+
+In the keyboard shortcuts dialog, shortcuts should be categorized into sections. Although not present on the GNOME desktop, section titles and categorization should follow `menu bar <https://en.wikipedia.org/wiki/Menu_bar>`_ conventions with the exception that more general shortcuts should go in “General” instead of “File”. If a section gets too long, it can be further subdivided using unnamed sections.
