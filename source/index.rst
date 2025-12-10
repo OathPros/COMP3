@@ -35,4 +35,5 @@ The `HIG project <https://gitlab.gnome.org/Teams/Websites/developer.gnome.org-hi
    guidelines
    patterns
    reference
+   GNOME Developer Documentation <https://developer.gnome.org/documentation/>
 
