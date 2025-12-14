@@ -1,12 +1,12 @@
 Writing Style
 =============
 
-Text plays an important role in user interfaces. Above all, user interface text should be easy to understand and quick to read. 
+Text plays an important role in user interfaces. Above all, user interface text should be easy to understand and quick to read.
 
 General Style
 -------------
 
-User interface text should be short and to the point. This improves speed of comprehension for the user. It also reduces the expansion of text when translated. 
+User interface text should be short and to the point. This improves speed of comprehension for the user. It also reduces the expansion of text when translated.
 
 Try to find the fewest possible words to satisfactorily convey the necessary meaning. However, do not shorten text to the point of losing meaning. A three-word label that provides clear information is better than a one-word label that is ambiguous or vague.
 
@@ -92,13 +92,35 @@ For example:
 Ellipses (…)
 ------------
 
-Use an ellipsis (…) at the end of a label if further input or confirmation is required from the user before the action can be carried out. For example:
-
-* *Save As…*
-* *Find…*
-* *Delete…*
+Use an ellipsis (…) at the end of a label if further input or confirmation is required from the user before the action can be carried out. For example *Find…* or *Delete…*
 
 Do not add an ellipsis to labels such as *Properties* or *Preferences*. While these commands open windows that can incorporate further functionality, the label does not specify an action, and therefore does not need to communicate that further input or confirmation is required.
+
+An icon in front of the label can be used in place of an ellipsis to indicate further input for common actions. These include:
+
+.. list-table::
+  :widths: 25 50 25
+  :header-rows: 1
+
+  * - Name
+    - Description
+    - Icon
+  * - Save As/Open
+    - Opening or saving a file
+    - ``folder-open-symbolic``
+  * - Add
+    - Adding an item to a list
+    - ``list-add-symbolic``/``plus-large-symbolic``
+  * - Unlock/Authenticate
+    - Requiring the user to authenticate with their device's login credentials
+    - ``padlock2-open-symbolic``
+  * - Print
+    - Opening the print dialog
+    - ``document-print-symbolic``/``printer-symbolic``
+  * - Screenshot
+    - Requesting a screenshot from the user
+    - ``screenshooter-symbolic``
+
 
 Periods (.)
 -----------
