@@ -21,18 +21,21 @@ Primary windows host the main functionality of your app, and are what is display
 Secondary Windows
 -----------------
 
-Secondary windows are used to contain supplemental controls or information. **About Windows** and **Preferences Windows** are both types of secondary window.
+Secondary windows are created by the primary window, but are able to be moved and resized independently of it. Their primary use is to present information or options in a new container, without blocking the parent window.
 
-* Secondary windows should always belong on a primary window, so that closing the primary also closes the secondary.
-* Secondary windows can contain information and preferences that are relevant to the entire app, or they can contain information and options for a single content item, such as a document **Properties Window**.
-* Typically, secondary windows are modal to their parent primary window. This ensures that windows are grouped together. However, in some unusual cases, secondary windows can be non-modal to their parent window. This is typically when they provide equivalent functionality to the primary window, such as an email app that allows individual emails to be popped out into their own windows.
-* Avoid stacking secondary windows on top of one another.
-* In general, secondary windows should not be bigger than their parent windows, and should have limited, simple content.
+Secondary windows should be used sparingly, and only in specific circumstances. Potential uses of secondary windows include:
+
+* A development application launching a preview window.
+* An email application allowing you to "pop out" an email into its own window.
+
+Secondary windows are always dependent on their primary windows: when the primary window closes, the secondary window should close, too.
+
+Secondary windows are distinct from :doc:`dialogs </patterns/feedback/dialogs>`. In most cases, if you need to present additional information in its own container, a dialog is a better fit.
 
 General Guidelines
 ------------------
 
-* Windows should follow the standard Ctrl+W keyboard shortcut to close. Additionally, modal windows should close on Esc.
+* Windows should follow the standard Ctrl+W keyboard shortcut to close.
 * Apps which restore a particular view or content item when they are restarted should also restore their previous window size.
 
 Additional guidance on window sizing can be found in the :doc:`scaling and adaptiveness guidelines </guidelines/adaptive>`.
@@ -41,6 +44,4 @@ API Reference
 -------------
 
 * `Libadwaita: AdwApplicationWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ApplicationWindow.html>`_
-* `Libadwaita: AdwAboutWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.AboutWindow.html>`_
-* `Libadwaita: AdwPreferencesWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.PreferencesWindow.html>`_
-* `GTK 4: GtkApplicationWindow <https://docs.gtk.org/gtk4/class.ApplicationWindow.html>`_
+* `Libadwaita: AdwWindow <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.Window.html>`_
