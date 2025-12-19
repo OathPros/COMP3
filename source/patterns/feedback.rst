@@ -14,6 +14,7 @@ Feedback includes design patterns for showing information about events and statu
    feedback/dialogs
    feedback/placeholders
    feedback/tooltips
+   feedback/shortcut-windows
 
 .. cssclass:: tiled-toc
 
@@ -86,6 +87,14 @@ Feedback includes design patterns for showing information about events and statu
    .. image:: /img/tiles/feedback-tooltips-dark.svg
       :target: feedback/tooltips.html
       :class: only-dark
-      
-   :doc:`Tooltips <feedback/tooltips>` 
 
+   :doc:`Tooltips <feedback/tooltips>`
+
+*  .. image:: /img/tiles/feedback-tooltips.svg
+      :target: feedback/tooltips.html
+      :class: only-light
+   .. image:: /img/tiles/feedback-tooltips-dark.svg
+      :target: feedback/tooltips.html
+      :class: only-dark
+
+   :doc:`Tooltips <feedback/shortcuts-windows>`
