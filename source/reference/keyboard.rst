@@ -87,13 +87,13 @@ Editing
     - Shift+Ctrl+Z
     - Performs the last taken action, if it has been previously reverted.
   * - Cut
-    - Ctrl+X
+    - Ctrl+X, Shift+Delete
     - Removes the selected content and adds it to the clipboard.
   * - Copy
-    - Ctrl+C
+    - Ctrl+C, Ctrl+Insert
     - Copies the selected content to the clipboard.
   * - Paste
-    - Ctrl+V
+    - Ctrl+V, Shift+Insert
     - Inserts the contents of the clipboard.
   * - Paste Special
     - Shift+Ctrl+V
@@ -102,7 +102,7 @@ Editing
     - Ctrl+U
     - Creates a duplicate of the selected object.
   * - Select All
-    - Ctrl+A
+    - Ctrl+A, Ctrl+/
     - Selects all content in the focused control or view.
   * - Deselect All
     - Shift+Ctrl+A
