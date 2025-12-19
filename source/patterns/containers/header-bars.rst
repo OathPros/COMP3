@@ -38,7 +38,7 @@ Types of buttons which don't automatically have their appearance adjusted when i
 * :ref:`the suggested and destructive action styles <button-styles>`;
 * the linked style.
 
-These button types should generally be avoided for primary window header bars, since it leads to a complex and inconsistent visual appearance. To achieve this, icons can be added to label-only buttons, and spacing can be used instead of the linked style (see below). Note that these guideline do not apply to :ref:`action dialogs <action-dialogs>`, which can safely retain their label-only buttons.
+These button types should generally be avoided for primary window header bars, since it leads to a complex and inconsistent visual appearance. To achieve this, `icons can be added to label-only buttons <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/class.ButtonContent.html>`, and spacing can be used instead of the linked style (see below). Note that these guideline do not apply to :ref:`action dialogs <action-dialogs>`, which can safely retain their label-only buttons.
 
 For more information, see the `toolbar style class documentation <https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/style-classes.html#toolbars>`_.
 
