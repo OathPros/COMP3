@@ -11,7 +11,7 @@ The HIG is written in [reStructuredText](https://www.sphinx-doc.org/en/master/us
 Goals:
 
  - App designers and developers are the primary audiences
- - Document the most important and commond design patterns
+ - Document the most important and common design patterns
  - Be easy to digest: don't be too long or verbose
  - Use examples and demos as much as possible 
 
