@@ -1,4 +1,4 @@
-/* GNOME CSS theme for Sphinx + Furo
+/* YorkU CSS theme for Sphinx + Furo
 
 https://www.sphinx-doc.org
 https://pypi.org/project/furo/
@@ -6,27 +6,16 @@ https://pypi.org/project/furo/
 
 /* FONTS */
 
-/* @import url(https://static.gnome.org/css/inter.css) doesn't work. possibly due to relative links */
+/* IBM Plex is York University's primary type family. */
 
-@font-face {
-  font-family: InterVariable;
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("https://static.gnome.org/fonts/InterVariable.woff2") format("woff2");
-}
-@font-face {
-  font-family: InterVariable;
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("https://static.gnome.org/fonts/InterVariable-Italic.woff2") format("woff2");
-}
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@400;600&display=swap");
 
 :root {
   font-feature-settings: 'liga' 1, 'calt' 1, 'cv05' 1; /* Inter features */
   --rounded-corner: 12px;
-  --gnomeblue: #1c71d8;
+  --york-red: #c8102e;
+  --york-red-dark: #9f0f24;
+  --york-red-light: #e24a62;
   --blue1: rgb(153,193,241);
   --blue2: rgb(98,160,234);
   --blue3: rgb(53,132,228);
@@ -76,12 +65,12 @@ https://pypi.org/project/furo/
   --tocbg: var(--light2);
   --tocfg: var(--dark3);
   --borders: var(--light3);
-  --link: var(--blue5);
-  --link-underline: var(--blue1);
+  --link: var(--york-red-dark);
+  --link-underline: var(--york-red-light);
 }
 
 ::selection {
-	background-color:  rgba(153,193,241,0.5);
+	background-color: rgba(200,16,46,0.25);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -89,11 +78,11 @@ https://pypi.org/project/furo/
     --tocbg: var(--dark5);
     --tocfg: var(--light5);
     --borders: var(--dark3);
-    --link: var(--blue1);
-    --link-underline: var(--blue5);
+    --link: #ffb3bf;
+    --link-underline: var(--york-red-light);
   }
 	::selection {
-		background-color:  rgba(26,95,180,0.4);
+		background-color: rgba(200,16,46,0.35);
 	}
 }
 
@@ -107,7 +96,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: InterVariable, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
 }

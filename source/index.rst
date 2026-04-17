@@ -1,14 +1,14 @@
 .. image:: img/hig.svg
 
-GNOME Human Interface Guidelines
+YorkU Human Interface Guidelines
 ================================
 
-The GNOME Human Interface Guidelines are the primary source of design documentation for those creating software with the GNOME development platform. They are primarily intended for app designers and developers, but are relevant to anyone wanting to familiarize themselves with GNOME UX.
+The YorkU Human Interface Guidelines are a York University-themed adaptation of GNOME's design documentation. They provide guidance for designers and developers building interfaces aligned with York University's brand and accessibility expectations.
 
 Platform Definition
 -------------------
 
-The HIG is intended to be used in conjunction with recent versions of the GNOME platform, in particular GTK 4 and Libadwaita.
+This adaptation is intended to be used with modern GNOME technologies, including GTK 4 and Libadwaita, while applying York University visual and content standards where appropriate.
 
 Content Overview
 ----------------
@@ -24,7 +24,7 @@ The HIG is made up of the following sections:
 Contribute
 ----------
 
-The `HIG project <https://gitlab.gnome.org/Teams/Websites/developer.gnome.org-hig>`_ on GNOME's GitLab instance can be used to report issues and propose changes.
+Use your own fork or private repository workflow to track YorkU-specific changes.
 
 .. toctree::
    :maxdepth: 1
