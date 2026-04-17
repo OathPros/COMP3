@@ -103,6 +103,6 @@ Do not add an ellipsis to labels such as *Properties* or *Preferences*. While th
 Periods (.)
 -----------
 
-Text generally shouldn't end with a period. This applies to headings, descriptions, and includes text that is written as a complete sentence.
+Text generally shouldn't end with a period. This applies to headings, descriptions, and includes text that is written as a complete sentence. For :doc:`interactive controls <controls>`, full sentences should be avoided altogether in favor of brief labels. Consider rephrasing multi-sentence control labels when possible, e.g. using a semicolon to separate two related clauses.
 
 Only use periods when it is necessary to break up a paragraph into multiple sentences, or when text is part of a longer multi-paragraph piece of text.
