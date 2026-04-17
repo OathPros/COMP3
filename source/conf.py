@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath("./_ext"))
 
 # -- Project information -----------------------------------------------------
 
-project = 'GNOME Human Interface Guidelines'
+project = 'YorkU Human Interface Guidelines'
 copyright = '2021, Allan Day'
 author = 'Allan Day'
 
@@ -99,16 +99,16 @@ hig_palette_colors_rgb = {
 html_theme = 'furo'
 html_theme_options = {
     "light_css_variables": {
-        "color-brand-primary": "#4a86cf",
-        "color-brand-content": "#4a86cf",
+        "color-brand-primary": "#c8102e",
+        "color-brand-content": "#c8102e",
     },
-    "source_edit_link": "https://gitlab.gnome.org/Teams/Websites/developer.gnome.org-hig/-/edit/main/source/{filename}",
+    "source_edit_link": "#",
 }
 html_favicon = 'img/favicon.svg'
 html_logo = "img/logo.svg"
 
 # Set the explicit title of the HTML output
-html_title = 'GNOME Human Interface Guidelines'
+html_title = 'YorkU Human Interface Guidelines'
 
 # add custom files that are stored in _static
 html_css_files = ['gnome.css']
