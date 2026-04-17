@@ -1,0 +1,125 @@
+{
+  "categories": ["Windows", "Mac", "Peripherals"],
+  "products": [
+    {
+      "id": "win-laptop-elite",
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "price": 2199.0,
+      "category": "Windows",
+      "thumbnail": "source/img/screenshots/header-bar-buttons.png",
+      "description": "Lightweight business laptop with all-day battery life.",
+      "tags": ["Popular", "IT Standard"],
+      "specs": {
+        "CPU": "Intel Core Ultra 7",
+        "Memory": "32 GB",
+        "Storage": "1 TB SSD",
+        "Display": "14\" 1920x1200"
+      }
+    },
+    {
+      "id": "win-dock",
+      "name": "Dell Thunderbolt Dock WD22TB4",
+      "price": 369.0,
+      "category": "Peripherals",
+      "thumbnail": "source/img/screenshots/boxed-lists.png",
+      "description": "Single-cable docking with power and dual display support.",
+      "tags": ["Desk Setup"],
+      "specs": {
+        "Ports": "USB-C, HDMI, DisplayPort, Ethernet",
+        "Power Delivery": "130W",
+        "Warranty": "3 years"
+      }
+    },
+    {
+      "id": "monitor-27",
+      "name": "Dell 27\" USB-C Monitor",
+      "price": 429.0,
+      "category": "Peripherals",
+      "thumbnail": "source/img/screenshots/progress-bar.png",
+      "description": "27-inch QHD monitor with USB-C and ergonomic stand.",
+      "tags": ["Ergonomic", "Recommended"],
+      "specs": {
+        "Resolution": "2560x1440",
+        "Panel": "IPS",
+        "Refresh": "60Hz"
+      }
+    },
+    {
+      "id": "headset-usb",
+      "name": "Jabra Evolve2 40",
+      "price": 179.0,
+      "category": "Peripherals",
+      "thumbnail": "source/img/screenshots/spinner.png",
+      "description": "USB headset for meetings and focused work.",
+      "tags": ["Hybrid Work"],
+      "specs": {
+        "Connection": "USB-C",
+        "Microphone": "Noise isolating",
+        "Weight": "188 g"
+      }
+    },
+    {
+      "id": "macbook-pro-14",
+      "name": "MacBook Pro 14\"",
+      "price": 2799.0,
+      "category": "Mac",
+      "thumbnail": "source/img/screenshots/buttons.png",
+      "description": "High-performance Mac notebook for demanding workflows.",
+      "tags": ["Recommended", "Creative"],
+      "specs": {
+        "Chip": "Apple M3 Pro",
+        "Memory": "36 GB",
+        "Storage": "1 TB SSD",
+        "Display": "14.2\" Liquid Retina XDR"
+      }
+    },
+    {
+      "id": "apple-studio-display",
+      "name": "Apple Studio Display",
+      "price": 2199.0,
+      "category": "Peripherals",
+      "thumbnail": "source/img/screenshots/sliders.png",
+      "description": "5K monitor for Mac desktop productivity.",
+      "tags": ["Mac Pairing"],
+      "specs": {
+        "Resolution": "5120x2880",
+        "Camera": "12MP Ultra Wide",
+        "Audio": "Six-speaker system"
+      }
+    },
+    {
+      "id": "travel-mouse",
+      "name": "Logitech MX Anywhere 3S",
+      "price": 119.0,
+      "category": "Peripherals",
+      "thumbnail": "source/img/screenshots/radio-buttons.png",
+      "description": "Compact wireless mouse for mobile staff.",
+      "tags": ["Travel", "Compact"],
+      "specs": {
+        "Connection": "Bluetooth / USB receiver",
+        "Battery": "Up to 70 days",
+        "Weight": "95 g"
+      }
+    }
+  ],
+  "setups": [
+    {
+      "id": "setup-win-recommended",
+      "name": "Recommended Windows setup",
+      "description": "Balanced desk-based Windows package.",
+      "items": ["win-laptop-elite", "win-dock", "monitor-27", "monitor-27", "headset-usb"]
+    },
+    {
+      "id": "setup-win-travel",
+      "name": "Travel-focused Windows setup",
+      "description": "Portable Windows package plus full office display coverage.",
+      "items": ["win-laptop-elite", "win-dock", "monitor-27", "monitor-27", "travel-mouse", "headset-usb"]
+    },
+    {
+      "id": "setup-mac-recommended",
+      "name": "Recommended Mac setup",
+      "description": "Performance-focused Mac package for office and hybrid work.",
+      "items": ["macbook-pro-14", "apple-studio-display", "headset-usb"]
+    }
+  ]
+}
